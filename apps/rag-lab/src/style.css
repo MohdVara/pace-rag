@@ -120,3 +120,19 @@ h1 em {
 .lab-failures button, .lab-failures select { margin: .5rem; max-width: 100%; padding: .5rem; }
 .lab-failures pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .lab-failures label { display: block; }
+
+.source-selector { border: 0; padding: 0; margin: 2rem 0 1.5rem; min-width: 0; }
+.source-selector legend { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; }
+.source-selector > div { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .75rem; }
+.source-choice { display: flex; align-items: start; gap: .65rem; border: 1px solid #697e6f; border-radius: .75rem; padding: 1rem; cursor: pointer; overflow-wrap: anywhere; }
+.source-choice input { accent-color: #e9bc6b; flex: 0 0 auto; margin-top: .4rem; width: 1.1rem; height: 1.1rem; }
+.source-choice strong, .source-choice span span { display: block; }
+.source-choice span span { margin-top: .4rem; font-size: .9em; }
+.source-choice.selected { border: 2px solid #e9bc6b; padding: calc(1rem - 1px); }
+.source-choice:focus-within { outline: 3px solid #e9bc6b; outline-offset: 3px; }
+.source-explanation { border-inline-start: 3px solid #e9bc6b; padding-inline-start: 1rem; margin-block: 1.5rem; max-width: 75ch; }
+.source-explanation h2 { font-size: 1.1rem; }
+.source-explanation p { margin-block: .5rem; }
+.source-explanation a { display: inline-block; padding-block: .6rem; }
+@media(max-width:768px) { .source-selector > div { grid-template-columns: 1fr; } }
+@media(prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }

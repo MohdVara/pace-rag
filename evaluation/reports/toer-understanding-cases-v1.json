@@ -1,0 +1,5972 @@
+[
+  {
+    "id": "direct-1",
+    "group": "direct",
+    "question": "Which projects used Symfony?",
+    "entities": [
+      "symfony"
+    ],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "symfony"
+    ],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 8.060292000000004
+  },
+  {
+    "id": "direct-2",
+    "group": "direct",
+    "question": "Where have you used Laravel?",
+    "entities": [
+      "laravel"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "laravel"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.9549580000000049
+  },
+  {
+    "id": "direct-3",
+    "group": "direct",
+    "question": "Which systems used React?",
+    "entities": [
+      "react"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7917090000000115
+  },
+  {
+    "id": "direct-4",
+    "group": "direct",
+    "question": "Which project used Next.js?",
+    "entities": [
+      "next"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "next"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.017792
+  },
+  {
+    "id": "direct-5",
+    "group": "direct",
+    "question": "What projects involved Node.js?",
+    "entities": [
+      "node"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "node"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.8796249999999901
+  },
+  {
+    "id": "direct-6",
+    "group": "direct",
+    "question": "Which systems used PostgreSQL?",
+    "entities": [
+      "postgres"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "postgres"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6205420000000004
+  },
+  {
+    "id": "direct-7",
+    "group": "direct",
+    "question": "Which projects used Kubernetes?",
+    "entities": [
+      "kubernetes"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6022080000000045
+  },
+  {
+    "id": "direct-8",
+    "group": "direct",
+    "question": "Which systems used Docker?",
+    "entities": [
+      "docker"
+    ],
+    "projects": [
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "docker"
+    ],
+    "actualProjects": [
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Docker (Container development and runtime tooling; not Kubernetes) is owner-confirmed in PolicyStreet — Insurance Comparison Platform; WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5637499999999989
+  },
+  {
+    "id": "direct-9",
+    "group": "direct",
+    "question": "What projects involved Playwright?",
+    "entities": [
+      "playwright"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "playwright"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Playwright (Browser automation and testing framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "playwright",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7546250000000043
+  },
+  {
+    "id": "direct-10",
+    "group": "direct",
+    "question": "Which systems used Ruby on Rails?",
+    "entities": [
+      "rails"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "rails"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6117919999999941
+  },
+  {
+    "id": "direct-11",
+    "group": "direct",
+    "question": "Where have you used PHP Data Objects?",
+    "entities": [
+      "pdo"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "pdo"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7214999999999918
+  },
+  {
+    "id": "direct-12",
+    "group": "direct",
+    "question": "Which projects involved PHPMaker?",
+    "entities": [
+      "phpmaker"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "phpmaker"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHPMaker (PHP-oriented code-generation/development tool; not Laravel or Symfony) is owner-confirmed in Education Platform Modernization (Legacy systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "phpmaker",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5293329999999941
+  },
+  {
+    "id": "direct-13",
+    "group": "direct",
+    "question": "Which systems used PHP 5?",
+    "entities": [
+      "php-5"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php-5"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP 5 (PHP 5 version family) is owner-confirmed in Education Platform Modernization (Legacy systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "php-5",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.8135830000000084
+  },
+  {
+    "id": "direct-14",
+    "group": "direct",
+    "question": "Which project used PHP 8?",
+    "entities": [
+      "php-8"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php-8"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP 8 (PHP 8 version family) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "php-8",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7232499999999931
+  },
+  {
+    "id": "direct-15",
+    "group": "direct",
+    "question": "Which systems used MySQL 5.7?",
+    "entities": [
+      "mysql-5.7"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "mysql-5.7"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5440830000000005
+  },
+  {
+    "id": "direct-16",
+    "group": "direct",
+    "question": "Which projects used MySQL?",
+    "entities": [
+      "mysql"
+    ],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "mysql"
+    ],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6418749999999989
+  },
+  {
+    "id": "direct-17",
+    "group": "direct",
+    "question": "Which systems used Apache HTTP Server?",
+    "entities": [
+      "apache"
+    ],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "apache"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Apache HTTP Server (HTTP web server; not every Apache Foundation technology) is owner-confirmed in Rental Management System; Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "apache",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "apache",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6182500000000033
+  },
+  {
+    "id": "direct-18",
+    "group": "direct",
+    "question": "Which systems involved Nginx?",
+    "entities": [
+      "nginx"
+    ],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "nginx"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Nginx (Web server and reverse proxy) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform; WenSymes — Human Resources Management Platform; Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "nginx",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5559590000000014
+  },
+  {
+    "id": "direct-19",
+    "group": "direct",
+    "question": "What projects involved AWS EC2?",
+    "entities": [
+      "ec2"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ec2"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5397910000000081
+  },
+  {
+    "id": "direct-20",
+    "group": "direct",
+    "question": "Which systems used AWS ECS?",
+    "entities": [
+      "ecs"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ecs"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7297910000000059
+  },
+  {
+    "id": "direct-21",
+    "group": "direct",
+    "question": "Which projects involved Google Cloud?",
+    "entities": [
+      "gcp"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "gcp"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Google Cloud (Google Cloud platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6480420000000038
+  },
+  {
+    "id": "direct-22",
+    "group": "direct",
+    "question": "Which project involved Microsoft Azure?",
+    "entities": [
+      "azure"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "azure"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Microsoft Azure (Microsoft cloud platform) is owner-confirmed in Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6836669999999998
+  },
+  {
+    "id": "direct-23",
+    "group": "direct",
+    "question": "Which systems used On-premises hosting?",
+    "entities": [
+      "on-premises"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "on-premises"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "On-premises (On-premises hosting environment, not a cloud platform) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "on-premises",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "on-premises",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7908749999999998
+  },
+  {
+    "id": "direct-24",
+    "group": "direct",
+    "question": "Which projects used a Third-party cloud provider?",
+    "entities": [
+      "third-party-cloud"
+    ],
+    "projects": [
+      "rental",
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "third-party-cloud"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Third-party cloud provider (Broad hosting category; provider identity is not specified) is owner-confirmed in Rental Management System; Education Platform Modernization (Modern systems).",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "third-party-cloud",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "third-party-cloud",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5611250000000041
+  },
+  {
+    "id": "direct-25",
+    "group": "direct",
+    "question": "Which project used Plain PHP?",
+    "entities": [
+      "plain-php"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "plain-php"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Plain PHP (Explicit plain PHP usage; no framework is established) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "plain-php",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5789170000000041
+  },
+  {
+    "id": "direct-26",
+    "group": "direct",
+    "question": "Have you worked with Ruby?",
+    "entities": [
+      "ruby"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ruby"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5590830000000011
+  },
+  {
+    "id": "direct-27",
+    "group": "direct",
+    "question": "Where have you worked with JavaScript?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.712208000000004
+  },
+  {
+    "id": "direct-28",
+    "group": "direct",
+    "question": "Which projects involved AWS?",
+    "entities": [
+      "aws"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5635830000000084
+  },
+  {
+    "id": "direct-29",
+    "group": "direct",
+    "question": "What frameworks were used in Rental Management?",
+    "entities": [],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6433749999999918
+  },
+  {
+    "id": "direct-30",
+    "group": "direct",
+    "question": "What PHP versions were used in the education systems?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP 5 (PHP 5 version family) is owner-confirmed in Education Platform Modernization (Legacy systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "php-5",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5462079999999929
+  },
+  {
+    "id": "direct-31",
+    "group": "direct",
+    "question": "Which databases were used in modern education systems?",
+    "entities": [],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems). MySQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7097920000000073
+  },
+  {
+    "id": "direct-32",
+    "group": "direct",
+    "question": "Which web servers were used in Rental Management?",
+    "entities": [],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Apache HTTP Server (HTTP web server; not every Apache Foundation technology) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5682499999999919
+  },
+  {
+    "id": "direct-33",
+    "group": "direct",
+    "question": "What runtime was used at PolicyStreet?",
+    "entities": [],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5267499999999927
+  },
+  {
+    "id": "direct-34",
+    "group": "direct",
+    "question": "Which frontend technologies were used at PolicyStreet?",
+    "entities": [],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6550830000000047
+  },
+  {
+    "id": "direct-35",
+    "group": "direct",
+    "question": "Which container orchestration was used at WenSymes?",
+    "entities": [],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Kubernetes (Container orchestration platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 2.9377920000000017
+  },
+  {
+    "id": "direct-36",
+    "group": "direct",
+    "question": "What database was used in Asset Management?",
+    "entities": [],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.7300419999999974
+  },
+  {
+    "id": "direct-37",
+    "group": "direct",
+    "question": "Which testing tools were used at PolicyStreet?",
+    "entities": [],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Playwright (Browser automation and testing framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "playwright",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.0215829999999926
+  },
+  {
+    "id": "direct-38",
+    "group": "direct",
+    "question": "Which backend framework was used at WenSymes?",
+    "entities": [],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Laravel (PHP web framework) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.2262079999999997
+  },
+  {
+    "id": "direct-39",
+    "group": "direct",
+    "question": "Which projects used PHP without a framework?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Plain PHP (Explicit plain PHP usage; no framework is established) is owner-confirmed in Hostel Management System (Historical project). PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "plain-php",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.5926249999999982
+  },
+  {
+    "id": "direct-40",
+    "group": "direct",
+    "question": "Which systems used legacy PHP?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "hostel",
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "hostel",
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Plain PHP (Explicit plain PHP usage; no framework is established) is owner-confirmed in Hostel Management System (Historical project). PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). PHPMaker (PHP-oriented code-generation/development tool; not Laravel or Symfony) is owner-confirmed in Education Platform Modernization (Legacy systems). PHP 5 (PHP 5 version family) is owner-confirmed in Education Platform Modernization (Legacy systems). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "plain-php",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "phpmaker",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "php-5",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5546669999999949
+  },
+  {
+    "id": "alias-1",
+    "group": "alias",
+    "question": "Which project used Reactjs?",
+    "entities": [
+      "react"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4796670000000063
+  },
+  {
+    "id": "alias-2",
+    "group": "alias",
+    "question": "Where have you used react.js?",
+    "entities": [
+      "react"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5869579999999956
+  },
+  {
+    "id": "alias-3",
+    "group": "alias",
+    "question": "Which systems used React js?",
+    "entities": [
+      "react"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.461166999999989
+  },
+  {
+    "id": "alias-4",
+    "group": "alias",
+    "question": "Have you worked with REACTJS?",
+    "entities": [
+      "react"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4312500000000057
+  },
+  {
+    "id": "alias-5",
+    "group": "alias",
+    "question": "Which project used NodeJS?",
+    "entities": [
+      "node"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "node"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4587499999999949
+  },
+  {
+    "id": "alias-6",
+    "group": "alias",
+    "question": "Where have you used node js?",
+    "entities": [
+      "node"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "node"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5581659999999999
+  },
+  {
+    "id": "alias-7",
+    "group": "alias",
+    "question": "Which systems used NODE.JS?",
+    "entities": [
+      "node"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "node"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4830830000000077
+  },
+  {
+    "id": "alias-8",
+    "group": "alias",
+    "question": "Which projects involved NextJS?",
+    "entities": [
+      "next"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "next"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4271669999999972
+  },
+  {
+    "id": "alias-9",
+    "group": "alias",
+    "question": "Where have you worked with next js?",
+    "entities": [
+      "next"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "next"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4756670000000014
+  },
+  {
+    "id": "alias-10",
+    "group": "alias",
+    "question": "Which systems used NEXT.JS?",
+    "entities": [
+      "next"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "next"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.2105420000000038
+  },
+  {
+    "id": "alias-11",
+    "group": "alias",
+    "question": "Which systems used Postgres?",
+    "entities": [
+      "postgres"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "postgres"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7285839999999979
+  },
+  {
+    "id": "alias-12",
+    "group": "alias",
+    "question": "Which projects used PostgreSQL DB?",
+    "entities": [
+      "postgres"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "postgres"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5392920000000032
+  },
+  {
+    "id": "alias-13",
+    "group": "alias",
+    "question": "Where have you used POSTGRES?",
+    "entities": [
+      "postgres"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "postgres"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4389579999999995
+  },
+  {
+    "id": "alias-14",
+    "group": "alias",
+    "question": "Which systems involved K8s?",
+    "entities": [
+      "kubernetes"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4683330000000012
+  },
+  {
+    "id": "alias-15",
+    "group": "alias",
+    "question": "Where have you used k8S?",
+    "entities": [
+      "kubernetes"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5786669999999958
+  },
+  {
+    "id": "alias-16",
+    "group": "alias",
+    "question": "Which project involved GCP?",
+    "entities": [
+      "gcp"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "gcp"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Google Cloud (Google Cloud platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.157749999999993
+  },
+  {
+    "id": "alias-17",
+    "group": "alias",
+    "question": "Where have you worked with Google Cloud Platform?",
+    "entities": [
+      "gcp"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "gcp"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Google Cloud (Google Cloud platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5618749999999864
+  },
+  {
+    "id": "alias-18",
+    "group": "alias",
+    "question": "Which systems used Google Cloud (GCP)?",
+    "entities": [
+      "gcp"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "gcp"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Google Cloud (Google Cloud platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.46229200000000503
+  },
+  {
+    "id": "alias-19",
+    "group": "alias",
+    "question": "Which project involved Azure?",
+    "entities": [
+      "azure"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "azure"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Microsoft Azure (Microsoft cloud platform) is owner-confirmed in Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5920420000000064
+  },
+  {
+    "id": "alias-20",
+    "group": "alias",
+    "question": "Where have you used Rails?",
+    "entities": [
+      "rails"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "rails"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4435829999999896
+  },
+  {
+    "id": "alias-21",
+    "group": "alias",
+    "question": "Which project used RoR?",
+    "entities": [
+      "rails"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "rails"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4772080000000045
+  },
+  {
+    "id": "alias-22",
+    "group": "alias",
+    "question": "Which systems used PHP PDO?",
+    "entities": [
+      "pdo"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "pdo"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4908330000000092
+  },
+  {
+    "id": "alias-23",
+    "group": "alias",
+    "question": "Where have you used PDO?",
+    "entities": [
+      "pdo"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "pdo"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5362500000000097
+  },
+  {
+    "id": "alias-24",
+    "group": "alias",
+    "question": "Which projects used PHP Data Objects (PDO)?",
+    "entities": [
+      "pdo"
+    ],
+    "projects": [
+      "hostel"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "pdo"
+    ],
+    "actualProjects": [
+      "hostel"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP Data Objects (PHP database-access interface, not a framework) is owner-confirmed in Hostel Management System (Historical project). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "pdo",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.450917000000004
+  },
+  {
+    "id": "alias-25",
+    "group": "alias",
+    "question": "Which project used Symphony PHP?",
+    "entities": [
+      "symfony"
+    ],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "symfony"
+    ],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4638750000000016
+  },
+  {
+    "id": "alias-26",
+    "group": "alias",
+    "question": "Which systems used Symfony PHP?",
+    "entities": [
+      "symfony"
+    ],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "symfony"
+    ],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4219590000000011
+  },
+  {
+    "id": "alias-27",
+    "group": "alias",
+    "question": "Which systems used MySQL DB?",
+    "entities": [
+      "mysql"
+    ],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "mysql"
+    ],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6127079999999978
+  },
+  {
+    "id": "alias-28",
+    "group": "alias",
+    "question": "Which projects involved Amazon Web Services?",
+    "entities": [
+      "aws"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.48125000000000284
+  },
+  {
+    "id": "alias-29",
+    "group": "alias",
+    "question": "Where have you used Amazon EC2?",
+    "entities": [
+      "ec2"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ec2"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4810420000000022
+  },
+  {
+    "id": "alias-30",
+    "group": "alias",
+    "question": "Which systems used Amazon ECS?",
+    "entities": [
+      "ecs"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ecs"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.47700000000000387
+  },
+  {
+    "id": "category-1",
+    "group": "category",
+    "question": "Which PHP frameworks have you used?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6287910000000068
+  },
+  {
+    "id": "category-2",
+    "group": "category",
+    "question": "Where have you used PHP frameworks?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.489333000000002
+  },
+  {
+    "id": "category-3",
+    "group": "category",
+    "question": "Which projects used PHP web frameworks?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.747249999999994
+  },
+  {
+    "id": "category-4",
+    "group": "category",
+    "question": "What backend frameworks have you worked with?",
+    "entities": [],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6837079999999958
+  },
+  {
+    "id": "category-5",
+    "group": "category",
+    "question": "Which projects used backend frameworks?",
+    "entities": [],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6519580000000076
+  },
+  {
+    "id": "category-6",
+    "group": "category",
+    "question": "Which systems involved Ruby frameworks?",
+    "entities": [
+      "ruby"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ruby"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4642079999999993
+  },
+  {
+    "id": "category-7",
+    "group": "category",
+    "question": "Which JavaScript frontend frameworks have you used?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5762500000000017
+  },
+  {
+    "id": "category-8",
+    "group": "category",
+    "question": "What JavaScript frontend technologies have you worked with?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6266670000000119
+  },
+  {
+    "id": "category-9",
+    "group": "category",
+    "question": "Which projects used JavaScript UI libraries?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4400409999999937
+  },
+  {
+    "id": "category-10",
+    "group": "category",
+    "question": "What frontend development technologies have you used?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5041659999999979
+  },
+  {
+    "id": "category-11",
+    "group": "category",
+    "question": "Which systems used relational databases?",
+    "entities": [],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.47016700000000355
+  },
+  {
+    "id": "category-12",
+    "group": "category",
+    "question": "Where have you worked with relational databases?",
+    "entities": [],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.9344999999999999
+  },
+  {
+    "id": "category-13",
+    "group": "category",
+    "question": "Which projects involved relational data stores?",
+    "entities": [],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.9276669999999996
+  },
+  {
+    "id": "category-14",
+    "group": "category",
+    "question": "Where have you used container orchestration?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5511659999999949
+  },
+  {
+    "id": "category-15",
+    "group": "category",
+    "question": "Which systems involved container orchestration?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.0343750000000114
+  },
+  {
+    "id": "category-16",
+    "group": "category",
+    "question": "Which projects used container platforms?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Docker (Container development and runtime tooling; not Kubernetes) is owner-confirmed in PolicyStreet — Insurance Comparison Platform; WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7414589999999919
+  },
+  {
+    "id": "category-17",
+    "group": "category",
+    "question": "What cloud services have you worked with?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6392500000000041
+  },
+  {
+    "id": "category-18",
+    "group": "category",
+    "question": "Which AWS services have you used?",
+    "entities": [
+      "aws"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5132079999999917
+  },
+  {
+    "id": "category-19",
+    "group": "category",
+    "question": "What AWS technologies have you used?",
+    "entities": [
+      "aws"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5979159999999979
+  },
+  {
+    "id": "category-20",
+    "group": "category",
+    "question": "Which projects used cloud platforms?",
+    "entities": [],
+    "projects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Third-party cloud provider (Broad hosting category; provider identity is not specified) is owner-confirmed in Rental Management System; Education Platform Modernization (Modern systems). AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Google Cloud (Google Cloud platform) is owner-confirmed in WenSymes — Human Resources Management Platform. Microsoft Azure (Microsoft cloud platform) is owner-confirmed in Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "third-party-cloud",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "third-party-cloud",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7029589999999928
+  },
+  {
+    "id": "category-21",
+    "group": "category",
+    "question": "Where have you used web servers?",
+    "entities": [],
+    "projects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Apache HTTP Server (HTTP web server; not every Apache Foundation technology) is owner-confirmed in Rental Management System; Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Nginx (Web server and reverse proxy) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform; WenSymes — Human Resources Management Platform; Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "apache",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "nginx",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "apache",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5316249999999911
+  },
+  {
+    "id": "category-22",
+    "group": "category",
+    "question": "Which projects involved reverse proxies?",
+    "entities": [],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Nginx (Web server and reverse proxy) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform; WenSymes — Human Resources Management Platform; Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "nginx",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6550000000000011
+  },
+  {
+    "id": "category-23",
+    "group": "category",
+    "question": "Which systems used JavaScript runtimes?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 4.869584000000003
+  },
+  {
+    "id": "category-24",
+    "group": "category",
+    "question": "Which projects used a Ruby web framework?",
+    "entities": [
+      "ruby"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ruby"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.1192499999999939
+  },
+  {
+    "id": "category-25",
+    "group": "category",
+    "question": "Which projects used testing tools?",
+    "entities": [],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Playwright (Browser automation and testing framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "playwright",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4918749999999932
+  },
+  {
+    "id": "category-26",
+    "group": "category",
+    "question": "Which systems used browser automation?",
+    "entities": [],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Playwright (Browser automation and testing framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "playwright",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.45608400000000415
+  },
+  {
+    "id": "category-27",
+    "group": "category",
+    "question": "Which projects used hosting environments?",
+    "entities": [],
+    "projects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "The approved inventory documents Third-party cloud provider, On-premises, AWS EC2, AWS ECS, Google Cloud, Microsoft Azure across 5 project records for hosting environments. See the cited technology inventory for the complete project mapping. Technology involvement does not establish sole ownership or production scale.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "third-party-cloud",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "on-premises",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "on-premises",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "third-party-cloud",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5873750000000086
+  },
+  {
+    "id": "category-28",
+    "group": "category",
+    "question": "What modern JavaScript technologies have you used?",
+    "entities": [
+      "javascript"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "javascript"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6174579999999992
+  },
+  {
+    "id": "category-29",
+    "group": "category",
+    "question": "Which systems used legacy relational databases?",
+    "entities": [],
+    "projects": [
+      "hostel",
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [],
+    "actualProjects": [
+      "hostel",
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL (Relational database management system) is owner-confirmed in Hostel Management System (Historical project). MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). Hostel is historical, unmaintained presentation code, not production-ready software.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5188339999999982
+  },
+  {
+    "id": "category-30",
+    "group": "category",
+    "question": "Where have you used PHP backend frameworks?",
+    "entities": [
+      "php"
+    ],
+    "projects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php"
+    ],
+    "actualProjects": [
+      "rental",
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5144999999999982
+  },
+  {
+    "id": "cross-1",
+    "group": "cross",
+    "question": "Which projects used AWS versus GCP?",
+    "entities": [
+      "aws",
+      "gcp"
+    ],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws",
+      "gcp"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS: Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Google Cloud: WenSymes — Human Resources Management Platform. Provider groups need not be mutually exclusive.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.632583000000011
+  },
+  {
+    "id": "cross-2",
+    "group": "cross",
+    "question": "Compare AWS versus Azure projects.",
+    "entities": [
+      "aws",
+      "azure"
+    ],
+    "projects": [
+      "campus",
+      "insurance",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "aws",
+      "azure"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS: Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Microsoft Azure: Asset Management System. Provider groups need not be mutually exclusive. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6125419999999906
+  },
+  {
+    "id": "cross-3",
+    "group": "cross",
+    "question": "Which projects used React and Next.js?",
+    "entities": [
+      "react",
+      "next"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react",
+      "next"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in PolicyStreet — Insurance Comparison Platform. Next.js (React-based web framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "next",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6807920000000252
+  },
+  {
+    "id": "cross-4",
+    "group": "cross",
+    "question": "Which projects used React and Kubernetes?",
+    "entities": [
+      "react",
+      "kubernetes"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react",
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems). Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.48912500000000136
+  },
+  {
+    "id": "cross-5",
+    "group": "cross",
+    "question": "Which projects used Docker and Kubernetes?",
+    "entities": [
+      "docker",
+      "kubernetes"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "docker",
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Docker (Container development and runtime tooling; not Kubernetes) is owner-confirmed in WenSymes — Human Resources Management Platform. Kubernetes (Container orchestration platform) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.561000000000007
+  },
+  {
+    "id": "cross-6",
+    "group": "cross",
+    "question": "Which systems used Laravel and PHP 8?",
+    "entities": [
+      "laravel",
+      "php-8"
+    ],
+    "projects": [
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "laravel",
+      "php-8"
+    ],
+    "actualProjects": [
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Laravel (PHP web framework) is owner-confirmed in WenSymes — Human Resources Management Platform. PHP 8 (PHP 8 version family) is owner-confirmed in WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "php-8",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6584589999999935
+  },
+  {
+    "id": "cross-7",
+    "group": "cross",
+    "question": "Which projects used AWS EC2 and AWS ECS?",
+    "entities": [
+      "ec2",
+      "ecs"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "ec2",
+      "ecs"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "AWS EC2 (AWS cloud compute service) is owner-confirmed in Education Platform Modernization (Legacy systems); Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. AWS ECS (AWS managed container orchestration service) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "ec2",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ec2",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5218329999999867
+  },
+  {
+    "id": "cross-8",
+    "group": "cross",
+    "question": "Which projects used React versus Laravel?",
+    "entities": [
+      "react",
+      "laravel"
+    ],
+    "projects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react",
+      "laravel"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "React: Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Laravel: Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Provider groups need not be mutually exclusive.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "react",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5720409999999845
+  },
+  {
+    "id": "cross-9",
+    "group": "cross",
+    "question": "Which projects used MySQL versus PostgreSQL?",
+    "entities": [
+      "mysql",
+      "postgres"
+    ],
+    "projects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "mysql",
+      "postgres"
+    ],
+    "actualProjects": [
+      "hostel",
+      "rental",
+      "campus",
+      "insurance",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL: Hostel Management System (Historical project); Rental Management System; Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. PostgreSQL: Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Provider groups need not be mutually exclusive. Hostel is historical, unmaintained presentation code, not production-ready software. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "hostel",
+        "technologyId": "mysql",
+        "generation": "Historical project",
+        "evidenceId": "technology-hostel"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.8066249999999968
+  },
+  {
+    "id": "cross-10",
+    "group": "cross",
+    "question": "Which systems used Symfony versus Rails?",
+    "entities": [
+      "symfony",
+      "rails"
+    ],
+    "projects": [
+      "rental",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "symfony",
+      "rails"
+    ],
+    "actualProjects": [
+      "rental",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony: Rental Management System. Ruby on Rails: Asset Management System. Provider groups need not be mutually exclusive. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.9631249999999909
+  },
+  {
+    "id": "cross-11",
+    "group": "cross",
+    "question": "Which projects used GCP versus Azure?",
+    "entities": [
+      "gcp",
+      "azure"
+    ],
+    "projects": [
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "gcp",
+      "azure"
+    ],
+    "actualProjects": [
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Google Cloud: WenSymes — Human Resources Management Platform. Microsoft Azure: Asset Management System. Provider groups need not be mutually exclusive. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "wensymes",
+        "technologyId": "gcp",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.7909579999999892
+  },
+  {
+    "id": "cross-12",
+    "group": "cross",
+    "question": "Which systems used Node.js and PostgreSQL?",
+    "entities": [
+      "node",
+      "postgres"
+    ],
+    "projects": [
+      "campus",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "node",
+      "postgres"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Node.js (JavaScript runtime; not a frontend or backend framework) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. PostgreSQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "node",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "postgres",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "node",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "postgres",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.688874999999996
+  },
+  {
+    "id": "cross-13",
+    "group": "cross",
+    "question": "Which projects used Playwright and Docker?",
+    "entities": [
+      "playwright",
+      "docker"
+    ],
+    "projects": [
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "playwright",
+      "docker"
+    ],
+    "actualProjects": [
+      "insurance"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Docker (Container development and runtime tooling; not Kubernetes) is owner-confirmed in PolicyStreet — Insurance Comparison Platform. Playwright (Browser automation and testing framework) is owner-confirmed in PolicyStreet — Insurance Comparison Platform.",
+    "facts": [
+      {
+        "projectId": "insurance",
+        "technologyId": "docker",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "playwright",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.1084170000000029
+  },
+  {
+    "id": "cross-14",
+    "group": "cross",
+    "question": "Which systems used PHP 5 versus PHP 8?",
+    "entities": [
+      "php-5",
+      "php-8"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "php-5",
+      "php-8"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "PHP 5: Education Platform Modernization (Legacy systems). PHP 8: WenSymes — Human Resources Management Platform. Provider groups need not be mutually exclusive.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "php-5",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "php-8",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.1759580000000085
+  },
+  {
+    "id": "cross-15",
+    "group": "cross",
+    "question": "Which systems used React and MySQL?",
+    "entities": [
+      "react",
+      "mysql"
+    ],
+    "projects": [
+      "campus"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "react",
+      "mysql"
+    ],
+    "actualProjects": [
+      "campus"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). React (JavaScript UI library) is owner-confirmed in Education Platform Modernization (Modern systems). MySQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems).",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "react",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 3.446708000000001
+  },
+  {
+    "id": "cross-16",
+    "group": "cross",
+    "question": "Which projects used Kubernetes versus AWS ECS?",
+    "entities": [
+      "kubernetes",
+      "ecs"
+    ],
+    "projects": [
+      "campus",
+      "wensymes",
+      "insurance"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "kubernetes",
+      "ecs"
+    ],
+    "actualProjects": [
+      "campus",
+      "insurance",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Kubernetes: Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. AWS ECS: Education Platform Modernization (Modern systems); PolicyStreet — Insurance Comparison Platform. Provider groups need not be mutually exclusive.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "ecs",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "insurance",
+        "technologyId": "ecs",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-insurance"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 4.101709
+  },
+  {
+    "id": "cross-17",
+    "group": "cross",
+    "question": "Which systems used Laravel and Kubernetes?",
+    "entities": [
+      "laravel",
+      "kubernetes"
+    ],
+    "projects": [
+      "campus",
+      "wensymes"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "laravel",
+      "kubernetes"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform. Kubernetes (Container orchestration platform) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "kubernetes",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "kubernetes",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5661670000000072
+  },
+  {
+    "id": "cross-18",
+    "group": "cross",
+    "question": "Which systems used MySQL and Nginx?",
+    "entities": [
+      "mysql",
+      "nginx"
+    ],
+    "projects": [
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "mysql",
+      "nginx"
+    ],
+    "actualProjects": [
+      "campus",
+      "wensymes",
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "MySQL 5.7 (Version-specific MySQL relational database) is owner-confirmed in Education Platform Modernization (Legacy systems). MySQL (Relational database management system) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. Nginx (Web server and reverse proxy) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform; Asset Management System. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "campus",
+        "technologyId": "mysql-5.7",
+        "generation": "Legacy systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "mysql",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "nginx",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "mysql",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "nginx",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6472909999999956
+  },
+  {
+    "id": "cross-19",
+    "group": "cross",
+    "question": "Which projects used Symfony and Apache?",
+    "entities": [
+      "symfony",
+      "apache"
+    ],
+    "projects": [
+      "rental"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "symfony",
+      "apache"
+    ],
+    "actualProjects": [
+      "rental"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Apache HTTP Server (HTTP web server; not every Apache Foundation technology) is owner-confirmed in Rental Management System.",
+    "facts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "rental",
+        "technologyId": "apache",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6723340000000064
+  },
+  {
+    "id": "cross-20",
+    "group": "cross",
+    "question": "Which systems used Rails and Azure?",
+    "entities": [
+      "rails",
+      "azure"
+    ],
+    "projects": [
+      "asset"
+    ],
+    "expect": "structured-answer",
+    "actualEntities": [
+      "rails",
+      "azure"
+    ],
+    "actualProjects": [
+      "asset"
+    ],
+    "actualOrigin": "approved-composite",
+    "answer": "Ruby on Rails (Ruby web framework) is owner-confirmed in Asset Management System. Microsoft Azure (Microsoft cloud platform) is owner-confirmed in Asset Management System. This supports Ruby ecosystem experience through Rails, not an additional standalone Ruby deployment. Asset records do not specify employer, period or ownership scope.",
+    "facts": [
+      {
+        "projectId": "asset",
+        "technologyId": "rails",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      },
+      {
+        "projectId": "asset",
+        "technologyId": "azure",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-asset"
+      }
+    ],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.44512500000001864
+  },
+  {
+    "id": "negative-1",
+    "group": "negative",
+    "question": "Which project used Angular?",
+    "entities": [],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.587457999999998
+  },
+  {
+    "id": "negative-2",
+    "group": "negative",
+    "question": "Which employer used Vue?",
+    "entities": [],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.4770420000000115
+  },
+  {
+    "id": "negative-3",
+    "group": "negative",
+    "question": "Which project used TypeScript?",
+    "entities": [
+      "typescript"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "typescript"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6680829999999958
+  },
+  {
+    "id": "negative-4",
+    "group": "negative",
+    "question": "Which project used Node.js as a frontend framework?",
+    "entities": [
+      "node"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "node"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.7157919999999933
+  },
+  {
+    "id": "negative-5",
+    "group": "negative",
+    "question": "Which project used Docker as a database?",
+    "entities": [
+      "docker"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "docker"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.704999999999984
+  },
+  {
+    "id": "negative-6",
+    "group": "negative",
+    "question": "Which project used React at WenSymes?",
+    "entities": [
+      "react"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 2.406874999999985
+  },
+  {
+    "id": "negative-7",
+    "group": "negative",
+    "question": "Which project used Next.js in education systems?",
+    "entities": [
+      "next"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "next"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 11.645166999999987
+  },
+  {
+    "id": "negative-8",
+    "group": "negative",
+    "question": "Which project used PHP 8 in legacy education systems?",
+    "entities": [
+      "php-8"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "php-8"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.7157909999999958
+  },
+  {
+    "id": "negative-9",
+    "group": "negative",
+    "question": "What MySQL 8 version was used in education systems?",
+    "entities": [
+      "mysql"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "mysql"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.1810419999999908
+  },
+  {
+    "id": "negative-10",
+    "group": "negative",
+    "question": "How much did Kubernetes improve WenSymes performance?",
+    "entities": [
+      "kubernetes"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "kubernetes"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 2.627749999999992
+  },
+  {
+    "id": "negative-11",
+    "group": "negative",
+    "question": "Which AWS EC2 project used only AWS ECS?",
+    "entities": [
+      "ec2",
+      "ecs"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "ec2",
+      "ecs"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 6.942791
+  },
+  {
+    "id": "negative-12",
+    "group": "negative",
+    "question": "Who composed the symphony in D minor?",
+    "entities": [],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 4.675333999999992
+  },
+  {
+    "id": "negative-13",
+    "group": "negative",
+    "question": "Where are the railway rails in town?",
+    "entities": [],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 10.582416000000023
+  },
+  {
+    "id": "negative-14",
+    "group": "negative",
+    "question": "Which Apache Spark project did you work on?",
+    "entities": [
+      "apache"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "apache"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.0818330000000174
+  },
+  {
+    "id": "negative-15",
+    "group": "negative",
+    "question": "What exact React traffic did PolicyStreet serve?",
+    "entities": [
+      "react"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.6510829999999999
+  },
+  {
+    "id": "negative-16",
+    "group": "negative",
+    "question": "Which project used React and Redis?",
+    "entities": [
+      "react"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.8363339999999937
+  },
+  {
+    "id": "negative-17",
+    "group": "negative",
+    "question": "Which project used React 19?",
+    "entities": [
+      "react"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 0.5358329999999967
+  },
+  {
+    "id": "negative-18",
+    "group": "negative",
+    "question": "Which project used PHP PDO as a framework?",
+    "entities": [
+      "pdo"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "pdo"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 2.1905000000000143
+  },
+  {
+    "id": "negative-19",
+    "group": "negative",
+    "question": "Which TypeScript certifications do you hold?",
+    "entities": [
+      "typescript"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "typescript"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 2.313625000000002
+  },
+  {
+    "id": "negative-20",
+    "group": "negative",
+    "question": "Which projects used React at Acme?",
+    "entities": [
+      "react"
+    ],
+    "projects": [],
+    "expect": "abstain",
+    "actualEntities": [
+      "react"
+    ],
+    "actualProjects": [],
+    "actualOrigin": "insufficient-evidence",
+    "answer": null,
+    "facts": [],
+    "entityCorrect": true,
+    "associationCorrect": true,
+    "answerCorrect": true,
+    "citationValid": true,
+    "unsupportedFacts": [],
+    "localMs": 1.7305839999999932
+  }
+]

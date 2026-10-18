@@ -1,0 +1,77 @@
+{
+  "version": "toer-understanding-v1",
+  "sourceDigest": "6a23a8313641c2bbf92152ae51844568977db8481847d51b17d65c107b3bbe5b",
+  "measuredAt": "2026-10-18T17:36:29.992Z",
+  "ontologyVersion": "pace-ontology-v1.3.0",
+  "evidenceVersion": "pace-technology-v1.2",
+  "evidenceHash": "5640d20f34302f5cba7caf11fcc7e95b366dda42079d9f0d2c43a5ae2999e9f8",
+  "datasetHash": "378700766e73f92023d0fd01d3ac3173e63f98a988e9c5eebbfc5894d6cafaca",
+  "method": "Fixed agent-authored development cases, not independently reviewed or blind. Pure local deterministic retrieval; no generation API or embedding used.",
+  "total": {
+    "questions": 140,
+    "entityRecognitionAccuracy": 1,
+    "projectAssociationCorrectness": 1,
+    "structuredAnswerAccuracy": 1,
+    "errors": []
+  },
+  "groups": {
+    "direct": {
+      "questions": 40,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    },
+    "alias": {
+      "questions": 30,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    },
+    "category": {
+      "questions": 30,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    },
+    "cross": {
+      "questions": 20,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    },
+    "negative": {
+      "questions": 20,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    }
+  },
+  "classification": {
+    "samples": 80,
+    "correct": 80,
+    "accuracy": 1,
+    "basis": "Independent expected coarse category labels for recognized entities; detailed relationship guards tested separately."
+  },
+  "unsupportedInventedFacts": 0,
+  "unsupportedInferenceRate": 0,
+  "appropriateNegativeAbstention": 1,
+  "citationErrors": 0,
+  "workersAiCalls": 0,
+  "providerBilling": "Not measured; pure local functions have no dispatch path.",
+  "targets": {
+    "classification": 0.95,
+    "projectAssociation": 0.95,
+    "inventedFacts": 0
+  },
+  "releaseAccepted": false,
+  "limits": [
+    "Development set inspected during implementation; regression results do not establish unseen-language reliability.",
+    "Finite examples and membership checks do not independently establish semantic entailment.",
+    "No live provider, production Cloudflare, physical-device or moderated usability verification."
+  ]
+}

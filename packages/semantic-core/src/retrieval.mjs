@@ -1,3 +1,4 @@
+import { inScope } from '../../knowledge-schema/src/provenance.mjs';
 import { normalizeText, validateVector } from '../../knowledge-schema/src/validate.mjs';
 const stop = new Set('a an the is are what how has have this that about with of to and in my me can does did for'.split(' '));
 const terms = text => (normalizeText(text).toLowerCase().match(/[\p{L}\p{N}]+/gu) || []).filter(t => !stop.has(t));
@@ -9,7 +10,7 @@ export function lexicalScore(query, text) {
 }
 export function cosine(a,b){let dot=0;for(let i=0;i<a.length;i++)dot+=a[i]*b[i];return dot;}
 export function rankVectors(query,vectors,rows){validateVector(query);if(vectors.length!==rows*384)throw new Error('Index length mismatch');return Array.from({length:rows},(_,row)=>({row,score:cosine(query,vectors.subarray(row*384,(row+1)*384))})).sort((a,b)=>b.score-a.score||a.row-b.row);}
-export function sourceCurrent(doc, corpus, now=Date.now()) {return !!doc && doc.corpusId===corpus.corpusId && doc.status==='approved' && !!doc.approval && Date.parse(doc.reviewAfter)>now;}
+export function sourceCurrent(doc, corpus, now=Date.now()) {return !!doc && (!corpus.scopeId || inScope(doc, corpus.scopeId)) && doc.corpusId===corpus.corpusId && doc.status==='approved' && !!doc.approval && Date.parse(doc.reviewAfter)>now;}
 export function answerCurrent(answer,corpus,now=Date.now()) {
   return answer.corpusId===corpus.corpusId && answer.status==='approved' && !!answer.approval && Date.parse(answer.reviewAfter)>now && answer.citations.length>0 && answer.citations.every(c=>{
     const doc=corpus.documents.find(d=>d.id===c.sourceId);

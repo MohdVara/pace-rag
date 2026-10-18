@@ -47,3 +47,16 @@ Continued the existing implementation. The owner's explicit “Approve for local
 - Remaining gates: retrieval quality/answer coverage, independent content/evaluation/license review, physical-device/screen-reader QA, future portfolio integration review, actual authorized provider/accounting/runtime verification and explicit approval for production. All live switches remain false. Cloudflare mocks and failure simulations are local evidence only.
 
 See [EFRD QA](PACE-RAG-EFRD-QA.md) for changed files, reproducible checks and limitations, [results](PACE-RAG-EFRD-RESULTS.md) for observed metrics and [deployment](DEPLOYMENT.md) for preparation commands. The local-review implementation and package are prepared; public release acceptance is false.
+
+
+## UX clarity and TOER local-review milestone — 19 October 2026
+
+Continued the existing EFRD implementation and completed the interrupted v1.2 scope. One source selector now separates Professional Experience, How PACE-RAG Works and Fictional Test Documents using verified, disjoint record/vector views; inspection is optional on the same result. Owner-confirmed human authorship with AI assistance is recorded for the Atlas fixtures, separately from publication approval. Source libraries/viewers expose actual repository origin, stable IDs and review scope.
+
+V1.3 adds a typed 30-entity curated ontology, deterministic alias/category/relationship/intent resolution and cited project-fact composition. The existing six-project owner export remains unchanged and is the sole association source. No additional source approval, cache promotion, new dependency or live inference was introduced.
+
+85 Node tests, eight UX tasks and five ontology browser journeys per Chromium/WebKit engine pass. Source layouts cover 84 large-text/theme combinations; 12 UX axe samples and four existing EFRD axe samples have zero violations/incomplete. Existing seven EFRD journeys per engine, 28 regression layouts and 10 legacy browser journeys pass. Technology development evaluation: 140 cases, 20/20 negative abstentions, zero observed invented associations/citation errors or Workers AI calls. Dataset labels were inspected during development, not independently reviewed.
+
+Separated semantic evaluation: portfolio Top-3 79% (100 paraphrases), implementation 90% (40). All 70 critical questions abstain; all 20 defined composites pass. Portfolio still misses its target. Moderated 10-second comprehension, actual screen readers/devices and real provider/Cloudflare/accounting behavior remain unverified. Main portfolio JS stays 205,843 / 215,000 bytes with no integration installed. All live switches remain false; API evidence is dry-run/mocked only. Release validation deliberately rejects local-test approval; no resources were provisioned or deployed.
+
+Current authoritative details: [UX QA](PACE-RAG-UX-QA.md), [provenance](PACE-RAG-CORPUS-PROVENANCE.md), [TOER QA](PACE-RAG-TOER-QA.md), [technology evaluation](PACE-RAG-TECHNOLOGY-EVALUATION.md). Existing earlier ledger rows remain historical measurements.

@@ -1,0 +1,99 @@
+{
+  "reportVersion": "efrd-evaluation-v1",
+  "measuredAt": "2026-10-18T17:29:34.214Z",
+  "softwareVersion": "0.1.0+ux-v1.2",
+  "scope": "Separated professional/implementation views; no new held-out fictional dataset measured. Previously inspected agent-authored labels.",
+  "sourceDigest": "63b979abb8c16798cc9792c281be106cb56cb42194baf3b8e468afe755a98d32",
+  "mode": "semantic",
+  "dataset": {
+    "version": "efrd-heldout-v1",
+    "hash": "758d7485a4eeacda121d525e2696f15b5d566587128a1184283f741358193d14",
+    "portfolioPositive": 100,
+    "labPositive": 40,
+    "composites": 20,
+    "critical": 70,
+    "calibrationQuestions": 2,
+    "calibrationUsedForAutomaticMatching": false,
+    "ownerReviewedLabels": false
+  },
+  "environment": {
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M1",
+    "browser": "Pinned Playwright Chromium for model execution; not a physical device"
+  },
+  "scorecards": {
+    "professional": {
+      "corpusVersion": "c7c3b24acc7a674c",
+      "positiveQuestions": 100,
+      "criticalQuestions": 60,
+      "compositeQuestions": 20,
+      "top1ApprovedAnswerRankingAccuracy": 0.57,
+      "top3CandidateRecall": 0.79,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0.16666666666666666,
+      "compositesCorrect": 20,
+      "compositeCoverage": 1,
+      "localRankAndAnswerP50Ms": 0.34875000000010914,
+      "localRankAndAnswerP95Ms": 0.8436659999997573,
+      "activeReviewedAnswers": 38
+    },
+    "implementation": {
+      "corpusVersion": "e3f32e81448fdea7",
+      "positiveQuestions": 40,
+      "criticalQuestions": 10,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.575,
+      "top3CandidateRecall": 0.9,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.26700000000073487,
+      "localRankAndAnswerP95Ms": 0.3297919999995429,
+      "activeReviewedAnswers": 20
+    }
+  },
+  "liveProviderCalls": 0,
+  "cacheOnlyProviderCallsEvidence": "Evaluation calls pure local retrieval/composition functions; browser request observations recorded separately.",
+  "generationGrounding": {
+    "scenarios": 20,
+    "executedLive": false,
+    "status": "Live generation disabled; fixture-only server citation tests do not establish claim entailment."
+  },
+  "targets": {
+    "top3Recall": 0.9,
+    "criticalWrongAnswers": 0,
+    "citationErrors": 0,
+    "crossCorpusLeaks": 0
+  },
+  "targetResults": {
+    "professional": {
+      "top3Recall": false,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true
+    },
+    "implementation": {
+      "top3Recall": true,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true
+    }
+  },
+  "automaticSemanticMatchingEnabled": false,
+  "releaseAccepted": false,
+  "limits": [
+    "Agent-authored held-out wording is distinct from indexed aliases but not independently reviewed.",
+    "No statistical guarantee or live-provider grounding claim follows from a finite dataset.",
+    "Incorrect automatic-match counts and ranking accuracy are distinct; most paraphrases deliberately require explicit answer selection.",
+    "Cloudflare runtime, billing, physical-device memory and screen-reader verification remain outside this local evaluation."
+  ]
+}

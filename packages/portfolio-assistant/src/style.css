@@ -177,3 +177,8 @@
 .pace-candidate-ranking { padding-inline-start: 1.4rem; }
 .pace-candidate-ranking li { padding-block: .6rem; border-bottom: 1px solid var(--pace-line); }
 .pace-supporting h4 { margin-block: .75rem .25rem; }
+.pace-settings { margin-block: .75rem; font-size: .9em; }
+.pace-settings label { display: flex; align-items: start; gap: .5rem; }
+.pace-settings input { margin-top: .5rem; flex-shrink: 0; }
+.pace-fictional-note { font-size: .9em; }
+.pace-inspection h4 { margin-block: 1.2rem .4rem; }

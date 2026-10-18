@@ -6,6 +6,7 @@ import {
   validateCorpus,
 } from "../../packages/knowledge-schema/src/validate.mjs";
 import { validateTechnology } from "../../packages/knowledge-schema/src/technology.mjs";
+import { validateOntology, inventoryEntity } from "../../packages/semantic-core/src/technology/ontology.mjs";
 export const hash = (text) => createHash("sha256").update(text).digest("hex");
 export function approvalHash(record) {
   const { status, approval, reviewedAt, ...body } = record;
@@ -92,6 +93,8 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
   let technologyEvidence, retirements;
   if (corpusId === "portfolio") {
     technologyEvidence = validateTechnology(JSON.parse(await readFile(new URL('../../content/portfolio/technology-evidence.json', import.meta.url), 'utf8')));
+    validateOntology();
+    for(const record of technologyEvidence.records)for(const generation of record.generations)for(const group of generation.groups)for(const name of group.technologies)if(!inventoryEntity(name))throw new Error(`Unmapped inventory technology: ${name}`);
     const { contentHash, ...body } = technologyEvidence;
     if (hash(JSON.stringify(body)) !== contentHash) throw new Error('Technology export hash mismatch');
     for (const record of technologyEvidence.records) {

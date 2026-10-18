@@ -1,0 +1,649 @@
+{
+  "nodeTests": {
+    "total": 85,
+    "passed": 85,
+    "failed": 0
+  },
+  "version": "pace-ux-toer-local-v1.3",
+  "measuredAt": "2026-10-18T17:36:40.504Z",
+  "scope": "Local review artifacts; no publication, production, provider or physical-device verification.",
+  "environment": {
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M1",
+    "browsers": "Pinned Playwright 1.56.1 Chromium and WebKit"
+  },
+  "bundles": {
+    "portfolioMain": {
+      "rawBytes": 205843,
+      "limit": 215000,
+      "integrationInstalled": false,
+      "ragAddedBytes": 0
+    },
+    "standalone": {
+      "rawBytes": 222108,
+      "gzip9Bytes": 70512
+    },
+    "assistant": {
+      "rawBytes": 88572,
+      "gzip9Bytes": 25514
+    },
+    "worker": {
+      "rawBytes": 851258,
+      "lazy": true
+    }
+  },
+  "browserChecks": {
+    "chromium": {
+      "uxTasks": [
+        {
+          "name": "A — recruiter discovers professional technologies from a starter",
+          "passed": true,
+          "elapsedMs": 563.871083
+        },
+        {
+          "name": "B — engineering manager finds matching rules and inspects the same result",
+          "passed": true,
+          "elapsedMs": 676.1952080000001
+        },
+        {
+          "name": "C — reviewer sees fixture origin on selection and opens the original snapshot",
+          "passed": true,
+          "elapsedMs": 386.46174999999994
+        },
+        {
+          "name": "D — source switches clear answers, scope starters and never initialize a model",
+          "passed": true,
+          "elapsedMs": 503.93875000000025
+        },
+        {
+          "name": "E — supported cached answers and static sources work without a generation service",
+          "passed": true,
+          "elapsedMs": 352.0419160000001
+        },
+        {
+          "name": "F — unsupported professional claim abstains and offers scoped questions",
+          "passed": true,
+          "elapsedMs": 387.46491700000024
+        },
+        {
+          "name": "Keyboard source choice and search/disclosure preserve native focus behavior",
+          "passed": true,
+          "elapsedMs": 364.73225
+        },
+        {
+          "name": "All three source libraries remain distinct without JavaScript",
+          "passed": true,
+          "elapsedMs": 153.2762499999999
+        }
+      ],
+      "uxLayouts": 42,
+      "axe": [
+        {
+          "scope": "Professional Experience",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Professional Experience",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "How PACE-RAG Works",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "How PACE-RAG Works",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Fictional Test Documents",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Fictional Test Documents",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "ontologyTasks": [
+        {
+          "name": "Category, alias, ecosystem, comparison and version answers bypass the model",
+          "passed": true
+        },
+        {
+          "name": "Optional inspection exposes actual entity aliases, categories, relationships and versions without new requests",
+          "passed": true
+        },
+        {
+          "name": "Unsupported metrics, versions, predicates and project associations abstain",
+          "passed": true
+        },
+        {
+          "name": "Ontology cannot establish project experience in either nonprofessional source",
+          "passed": true
+        },
+        {
+          "name": "Ontology and scoped source viewers reflow on a small viewport without JavaScript",
+          "passed": true
+        }
+      ],
+      "ontologyModelRequests": 0,
+      "existingEfrdJourneys": [
+        {
+          "name": "Answer-first portfolio: composites, exact cache, sources, abstention, zero eager model",
+          "passed": true
+        },
+        {
+          "name": "Implementation cache and real semantic trace separate answer sources from topical passages",
+          "passed": true
+        },
+        {
+          "name": "Actual worker request failure leaves keyword cache and no automatic retry",
+          "passed": true
+        },
+        {
+          "name": "Cancel initialization terminates worker and preserves visible keyword result",
+          "passed": true
+        },
+        {
+          "name": "Six clearly labelled isolated failure demonstrations",
+          "passed": true
+        },
+        {
+          "name": "Stale manifest and corrupted source bytes fail closed into static browser",
+          "passed": true
+        },
+        {
+          "name": "No-JavaScript sources and current-only public release artifacts",
+          "passed": true
+        }
+      ],
+      "existingEfrdLayouts": 14,
+      "observedGenerationRequests": 0,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    "webkit": {
+      "uxTasks": [
+        {
+          "name": "A — recruiter discovers professional technologies from a starter",
+          "passed": true,
+          "elapsedMs": 1964.4059579999994
+        },
+        {
+          "name": "B — engineering manager finds matching rules and inspects the same result",
+          "passed": true,
+          "elapsedMs": 2344.953958
+        },
+        {
+          "name": "C — reviewer sees fixture origin on selection and opens the original snapshot",
+          "passed": true,
+          "elapsedMs": 1506.6814170000016
+        },
+        {
+          "name": "D — source switches clear answers, scope starters and never initialize a model",
+          "passed": true,
+          "elapsedMs": 1069.790500000001
+        },
+        {
+          "name": "E — supported cached answers and static sources work without a generation service",
+          "passed": true,
+          "elapsedMs": 486.63879199999974
+        },
+        {
+          "name": "F — unsupported professional claim abstains and offers scoped questions",
+          "passed": true,
+          "elapsedMs": 759.1990409999999
+        },
+        {
+          "name": "Keyboard source choice and search/disclosure preserve native focus behavior",
+          "passed": true,
+          "elapsedMs": 655.4617909999997
+        },
+        {
+          "name": "All three source libraries remain distinct without JavaScript",
+          "passed": true,
+          "elapsedMs": 358.0013749999998
+        }
+      ],
+      "uxLayouts": 42,
+      "axe": [
+        {
+          "scope": "Professional Experience",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Professional Experience",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "How PACE-RAG Works",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "How PACE-RAG Works",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Fictional Test Documents",
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "scope": "Fictional Test Documents",
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "ontologyTasks": [
+        {
+          "name": "Category, alias, ecosystem, comparison and version answers bypass the model",
+          "passed": true
+        },
+        {
+          "name": "Optional inspection exposes actual entity aliases, categories, relationships and versions without new requests",
+          "passed": true
+        },
+        {
+          "name": "Unsupported metrics, versions, predicates and project associations abstain",
+          "passed": true
+        },
+        {
+          "name": "Ontology cannot establish project experience in either nonprofessional source",
+          "passed": true
+        },
+        {
+          "name": "Ontology and scoped source viewers reflow on a small viewport without JavaScript",
+          "passed": true
+        }
+      ],
+      "ontologyModelRequests": 0,
+      "existingEfrdJourneys": [
+        {
+          "name": "Answer-first portfolio: composites, exact cache, sources, abstention, zero eager model",
+          "passed": true
+        },
+        {
+          "name": "Implementation cache and real semantic trace separate answer sources from topical passages",
+          "passed": true
+        },
+        {
+          "name": "Actual worker request failure leaves keyword cache and no automatic retry",
+          "passed": true
+        },
+        {
+          "name": "Cancel initialization terminates worker and preserves visible keyword result",
+          "passed": true
+        },
+        {
+          "name": "Six clearly labelled isolated failure demonstrations",
+          "passed": true
+        },
+        {
+          "name": "Stale manifest and corrupted source bytes fail closed into static browser",
+          "passed": true
+        },
+        {
+          "name": "No-JavaScript sources and current-only public release artifacts",
+          "passed": true
+        }
+      ],
+      "existingEfrdLayouts": 14,
+      "observedGenerationRequests": 0,
+      "pageErrors": [],
+      "consoleErrors": []
+    }
+  },
+  "legacy": {
+    "journeys": 10,
+    "generationRequests": 0,
+    "errors": []
+  },
+  "timing": {
+    "coldEmbedding": {
+      "n": 3,
+      "min": 750.5,
+      "p50": 755.8999999761581,
+      "p95": 886,
+      "max": 886
+    },
+    "warmEmbedding": {
+      "n": 9,
+      "min": 14.199999928474426,
+      "p50": 17.5,
+      "p95": 29.200000047683716,
+      "max": 29.200000047683716
+    },
+    "answerNextAnimationFrame": {
+      "n": 27,
+      "min": 5.799999952316284,
+      "p50": 15.200000047683716,
+      "p95": 765.7000000476837,
+      "max": 898.5999999046326
+    },
+    "cacheAnswerNextAnimationFrame": {
+      "n": 3,
+      "min": 13,
+      "p50": 13.799999952316284,
+      "p95": 14.399999976158142,
+      "max": 14.399999976158142
+    },
+    "scope": "Local HTTP uncompressed M1 Chromium, some concurrent QA; not an isolated or physical-device benchmark. Next-animation-frame marks are not guaranteed pixel-presentation times."
+  },
+  "technology": {
+    "version": "toer-understanding-v1",
+    "sourceDigest": "6a23a8313641c2bbf92152ae51844568977db8481847d51b17d65c107b3bbe5b",
+    "measuredAt": "2026-10-18T17:36:29.992Z",
+    "ontologyVersion": "pace-ontology-v1.3.0",
+    "evidenceVersion": "pace-technology-v1.2",
+    "evidenceHash": "5640d20f34302f5cba7caf11fcc7e95b366dda42079d9f0d2c43a5ae2999e9f8",
+    "datasetHash": "378700766e73f92023d0fd01d3ac3173e63f98a988e9c5eebbfc5894d6cafaca",
+    "method": "Fixed agent-authored development cases, not independently reviewed or blind. Pure local deterministic retrieval; no generation API or embedding used.",
+    "total": {
+      "questions": 140,
+      "entityRecognitionAccuracy": 1,
+      "projectAssociationCorrectness": 1,
+      "structuredAnswerAccuracy": 1,
+      "errors": []
+    },
+    "groups": {
+      "direct": {
+        "questions": 40,
+        "entityRecognitionAccuracy": 1,
+        "projectAssociationCorrectness": 1,
+        "structuredAnswerAccuracy": 1,
+        "errors": []
+      },
+      "alias": {
+        "questions": 30,
+        "entityRecognitionAccuracy": 1,
+        "projectAssociationCorrectness": 1,
+        "structuredAnswerAccuracy": 1,
+        "errors": []
+      },
+      "category": {
+        "questions": 30,
+        "entityRecognitionAccuracy": 1,
+        "projectAssociationCorrectness": 1,
+        "structuredAnswerAccuracy": 1,
+        "errors": []
+      },
+      "cross": {
+        "questions": 20,
+        "entityRecognitionAccuracy": 1,
+        "projectAssociationCorrectness": 1,
+        "structuredAnswerAccuracy": 1,
+        "errors": []
+      },
+      "negative": {
+        "questions": 20,
+        "entityRecognitionAccuracy": 1,
+        "projectAssociationCorrectness": 1,
+        "structuredAnswerAccuracy": 1,
+        "errors": []
+      }
+    },
+    "classification": {
+      "samples": 80,
+      "correct": 80,
+      "accuracy": 1,
+      "basis": "Independent expected coarse category labels for recognized entities; detailed relationship guards tested separately."
+    },
+    "unsupportedInventedFacts": 0,
+    "unsupportedInferenceRate": 0,
+    "appropriateNegativeAbstention": 1,
+    "citationErrors": 0,
+    "workersAiCalls": 0,
+    "providerBilling": "Not measured; pure local functions have no dispatch path.",
+    "targets": {
+      "classification": 0.95,
+      "projectAssociation": 0.95,
+      "inventedFacts": 0
+    },
+    "releaseAccepted": false,
+    "limits": [
+      "Development set inspected during implementation; regression results do not establish unseen-language reliability.",
+      "Finite examples and membership checks do not independently establish semantic entailment.",
+      "No live provider, production Cloudflare, physical-device or moderated usability verification."
+    ]
+  },
+  "semantic": {
+    "reportVersion": "efrd-evaluation-v1",
+    "measuredAt": "2026-10-18T17:29:34.214Z",
+    "softwareVersion": "0.1.0+ux-v1.2",
+    "scope": "Separated professional/implementation views; no new held-out fictional dataset measured. Previously inspected agent-authored labels.",
+    "sourceDigest": "63b979abb8c16798cc9792c281be106cb56cb42194baf3b8e468afe755a98d32",
+    "mode": "semantic",
+    "dataset": {
+      "version": "efrd-heldout-v1",
+      "hash": "758d7485a4eeacda121d525e2696f15b5d566587128a1184283f741358193d14",
+      "portfolioPositive": 100,
+      "labPositive": 40,
+      "composites": 20,
+      "critical": 70,
+      "calibrationQuestions": 2,
+      "calibrationUsedForAutomaticMatching": false,
+      "ownerReviewedLabels": false
+    },
+    "environment": {
+      "node": "v23.11.0",
+      "platform": "darwin",
+      "arch": "arm64",
+      "cpu": "Apple M1",
+      "browser": "Pinned Playwright Chromium for model execution; not a physical device"
+    },
+    "scorecards": {
+      "professional": {
+        "corpusVersion": "c7c3b24acc7a674c",
+        "positiveQuestions": 100,
+        "criticalQuestions": 60,
+        "compositeQuestions": 20,
+        "top1ApprovedAnswerRankingAccuracy": 0.57,
+        "top3CandidateRecall": 0.79,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0.16666666666666666,
+        "compositesCorrect": 20,
+        "compositeCoverage": 1,
+        "localRankAndAnswerP50Ms": 0.34875000000010914,
+        "localRankAndAnswerP95Ms": 0.8436659999997573,
+        "activeReviewedAnswers": 38
+      },
+      "implementation": {
+        "corpusVersion": "e3f32e81448fdea7",
+        "positiveQuestions": 40,
+        "criticalQuestions": 10,
+        "compositeQuestions": 0,
+        "top1ApprovedAnswerRankingAccuracy": 0.575,
+        "top3CandidateRecall": 0.9,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0,
+        "compositesCorrect": 0,
+        "compositeCoverage": null,
+        "localRankAndAnswerP50Ms": 0.26700000000073487,
+        "localRankAndAnswerP95Ms": 0.3297919999995429,
+        "activeReviewedAnswers": 20
+      }
+    },
+    "liveProviderCalls": 0,
+    "cacheOnlyProviderCallsEvidence": "Evaluation calls pure local retrieval/composition functions; browser request observations recorded separately.",
+    "generationGrounding": {
+      "scenarios": 20,
+      "executedLive": false,
+      "status": "Live generation disabled; fixture-only server citation tests do not establish claim entailment."
+    },
+    "targets": {
+      "top3Recall": 0.9,
+      "criticalWrongAnswers": 0,
+      "citationErrors": 0,
+      "crossCorpusLeaks": 0
+    },
+    "targetResults": {
+      "professional": {
+        "top3Recall": false,
+        "criticalWrongAnswers": true,
+        "citationIntegrity": true,
+        "corpusIsolation": true
+      },
+      "implementation": {
+        "top3Recall": true,
+        "criticalWrongAnswers": true,
+        "citationIntegrity": true,
+        "corpusIsolation": true
+      }
+    },
+    "automaticSemanticMatchingEnabled": false,
+    "releaseAccepted": false,
+    "limits": [
+      "Agent-authored held-out wording is distinct from indexed aliases but not independently reviewed.",
+      "No statistical guarantee or live-provider grounding claim follows from a finite dataset.",
+      "Incorrect automatic-match counts and ranking accuracy are distinct; most paraphrases deliberately require explicit answer selection.",
+      "Cloudflare runtime, billing, physical-device memory and screen-reader verification remain outside this local evaluation."
+    ]
+  },
+  "lexical": {
+    "reportVersion": "efrd-evaluation-v1",
+    "measuredAt": "2026-10-18T17:29:34.728Z",
+    "softwareVersion": "0.1.0+ux-v1.2",
+    "scope": "Separated professional/implementation views; no new held-out fictional dataset measured. Previously inspected agent-authored labels.",
+    "sourceDigest": "63b979abb8c16798cc9792c281be106cb56cb42194baf3b8e468afe755a98d32",
+    "mode": "lexical",
+    "dataset": {
+      "version": "efrd-heldout-v1",
+      "hash": "758d7485a4eeacda121d525e2696f15b5d566587128a1184283f741358193d14",
+      "portfolioPositive": 100,
+      "labPositive": 40,
+      "composites": 20,
+      "critical": 70,
+      "calibrationQuestions": 2,
+      "calibrationUsedForAutomaticMatching": false,
+      "ownerReviewedLabels": false
+    },
+    "environment": {
+      "node": "v23.11.0",
+      "platform": "darwin",
+      "arch": "arm64",
+      "cpu": "Apple M1",
+      "browser": "Pinned Playwright Chromium for model execution; not a physical device"
+    },
+    "scorecards": {
+      "professional": {
+        "corpusVersion": "c7c3b24acc7a674c",
+        "positiveQuestions": 100,
+        "criticalQuestions": 60,
+        "compositeQuestions": 20,
+        "top1ApprovedAnswerRankingAccuracy": 0.35,
+        "top3CandidateRecall": 0.55,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0.16666666666666666,
+        "compositesCorrect": 20,
+        "compositeCoverage": 1,
+        "localRankAndAnswerP50Ms": 0.4410000000000025,
+        "localRankAndAnswerP95Ms": 0.7737499999999997,
+        "activeReviewedAnswers": 38
+      },
+      "implementation": {
+        "corpusVersion": "e3f32e81448fdea7",
+        "positiveQuestions": 40,
+        "criticalQuestions": 10,
+        "compositeQuestions": 0,
+        "top1ApprovedAnswerRankingAccuracy": 0.5,
+        "top3CandidateRecall": 0.75,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0,
+        "compositesCorrect": 0,
+        "compositeCoverage": null,
+        "localRankAndAnswerP50Ms": 0.37916699999999537,
+        "localRankAndAnswerP95Ms": 0.5500839999999982,
+        "activeReviewedAnswers": 20
+      }
+    },
+    "liveProviderCalls": 0,
+    "cacheOnlyProviderCallsEvidence": "Evaluation calls pure local retrieval/composition functions; browser request observations recorded separately.",
+    "generationGrounding": {
+      "scenarios": 20,
+      "executedLive": false,
+      "status": "Live generation disabled; fixture-only server citation tests do not establish claim entailment."
+    },
+    "targets": {
+      "top3Recall": 0.9,
+      "criticalWrongAnswers": 0,
+      "citationErrors": 0,
+      "crossCorpusLeaks": 0
+    },
+    "targetResults": {
+      "professional": {
+        "top3Recall": false,
+        "criticalWrongAnswers": true,
+        "citationIntegrity": true,
+        "corpusIsolation": true
+      },
+      "implementation": {
+        "top3Recall": false,
+        "criticalWrongAnswers": true,
+        "citationIntegrity": true,
+        "corpusIsolation": true
+      }
+    },
+    "automaticSemanticMatchingEnabled": false,
+    "releaseAccepted": false,
+    "limits": [
+      "Agent-authored held-out wording is distinct from indexed aliases but not independently reviewed.",
+      "No statistical guarantee or live-provider grounding claim follows from a finite dataset.",
+      "Incorrect automatic-match counts and ranking accuracy are distinct; most paraphrases deliberately require explicit answer selection.",
+      "Cloudflare runtime, billing, physical-device memory and screen-reader verification remain outside this local evaluation."
+    ]
+  },
+  "moderatedUserComprehension": "Not measured; 10-second target remains unverified.",
+  "screenReader": "Not tested with an actual screen reader.",
+  "browserMemory": "Not measured",
+  "providerBilling": "Not measured; no real provider dispatch observed or authorized.",
+  "cloudflareRuntimeVerified": false,
+  "liveEnabled": false,
+  "publicationApproved": false
+}

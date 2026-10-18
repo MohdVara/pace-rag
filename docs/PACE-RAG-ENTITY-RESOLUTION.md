@@ -1,0 +1,17 @@
+# Entity resolution and evidence composition
+
+Implemented in `packages/semantic-core/src/technology/resolve.mjs` and integrated before the existing bounded inventory composer in `answers.mjs`. The lexical/semantic/cache engine remains the fallback. No new generation API, NLP dependency or embedding model was introduced.
+
+1. Preserve the original query. Recognize case-insensitive aliases using NFKC normalization, punctuation/spacing handling, word boundaries and longest multiword matches. Versions take precedence over their base names. Diagnostics retain the exact matched text.
+2. Require technology context for ambiguous Rails, RoR, Apache, short language/service aliases and the owner spelling “Symphony PHP.” Musical symphonies and railway references are not globally corrected.
+3. Interpret a bounded category, project, ecosystem, comparison or explicit-version intent. Removing recognized spans must leave only the closed search vocabulary and known project names. Unsupported qualifiers are not silently discarded.
+4. Resolve only approved current project facts. Require correct corpus/scope, current review, source membership and matching upstream evidence hash. Retain generation and evidence ID for every matched technology.
+5. Apply direct category, version, ecosystem or platform relationships. Comparisons group providers without claiming exclusivity. Conjunctions require a project with each requested technology; generation labels describe the inventory, not a single deployment. Plain PHP queries require explicit plain/PDO evidence. Unrecorded versions remain unknown.
+6. Compose a single paragraph of at most 120 words. Cite the actual project source records, or the complete approved inventory when more than four projects are involved. Long sets become a concise inventory summary with a full-mapping link. No fabricated metrics, ownership, security, certification, maturity or operational claims are added.
+7. If interpretation or evidence is insufficient, return an evidence limitation with scoped follow-ups/passages. Browser semantic ranking may then run when enabled; it cannot establish missing technology facts. A miss never starts remote generation.
+
+Examples supported by the confirmed data include PHP frameworks; JavaScript frontend libraries/frameworks; relational databases; container orchestration; AWS EC2/ECS versus GCP; Ruby ecosystem experience through Rails; PHP versions in education; a named project stack; and direct normalized aliases. React remains a library and Node remains a runtime. TypeScript exists as a general entity but has no project association in this inventory.
+
+The optional inspection panel renders actual recognized IDs/names/aliases, category filters, directed relationships used, intent, matched project/technology/generation/evidence tuples, ontology/evidence versions and whether structured interpretation required fallback. Request and model-initialization counters reflect the existing runtime. Opening inspection reads state and does not rerun retrieval. General definitions have their own reference viewer; only project sources support experience claims.
+
+This is deliberately not unrestricted natural-language reasoning. Unknown company/tool names, extra predicates, unspecified versions, exclusivity (“only”), negation, performance/architecture/ownership questions and ambiguous wording abstain or fall back. General capabilities elsewhere in the portfolio do not assign Vue or other unlisted technologies to employers. Future expansion needs explicit rules and negative tests.

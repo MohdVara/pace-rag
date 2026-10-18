@@ -31,7 +31,10 @@
     "preview:static": "node scripts/serve-static.mjs",
     "eval:legacy": "node scripts/evaluate.mjs",
     "lint": "node scripts/lint.mjs && tsc --noEmit --noUnusedLocals --noUnusedParameters",
-    "test:efrd-browser": "node scripts/efrd-browser-qa.mjs"
+    "test:efrd-browser": "node scripts/efrd-browser-qa.mjs",
+    "test:ux-browser": "node scripts/ux-browser-qa.mjs",
+    "eval:technology": "node scripts/evaluate-technology.mjs",
+    "test:toer-browser": "node scripts/toer-browser-qa.mjs"
   },
   "dependencies": {
     "@huggingface/transformers": "3.8.1",

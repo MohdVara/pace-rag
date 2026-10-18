@@ -226,6 +226,7 @@ export interface AnswerSource extends SourceCitation {
   excerpt?: string;
 }
 export interface AnswerResult {
+  entityTrace?: EntityResolutionTrace;
   answer: string | null;
   origin: AnswerOrigin;
   retrievalMethod: RetrievalMethod;
@@ -265,3 +266,26 @@ export interface RetrievalTrace {
 }
 
 export type LocalRetrieval = Omit<RetrievalResult, "passages"> & { passages: (DocumentChunk & { chunkId: string; score: number; lexicalScore: number; semanticScore: number | null })[] };
+
+export type KnowledgeScope = "professional" | "implementation" | "fictional";
+export type SourceNature = "professional-evidence" | "implementation-evidence" | "synthetic-fixture";
+export type Authorship = "owner-authored" | "human-authored" | "ai-assisted" | "programmatically-generated" | "unknown";
+export interface SourceProvenance {
+ sourceNature?: SourceNature;
+ authorship: Authorship;
+ documentId: string;
+ documentTitle: string;
+ sourceFileReference?: string;
+ publicationApproved: boolean;
+ reviewedAt?: string;
+ purpose?: string;
+}
+
+export type TechnologyCategory = 'programming-language'|'frontend-library'|'frontend-framework'|'backend-framework'|'runtime'|'database'|'web-server'|'container-platform'|'container-orchestration'|'cloud-platform'|'cloud-service'|'testing-tool'|'database-access'|'developer-tool'|'hosting-environment';
+export interface TechnologyEntity { id:string;canonicalName:string;aliases:string[];categories:TechnologyCategory[];description:string;source:string;ecosystem?:string[];builtOn?:string[];partOf?:string[];versionOf?:string[];relatedTo?:string[];disciplines?:string[] }
+export interface EntityResolutionTrace {
+ originalQuery:string;ontologyVersion:string;evidenceVersion:string;intent:string;recognizedEntities:{id:string;canonicalName:string;matchedAlias:string;categories:string[]}[];
+ categoriesUsed:string[];relationships:{from:string;relation:string;to:string}[];
+ matchedFacts:{projectId:string;technologyId:string;generation:string;evidenceId:string}[];
+ semanticFallbackNeeded:boolean;reason:string;
+}

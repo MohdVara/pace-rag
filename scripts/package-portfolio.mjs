@@ -7,7 +7,7 @@ await mkdir(target, { recursive: true });
 await cp("packages/portfolio-assistant/dist", resolve(target, "package"), {
   recursive: true,
 });
-for (const folder of ["knowledge/portfolio", "licenses"])
+for (const folder of ["knowledge/portfolio", "licenses", "technology-ontology.html"])
   await cp(
     resolve("dist/lab", folder),
     resolve(target, "public/pace-rag", folder),

@@ -1,5 +1,7 @@
 import type { ComponentType } from "react";
 export interface AssistantProps {
+  scopeId?: "professional" | "implementation" | "fictional";
+  libraryExternal?: boolean;
   corpusId?: "portfolio" | "lab";
   assetBase?: string;
   onClose?: () => void;

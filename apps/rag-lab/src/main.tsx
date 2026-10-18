@@ -2,86 +2,28 @@ import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import FailureDemos from "./FailureDemos";
 import Assistant from "../../../packages/portfolio-assistant/src/Assistant";
+import { SCOPES } from "../../../packages/knowledge-schema/src/provenance.mjs";
+import type { KnowledgeScope } from "../../../packages/knowledge-schema/src/contracts";
 import "./style.css";
 function Lab() {
-  const [view, setView] = useState<"lab" | "assistant">("lab");
-  const [corpus, setCorpus] = useState<"portfolio" | "lab">("lab");
-  return (
-    <>
-      <a className="skip" href="#main">
-        Skip to search
-      </a>
-      <header className="lab-nav">
-        <a href="https://mohd.paramasvara.online/">mpv. / engineering</a>
-        <span>PACE-RAG v1.1 · local review</span>
-      </header>
-      <main id="main">
-        <p className="eyebrow">ENGINEERING RAG LAB</p>
-        <h1>
-          Knowledge first.
-          <br />
-          <em>Inference optional.</em>
-        </h1>
-        <p className="intro">
-          Knowledge first. Inference optional. Evidence always. Inspect actual implementation documentation and clearly labelled synthetic examples; professional evidence stays in its own corpus.
-        </p>
-        <nav className="corpus-tabs" aria-label="Choose experience"><button aria-pressed={view==='lab'} onClick={()=>setView('lab')}>Engineering inspection</button><button aria-pressed={view==='assistant'} onClick={()=>setView('assistant')}>Portfolio assistant preview</button></nav>
-        {view==='lab'&&<nav className="corpus-tabs" aria-label="Choose an isolated corpus">
-          <button
-            aria-pressed={corpus === "lab"}
-            onClick={() => setCorpus("lab")}
-          >
-            Implementation & synthetic lab
-          </button>
-          <button
-            aria-pressed={corpus === "portfolio"}
-            onClick={() => setCorpus("portfolio")}
-          >
-            Portfolio review
-          </button>
-        </nav>}
-        <Assistant key={`${view}-${corpus}`} corpusId={view==='assistant'?'portfolio':corpus} lab={view==='lab'} />
-        {view==='lab'&&<FailureDemos/>}
-        <section className="lab-notes">
-          <h2>What this demonstrates</h2>
-          <div>
-            <article>
-              <h3>Browser retrieval</h3>
-              <p>
-                Pinned MiniLM embeddings run in a Web Worker. Static vectors
-                rank questions and document chunks without a generation API.
-              </p>
-            </article>
-            <article>
-              <h3>Evidence boundaries</h3>
-              <p>
-                Similarity suggests related questions. Supporting evidence is separate from topical passages. Generation can use only independently validated,
-                approved server evidence.
-              </p>
-            </article>
-            <article>
-              <h3>Graceful degradation</h3>
-              <p>
-                Model failure falls back to lexical search. API failure leaves
-                search intact. Source pages remain ordinary static HTML.
-              </p>
-            </article>
-          </div>
-          <p>
-            <a href="/pace-rag/architecture.html">Architecture and methodology</a> · <a href="/pace-rag/evaluation.html">Evaluation and limitations</a> ·{" "}
-            <a href="/pace-rag/privacy.html">Privacy and resource use</a>
-          </p>
-        </section>
-      </main>
-      <footer className="lab-bottom">
-        Independent engineering demonstration. No enterprise production
-        deployment claim.
-      </footer>
-    </>
-  );
+  const [scopeId, setScopeId] = useState<KnowledgeScope>("professional");
+  const scope=SCOPES[scopeId];
+  return <>
+    <a className="skip" href="#main">Skip to search</a>
+    <header className="lab-nav"><a href="https://mohd.paramasvara.online/">mpv. / engineering</a><span>PACE-RAG v1.3 · local review</span></header>
+    <main id="main">
+      <p className="eyebrow">ENGINEERING RAG LAB</p>
+      <h1>Knowledge first.<br/><em>Inference optional.</em></h1>
+      <p className="intro">Ask questions about professional experience, explore how this RAG system works, or test document retrieval using fictional engineering scenarios. Every answer identifies its sources.</p>
+      <fieldset className="source-selector"><legend>What would you like to explore?</legend><div>{(Object.keys(SCOPES) as KnowledgeScope[]).map(id=><label key={id} className={id===scopeId?'source-choice selected':'source-choice'}><input type="radio" name="knowledge-source" value={id} checked={id===scopeId} onChange={()=>setScopeId(id)}/><span><strong>{SCOPES[id].title}</strong><span>{SCOPES[id].description}</span></span></label>)}</div></fieldset>
+      <section className="source-explanation" aria-label="About the selected source">
+        <h2>{scopeId==='fictional'?'About these documents':`About ${scope.title}`}</h2><p>{scope.explanation}</p>
+        {scopeId==='fictional'&&<p>Bundled Atlas test fixtures are literal text in this repository. They were human-authored with AI assistance, as confirmed by the portfolio owner. The specific tools and preparation dates are not recorded. They do not represent employer systems, customer incidents or confidential operational records.</p>}
+        <a href={`/pace-rag/knowledge/${scope.library}/index.html`}>Browse source documents</a>
+      </section>
+      <Assistant key={scopeId} scopeId={scopeId} corpusId={scope.corpusId} lab libraryExternal/>
+      <section className="lab-notes" aria-label="Further exploration"><h2>Explore the system</h2><p><a href="/pace-rag/architecture.html">RAG architecture</a> · <a href="/pace-rag/evaluation.html">Evaluation and known limitations</a> · <a href="/pace-rag/technology-evaluation.html">Technology query evaluation</a> · <a href="/pace-rag/privacy.html">Privacy and resource use</a></p><FailureDemos/></section>
+    </main><footer className="lab-bottom">Evidence always. Independent engineering demonstration; no enterprise production deployment claim.</footer>
+  </>;
 }
-createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <Lab />
-  </React.StrictMode>,
-);
+createRoot(document.getElementById("root")!).render(<React.StrictMode><Lab/></React.StrictMode>);

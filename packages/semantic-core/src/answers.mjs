@@ -1,3 +1,5 @@
+import { entityById } from './technology/ontology.mjs';
+import { resolveTechnology } from './technology/resolve.mjs';
 import { answerCurrent, sourceCurrent, normalizeQuestion } from './retrieval.mjs';
 import { ensure } from '../../knowledge-schema/src/validate.mjs';
 const status = doc => doc.provenance==='synthetic'?'synthetic-lab':doc.provenance==='implementation-documentation'?'public-demonstrated':'owner-confirmed';
@@ -78,11 +80,13 @@ export function cacheAnswer(record,corpus,method='exact-match') {
 }
 export function resolveAnswer({question,corpus,retrieval}) {
   // Structured technology facts supersede old stack-availability wording.
-  const composite=compose(question,corpus);
+  const entity=resolveTechnology(question,corpus);
+  if(entity?.text)return validateAnswerResult({answer:entity.text,origin:'approved-composite',retrievalMethod:'structured-facts',sources:entity.documents.map(answerSource),relatedQuestions:[...new Set(entity.trace.matchedFacts.map(f=>`Which projects used ${entityById.get(f.technologyId).canonicalName}?`))].filter(q=>normalizeQuestion(q)!==normalizeQuestion(question)).slice(0,3),evidenceStatus:['owner-confirmed'],explanation:'Deterministic composition: curated general technology classifications are separate from owner-confirmed project associations. Only the cited project inventory establishes experience; no language model used.',corpusVersion:corpus.corpusVersion,answerVersion:entity.trace.ontologyVersion,usedFactIds:entity.usedIds,approvalScope:'local-test',entityTrace:entity.trace},corpus);
+  const composite=entity?.handled?entity:compose(question,corpus);
   if(composite&&!composite.insufficient)return validateAnswerResult(composite,corpus);
   const cached=retrieval?.selectedAnswer&&cacheAnswer(retrieval.selectedAnswer,corpus,retrieval.reasons?.[0]?.startsWith('Exact')?'exact-match':retrieval.method==='semantic'?'semantic-cache':'lexical-cache');
   if(cached&&!composite?.insufficient)return validateAnswerResult(cached,corpus);
-  return {answer:null,origin:'insufficient-evidence',retrievalMethod:'document-retrieval',sources:[],relatedQuestions:(retrieval?.answerCandidates||[]).map(c=>corpus.answers.find(a=>a.id===c.answerId)).filter(a=>a&&answerCurrent(a,corpus)).map(a=>a.canonicalQuestion).slice(0,3),evidenceStatus:['insufficient'],explanation:composite?.explanation||'The approved evidence does not establish a direct answer to this wording. Nearby questions and passages are relevance suggestions, not supporting proof.',corpusVersion:corpus.corpusVersion};
+  return {answer:null,origin:'insufficient-evidence',retrievalMethod:'document-retrieval',sources:[],relatedQuestions:(retrieval?.answerCandidates||[]).map(c=>corpus.answers.find(a=>a.id===c.answerId)).filter(a=>a&&answerCurrent(a,corpus)).map(a=>a.canonicalQuestion).slice(0,3),evidenceStatus:['insufficient'],explanation:composite?.explanation||'The approved evidence does not establish a direct answer to this wording. Nearby questions and passages are relevance suggestions, not supporting proof.',corpusVersion:corpus.corpusVersion,...(entity?{entityTrace:entity.trace}:{})};
 }
 export function validateAnswerResult(value,corpus) {
   ensure(value&&value.corpusVersion===corpus.corpusVersion,'Stale answer version');

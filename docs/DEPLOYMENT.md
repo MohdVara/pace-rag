@@ -11,7 +11,7 @@ cd /Users/mohd.vara/Projects/Personal/pace-rag
 npm run dev
 ```
 
-Open **http://127.0.0.1:5180/pace-rag/**. Use the corpus buttons to switch between synthetic engineering and portfolio questions. No Cloudflare account, API key, Turnstile or AI allowance is needed. Opening the app and cached starters does not load the model; the first custom semantic query does. Uncheck semantic search to test keyword-only retrieval.
+Open **http://127.0.0.1:5180/pace-rag/**. Use the single source selector: Professional Experience, How PACE-RAG Works or Fictional Test Documents. No Cloudflare account, API key, Turnstile or AI allowance is needed. Opening the app and cached starters does not load the model; a custom query loads it only when semantic retrieval is needed. Open Search options and uncheck semantic search to test keyword-only retrieval.
 
 For a fresh checkout, prepare dependencies and model assets first:
 

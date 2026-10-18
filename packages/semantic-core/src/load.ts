@@ -10,8 +10,12 @@ import type {
   PublicDocument,
   CorpusId,
 } from "../../knowledge-schema/src/contracts";
+import { scopeCorpus } from "./scope.mjs";
+import type { KnowledgeScope } from "../../knowledge-schema/src/contracts";
 import { validateTechnology } from "../../knowledge-schema/src/technology.mjs";
 export interface LoadedCorpus {
+  scopeId?: KnowledgeScope;
+  scopeRows?: {questionPositions:number[];chunkPositions:number[]};
   technologyEvidence?: any;
   retirements?: { answerIds: string[]; retrievalExcludedDocuments: string[]; reason: string; supersededBy: string };
   corpusId: CorpusId;
@@ -36,6 +40,7 @@ export async function loadCorpus(
   corpusId: CorpusId,
   signal: AbortSignal,
   onStatic?: (data: LoadedCorpus) => void,
+  scopeId?: KnowledgeScope,
 ): Promise<LoadedCorpus> {
   const root = new URL(
     `knowledge/${corpusId}/`,
@@ -117,7 +122,7 @@ export async function loadCorpus(
     technologyEvidence,
     retirements,
   };
-  onStatic?.(data);
+  onStatic?.(scopeId ? scopeCorpus(data, scopeId) : data);
   if (manifest.semanticReady)
     try {
       const worker = await json(
@@ -151,5 +156,5 @@ export async function loadCorpus(
       data.vectorError =
         "Semantic index unavailable; lexical search remains available.";
     }
-  return data;
+  return scopeId ? scopeCorpus(data, scopeId) : data;
 }

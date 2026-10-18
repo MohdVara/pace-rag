@@ -26,3 +26,6 @@ apps/rag-lab/public/architecture.html
 .playwright-cli/
 
 apps/rag-lab/public/evaluation/
+
+apps/rag-lab/public/technology-ontology.html
+apps/rag-lab/public/technology-evaluation.html

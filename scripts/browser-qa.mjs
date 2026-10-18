@@ -25,6 +25,7 @@ async function context(options = {}) {
   );
   return ctx;
 }
+async function ready(page) { await page.waitForFunction(()=>{const text=document.querySelector('.pace-status')?.textContent;return text?.startsWith('Knowledge ready')||text?.includes('lexical search');}); }
 async function semantic(page) {
   await page.waitForFunction(
     () =>
@@ -62,15 +63,18 @@ try {
         if (/\/models\/|\/runtime\/|embedding-worker-/.test(request.url())) modelRequests.push(request.url());
       });
       await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await page.waitForFunction(() => document.querySelector('.pace-status')?.textContent?.startsWith('Knowledge ready'));
       await page.locator('.pace-starters button').first().click();
       await page.locator('.pace-answer').waitFor();
+      await page.locator('.pace-settings:not([open]) > summary').click().catch(()=>{});
       await page.getByRole('checkbox', { name: /Use semantic search/ }).uncheck();
       await search(page, 'browser embeddings fail');
       await search(page, 'What happens if browser embeddings fail?');
       assert.match(await page.locator('.pace-answer').innerText(), /Test-approved cached answer/);
       assert.deepEqual(modelRequests, []);
       assert.equal(page.workers().length, 0);
+      await page.locator('.pace-settings:not([open]) > summary').click().catch(()=>{});
       await page.getByRole('checkbox', { name: /Use semantic search/ }).check();
       assert.deepEqual(modelRequests, [], 'Enabling alone must not load the model');
       await search(page, 'What happens when browser embeddings cannot load?');
@@ -84,6 +88,7 @@ try {
     try {
       await ctx.route('**/assets/embedding-worker-*.js', route => route.fulfill({contentType:'text/javascript',body:"self.onmessage=e=>self.postMessage({id:e.data.id,type:'result',embeddingSpecKey:'incompatible',vector:Array.from({length:384},(_,i)=>i===0?1:0)});"}));
       const page = await ctx.newPage(); await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await search(page,'browser embeddings fail');
       await page.waitForFunction(() => document.querySelector('.pace-status')?.textContent?.includes('Lexical search'));
       assert.ok(await page.locator('.pace-passages article').count());
@@ -96,13 +101,14 @@ try {
       await ctx.route('**/assets/embedding-worker-*.js', route => route.fulfill({ contentType: 'text/javascript', body: 'self.onmessage=()=>{};' }));
       const page = await ctx.newPage();
       await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await page.waitForFunction(() => document.querySelector('.pace-status')?.textContent?.startsWith('Knowledge ready'));
       await page.getByLabel('Your question', { exact: true }).fill('browser embeddings fail');
       const started = page.waitForEvent('worker');
       await page.getByRole('button', { name: 'Search knowledge', exact: true }).click();
       await started;
       assert.equal(page.workers().length, 1);
-      await page.getByRole('button', { name: 'Portfolio review', exact: true }).click();
+      await page.getByRole('radio', { name: /Professional Experience/ }).check();
       await page.waitForFunction(() => document.querySelector('.pace-status')?.textContent?.startsWith('Knowledge ready'));
       assert.equal(page.workers().length, 0);
       assert.equal(await page.locator('.pace-answer').count(), 0);
@@ -115,6 +121,7 @@ try {
       try {
         const page = await ctx.newPage();
         await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
         await search(page, "What happens when browser embeddings cannot load?");
         await semantic(page);
         await search(page, "What happens when browser embeddings cannot load?");
@@ -153,8 +160,9 @@ try {
       try {
         const page = await ctx.newPage();
         await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
         await page
-          .getByRole("button", { name: "Portfolio review", exact: true })
+          .getByRole("radio", { name: /Professional Experience/ })
           .click();
         await search(
           page,
@@ -169,7 +177,7 @@ try {
         assert.ok(
           links.length &&
             links.every((link) =>
-              link.startsWith("https://mohd.paramasvara.online/"),
+              link.startsWith("https://mohd.paramasvara.online/") || link === "/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
             ),
         );
         assert.equal(await page.locator(".pace-related").count(), 3);
@@ -185,11 +193,12 @@ try {
       await ctx.route("**/assets/embedding-worker-*.js", (route) => { workerAttempts++; return route.abort(); });
       const page = await ctx.newPage();
       await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await search(page, "browser embeddings fail");
       await page.waitForFunction(() => document.querySelector('.pace-status')?.textContent?.includes('Lexical search'));
       assert.match(
-        await page.locator(".pace-actions").innerText(),
-        /Keyword search/,
+        await page.locator(".pace-status").innerText(),
+        /Lexical search ready/,
       );
       assert.ok(await page.locator(".pace-passages article").count());
       await search(page, "provider quota exhausted");
@@ -206,6 +215,7 @@ try {
         await ctx.route("**/*.f32", (route) => route.abort());
         const page = await ctx.newPage();
         await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
         await page.waitForFunction(() =>
           document
             .querySelector(".pace-status")
@@ -224,8 +234,8 @@ try {
       const ctx = await context({ javaScriptEnabled: false });
       try {
         const page = await ctx.newPage();
-        await page.goto(new URL("knowledge/lab/index.html", lab).href);
-        assert.match(await page.locator("h1").innerText(), /knowledge library/);
+        await page.goto(new URL("knowledge/fictional/index.html", lab).href);
+        assert.match(await page.locator("h1").innerText(), /source library/);
         await page
           .getByRole("link", { name: "Atlas architecture", exact: true })
           .click();
@@ -243,6 +253,7 @@ try {
     try {
       const page = await ctx.newPage();
       await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await search(page, "browser embeddings fail");
       await semantic(page);
       await ctx.setOffline(true);
@@ -258,6 +269,7 @@ try {
     try {
       const page = await ctx.newPage();
       await page.goto(lab);
+      await page.getByRole("radio",{name:/Fictional Test Documents/}).check();await ready(page);
       await page.locator(".pace-starters").waitFor();
       await page.evaluate(() => {
         document.documentElement.style.fontSize = "24px";

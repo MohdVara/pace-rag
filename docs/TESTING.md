@@ -4,7 +4,7 @@ Start `npm run dev` and open http://127.0.0.1:5180/pace-rag/. The current cache 
 
 ## Portfolio review
 
-Choose **Portfolio assistant preview** for the minimal view, or **Portfolio review** under Engineering inspection for traces. Try these exact questions to exercise the cached-answer path:
+Choose **Professional Experience**. Open **Inspect retrieval details** on any result for traces. Try these exact questions to exercise the cached-answer path:
 
 | Question | Expected content |
 | --- | --- |
@@ -23,7 +23,7 @@ For semantic recommendations, try “Tell me how insurance quotes reached partne
 
 ## Synthetic engineering
 
-Choose **Implementation & synthetic lab** under Engineering inspection. Try:
+Choose **Fictional Test Documents**. The separate **How PACE-RAG Works** source contains real implementation documentation. Try:
 
 - What happens if browser embeddings fail?
 - Can the browser send its own trusted evidence text?
@@ -39,7 +39,7 @@ Use a paraphrase such as “What if my local model cannot start?” to exercise 
 ## Resource and fallback checks
 
 1. Open a fresh browser context and Network tools. Opening the app or a cached starter must not fetch `/models/`, `/runtime/` or the embedding worker.
-2. Uncheck **Use semantic search**. Submit an exact question: the test-approved cached answer should appear without model requests. A keyword query should still return passages.
+2. Open **Search options** and uncheck **Use semantic search**. Submit an exact question: the test-approved cached answer should appear without model requests. A keyword query should still return passages.
 3. Enable semantic mode. Merely checking the box must not download the model. Submit a custom semantic question to initialize it; keyword results should remain visible during initialization.
 4. Try a second semantic query; it reuses the worker. After one successful semantic query, disconnect the network and test another in-memory query.
 5. Block the worker URL or model assets, reload, and submit. Keyword retrieval should survive. Failed model attempts must not repeat until explicit opt-in.
@@ -54,7 +54,12 @@ Automated equivalent: `npm run test:browser` while the app serves at port 5180. 
 - Ask “Which frameworks and cloud platforms have you used professionally?” Education generations must remain distinct; undated Asset work must not acquire an employer or period.
 - Ask “How does PACE-RAG avoid wasting AI inference?” in the implementation Lab. It should reuse the newly test-approved cache entry with implementation-documentation sources and zero model/provider requests.
 - Ask “What was your exact production traffic at PolicyStreet?” It must not invent a number. In keyword mode it abstains immediately; semantic mode may initialize local ranking but still cannot invent an answer.
-- Open **Inspect this retrieval** for real cosine/lexical scores, record/source names, index version, measured ranking latency and remote request count. Supporting citations remain under the answer; other passages have their own disclosure.
+- Open **Inspect retrieval details** for real cosine/lexical scores, record/source names, index version, measured ranking latency and remote request count. Supporting citations remain under the answer; other passages appear only inside inspection.
 - Run each **Simulated failure scenario**. The result must identify the fixture, zero real generation requests and its limited interpretation.
 
-The 90% Top-3 target is not currently met by the strict held-out wording suite; do not interpret safe abstention or a displayed similarity score as proof of answer quality. [Evaluation methodology](PACE-RAG-EFRD-EVALUATION.md) and the local scorecard expose measured results.
+The historical combined-index 90% Top-3 target was not met by the strict held-out wording suite; do not interpret safe abstention or a displayed similarity score as proof of answer quality. [Evaluation methodology](PACE-RAG-EFRD-EVALUATION.md) and the local scorecard expose measured results.
+
+
+## v1.2 usability acceptance
+
+Run `npm run test:ux-browser` against the packaged static server; use `UX_BROWSER=webkit` for the second engine. Tasks cover recruiter technology discovery, matching-rule inspection, owner-confirmed fixture origin/source viewing, source switches, no generation service, insufficient evidence, native keyboard interaction and no-JavaScript libraries. The source origin explanation is visible after one source-selection interaction. Scripted checks do not establish the 10-second moderated comprehension target. Full viewport/accessibility results and limitations are recorded in [UX QA](PACE-RAG-UX-QA.md).
