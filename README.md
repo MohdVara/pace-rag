@@ -2,7 +2,7 @@
 
 Browser-first knowledge retrieval shared by the portfolio assistant and an inspectable Engineering RAG Lab with implementation documentation and synthetic examples. Search does not require Cloudflare credentials. Live generation is disabled by default.
 
-Hosted demo: [PACE-RAG on Cloudflare Pages](https://pace-rag.pages.dev/pace-rag/). The owner requested this static demo deployment on 19 October 2026. Existing record-level test-review labels remain visible; this deployment does not certify the publication release gates. See [hosting](docs/HOSTING.md) for the deployment and custom-domain setup.
+Hosted demo: [PACE-RAG](https://pace-reg.paramasvara.online/), served by Cloudflare Pages. The owner requested this static demo deployment on 19 October 2026. Existing record-level test-review labels remain visible; this deployment does not certify the publication release gates. See [hosting](docs/HOSTING.md) for the deployment and custom-domain setup.
 
 PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit content provenance and conservative handling of unsupported claims. The current implementation combines the v1.1 retrieval foundation, v1.2 source-selection experience and v1.3 technology ontology. The npm workspace package version is independently tracked as `0.1.0`.
 
