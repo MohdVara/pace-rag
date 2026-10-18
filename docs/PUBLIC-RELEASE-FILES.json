@@ -1,0 +1,325 @@
+{
+  "basis": "Exact file fingerprints captured before this task; prior working-tree changes preserved. Generated ignored build outputs are separately measured in the release report.",
+  "repositories": {
+    "pace-rag": [
+      {
+        "path": "README.md",
+        "change": "modified",
+        "initialSha256": "1db66842fd96af6b19e9d08ea32dece9860594d588816a859b2f689e58cbc642",
+        "finalSha256": "4f9da61a67a49313d8e93991a657d7e617d971f397c79e078a063fbd7cad4205"
+      },
+      {
+        "path": "apps/rag-api/generated/corpora.json",
+        "change": "modified",
+        "initialSha256": "0205615a5944956027e38a3eec48f770c7be96f7e33b3664d055f3c045ac82a2",
+        "finalSha256": "b5501a79dc57f48712de6d6f1c8052df76b52a4addfaf2fb97a327fb08892720"
+      },
+      {
+        "path": "apps/rag-lab/src/main.tsx",
+        "change": "modified",
+        "initialSha256": "1aea9b6a43355a00a4975c04f98e25524d4626912fc7a25907198c214517ead9",
+        "finalSha256": "bc417167eff3f947c6d77912e3eab31e1aef3a8b9f8e0c65faba6523da80b621"
+      },
+      {
+        "path": "content/lab/approvals.json",
+        "change": "modified",
+        "initialSha256": "ca8c1c28ad88b2f0d973e7ef98c2ffc2dc1e68ecf865b8fa3bd7e462929c8855",
+        "finalSha256": "fa127734affd49aac5785f4f66f0d2108994cbe3f85ac130d7f66e481aaa1ce9"
+      },
+      {
+        "path": "content/portfolio/approvals.json",
+        "change": "modified",
+        "initialSha256": "7d10bfcc2938282757919762922672cca272692a8bfe918cdb80a066eef7308d",
+        "finalSha256": "e373ddc3d6446a6c11549302c94d9e42c95afe30da74c853b7cdfcdf081f4299"
+      },
+      {
+        "path": "content/publication-review.json",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "159813e4279f62ed71fa2c205b36f298ecaf4aab30c48b72d1d8635997ee3d71"
+      },
+      {
+        "path": "docs/DEPLOYMENT.md",
+        "change": "modified",
+        "initialSha256": "59cb6b3761d40303538631709562523f04e2d8bd5276d1d52e3e4c0706e97e74",
+        "finalSha256": "08510b78886275a41b833136f4dd798d7478011af2bfb78b274a04fb1f2c6549"
+      },
+      {
+        "path": "docs/PACE-RAG-V1.3-PUBLIC-RELEASE.md",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "8851976c9807dc9c86e6cc284542e5180793cfb04ff26c3d0ff2afb87ebcacc1"
+      },
+      {
+        "path": "docs/release.md",
+        "change": "modified",
+        "initialSha256": "3ed16f89d74cbf5e7613d7df918cfcbc0e4cc4d6b601b2583a22ddcc6936416a",
+        "finalSha256": "6c437f56dd4f7ea3ad3312d8f98dc02fd4787d5dea4b3fe1f83c99ce958265be"
+      },
+      {
+        "path": "evaluation/reports/public-release-v1.3.json",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "96c5b36400bd1b3381993bd67774facb65f57e4c9def6981cfab9f02dad029ff"
+      },
+      {
+        "path": "evaluation/reports/toer-understanding-cases-v1.json",
+        "change": "modified",
+        "initialSha256": "ab1529c2ab15133f6981c3580e7fdf15dc8933b4f198ba3709604994af957ade",
+        "finalSha256": "18bc5d366997eefcb9ce147411c1c31e58d59532d9921f72fcf793f1c60b45aa"
+      },
+      {
+        "path": "evaluation/reports/toer-understanding-v1.json",
+        "change": "modified",
+        "initialSha256": "1d59ea63c707983da053d515d40d2f76f13b9013041fef5577e6d864c893a1cb",
+        "finalSha256": "cc8e486e040fb4ad8b227ec45f00dbe0c9a1cbc1be7506121fc59c80100e08f2"
+      },
+      {
+        "path": "evaluation/reports/ux-scoped-lexical-v1.json",
+        "change": "modified",
+        "initialSha256": "1cb5b8f3c174f01faf7d0df49e269cd72a640cbb66ca38c87478eb08c88a1623",
+        "finalSha256": "580333e53ab6a7769aaee2497d892b1712a3eebeae49dce36f18f99186913e2b"
+      },
+      {
+        "path": "evaluation/reports/ux-scoped-semantic-v1.json",
+        "change": "modified",
+        "initialSha256": "119e0abc7e474d771661f7c50b1fb06695420815c34a0003ed52b38d737b8114",
+        "finalSha256": "d98b0fad905f398143410b1d20419b8ffe82e5d6a2ac6b760dec9f45995a4680"
+      },
+      {
+        "path": "integration/portfolio/README.md",
+        "change": "modified",
+        "initialSha256": "569a38a1457f301823a7aa60465177a955bee8eb1777ab372da928815a97628d",
+        "finalSha256": "74702daab6d62445689f99c9e91fee5e62e3dc2480dae65a51487f72927df7fa"
+      },
+      {
+        "path": "integration/portfolio/adapter.patch",
+        "change": "modified",
+        "initialSha256": "cb5927c4669499c751f10ae2bac788b9c6825b66a7007b05c3ecf136e71e566a",
+        "finalSha256": "47c1f4b11a9d44608df327fea04fccea94bbdf8b8d23524173b20e61e69b3384"
+      },
+      {
+        "path": "integration/portfolio/files/scripts/pace-rag-assets.mjs",
+        "change": "modified",
+        "initialSha256": "2db30e4a20f2f70e29e9ae23975418b8b5babe71ccc737abe2d40b27297dbe39",
+        "finalSha256": "562610b8ab53b5a0d0234125eed705b69e0219772854fc68efa7fd3dc09cbee8"
+      },
+      {
+        "path": "integration/portfolio/files/src/PaceAssistant.tsx",
+        "change": "modified",
+        "initialSha256": "b32630c91cce83d2ea07f1165289a89cca3340fa304fd3674a532b4522f9acc1",
+        "finalSha256": "0c881edf29da6ce40005972a2d544bb35ea08fe0688e5a90fe2c72be72555a20"
+      },
+      {
+        "path": "integration/portfolio/files/src/PaceAssistantLauncher.css",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "2444c14648462143c5f2adc3db0a04bc11c7641ee62068388025cf1f79e9b32e"
+      },
+      {
+        "path": "integration/portfolio/files/src/PaceAssistantLauncher.tsx",
+        "change": "modified",
+        "initialSha256": "00eca7fd4efa23303af03e73f07401fb063aab9aaf540f6f55d82c5f52e9e1fe",
+        "finalSha256": "047c63fb336679378ccb27d490228a93faf6383f9048dff28da44c67b189066e"
+      },
+      {
+        "path": "integration/portfolio/files/tests/pace-rag.test.mjs",
+        "change": "modified",
+        "initialSha256": "5c353deac90d895e760922a437593cf578310391a04222b8742687bc233c11f5",
+        "finalSha256": "de9eab36eef1a8f216447bbf82845d8f0e1404c3f30c88c8826106c7b43913de"
+      },
+      {
+        "path": "package-lock.json",
+        "change": "modified",
+        "initialSha256": "6799d9b4e8011fbd45791310ddbcb49fbd20d8e1a95fc13caca070872dc89d3a",
+        "finalSha256": "85bd8174b387fb09e3511cc23dc6e92c7939cc90393021f66ca8e75a8a840f95"
+      },
+      {
+        "path": "package.json",
+        "change": "modified",
+        "initialSha256": "a326272eae66dc051f0e191e55d11483325878f1e9876ea16167f4d6d0d5d7f3",
+        "finalSha256": "d61047733b2b06b18b6aecdf40b3959cceae41415e36eb89a3c69d4da5f80c74"
+      },
+      {
+        "path": "packages/knowledge-schema/src/provenance.mjs",
+        "change": "modified",
+        "initialSha256": "024a263549bddc34545fc62feedf5a3811b9bb8bd7ec7d954a1e275a373b69f8",
+        "finalSha256": "83e00c2514fb8c8e07c6233bc923d5ce9458b39a57c46b579d60873187c3a9b6"
+      },
+      {
+        "path": "packages/knowledge-schema/src/validate.mjs",
+        "change": "modified",
+        "initialSha256": "621508650dd2e3a33c07527d1f9b1b825ffbfe7223dd21bf1fc1047800d312e2",
+        "finalSha256": "63ea0a2d7526560e86fa42fe29606275a030dae12b52b05d96fc118e06a883a9"
+      },
+      {
+        "path": "packages/portfolio-assistant/package.json",
+        "change": "modified",
+        "initialSha256": "15b528dfad141c6373e43c3f25d3fec2f127c3ef2b0484a5a137bae154be5c0b",
+        "finalSha256": "cd92cda192e629710ecc767067988c6fa59b5ccc5c4dc3ee81e63ba8b3df253f"
+      },
+      {
+        "path": "packages/portfolio-assistant/src/Assistant.tsx",
+        "change": "modified",
+        "initialSha256": "f7a292367b7b9e7e34201d5ae0be641649d85d0a51d83127267491cfeadf8f68",
+        "finalSha256": "052274dc3c72dacca2672d92f3473214159199a7cd9b9c231ace9b791f061448"
+      },
+      {
+        "path": "packages/portfolio-assistant/src/index.d.ts",
+        "change": "modified",
+        "initialSha256": "5b69b962c29ccc8e05b4f48290e3716f4509f26df28ec702053cea87c6a84d39",
+        "finalSha256": "5bced565cdb5221646f11d3078e18ec822061089e64baa5f5c9d6f60d5f3fcb0"
+      },
+      {
+        "path": "scripts/browser-qa.mjs",
+        "change": "modified",
+        "initialSha256": "f86836cff3cb38604281c07e7db27410cd303f98c59b1101f0320790842e4384",
+        "finalSha256": "4c3f439f35bd5fd5a5ac8bda61c215fd23a95cb0923113b6cdf47c201aa601ed"
+      },
+      {
+        "path": "scripts/efrd-browser-qa.mjs",
+        "change": "modified",
+        "initialSha256": "7ecf241a31afb0f9c328398b17dc68317b4ab9e23390c00de6931875ce5ed5f0",
+        "finalSha256": "e5fff3148a13394e1051b7a3c1430e6588f658da9b0033cf5a4d7d69e7165a8f"
+      },
+      {
+        "path": "scripts/indexing/content.mjs",
+        "change": "modified",
+        "initialSha256": "da25c5dffcc3abeabbe1bd0d447f30689f75ee797ba2f5d8bf9bc85e47576bba",
+        "finalSha256": "78a13acad381bba7d9324265c7fc283d5278e37e078251549c5915413560d0a0"
+      },
+      {
+        "path": "scripts/package-portfolio.mjs",
+        "change": "modified",
+        "initialSha256": "c2fe828e14f46e06a587b60236586a5370eff638920f0dd6fd8359a83f5aee62",
+        "finalSha256": "689d10c803f5d14cf13cae69ea481252275a51ee6da3a96cdc1093b86e7804df"
+      },
+      {
+        "path": "scripts/public-integration-qa.mjs",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "1e3cc76fd1aab2b74d01471dca3237802c8fb24876a09012b59b094db1e0302c"
+      },
+      {
+        "path": "scripts/publication-artifact-check.mjs",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "92d4dde063ffddc716287e44070eee7bf3eb6096ff49f1d80cc230171d5f8854"
+      },
+      {
+        "path": "scripts/publication-check.mjs",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "04e535d8342c2b3db0af6dd5fa9997dce6c52b7aa3f38ee2275fc18e2ae508a7"
+      },
+      {
+        "path": "scripts/static-pages.mjs",
+        "change": "modified",
+        "initialSha256": "cdc63c6d8cfe12a24848750f10c9f9aa20b7eddf3b28d4cd761315bf67e6a01b",
+        "finalSha256": "eddd9d710d882a8103a6ef72654fb0be9e83cc04fc8ce0b7572c78f1f731c37b"
+      },
+      {
+        "path": "scripts/ux-browser-qa.mjs",
+        "change": "modified",
+        "initialSha256": "c0316fe95af828cebc8ad33ac2ffe31ff8544cc7b81ead41a913b46eb3a50686",
+        "finalSha256": "f7ee0a178a1e829a050c89da6de0c1de0ae87130fb90802d0461537e45e06c6b"
+      },
+      {
+        "path": "tests/content.test.mjs",
+        "change": "modified",
+        "initialSha256": "e834343107b11ee6d8cdf72cb044d086ef954411655306b3941a7e6fc6ff12b2",
+        "finalSha256": "0b85ac36fd7a0d793e7b929448b3012b46a458a32fc850469290fe20235b35a6"
+      },
+      {
+        "path": "tests/efrd.test.mjs",
+        "change": "modified",
+        "initialSha256": "2eafa430affd4e36ec6cb3af2b9617e0bec21cb822240a864f0595c7b2288d58",
+        "finalSha256": "bc08e719803eb597242dd23288d5dc4aa00641afd0c588c8f8da95d9fd846965"
+      },
+      {
+        "path": "tests/scope.test.mjs",
+        "change": "modified",
+        "initialSha256": "1799fccfb6d592cddfae7608183f5778af86b7cffc1cc65aab85f5f34d7f716a",
+        "finalSha256": "16c109accc25cbb5c82e67cdb09f1a1d31f2f82344c8b8ed09888b7fcd2b3842"
+      },
+      {
+        "path": "docs/PUBLIC-RELEASE-FILES.json",
+        "change": "added",
+        "note": "This inventory; self-hash omitted."
+      }
+    ],
+    "mohdvara.github.io": [
+      {
+        "path": ".gitignore",
+        "change": "modified",
+        "initialSha256": "c2c318f73ef79894360298d202c023f4eb3751959566f54b7af3ec66607fddc2",
+        "finalSha256": "19e77d53493516f84b3a23194c04c3ae4161b1fd65a7e66d36fb442912a1af8e"
+      },
+      {
+        "path": "docs/portfolio/PACE-RAG-V1.3-INTEGRATION.md",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "ace8e513c197cbd0f75ee819a896451bcf688dd115f25af7dd29284f82ed8412"
+      },
+      {
+        "path": "package-lock.json",
+        "change": "modified",
+        "initialSha256": "e46011b1935d287fac431d306c2eb222ddf4fbdcbbac7eabc9ee5569b68b20ab",
+        "finalSha256": "e27a2688db17d443375e20d7cf274acbb29ea59972070f03bf6f9f72ad09f371"
+      },
+      {
+        "path": "package.json",
+        "change": "modified",
+        "initialSha256": "8a9d6f27aa9cc017aacf84b9409a9abc73d430e81991fea1e3dc6b4e51ba4ec7",
+        "finalSha256": "4bd6a9a848798f2f3a58a9d5cad5db8d459864cb788c83f4e9ecac0b424d729f"
+      },
+      {
+        "path": "scripts/pace-rag-assets.mjs",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "562610b8ab53b5a0d0234125eed705b69e0219772854fc68efa7fd3dc09cbee8"
+      },
+      {
+        "path": "src/App.tsx",
+        "change": "modified",
+        "initialSha256": "fcb53feaba18f76b3c844925553f52149b347f9bb880ccd5cefe435f2fec2079",
+        "finalSha256": "5c487fe8f1b5c69db1a9f16946f06eddf862c680f6493ad7065ad4338456d49c"
+      },
+      {
+        "path": "src/PaceAssistant.tsx",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "0c881edf29da6ce40005972a2d544bb35ea08fe0688e5a90fe2c72be72555a20"
+      },
+      {
+        "path": "src/PaceAssistantLauncher.css",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "2444c14648462143c5f2adc3db0a04bc11c7641ee62068388025cf1f79e9b32e"
+      },
+      {
+        "path": "src/PaceAssistantLauncher.tsx",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "047c63fb336679378ccb27d490228a93faf6383f9048dff28da44c67b189066e"
+      },
+      {
+        "path": "tests/pace-rag.test.mjs",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "de9eab36eef1a8f216447bbf82845d8f0e1404c3f30c88c8826106c7b43913de"
+      },
+      {
+        "path": "vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
+        "change": "added",
+        "initialSha256": null,
+        "finalSha256": "5b0373437449f8dd47785400ec55432caf5f9691a3c169f8e41c367b048277a5"
+      },
+      {
+        "path": "docs/portfolio/PACE-RAG-V1.3-FILES.json",
+        "change": "added",
+        "note": "This inventory; self-hash omitted."
+      }
+    ]
+  }
+}

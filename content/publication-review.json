@@ -1,0 +1,509 @@
+{
+  "version": "pace-publication-v1.3",
+  "approvedAt": "2026-10-18T18:09:21.857Z",
+  "reviewer": "Mohd. Paramasvara (owner)",
+  "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized.",
+  "licensing": "Public display authorized; no new open-source or CC-BY reuse grant. Owner copyright retained; third-party model/runtime terms remain separate.",
+  "corpora": {
+    "portfolio": {
+      "profile": {
+        "version": "1",
+        "contentHash": "451aa87942946c53be675a062aebb4293177071c17847fba06ee73cda0113e10"
+      },
+      "insurance": {
+        "version": "1",
+        "contentHash": "ed57676fd4c6604b8ad4db6ed92c1cb5b8461b958640f71e6dee2772490c560f"
+      },
+      "education": {
+        "version": "1",
+        "contentHash": "0e1b16c6682b8f8ac95b44f8225a7ccf01621a7f8badf74f1a76e0b8cdbeb049"
+      },
+      "wensymes": {
+        "version": "1",
+        "contentHash": "dd9fa09125f6a1cd0444b06eacf10c598a78e27b0c42bc6516c9d24fad255785"
+      },
+      "rental": {
+        "version": "1",
+        "contentHash": "414f9a99bcbd21f54c5f36d73b19e31ea43ec17aea96cc25fd935cc30ebcb53a"
+      },
+      "hr": {
+        "version": "1",
+        "contentHash": "508a99cc7488dde593c2f19c7c5263c3db00f9adf573199d4b23a47d6b54db94"
+      },
+      "ntm": {
+        "version": "1",
+        "contentHash": "12b9e642b1946d0e0e7f46c2b97c86b876a3c665501b5d51362814f36c58a1f8"
+      },
+      "incident": {
+        "version": "1",
+        "contentHash": "59b1c885a44cee3416527d77bb085ac2a5c668db3de911a5995cae783fadf35a"
+      },
+      "rag": {
+        "version": "1",
+        "contentHash": "7cd9664260935319d031b25079b3b055774c86aea263853a949425f590bd042f"
+      },
+      "engagement": {
+        "version": "1",
+        "contentHash": "b880b2a62ab1289c72f47326a2c7b50219b8a9fd88d8640d503141f308c9bb5a"
+      },
+      "resume": {
+        "version": "1",
+        "contentHash": "649d5346a526321ee6f7ea4efae3931bdcdb1557726b86321944a3a846baa8cc"
+      },
+      "technology-inventory": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "932551b3447ba6e2eebed73dc5102d919065f780dc5e110d7475b727d3b36ff8"
+      },
+      "technology-hostel": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "3fb562aa1adf25b9cc92af8959646213158779618ae868f44c9d555dbbb7b48e"
+      },
+      "technology-rental": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "c594ff7cdc08cb4693e7a6dfa7e5a7cebd73890fbd051e040b42a81387ae4ca7"
+      },
+      "technology-campus": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "d4754a91a1cd2e0dceaa2a9f11f496ea21417f094e64767e0ef3136ca82439c2"
+      },
+      "technology-insurance": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "79c2d662811ab2c6da05d24697ef0f42f9d5269618d703ae73367271310af8a7"
+      },
+      "technology-wensymes": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "661f624c4155e5609c212565cb01dd2637defba3efd795dde52faa1aa547b23a"
+      },
+      "technology-asset": {
+        "version": "pace-technology-v1.2",
+        "contentHash": "3055405c6b60d0d5d5b6143ab86d7c732617d7289f763ddfb8591a971aa9d5a9"
+      },
+      "portfolio-answer-background": {
+        "version": "1",
+        "contentHash": "04baebda63e90c86b91f3ca9c7163f43f0a39b9ce856e168f275680086c17cb2"
+      },
+      "portfolio-answer-location": {
+        "version": "1",
+        "contentHash": "d2929d607d9ebbb220606b13c7f91ad9e480a22400711e7fe8ac9c03c54fa462"
+      },
+      "portfolio-answer-approach": {
+        "version": "1",
+        "contentHash": "4cf6fcc59ad398f52284f9791fd46e5aee25fea30783d5bb74200dc1ae6beb6d"
+      },
+      "portfolio-answer-teaching": {
+        "version": "1",
+        "contentHash": "e1a4e28d9db7131d92b2d728841ecb3141c2ebbd107872435ca321138f5d4f92"
+      },
+      "portfolio-answer-insurance-work": {
+        "version": "1",
+        "contentHash": "57db45dac977c232ff282c945dfdb17318943d5c2ebd4ba5e8f8ce096df48aec"
+      },
+      "portfolio-answer-insurance-leadership": {
+        "version": "1",
+        "contentHash": "be053c067b5650314eaab86d5e1f41d4916902834f789b6887a76570b42d0e67"
+      },
+      "portfolio-answer-insurance-stack": {
+        "version": "1",
+        "contentHash": "06e4cfaa737aa7fbe712e37305ff77c26c2e117d08689848d1fe512da487bbad"
+      },
+      "portfolio-answer-modernisation": {
+        "version": "1",
+        "contentHash": "1d822002192e8d4f8092ac82be7cb3656a0109a8fad4c0bb8a5ba5cfe6764029"
+      },
+      "portfolio-answer-education-disclosure": {
+        "version": "1",
+        "contentHash": "b24bb2763945c9e8868c347df8ae6f4a485db53ae6928c0526bcbb89edfb81cf"
+      },
+      "portfolio-answer-wensymes-work": {
+        "version": "1",
+        "contentHash": "df88855a034a1e42487137b1c63f6b83ee9844b27f5c74890e42ed8d8c52966b"
+      },
+      "portfolio-answer-wensymes-tools": {
+        "version": "1",
+        "contentHash": "83fc6785438c0c2072411b4cddd547bea43416d6b42f831fb0e9ea681c13dbf7"
+      },
+      "portfolio-answer-wensymes-security": {
+        "version": "1",
+        "contentHash": "46c7a6313abff98406933fbcee05c9623b7aba75f9934d14b6d9e4ac361f46aa"
+      },
+      "portfolio-answer-rental-domain": {
+        "version": "1",
+        "contentHash": "38a82b63c3b0cf9e9bb3ff9583246f44cc7c4bbaa7b9179857e821716365aa74"
+      },
+      "portfolio-answer-rental-impact": {
+        "version": "1",
+        "contentHash": "ddbb08b983eef0db32998a8d509637ebf2b3df6c1ec9cb6f7658006c8c2f384d"
+      },
+      "portfolio-answer-hr-collaboration": {
+        "version": "1",
+        "contentHash": "a0e8f6ebaa125b54c4b3043dbc1154274bd0eb63da62caba32ebf35b167912b4"
+      },
+      "portfolio-answer-hr-distinction": {
+        "version": "1",
+        "contentHash": "71544022ba5934a76df2cf4b909795a3a51ac2d5f967dce822f037a8c5913f36"
+      },
+      "portfolio-answer-ntm-overview": {
+        "version": "1",
+        "contentHash": "2f74a6a4e82f1be4cdccb1b424750b13f0b86aaf6656325bd1ea090445e11924"
+      },
+      "portfolio-answer-ntm-architecture": {
+        "version": "1",
+        "contentHash": "09e71c49a26be0f7651fdbe3fcc0fe5493cda4d28289999cf20a5e915a8a83d6"
+      },
+      "portfolio-answer-ntm-rag": {
+        "version": "1",
+        "contentHash": "8f16edb52edd6da023bba4ae238382d527ca8c250c4fc58de71482417b47d74c"
+      },
+      "portfolio-answer-incident-overview": {
+        "version": "1",
+        "contentHash": "cba60a6abd3ca02bfdba9bdd16200c64423eb69a8459fe64c2e573e83a0e1af9"
+      },
+      "portfolio-answer-incident-preview": {
+        "version": "1",
+        "contentHash": "4ed02ff82a1e79b2249e0b8be51b49beb1876862d84bc727a1187a5c1961ef56"
+      },
+      "portfolio-answer-rag-evidence": {
+        "version": "1",
+        "contentHash": "16d9cc8eee3e027479fa3b20512d7fc60059bc66f69b742721b5522225b30eff"
+      },
+      "portfolio-answer-rag-scale": {
+        "version": "1",
+        "contentHash": "d050724cbe5893b11ea7883ce42987c583d61ba308e9b7ef6ce6c8cda4131651"
+      },
+      "portfolio-answer-engagement-types": {
+        "version": "1",
+        "contentHash": "e3d0b4ee2c2d079ad9a663b8fb962e87391cb1752154914095a7634a530c51ae"
+      },
+      "portfolio-answer-availability": {
+        "version": "1",
+        "contentHash": "58b7e56dd1ae0ca90d23529babf63390896e29e79d9920c6597f572c5ee50e94"
+      },
+      "portfolio-answer-resume-links": {
+        "version": "1",
+        "contentHash": "4df083bc375fb276bacd160c2454e63b911457cf28d98bc664255c17f46e0221"
+      },
+      "portfolio-answer-contact": {
+        "version": "1",
+        "contentHash": "a1f3d0deafffee26610a7b81ec09ff9d844c89388655ab293c16f3355846df1c"
+      },
+      "portfolio-answer-independent-work": {
+        "version": "1",
+        "contentHash": "eeb73c220a15055b2d2f1b98d947fbe74ed5070642181023c66dbfa95ac32de8"
+      },
+      "portfolio-answer-insurance-products": {
+        "version": "1",
+        "contentHash": "67fa224906ef647afe5aed12cb83edb59af6fce5fbfd3a730b800e9ffa1087a6"
+      },
+      "portfolio-answer-insurance-workflows": {
+        "version": "1",
+        "contentHash": "148c3bc88bd4c8f0e94e5fe84476babc076a875fadcffc07007f105cc23eeaa9"
+      },
+      "portfolio-answer-rental-lifecycle": {
+        "version": "1",
+        "contentHash": "1a117acf5f85ed979205224b7f6f82a71a2b6b7302da500000750d50b8260fd6"
+      },
+      "portfolio-answer-rental-scale": {
+        "version": "1",
+        "contentHash": "4b4d0038083b54b5a23aba04f07d2a6860165669a70187925dc36b57241a1d80"
+      },
+      "portfolio-answer-rental-reporting": {
+        "version": "1",
+        "contentHash": "c197b9081f12be8def254e714007abdc72dcc15ef841fabd4c60652ea64d0948"
+      },
+      "portfolio-answer-wensymes-platforms": {
+        "version": "1",
+        "contentHash": "861ef9fb27c2a2c0357bf446ccfcc38396ae08d45419ed132f7826d9a91a558b"
+      },
+      "portfolio-answer-hr-config": {
+        "version": "1",
+        "contentHash": "acf2364520a59938bffb92828e43ec53400c922172daa13a0e345dcf3c42a7a9"
+      },
+      "portfolio-answer-ntm-verification": {
+        "version": "1",
+        "contentHash": "7b415dadd02a46bc3709006f44ed098497a400ae7b5e28a55241d0c5e699b52b"
+      },
+      "portfolio-answer-incident-authenticity": {
+        "version": "1",
+        "contentHash": "5fda4bfdef5a7a7ee8a18b3a3a23b7f319e41d220e8ee80b461d703ba4af108b"
+      },
+      "portfolio-answer-architecture-discussion": {
+        "version": "1",
+        "contentHash": "825e28ddcf193d317d39d63f2f12b6d95bdd13cecdd69fde9e5772d01bf89ae2"
+      },
+      "portfolio-answer-cv-options": {
+        "version": "1",
+        "contentHash": "afb309f0fe3e64c07fe4dd46d481488e582c8c684c1f199c1020616fbdf40715"
+      },
+      "portfolio-answer-public-boundaries": {
+        "version": "1",
+        "contentHash": "f9ba97f66255cad63584b2253744e648e888301ecfa7d5fa7d5f54e8e6d3c338"
+      }
+    },
+    "lab": {
+      "atlas-overview": {
+        "version": "1",
+        "contentHash": "a8efd73852dfdc01580e9253235eeeba5b290558f0fa59ec383d072c57fc3415"
+      },
+      "gateway-adr": {
+        "version": "1",
+        "contentHash": "205b5c93678e5bec1433ae75687bd46d39828bff140c94afce80e743e4fed4c6"
+      },
+      "catalog-adr": {
+        "version": "1",
+        "contentHash": "82214160838f5650f7838203580f988221035d4c411513f7c5cca484571344fa"
+      },
+      "queue-adr": {
+        "version": "1",
+        "contentHash": "b3e7edd629079f7c4d8ec0522353f32611a510c2a1f6dd99ebd9e6f68f52de19"
+      },
+      "search-runbook": {
+        "version": "1",
+        "contentHash": "3aad49918fa2b55b4f03c41b7e1f00bad137b26e2fc149737f4a4188c572e346"
+      },
+      "quota-runbook": {
+        "version": "1",
+        "contentHash": "b0de3b5fb197774cab5b03a7406c5b5aca39bde9a98059d909ce0ea64725ec03"
+      },
+      "catalog-runbook": {
+        "version": "1",
+        "contentHash": "d9413caf5572f87a76f20cdbbbc05124c7f932b320c3c03b6b4e24d0432e57d2"
+      },
+      "queue-runbook": {
+        "version": "1",
+        "contentHash": "f9dbecc69e6f05697a3677e9457c8bdae2fc8cad9f4a19eb66c843212739cd05"
+      },
+      "incident-timeout": {
+        "version": "1",
+        "contentHash": "675f7dfa44222cb394ac94a4fb263bf6d4217d8498a23ddee75d22c3c93d4497"
+      },
+      "incident-version": {
+        "version": "1",
+        "contentHash": "6d994755b8f1eedd5e0ead7db799948d7b88d68bd838c0f94bd3166ff07567da"
+      },
+      "incident-poison": {
+        "version": "1",
+        "contentHash": "c0fa4a1b0bfd57341e6c9ca40ec274d740d55bc81ba3b0711171664efb727615"
+      },
+      "incident-budget": {
+        "version": "1",
+        "contentHash": "284d44eb7d8f7e1d80236e5e79684e5d49f534edf8a2e304be7244c0535680d5"
+      },
+      "migration-model": {
+        "version": "1",
+        "contentHash": "3ff7aa393ddb589edbb085c0cebb45b6250a10806ff3b67e70ad88953f92a14f"
+      },
+      "migration-corpus": {
+        "version": "1",
+        "contentHash": "cd5ecfbfeaf45365d6cacdb2894742c2b7979de91ebf40de5751a26b4316664d"
+      },
+      "migration-schema": {
+        "version": "1",
+        "contentHash": "1e67ed505c6c74d1e4e39392fff6c8749f86e068e2b5970cb8c9caf65d1104c6"
+      },
+      "migration-release": {
+        "version": "1",
+        "contentHash": "2deaddfd79834b574dacf0edb243e9df1e57fa9b382e1ad0e7d96dc873db314f"
+      },
+      "api-generate": {
+        "version": "1",
+        "contentHash": "fa96b30094270746fc5a5150b6834510978021920ee52c96758fc045f1b5e42b"
+      },
+      "api-citations": {
+        "version": "1",
+        "contentHash": "c88fd1bd962f3aaf87400203ccf1dd50473741722d517d1da0769883e444f4e6"
+      },
+      "api-budget": {
+        "version": "1",
+        "contentHash": "64477733bcb7e62a15386ec9b4b3412d2c9cb9cde9f57f16224ee5f1ac93cbf8"
+      },
+      "api-privacy": {
+        "version": "1",
+        "contentHash": "d1af16b2ac1edc07c9992ccb759297e043da5902de6b9810ffccd3743da82790"
+      },
+      "efrd-retrieval": {
+        "version": "1",
+        "contentHash": "3d8a8d993f192b3c0e39fca2d6472a4780a3ceeb9bf76fe5036144cad8844a62"
+      },
+      "efrd-evidence": {
+        "version": "1",
+        "contentHash": "732da9f65ac56b078678d8f0e206fab0942ce19faa3ea69ca8fd455681728b20"
+      },
+      "efrd-resources": {
+        "version": "1",
+        "contentHash": "538e61b4bfd451e6c6287d6a80b521ae3dae92a6aafd326a86fd99a6e3e38437"
+      },
+      "efrd-evaluation": {
+        "version": "1",
+        "contentHash": "280041718774846fe14e741b81b912396069b8b6ae19fd07e35b7a7560917305"
+      },
+      "lab-answer-fallback": {
+        "version": "1",
+        "contentHash": "5d11bd35fd6bcb31bc038ee8c9bf81d8b4619462c88266dc6eb617c1bc75dbb6"
+      },
+      "lab-answer-quota": {
+        "version": "1",
+        "contentHash": "81a8b9713353a17f09dd0493181bf6dc04e244c9ad26f55aac6eca0e37aa2623"
+      },
+      "lab-answer-uncertain": {
+        "version": "1",
+        "contentHash": "b13e3dd43a6ad2934c4bb843760a060b9a96b8ed8739075b5c9883da68c968f5"
+      },
+      "lab-answer-model-change": {
+        "version": "1",
+        "contentHash": "8b9fe1e050fbb20fc352f478e6fa2088aad08eb366e3fa357386a33fda2f2fde"
+      },
+      "lab-answer-citation-check": {
+        "version": "1",
+        "contentHash": "4d4df2c07deb1470eab64db8bde50c6360c9f63cfab47245ac615294fec5ce11"
+      },
+      "lab-answer-publish": {
+        "version": "1",
+        "contentHash": "22b3b1b65b08df4b2c237257ca11bcf0b39dd43a48fab8e47df67675ec253387"
+      },
+      "lab-answer-isolation": {
+        "version": "1",
+        "contentHash": "52e9a7163e7e7f460e6ffceed77ced0b21d791ea4ae174feb3e652e7e48ebf33"
+      },
+      "lab-answer-privacy": {
+        "version": "1",
+        "contentHash": "ad39b99d88528b20f1d095e749ec92853ae849d9c04da8c42874e4d6d823fd92"
+      },
+      "lab-answer-unknown-fields": {
+        "version": "1",
+        "contentHash": "720605ad6d9176c955afd3f478e2599d795c5ccaef7163a4a8bba297545cd261"
+      },
+      "lab-answer-hash-change": {
+        "version": "1",
+        "contentHash": "a39e1a52317cdffb79d4e19699325b10384862a2a6ad7ee47a58ef7684d651e7"
+      },
+      "lab-answer-stuck-job": {
+        "version": "1",
+        "contentHash": "35fe9ae8fe1ae2cffe41cf797ae9eb4c8effccd778296567ad5dcfe741208da9"
+      },
+      "lab-answer-index-key": {
+        "version": "1",
+        "contentHash": "33e9f485bae15ef1ef8fe1c6c20e36f3b6d16904168adef9431a1ccad0d1ca2d"
+      },
+      "lab-answer-mixed-index": {
+        "version": "1",
+        "contentHash": "5fb358c8c80673aea0ea311ac81b86c6927dd6f8aeb265714c99b4b321f26bad"
+      },
+      "lab-answer-prompt-injection": {
+        "version": "1",
+        "contentHash": "d7ede007853e3952ae7688550bc5f846ad0aae033e0291d5a757813cc02ffcdb"
+      },
+      "lab-answer-timeout-ui": {
+        "version": "1",
+        "contentHash": "68581899a5afe68614a3396d34b0afd9ff9c07c07b0d1ead666254b0d1927bbe"
+      },
+      "lab-answer-revoked-source": {
+        "version": "1",
+        "contentHash": "0dade3554f2d2cf45649577bd778115e9c79cb35cd4aa86168ae48196ea4bae2"
+      },
+      "lab-answer-unknown-schema": {
+        "version": "1",
+        "contentHash": "01c366f611a437f436d7b8d3e4b5d47bdf8ef8cec6c7e9fd1e7fc778ede52bb9"
+      },
+      "lab-answer-rollback-budget": {
+        "version": "1",
+        "contentHash": "1da6832ed47670267cdda3b802afaad4679ce44898f4c361695b7e42fbf91649"
+      },
+      "lab-answer-cross-corpus": {
+        "version": "1",
+        "contentHash": "bb23c20a7dd84942fe64352a69ed8b3da800df59241218fb14f86bbc3312db81"
+      },
+      "lab-answer-release-retirement": {
+        "version": "1",
+        "contentHash": "060f4971162e34abe94fc0b6a3e1d20c6bc917bd09a9cec318b35251172bcea9"
+      },
+      "lab-answer-efrd-purpose": {
+        "version": "1",
+        "contentHash": "dcad022a58e1c800635f13c1f2a22b82bf1b25b037b4c3adc6cd39d323450b21"
+      },
+      "lab-answer-efrd-browser": {
+        "version": "1",
+        "contentHash": "641be74ab4d21694c618f4cb5a4f504ed6c9fbc578a71fde717a263b2b4aeca9"
+      },
+      "lab-answer-efrd-local-choice": {
+        "version": "1",
+        "contentHash": "c8b0960136db35bcd7a35fa824d5099b4a40a544a08b32bfeef7fe679b22833c"
+      },
+      "lab-answer-efrd-matching": {
+        "version": "1",
+        "contentHash": "7d9792b9d97b2f805ebb7bd769bd172322154533f3c1e52a605f832469834f9c"
+      },
+      "lab-answer-efrd-no-match": {
+        "version": "1",
+        "contentHash": "12cc51484ff80926bb1e8c02799347aa4c49c298dd2c8423e7cb49455f5d8d9a"
+      },
+      "lab-answer-efrd-calibration": {
+        "version": "1",
+        "contentHash": "188b5989b2bc00ef57af23d73c0510fd8079cad79039160ab999b358e32395e7"
+      },
+      "lab-answer-efrd-citations": {
+        "version": "1",
+        "contentHash": "bd83ea019e0921af792d9e5315e9fd9854132c0d78d119c9a9c72dbb6df2b4ee"
+      },
+      "lab-answer-efrd-unsupported": {
+        "version": "1",
+        "contentHash": "af3776511b1d6e7d4a0a9c0d0f9788ca456793c172cfd5b50ce8bcc958223d59"
+      },
+      "lab-answer-efrd-duplicates": {
+        "version": "1",
+        "contentHash": "7bcc17e5d78cc5fce4a393742b3250950c0ba713c0e4beeedf4154133f6fc1c0"
+      },
+      "lab-answer-efrd-inference": {
+        "version": "1",
+        "contentHash": "a3f69c79fdc88e8372620f89ba32a7ad9bcf691412e775e136f6dc7fd7db6e43"
+      },
+      "lab-answer-efrd-quota": {
+        "version": "1",
+        "contentHash": "22a01c43e0ceaceb8b40f4c0d2b5a5c6b9ce6b60d217aba46b95c1fdad64a0d9"
+      },
+      "lab-answer-efrd-model-failure": {
+        "version": "1",
+        "contentHash": "f582a1bc7a07b010046457e2d94b910ec771a53fff1dc7606888aa24c2b523e8"
+      },
+      "lab-answer-efrd-approval": {
+        "version": "1",
+        "contentHash": "c9181e370a21fa94ef9ec939af895d12471961debfcfdddba49989101aa43ace"
+      },
+      "lab-answer-efrd-stale": {
+        "version": "1",
+        "contentHash": "b2086d53280c58ab05e8bd375097c9bf0318c0631bee65cc81ab53df45a167f4"
+      },
+      "lab-answer-efrd-isolation": {
+        "version": "1",
+        "contentHash": "567debae457cb3f1bae2b69a08b95a595a467234830a426060bc824e382c681b"
+      },
+      "lab-answer-efrd-evaluation": {
+        "version": "1",
+        "contentHash": "b33d83ad70d17f0d181c4a567ec617b234babbed852386e2495ae827b6c9b9c2"
+      },
+      "lab-answer-efrd-performance": {
+        "version": "1",
+        "contentHash": "b7e3992d040ddcfc92f11d24c53eebac9cb2a4a1c59380ee79d08dbcaf2a2cd7"
+      },
+      "lab-answer-efrd-state": {
+        "version": "1",
+        "contentHash": "c56332eb391a6146a0317bb12d7bd10465dcb6b665d3f47d3ab95213b0fc29b0"
+      },
+      "lab-answer-efrd-enterprise": {
+        "version": "1",
+        "contentHash": "dff4893218aec03c5368588783880b88e8e147f1441840967f50c812295a2bbc"
+      },
+      "lab-answer-efrd-limits": {
+        "version": "1",
+        "contentHash": "b3b9bc636cec400c102d3e4b1e87451e3688560eca10a14ff4a1b5e9373fa47c"
+      }
+    }
+  },
+  "supportingFiles": {
+    "content/portfolio/records.mjs": "58588ac342f24bf458064720513a3b98d71c63df7a8c94aa8d638e4c1c3aaccf",
+    "content/portfolio/technology-evidence.json": "b6221063d3debaaba756f3f032c0ab1e0ea06311909fe3fdf770331ca7e78f76",
+    "content/portfolio/retirements.json": "4efb8999ab9644dabea264c847a43d659d5b5a662cd6d734c211c8608dd2a4d2",
+    "content/lab/records.mjs": "fa64f718811ecd5ecffafa9cc9168464379227e7c8e4fd4bf597e8f727ef952c",
+    "content/lab/engineering.mjs": "26fa4c876c3ea3a0ebdcd2d1c948c7caad4476b51c9619e578ef26b77f15997a",
+    "packages/semantic-core/src/technology/ontology.mjs": "3a0f55151e7ea76991f85923cd9e46ec4f6659a9c2dfb3cdbd4d74533804d606"
+  }
+}

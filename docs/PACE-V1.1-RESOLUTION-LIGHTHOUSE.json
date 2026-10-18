@@ -1,0 +1,48 @@
+{
+  "reviewDate": "2026-10-18",
+  "timezone": "Asia/Kuching",
+  "stage": "remaining-issue-resolution",
+  "lighthouseVersion": "12.8.2",
+  "fetchTime": "2026-10-18T08:22:13.610Z",
+  "url": "http://127.0.0.1:4173/",
+  "formFactor": "mobile",
+  "scores": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "labMetrics": {
+    "first-contentful-paint": {
+      "value": 1576.7061,
+      "unit": "millisecond",
+      "display": "1.6\u00a0s"
+    },
+    "largest-contentful-paint": {
+      "value": 1765.7061,
+      "unit": "millisecond",
+      "display": "1.8\u00a0s"
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "unit": "unitless",
+      "display": "0"
+    },
+    "total-blocking-time": {
+      "value": 5.5,
+      "unit": "millisecond",
+      "display": "10\u00a0ms"
+    },
+    "speed-index": {
+      "value": 1576.7061,
+      "unit": "millisecond",
+      "display": "1.6\u00a0s"
+    }
+  },
+  "warnings": [],
+  "mainBundle": {
+    "bytes": 210554,
+    "gzipBytes": 65050,
+    "budgetBytes": 215000
+  }
+}

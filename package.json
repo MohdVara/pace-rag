@@ -1,6 +1,6 @@
 {
   "name": "pace-rag",
-  "version": "0.1.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -14,7 +14,7 @@
     "content:validate": "node scripts/indexing/build.mjs --validate",
     "index:build": "vite build --config vite.worker.config.ts && node scripts/worker-assets.mjs && node scripts/indexing/build.mjs --preview --embed",
     "index:verify": "node scripts/indexing/verify.mjs",
-    "release:check": "node scripts/indexing/build.mjs --validate --release",
+    "release:check": "node scripts/publication-check.mjs",
     "test": "node --experimental-sqlite --test tests/*.test.mjs",
     "eval:retrieval": "node scripts/evaluate-efrd.mjs",
     "package:portfolio": "node scripts/package-portfolio.mjs",
@@ -34,7 +34,9 @@
     "test:efrd-browser": "node scripts/efrd-browser-qa.mjs",
     "test:ux-browser": "node scripts/ux-browser-qa.mjs",
     "eval:technology": "node scripts/evaluate-technology.mjs",
-    "test:toer-browser": "node scripts/toer-browser-qa.mjs"
+    "test:toer-browser": "node scripts/toer-browser-qa.mjs",
+    "test:integration-browser": "node scripts/public-integration-qa.mjs",
+    "release:artifact-check": "node scripts/publication-artifact-check.mjs"
   },
   "dependencies": {
     "@huggingface/transformers": "3.8.1",

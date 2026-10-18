@@ -1,3 +1,5 @@
+> Current preparation status (19 October 2026): owner publication approvals are now recorded for the exact v1.3 content. The native portfolio integration and approved release artifacts are prepared locally, with no new deployment. See [the current release report](PACE-RAG-V1.3-PUBLIC-RELEASE.md) and [release procedure](release.md). Earlier test-only preparation details below describe the initial demo and are historical where they conflict with this status.
+
 # Run and deploy PACE-RAG
 
 The current application is a populated standalone test app: 38 current portfolio answers, 20 synthetic engineering answers and 20 actual-implementation answers, with 42 source records including the imported technology inventory. Two obsolete stack answers remain in the editorial registry but are excluded from public artifacts. All current approval entries are scoped `local-test`, following the owner's 18 October 2026 request to test the application. This scope allows exact cached-answer behavior locally; it does not claim owner review for public publication. Live AI remains disabled.

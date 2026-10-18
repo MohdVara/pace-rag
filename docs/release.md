@@ -1,32 +1,42 @@
 # Release and rollback
 
-No release, provisioning or deployment is authorized by running local build commands.
+The owner explicitly approved the current v1.3 content for publication on 19 October 2026 and requested preparation of the portfolio integration. **No deployment or automatic publishing is authorized.**
 
-## Content approval
+## Current approvals
 
-1. Review each source snapshot against current permitted public wording, confidentiality boundaries, canonical links and expiry.
-2. Review every answer and alternative for claim equivalence and citation support.
-3. `npm run build` emits `output/{corpus}-approval-candidates.json`. These contain exact approval hashes, not approvals.
-4. Only after explicit owner approval, copy approved entries to `content/{corpus}/approvals.json`, supply the actual reviewer and ISO approval time, and preserve the exact content hash. Do not use `OWNER_REVIEW_REQUIRED` as a reviewer.
-5. Rebuild and run `npm run release:check`. Changing source text invalidates document and dependent-answer approvals. Changing only status never creates approval.
-6. Run all evaluation/browser/performance gates and record reviewed results. Templated datasets alone do not establish acceptance.
+`content/{portfolio,lab}/approvals.json` bind each current record to its exact hash, version, reviewer, approval time and publication scope. `content/publication-review.json` records the instruction and binds the complete record sets and supporting content/ontology files. The two obsolete portfolio answers remain retired. Technology sources use the same approval registry; the importer cannot manufacture a publication approval.
 
-`npm run build` creates a clearly labelled draft preview. `npm run build:release` runs the approval gate, builds the pinned worker, generates approved semantic indexes and builds both frontend artifacts. Keep approved static output and API evidence versions aligned. Do not publish preview output. Review the proposed content licenses before recording approvals; replace pending-license wording with the chosen publication terms before hashing the approved records.
+Public display permission does not grant an open-source or CC-BY reuse license. Owner copyright is retained. The pinned model and Transformers.js use Apache-2.0; ONNX Runtime uses MIT. The preparation checks verify model/runtime assets and packaged notices. Confidential professional claims, source hashes, expiry, canonical URL restrictions and corpus boundaries remain enforced.
 
-## Staging
+`npm run release:check` is read-only: it rejects changed hashes, missing/extra records, absent publication scope, expired approvals, pending license wording, corrupt model assets and missing notices. Routine builds and CI never renew approvals. New content requires a new explicit review; do not refresh hashes just to make a failing gate pass.
 
-Static no-AI preview → deterministic API preview → opt-in provider validation → approved Lab release → portfolio preview → separately authorized production portfolio release. Infrastructure work is gated after standalone retrieval and cache recommendation validation. Existing API scaffolding is disabled and its mocked tests do not establish Cloudflare behavior. Check the actual hosting workflow first. Do not provision Vectorize, D1, R2 or paid billing for this release.
+## Prepare locally
 
-## Portfolio packaging
+```sh
+npm run release:check
+npm run build:release
+npm run index:verify
+npm test
+npm run eval:retrieval -- --scoped
+npm run eval:retrieval -- --scoped --semantic
+npm run eval:technology
+npm run package:static -- --release
+npm run package:portfolio
+npm pack --workspace @pace-rag/portfolio-assistant --pack-destination output
+```
 
-The portfolio currently has no PACE-RAG adapter or dependency. The previous integration is staged under `integration/portfolio/`; review its README and rebuild the package before applying it after approval.
+Run browser QA on the exact packaged Lab and portfolio build, then verify the 215,000-byte raw main JavaScript budget. See [the current release report](PACE-RAG-V1.3-PUBLIC-RELEASE.md) for actual results, including the unmet professional retrieval target. Content publication acceptance is distinct from ranking targets, independently reviewed labels and production verification. Do not claim those gates passed.
 
-The package and public assets are pinned together. The assistant library uses peer React and a hashed worker. Copy assets before the portfolio build; never load executable code from a moving external URL. Default production builds omit the review launcher. `VITE_PACE_RAG_PREVIEW=true` enables local review only, with draft labels intact.
+`npm run build` still makes a preview; use the explicit release build for publication artifacts. The Lab shows “Public demo” only after loading and validating a non-preview release. Failure examples remain simulated and fictional sources remain labelled.
+
+## Portfolio package
+
+The portfolio installs the pinned local v1.3.0 archive with its matching professional-only assets. Its asset copier validates every checksum, the release/version/pointer, publication scope and corpus boundary before replacing managed generated files. The static professional library works without JavaScript. `VITE_PACE_RAG_ENABLED=false` removes the integration and generated assets for rollback. No automatic deployment job was added.
+
+## Security and remaining gates
+
+Live AI, provider accounting and the guarded Worker remain disabled. Publication approval does not verify a deployed provider, budgets, billing, confidential enterprise authorization, physical devices or screen readers. Existing development dependency audit findings are documented in the release report; they are not silently fixed through a major model/runtime migration.
 
 ## Rollback
 
-Disable live switches; restore the complete previous approved API and static release; keep the existing DO namespace and spending state; revalidate all direct routes, case fragments, knowledge pages and actual 404 behavior. Remove the assistant launcher independently if performance fails. Gameplay and forest code are outside this change.
-
-## Test-only approvals
-
-The current populated application uses explicit `local-test` approval entries, authorized for testing on 18 October 2026. `node scripts/approve-test-content.mjs` renews only that scope after a deliberate content review; normal builds never run it. These records exercise exact cached answers locally, but `release:check`, release packaging and live server evidence reject them. The testing authorization does not grant publication or source licensing approval. See [deployment instructions](DEPLOYMENT.md) and [test questions](TESTING.md).
+Restore the complete previous approved static package and matching assistant archive; never mix vectors or manifests between releases. Disable the portfolio integration with `VITE_PACE_RAG_ENABLED=false` if needed. Keep all live switches false. This preparation does not provision Vectorize, D1, R2, Durable Objects or paid services, and it does not alter existing portfolio routes or ASCII scenery.

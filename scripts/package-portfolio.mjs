@@ -1,65 +1,32 @@
-import { cp, mkdir, readFile, writeFile, readdir, rm } from "node:fs/promises";
-import { resolve } from "node:path";
-import { hash } from "./indexing/content.mjs";
-const target = resolve("output/portfolio-integration");
-await rm(target, { recursive: true, force: true });
-await mkdir(target, { recursive: true });
-await cp("packages/portfolio-assistant/dist", resolve(target, "package"), {
-  recursive: true,
-});
-for (const folder of ["knowledge/portfolio", "licenses", "technology-ontology.html"])
-  await cp(
-    resolve("dist/lab", folder),
-    resolve(target, "public/pace-rag", folder),
-    { recursive: true },
-  );
-const modelLock=JSON.parse(await readFile('dist/lab/models/assets.lock.json','utf8'));
-for(const asset of modelLock.entries){const destination=resolve(target,'public/pace-rag',asset.file);await mkdir(resolve(destination,'..'),{recursive:true});await cp(resolve('dist/lab',asset.file),destination);}
-await cp('dist/lab/models/assets.lock.json',resolve(target,'public/pace-rag/models/assets.lock.json'));
-const worker = JSON.parse(await readFile("dist/lab/worker.json", "utf8"));
-await mkdir(resolve(target, "public/pace-rag/assets"), { recursive: true });
-await cp(
-  resolve("dist/lab", worker.path),
-  resolve(target, "public/pace-rag", worker.path),
-);
-await cp(
-  "dist/lab/worker.json",
-  resolve(target, "public/pace-rag/worker.json"),
-);
-const manifest = [];
-async function scan(dir) {
-  for (const item of await readdir(dir, { withFileTypes: true })) {
-    const filename = resolve(dir, item.name);
-    if (item.isDirectory()) await scan(filename);
-    else {
-      const bytes = await readFile(filename);
-      manifest.push({
-        file: filename.slice(target.length + 1),
-        sha256: hash(bytes),
-        bytes: bytes.length,
-      });
-    }
-  }
-}
-await scan(target);
-await writeFile(
-  resolve(target, "checksums.json"),
-  JSON.stringify(manifest, null, 2),
-);
-console.log(
-  "Local integration artifact prepared at output/portfolio-integration; drafts are NOT approved for deployment.",
-);
-// Portable local package: React code, source declarations and matching public assets.
-await rm("packages/portfolio-assistant/public", {
-  recursive: true,
-  force: true,
-});
-await mkdir("packages/portfolio-assistant/public", { recursive: true });
-await cp(
-  resolve(target, "public/pace-rag"),
-  "packages/portfolio-assistant/public",
-  { recursive: true },
-);
-await mkdir("packages/portfolio-assistant/public/licenses", {
-  recursive: true,
-});
+import { cp, mkdir, readFile, writeFile, readdir, rm } from 'node:fs/promises';
+import { resolve, relative } from 'node:path';
+import { hash, loadContent } from './indexing/content.mjs';
+import { verifyModelLock } from './indexing/model-lock.mjs';
+await loadContent('portfolio', {release:true});
+await verifyModelLock();
+const pointer=JSON.parse(await readFile('dist/lab/knowledge/portfolio/current.json','utf8'));
+const manifest=JSON.parse(await readFile(`dist/lab/knowledge/portfolio/${pointer.manifest}`,'utf8'));
+if(manifest.preview || !manifest.semanticReady) throw new Error('Build an approved semantic release before portfolio packaging');
+const target=resolve('output/portfolio-integration'), publicRoot=resolve(target,'public/pace-rag');
+await rm(target,{recursive:true,force:true});await mkdir(publicRoot,{recursive:true});
+await cp('packages/portfolio-assistant/dist',resolve(target,'package'),{recursive:true});
+// Only the professional physical corpus and scoped library enter the portfolio.
+for(const folder of ['knowledge/portfolio','knowledge/professional','licenses','technology-ontology.html','privacy.html']) await cp(resolve('dist/lab',folder),resolve(publicRoot,folder),{recursive:true});
+const lock=JSON.parse(await readFile('dist/lab/models/assets.lock.json','utf8'));
+for(const asset of lock.entries){const destination=resolve(publicRoot,asset.file);await mkdir(resolve(destination,'..'),{recursive:true});await cp(resolve('dist/lab',asset.file),destination);}
+await cp('dist/lab/models/assets.lock.json',resolve(publicRoot,'models/assets.lock.json'));
+const worker=JSON.parse(await readFile('dist/lab/worker.json','utf8'));
+await mkdir(resolve(publicRoot,'assets'),{recursive:true});
+await cp(resolve('dist/lab',worker.path),resolve(publicRoot,worker.path));
+await cp('dist/lab/worker.json',resolve(publicRoot,'worker.json'));
+// Static source pages keep their local citations; their Lab navigation is external.
+async function linkLab(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,item.name);if(item.isDirectory())await linkLab(p);else if(p.endsWith('.html'))await writeFile(p,(await readFile(p,'utf8')).replaceAll('href="/pace-rag/"','href="https://pace-reg.paramasvara.online/pace-rag/"'));}}
+await linkLab(publicRoot);
+const files=[];
+async function scan(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,item.name);if(item.isDirectory())await scan(p);else{const bytes=await readFile(p);files.push({file:relative(publicRoot,p),sha256:hash(bytes),bytes:bytes.length});}}}
+await scan(publicRoot);files.sort((a,b)=>a.file.localeCompare(b.file));
+const pkg=JSON.parse(await readFile('packages/portfolio-assistant/package.json','utf8'));
+await writeFile(resolve(publicRoot,'release.json'),JSON.stringify({schemaVersion:1,packageVersion:pkg.version,corpusId:'portfolio',scopeId:'professional',corpusVersion:manifest.corpusVersion,preview:false,files},null,2)+'\n');
+await rm('packages/portfolio-assistant/public',{recursive:true,force:true});
+await cp(publicRoot,'packages/portfolio-assistant/public',{recursive:true});
+console.log(`Approved professional-only package ${pkg.version}: ${files.length} verified assets; ${manifest.corpusVersion}. No deployment performed.`);

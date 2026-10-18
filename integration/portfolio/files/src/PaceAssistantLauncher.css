@@ -1,0 +1,16 @@
+.experience-assistant { margin-top: 2rem; border-block: 1px solid var(--line); padding-block: .4rem; }
+.experience-assistant > summary { min-height: 48px; padding-block: .75rem; color: var(--text); cursor: pointer; font-weight: 600; }
+.experience-assistant > summary::marker { color: var(--accent); }
+.experience-assistant [role="region"] { min-width: 0; }
+.experience-assistant-intro, .experience-assistant-links { font-size: .9rem; color: var(--muted); }
+.experience-assistant-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; padding-block: .5rem 1rem; }
+.experience-assistant-links a { text-decoration: underline; text-underline-offset: .25em; }
+.experience-assistant .pace-assistant { --pace-line: var(--line); --pace-focus: var(--accent); background: transparent; border: 0; border-radius: 0; padding: .5rem 0; margin: .5rem 0; }
+.experience-assistant .pace-assistant h2 { font-size: 1.4rem; }
+.experience-assistant .pace-assistant a { text-decoration: underline; }
+.experience-assistant .pace-assistant textarea { background: var(--surface); }
+.experience-assistant .pace-assistant button { border-color: var(--button-border); }
+.experience-assistant .pace-kicker { color: var(--muted); }
+.experience-assistant .pace-small { color: var(--muted); }
+.experience-assistant .pace-supporting ul { margin-block: .5rem; }
+.experience-assistant .pace-header button { font-size: .85rem; }

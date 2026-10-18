@@ -9,9 +9,9 @@ import {portfolio,lab,composites,critical,labCritical,calibration} from '../eval
 import {fixture,unitVector} from './helpers.mjs';
 async function corpus(id='portfolio'){const data=await loadContent(id);return {...data,corpusVersion:'a'.repeat(16),chunks:chunksFor(data,'a'.repeat(16))};}
 const ask=(data,question)=>resolveAnswer({question,corpus:data,retrieval:retrieve({question,corpus:data})});
-test('owner-approved EFRD local-test records stay separate from synthetic sources',async()=>{
+test('owner-approved EFRD publication records stay separate from synthetic sources',async()=>{
  const data=await corpus('lab');assert.equal(data.answers.filter(a=>a.id.startsWith('lab-answer-efrd-')).length,20);
- for(const answer of data.answers.filter(a=>a.id.startsWith('lab-answer-efrd-'))){assert.equal(answer.approval.scope,'local-test');assert.ok(answerCurrent(answer,data));assert.ok(answer.alternatives.length>=3&&answer.alternatives.length<=5);assert.ok(answer.citations.every(c=>data.documents.find(d=>d.id===c.sourceId).provenance==='implementation-documentation'));}
+ for(const answer of data.answers.filter(a=>a.id.startsWith('lab-answer-efrd-'))){assert.equal(answer.approval.scope,'publication');assert.ok(answerCurrent(answer,data));assert.ok(answer.alternatives.length>=3&&answer.alternatives.length<=5);assert.ok(answer.citations.every(c=>data.documents.find(d=>d.id===c.sourceId).provenance==='implementation-documentation'));}
 });
 test('technology importer preserves upstream hashes and independent portfolio remains canonical',async()=>{
  const data=await corpus();const upstream=JSON.parse(await readFile('../mohdvara.github.io/public/evidence/technology-experience.v1.json','utf8'));assert.equal(data.technologyEvidence.contentHash,upstream.contentHash);

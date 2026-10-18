@@ -1,73 +1,66 @@
-diff --git a/.gitignore b/.gitignore
-index f30f1f0..2c938c4 100644
 --- a/.gitignore
 +++ b/.gitignore
-@@ -36,3 +36,6 @@ output/playwright
+@@ -39,3 +39,6 @@
  
- # Local downloaded resume for owner review; not a published site asset
- output/pdf/
+ # Local bounded technology-source review and measurements
+ output/pace-v1.2/
 +
-+# Generated only for explicitly enabled PACE-RAG previews/releases.
++# Verified generated PACE-RAG assets, copied from the pinned package.
 +public/pace-rag/
-diff --git a/package-lock.json b/package-lock.json
-index 0ff6384..9ec288a 100644
+--- a/package.json
++++ b/package.json
+@@ -4,8 +4,8 @@
+   "version": "0.0.0",
+   "type": "module",
+   "scripts": {
+-    "dev": "vite",
+-    "build": "node scripts/technology-evidence.mjs && node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
++    "dev": "node scripts/pace-rag-assets.mjs && vite",
++    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
+     "lint": "eslint .",
+     "preview": "vite preview",
+     "predeploy": "npm run build",
+@@ -15,9 +15,11 @@
+     "typecheck": "tsc -b",
+     "test": "node --test tests/*.test.mjs",
+     "refresh:github": "node scripts/public-github.mjs",
+-    "export:technology": "node scripts/technology-evidence.mjs"
++    "export:technology": "node scripts/technology-evidence.mjs",
++    "check:rag-assets": "node scripts/pace-rag-assets.mjs"
+   },
+   "dependencies": {
++    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
+     "phaser": "^3.90.0",
+     "posthog-js": "^1.438.7",
+     "react": "^18.3.1",
 --- a/package-lock.json
 +++ b/package-lock.json
 @@ -8,6 +8,7 @@
        "name": "mohdvara-portfolio",
        "version": "0.0.0",
        "dependencies": {
-+        "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
++        "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
          "phaser": "^3.90.0",
          "posthog-js": "^1.438.7",
          "react": "^18.3.1",
-@@ -261,6 +262,14 @@
+@@ -259,6 +260,14 @@
+       "license": "MIT",
+       "funding": {
          "url": "https://github.com/sponsors/oxc-project"
-       }
-     },
-+    "node_modules/@pace-rag/portfolio-assistant": {
-+      "version": "0.1.0",
-+      "resolved": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
-+      "integrity": "sha512-6naGhGykaeIv/Y0uyANcQEUx23bdZS0hHFtgHTPW0IqOiXYSUs4ievT9XnzrxdxdlI8cCzgXHq0cUVekvLrpEA==",
-+      "peerDependencies": {
-+        "react": "^18.3.1"
 +      }
 +    },
++    "node_modules/@pace-rag/portfolio-assistant": {
++      "version": "1.3.0",
++      "resolved": "file:vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
++      "integrity": "sha512-F2nnq8bNqZUTnaIINzUIdWPIomnAFveVhXUKX6VDQ6x/UplLUXxpQWTAuy5xCopnEBwuR5tRmI2XjCm6p7O6Tw==",
++      "peerDependencies": {
++        "react": "^18.3.1"
+       }
+     },
      "node_modules/@posthog/browser-common": {
-       "version": "0.9.4",
-       "resolved": "https://registry.npmjs.org/@posthog/browser-common/-/browser-common-0.9.4.tgz",
-diff --git a/package.json b/package.json
-index a5f0a10..c906ab4 100644
---- a/package.json
-+++ b/package.json
-@@ -5,7 +5,7 @@
-   "type": "module",
-   "scripts": {
-     "dev": "vite",
--    "build": "node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
-+    "build": "node scripts/pace-rag-assets.mjs && node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
-     "lint": "eslint .",
-     "preview": "vite preview",
-     "predeploy": "npm run build",
-@@ -14,9 +14,12 @@
-     "deploy:cloudflare": "npx wrangler@4 pages deploy",
-     "typecheck": "tsc -b",
-     "test": "node --test tests/*.test.mjs",
--    "refresh:github": "node scripts/public-github.mjs"
-+    "refresh:github": "node scripts/public-github.mjs",
-+    "dev:rag": "VITE_PACE_RAG_PREVIEW=true node scripts/pace-rag-assets.mjs && VITE_PACE_RAG_PREVIEW=true vite",
-+    "build:rag": "VITE_PACE_RAG_PREVIEW=true npm run build"
-   },
-   "dependencies": {
-+    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
-     "phaser": "^3.90.0",
-     "posthog-js": "^1.438.7",
-     "react": "^18.3.1",
-diff --git a/src/App.tsx b/src/App.tsx
-index 27496c0..ab109fe 100644
 --- a/src/App.tsx
 +++ b/src/App.tsx
-@@ -16,6 +16,7 @@ import "./Readability.css";
+@@ -17,6 +17,7 @@
  import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
  import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
  import { SceneryControl } from "./AsciiForest/SceneryControl";
@@ -75,11 +68,179 @@ index 27496c0..ab109fe 100644
  
  function Arrow() {
    return <span aria-hidden="true">↗</span>;
-@@ -514,6 +515,7 @@ function About() {
+@@ -535,6 +536,7 @@
              <br />
              Computer Software Engineering · Multimedia College
            </p>
-+          {(import.meta.env.VITE_PACE_RAG_PREVIEW === 'true' || import.meta.env.VITE_PACE_RAG_ENABLED === 'true') && <PaceAssistantLauncher />}
++          {import.meta.env.VITE_PACE_RAG_ENABLED !== "false" && <PaceAssistantLauncher />}
          </div>
        </div>
      </section>
+--- /dev/null
++++ b/src/PaceAssistant.tsx
+@@ -0,0 +1,12 @@
++import Assistant from '@pace-rag/portfolio-assistant';
++import '@pace-rag/portfolio-assistant/style.css';
++
++const starters = [
++  'What technologies have you worked with?',
++  'Which projects used React?',
++  'What modernisation experience is public?',
++] as const;
++
++export default function PaceAssistant({onClose}: {onClose: () => void}) {
++  return <Assistant corpusId="portfolio" scopeId="professional" assetBase="/pace-rag/" presentation="portfolio" starterQuestions={starters} libraryExternal onClose={onClose} />;
++}
+--- /dev/null
++++ b/src/PaceAssistantLauncher.tsx
+@@ -0,0 +1,33 @@
++import {Component, lazy, Suspense, useRef, useState, type ReactNode} from 'react';
++import './PaceAssistantLauncher.css';
++
++const Assistant = lazy(() => import('./PaceAssistant'));
++const library = '/pace-rag/knowledge/professional/index.html';
++
++class AssistantRecovery extends Component<{children: ReactNode}, {failed: boolean}> {
++  state = {failed: false};
++  static getDerivedStateFromError() { return {failed: true}; }
++  render() {
++    return this.state.failed ? <p role="status">The assistant could not load. <a href={library}>Read the source library</a> or try opening it again.</p> : this.props.children;
++  }
++}
++
++export default function PaceAssistantLauncher() {
++  const [open, setOpen] = useState(false);
++  const disclosure = useRef<HTMLDetailsElement>(null);
++  const summary = useRef<HTMLElement>(null);
++  function close() {
++    if (disclosure.current) disclosure.current.open = false;
++    setOpen(false);
++    summary.current?.focus();
++  }
++  return <details ref={disclosure} className="experience-assistant" onToggle={event => setOpen(event.currentTarget.open)}>
++    <summary ref={summary}>Ask about my engineering experience</summary>
++    <div id="pace-assistant-region" role="region" aria-label="Engineering experience assistant">
++      <p className="experience-assistant-intro">Explore my professional experience through concise answers and supporting sources. Search runs on your device. Live AI is disabled.</p>
++      {open && <AssistantRecovery><Suspense fallback={<p role="status">Loading the knowledge assistant…</p>}><Assistant onClose={close} /></Suspense></AssistantRecovery>}
++      <p className="experience-assistant-links"><a href={library}>Browse professional sources</a><a href="https://pace-reg.paramasvara.online/pace-rag/">Explore the Engineering RAG Lab ↗</a></p>
++      <noscript><p>Interactive search needs JavaScript. The source library and Lab documentation remain readable.</p></noscript>
++    </div>
++  </details>;
++}
+--- /dev/null
++++ b/src/PaceAssistantLauncher.css
+@@ -0,0 +1,16 @@
++.experience-assistant { margin-top: 2rem; border-block: 1px solid var(--line); padding-block: .4rem; }
++.experience-assistant > summary { min-height: 48px; padding-block: .75rem; color: var(--text); cursor: pointer; font-weight: 600; }
++.experience-assistant > summary::marker { color: var(--accent); }
++.experience-assistant [role="region"] { min-width: 0; }
++.experience-assistant-intro, .experience-assistant-links { font-size: .9rem; color: var(--muted); }
++.experience-assistant-links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; padding-block: .5rem 1rem; }
++.experience-assistant-links a { text-decoration: underline; text-underline-offset: .25em; }
++.experience-assistant .pace-assistant { --pace-line: var(--line); --pace-focus: var(--accent); background: transparent; border: 0; border-radius: 0; padding: .5rem 0; margin: .5rem 0; }
++.experience-assistant .pace-assistant h2 { font-size: 1.4rem; }
++.experience-assistant .pace-assistant a { text-decoration: underline; }
++.experience-assistant .pace-assistant textarea { background: var(--surface); }
++.experience-assistant .pace-assistant button { border-color: var(--button-border); }
++.experience-assistant .pace-kicker { color: var(--muted); }
++.experience-assistant .pace-small { color: var(--muted); }
++.experience-assistant .pace-supporting ul { margin-block: .5rem; }
++.experience-assistant .pace-header button { font-size: .85rem; }
+--- /dev/null
++++ b/scripts/pace-rag-assets.mjs
+@@ -0,0 +1,53 @@
++import {fileURLToPath} from 'node:url';
++import {cp, readFile, writeFile, access, rm, readdir} from 'node:fs/promises';
++import {dirname, resolve, relative} from 'node:path';
++import {createHash} from 'node:crypto';
++
++export async function verifyPackage(source) {
++  const release = JSON.parse(await readFile(resolve(source, 'release.json'), 'utf8'));
++  if (release.schemaVersion !== 1 || release.packageVersion !== '1.3.0' || release.preview !== false || release.corpusId !== 'portfolio' || release.scopeId !== 'professional') throw new Error('Expected an approved professional PACE-RAG v1.3.0 package');
++  const expected = new Set(['release.json']);
++  for (const item of release.files) {
++    if (!item.file || item.file.includes('..') || item.file.startsWith('/') || item.file.includes('\\') || expected.has(item.file) || /knowledge\/(lab|fictional|implementation)(\/|$)/.test(item.file)) throw new Error('Invalid or foreign PACE-RAG asset path');
++    expected.add(item.file);
++    const bytes = await readFile(resolve(source, item.file));
++    if (bytes.length !== item.bytes || createHash('sha256').update(bytes).digest('hex') !== item.sha256) throw new Error(`PACE-RAG package integrity mismatch: ${item.file}`);
++  }
++  async function scan(dir) { for (const entry of await readdir(dir, {withFileTypes:true})) {
++    const p = resolve(dir, entry.name);
++    if (entry.isSymbolicLink()) throw new Error('Symlinks are not allowed in PACE-RAG assets');
++    if (entry.isDirectory()) await scan(p);
++    else if (!expected.has(relative(source, p))) throw new Error('Unlisted PACE-RAG asset');
++  }}
++  await scan(source);
++  const pointer = JSON.parse(await readFile(resolve(source, 'knowledge/portfolio/current.json'), 'utf8'));
++  if (pointer.corpusVersion !== release.corpusVersion || pointer.manifest !== `${release.corpusVersion}/manifest.json` || !/^[a-f0-9]{16}$/.test(release.corpusVersion)) throw new Error('PACE-RAG release pointer mismatch');
++  const folder = resolve(source, 'knowledge/portfolio', release.corpusVersion);
++  const manifest = JSON.parse(await readFile(resolve(source, 'knowledge/portfolio', pointer.manifest), 'utf8'));
++  if (manifest.preview || !manifest.semanticReady || manifest.corpusId !== 'portfolio' || manifest.corpusVersion !== release.corpusVersion) throw new Error('PACE-RAG preview or incompatible manifest cannot be published');
++  for (const file of ['documents','answers']) {
++    const records = JSON.parse(await readFile(resolve(folder, `${file}.json`), 'utf8'));
++    if (!records.length || records.some(r => r.corpusId !== 'portfolio' || r.status !== 'approved' || r.approval?.scope !== 'publication' || r.provenance === 'synthetic' || r.provenance === 'implementation-documentation')) throw new Error('PACE-RAG contains unapproved or foreign evidence');
++  }
++  return release;
++}
++
++async function prepare() {
++  const target = resolve('public/pace-rag'), marker = resolve(target, '.generated-by-pace-rag');
++  const enabled = process.env.VITE_PACE_RAG_ENABLED !== 'false';
++  let source;
++  if (enabled) {
++    source = resolve(dirname(fileURLToPath(import.meta.resolve('@pace-rag/portfolio-assistant'))), '../public');
++    await verifyPackage(source);
++  }
++  let generated = false;
++  try { await access(marker); generated = true; } catch (error) { if (error.code !== 'ENOENT') throw error; }
++  if (generated) await rm(target, {recursive:true});
++  else {try {await access(target);throw new Error('Unmanaged public/pace-rag directory: refusing to replace it');}catch(error){if(error.code !== 'ENOENT')throw error;}}
++  if (enabled) {
++    await cp(source, target, {recursive:true});
++    await writeFile(marker, 'Generated from the pinned approved PACE-RAG package.\n');
++    console.log('PACE-RAG: verified publication package, professional corpus only.');
++  }
++}
++if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) await prepare();
+--- /dev/null
++++ b/tests/pace-rag.test.mjs
+@@ -0,0 +1,39 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {readFile, access, mkdtemp, cp, rm, writeFile} from 'node:fs/promises';
++import {resolve} from 'node:path';
++import {tmpdir} from 'node:os';
++import {verifyPackage} from '../scripts/pace-rag-assets.mjs';
++
++test('prerendered assistant is native, closed and absent from eager scripts/preloads', async () => {
++  const html=await readFile('dist/index.html','utf8');
++  assert.match(html,/Ask about my engineering experience/);
++  assert.match(html,/<details class="experience-assistant">/);
++  assert.doesNotMatch(html,/<(?:script|link)[^>]+(?:PaceAssistant|embedding-worker|model_quantized)/);
++  assert.doesNotMatch(html,/<iframe[^>]+pace/);
++  await access('dist/pace-rag/knowledge/professional/index.html');
++  await assert.rejects(access('dist/pace-rag/knowledge/lab/current.json'));
++  const release=await verifyPackage(resolve('node_modules/@pace-rag/portfolio-assistant/public'));
++  assert.equal(release.preview,false);
++});
++
++test('pinned assets reject modified evidence and unlisted foreign files', async () => {
++  const dir=await mkdtemp(resolve(tmpdir(),'pace-assets-'));
++  // Copy the small metadata subset; avoid copying large models for a negative test.
++  const source=resolve('node_modules/@pace-rag/portfolio-assistant/public');
++  try {
++    const release=JSON.parse(await readFile(resolve(source,'release.json'),'utf8'));
++    const first=release.files[0];
++    await writeFile(resolve(dir,'release.json'),JSON.stringify({...release,files:[first]}));
++    const path=resolve(dir,first.file);
++    await cp(resolve(source,first.file),path,{recursive:true}).catch(async()=>{
++      const {mkdir}=await import('node:fs/promises');
++      await mkdir(resolve(path,'..'),{recursive:true});await cp(resolve(source,first.file),path);
++    });
++    await writeFile(path,'tampered');
++    await assert.rejects(verifyPackage(dir),/integrity/);
++    release.files[0].file='knowledge/lab/answers.json';
++    await writeFile(resolve(dir,'release.json'),JSON.stringify(release));
++    await assert.rejects(verifyPackage(dir),/foreign/);
++  } finally {await rm(dir,{recursive:true,force:true});}
++});

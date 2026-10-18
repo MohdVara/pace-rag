@@ -46,7 +46,7 @@ export function sourceProvenance(doc) {
   documentType: fixture?.[0] || (nature === 'implementation-evidence' ? 'Engineering implementation documentation' : 'Professional evidence snapshot'),
   purpose: fixture?.[1] || (nature === 'implementation-evidence' ? 'Explains implemented behavior and its verification limits.' : 'Supports bounded professional information and project references.'),
   publicationApproved: doc.status === 'approved' && doc.approval?.scope === 'publication',
-  reviewStatus: doc.status === 'approved' ? (doc.approval?.scope === 'local-test' ? 'Reviewed for local testing only; publication not approved.' : 'Publication approval recorded.') : 'Not approved for use.',
+  reviewStatus: doc.status === 'approved' ? (doc.approval?.scope === 'local-test' ? 'Content review pending.' : 'Publication approval recorded.') : 'Not approved for use.',
   reviewedAt: doc.reviewedAt || undefined,
   updatedAt: undefined,
  };

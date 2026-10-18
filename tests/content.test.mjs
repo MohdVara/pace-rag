@@ -13,7 +13,7 @@ import {
   safeUrl,
 } from "../packages/knowledge-schema/src/validate.mjs";
 import { fixture, unitVector } from "./helpers.mjs";
-test("portfolio and Lab content are independently approved for testing only", async () => {
+test("current portfolio and Lab content have independent publication approvals", async () => {
   const p = await loadContent("portfolio"),
     l = await loadContent("lab");
   assert.equal(p.answers.length, 40);
@@ -21,16 +21,15 @@ test("portfolio and Lab content are independently approved for testing only", as
   assert.equal(l.documents.length, 24);
   assert.ok(
     [...p.answers, ...p.documents, ...l.answers, ...l.documents].every(
-      (r) => ["approved", "retired"].includes(r.status) && r.approval.scope === "local-test",
+      (r) => ["approved", "retired"].includes(r.status) && r.approval.scope === "publication" && r.approval.contentHash === approvalHash(r),
     ),
   );
 });
-test("release blocks every unapproved corpus", async () => {
-  await assert.rejects(
-    loadContent("portfolio", { release: true }),
-    /approval/i,
-  );
-  await assert.rejects(loadContent("lab", { release: true }), /approval/i);
+test("release accepts current reviewed records and rejects missing approvals", async () => {
+  for (const corpus of ['portfolio', 'lab']) {
+    await loadContent(corpus, {release:true});
+    await assert.rejects(loadContent(corpus, {release:true,applyApprovals:false}), /approval/i);
+  }
 });
 test("foreign citation rejected", async () => {
   const data = await fixture();
@@ -109,6 +108,16 @@ test("test approvals exercise exact cache answers but cannot authorize publicati
   const data = await loadContent("portfolio");
   const { retrieve } = await import("../packages/semantic-core/src/retrieval.mjs");
   const { selectedAnswer } = retrieve({ corpus: { ...data, chunks: [] }, question: data.answers[0].canonicalQuestion });
-  assert.equal(selectedAnswer.approval.scope, "local-test");
+  assert.equal(selectedAnswer.approval.scope, "publication");
+  data.answers[0].approval.scope = 'local-test';
   assert.throws(() => validateCorpus(data, { release: true }), /local-test/);
+});
+
+test('publication requires an explicit scope and completed license review', async () => {
+  const data = await loadContent('portfolio', {release:true});
+  delete data.answers[0].approval.scope;
+  assert.throws(() => validateCorpus(data, {release:true}), /scope/);
+  data.answers[0].approval.scope = 'publication';
+  data.documents[0].license = 'publication pending owner approval';
+  assert.throws(() => validateCorpus(data, {release:true}), /license/);
 });

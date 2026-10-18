@@ -1,359 +1,466 @@
 {
   "profile": {
-    "contentHash": "d7956414124d5fa2f31ed3da5e3f06cca89ab5ba27b64584e7b757f5e8374517",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "451aa87942946c53be675a062aebb4293177071c17847fba06ee73cda0113e10",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "insurance": {
-    "contentHash": "b37fe4a3298ddb0a29cdbfbbc208e5662fc211c4b3d88326ed395d99835aa5a4",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "ed57676fd4c6604b8ad4db6ed92c1cb5b8461b958640f71e6dee2772490c560f",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "education": {
-    "contentHash": "4720d901498b844d9f5f40c43513ae75dafc1b2cf01194ba038e7e6396572351",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "0e1b16c6682b8f8ac95b44f8225a7ccf01621a7f8badf74f1a76e0b8cdbeb049",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "wensymes": {
-    "contentHash": "c9a59fcf9fd538d4f4e2f2f763ec5c1fad504c555ace9663af37e90414d91aec",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "dd9fa09125f6a1cd0444b06eacf10c598a78e27b0c42bc6516c9d24fad255785",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "rental": {
-    "contentHash": "2855feecda98fd87a53d5aae0cfb417525e22ba9cddd6e9b18192871d7592937",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "414f9a99bcbd21f54c5f36d73b19e31ea43ec17aea96cc25fd935cc30ebcb53a",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "hr": {
-    "contentHash": "5c578372d92feee174e7f85aa44175dff1fd09aa337bb748db60520beb17c2ae",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "508a99cc7488dde593c2f19c7c5263c3db00f9adf573199d4b23a47d6b54db94",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "ntm": {
-    "contentHash": "9c6556d0d9e1c53054680c31c22caa2ee4122db7681f9919e56b15e9b86bc42a",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "12b9e642b1946d0e0e7f46c2b97c86b876a3c665501b5d51362814f36c58a1f8",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "incident": {
-    "contentHash": "5eb4ba0b753746ae4a1fa04a39238ed83cc17459376f3a3ffe9b6fbe38e6b50d",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "59b1c885a44cee3416527d77bb085ac2a5c668db3de911a5995cae783fadf35a",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "rag": {
-    "contentHash": "31951edac1edf60a242ef0835e959d66762bb3af21c6164ec2b5aacbac666922",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "7cd9664260935319d031b25079b3b055774c86aea263853a949425f590bd042f",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "engagement": {
-    "contentHash": "2d6cfe8d6b7725ad8c0ae89bc149f6aee01d5ba003132e464307a6fc1beb4f55",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "b880b2a62ab1289c72f47326a2c7b50219b8a9fd88d8640d503141f308c9bb5a",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "resume": {
-    "contentHash": "bdc6608c22de4a06d262c628a8f2a7550e5bc4f7141e0394651085a447f213c2",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "contentHash": "649d5346a526321ee6f7ea4efae3931bdcdb1557726b86321944a3a846baa8cc",
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-inventory": {
+    "contentHash": "932551b3447ba6e2eebed73dc5102d919065f780dc5e110d7475b727d3b36ff8",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-hostel": {
+    "contentHash": "3fb562aa1adf25b9cc92af8959646213158779618ae868f44c9d555dbbb7b48e",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-rental": {
+    "contentHash": "c594ff7cdc08cb4693e7a6dfa7e5a7cebd73890fbd051e040b42a81387ae4ca7",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-campus": {
+    "contentHash": "d4754a91a1cd2e0dceaa2a9f11f496ea21417f094e64767e0ef3136ca82439c2",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-insurance": {
+    "contentHash": "79c2d662811ab2c6da05d24697ef0f42f9d5269618d703ae73367271310af8a7",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-wensymes": {
+    "contentHash": "661f624c4155e5609c212565cb01dd2637defba3efd795dde52faa1aa547b23a",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+  },
+  "technology-asset": {
+    "contentHash": "3055405c6b60d0d5d5b6143ab86d7c732617d7289f763ddfb8591a971aa9d5a9",
+    "version": "pace-technology-v1.2",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-background": {
     "contentHash": "04baebda63e90c86b91f3ca9c7163f43f0a39b9ce856e168f275680086c17cb2",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-location": {
     "contentHash": "d2929d607d9ebbb220606b13c7f91ad9e480a22400711e7fe8ac9c03c54fa462",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-approach": {
     "contentHash": "4cf6fcc59ad398f52284f9791fd46e5aee25fea30783d5bb74200dc1ae6beb6d",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-teaching": {
     "contentHash": "e1a4e28d9db7131d92b2d728841ecb3141c2ebbd107872435ca321138f5d4f92",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-insurance-work": {
     "contentHash": "57db45dac977c232ff282c945dfdb17318943d5c2ebd4ba5e8f8ce096df48aec",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-insurance-leadership": {
     "contentHash": "be053c067b5650314eaab86d5e1f41d4916902834f789b6887a76570b42d0e67",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-insurance-stack": {
     "contentHash": "06e4cfaa737aa7fbe712e37305ff77c26c2e117d08689848d1fe512da487bbad",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-modernisation": {
     "contentHash": "1d822002192e8d4f8092ac82be7cb3656a0109a8fad4c0bb8a5ba5cfe6764029",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-education-disclosure": {
     "contentHash": "b24bb2763945c9e8868c347df8ae6f4a485db53ae6928c0526bcbb89edfb81cf",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-wensymes-work": {
     "contentHash": "df88855a034a1e42487137b1c63f6b83ee9844b27f5c74890e42ed8d8c52966b",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-wensymes-tools": {
     "contentHash": "83fc6785438c0c2072411b4cddd547bea43416d6b42f831fb0e9ea681c13dbf7",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-wensymes-security": {
     "contentHash": "46c7a6313abff98406933fbcee05c9623b7aba75f9934d14b6d9e4ac361f46aa",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rental-domain": {
     "contentHash": "38a82b63c3b0cf9e9bb3ff9583246f44cc7c4bbaa7b9179857e821716365aa74",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rental-impact": {
     "contentHash": "ddbb08b983eef0db32998a8d509637ebf2b3df6c1ec9cb6f7658006c8c2f384d",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-hr-collaboration": {
     "contentHash": "a0e8f6ebaa125b54c4b3043dbc1154274bd0eb63da62caba32ebf35b167912b4",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-hr-distinction": {
     "contentHash": "71544022ba5934a76df2cf4b909795a3a51ac2d5f967dce822f037a8c5913f36",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-ntm-overview": {
     "contentHash": "2f74a6a4e82f1be4cdccb1b424750b13f0b86aaf6656325bd1ea090445e11924",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-ntm-architecture": {
     "contentHash": "09e71c49a26be0f7651fdbe3fcc0fe5493cda4d28289999cf20a5e915a8a83d6",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-ntm-rag": {
     "contentHash": "8f16edb52edd6da023bba4ae238382d527ca8c250c4fc58de71482417b47d74c",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-incident-overview": {
     "contentHash": "cba60a6abd3ca02bfdba9bdd16200c64423eb69a8459fe64c2e573e83a0e1af9",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-incident-preview": {
     "contentHash": "4ed02ff82a1e79b2249e0b8be51b49beb1876862d84bc727a1187a5c1961ef56",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rag-evidence": {
     "contentHash": "16d9cc8eee3e027479fa3b20512d7fc60059bc66f69b742721b5522225b30eff",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rag-scale": {
     "contentHash": "d050724cbe5893b11ea7883ce42987c583d61ba308e9b7ef6ce6c8cda4131651",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-engagement-types": {
     "contentHash": "e3d0b4ee2c2d079ad9a663b8fb962e87391cb1752154914095a7634a530c51ae",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-availability": {
     "contentHash": "58b7e56dd1ae0ca90d23529babf63390896e29e79d9920c6597f572c5ee50e94",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-resume-links": {
     "contentHash": "4df083bc375fb276bacd160c2454e63b911457cf28d98bc664255c17f46e0221",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-contact": {
     "contentHash": "a1f3d0deafffee26610a7b81ec09ff9d844c89388655ab293c16f3355846df1c",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-independent-work": {
     "contentHash": "eeb73c220a15055b2d2f1b98d947fbe74ed5070642181023c66dbfa95ac32de8",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-insurance-products": {
     "contentHash": "67fa224906ef647afe5aed12cb83edb59af6fce5fbfd3a730b800e9ffa1087a6",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-insurance-workflows": {
     "contentHash": "148c3bc88bd4c8f0e94e5fe84476babc076a875fadcffc07007f105cc23eeaa9",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rental-lifecycle": {
     "contentHash": "1a117acf5f85ed979205224b7f6f82a71a2b6b7302da500000750d50b8260fd6",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rental-scale": {
     "contentHash": "4b4d0038083b54b5a23aba04f07d2a6860165669a70187925dc36b57241a1d80",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-rental-reporting": {
     "contentHash": "c197b9081f12be8def254e714007abdc72dcc15ef841fabd4c60652ea64d0948",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-wensymes-platforms": {
     "contentHash": "861ef9fb27c2a2c0357bf446ccfcc38396ae08d45419ed132f7826d9a91a558b",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-hr-config": {
     "contentHash": "acf2364520a59938bffb92828e43ec53400c922172daa13a0e345dcf3c42a7a9",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-ntm-verification": {
     "contentHash": "7b415dadd02a46bc3709006f44ed098497a400ae7b5e28a55241d0c5e699b52b",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-incident-authenticity": {
     "contentHash": "5fda4bfdef5a7a7ee8a18b3a3a23b7f319e41d220e8ee80b461d703ba4af108b",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-architecture-discussion": {
     "contentHash": "825e28ddcf193d317d39d63f2f12b6d95bdd13cecdd69fde9e5772d01bf89ae2",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-cv-options": {
     "contentHash": "afb309f0fe3e64c07fe4dd46d481488e582c8c684c1f199c1020616fbdf40715",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   },
   "portfolio-answer-public-boundaries": {
     "contentHash": "f9ba97f66255cad63584b2253744e648e888301ecfa7d5fa7d5f54e8e6d3c338",
-    "reviewer": "Codex content review for owner-authorized testing",
-    "approvedAt": "2026-10-18T15:21:47.584Z",
-    "scope": "local-test",
-    "authorization": "Owner requested populated application testing on 2026-10-18; public release was not authorized."
+    "version": "1",
+    "scope": "publication",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-18T18:09:21.857Z",
+    "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
   }
 }

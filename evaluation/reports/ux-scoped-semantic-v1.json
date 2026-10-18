@@ -1,9 +1,9 @@
 {
   "reportVersion": "efrd-evaluation-v1",
-  "measuredAt": "2026-10-18T17:29:34.214Z",
-  "softwareVersion": "0.1.0+ux-v1.2",
+  "measuredAt": "2026-10-18T18:39:55.485Z",
+  "softwareVersion": "1.3.0+ux-v1.2",
   "scope": "Separated professional/implementation views; no new held-out fictional dataset measured. Previously inspected agent-authored labels.",
-  "sourceDigest": "63b979abb8c16798cc9792c281be106cb56cb42194baf3b8e468afe755a98d32",
+  "sourceDigest": "61688a28658caaa6ca9bcd4a91094841506589eff176f44aa12d8345da56b822",
   "mode": "semantic",
   "dataset": {
     "version": "efrd-heldout-v1",
@@ -25,7 +25,7 @@
   },
   "scorecards": {
     "professional": {
-      "corpusVersion": "c7c3b24acc7a674c",
+      "corpusVersion": "5172c80561642d42",
       "positiveQuestions": 100,
       "criticalQuestions": 60,
       "compositeQuestions": 20,
@@ -38,12 +38,12 @@
       "directAnswerCoverageCommonIntents": 0.16666666666666666,
       "compositesCorrect": 20,
       "compositeCoverage": 1,
-      "localRankAndAnswerP50Ms": 0.34875000000010914,
-      "localRankAndAnswerP95Ms": 0.8436659999997573,
+      "localRankAndAnswerP50Ms": 0.38879200000064884,
+      "localRankAndAnswerP95Ms": 0.9993750000003274,
       "activeReviewedAnswers": 38
     },
     "implementation": {
-      "corpusVersion": "e3f32e81448fdea7",
+      "corpusVersion": "cb8cf7a42d2969e4",
       "positiveQuestions": 40,
       "criticalQuestions": 10,
       "compositeQuestions": 0,
@@ -56,8 +56,8 @@
       "directAnswerCoverageCommonIntents": 0,
       "compositesCorrect": 0,
       "compositeCoverage": null,
-      "localRankAndAnswerP50Ms": 0.26700000000073487,
-      "localRankAndAnswerP95Ms": 0.3297919999995429,
+      "localRankAndAnswerP50Ms": 0.8080410000002303,
+      "localRankAndAnswerP95Ms": 3.0070830000004207,
       "activeReviewedAnswers": 20
     }
   },

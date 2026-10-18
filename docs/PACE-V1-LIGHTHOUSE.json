@@ -1,0 +1,42 @@
+{
+  "reviewDate": "2026-10-18",
+  "timezone": "Asia/Kuching",
+  "lighthouseVersion": "12.8.2",
+  "fetchTime": "2026-10-18T03:26:02.980Z",
+  "url": "http://127.0.0.1:4173/",
+  "formFactor": "mobile",
+  "scores": {
+    "performance": 98,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "labMetrics": {
+    "first-contentful-paint": {
+      "value": 1549.5778,
+      "unit": "millisecond",
+      "display": "1.5\u00a0s"
+    },
+    "largest-contentful-paint": {
+      "value": 1904.5778,
+      "unit": "millisecond",
+      "display": "1.9\u00a0s"
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "unit": "unitless",
+      "display": "0"
+    },
+    "total-blocking-time": {
+      "value": 11,
+      "unit": "millisecond",
+      "display": "10\u00a0ms"
+    },
+    "speed-index": {
+      "value": 3721.127866547942,
+      "unit": "millisecond",
+      "display": "3.7\u00a0s"
+    }
+  },
+  "warnings": []
+}

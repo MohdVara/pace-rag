@@ -43,10 +43,7 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
       reviewedAt: null,
       reviewAfter: "2027-01-16T00:00:00Z",
       provenance: input.documentProvenance?.[id] || (corpusId === "lab" ? "synthetic" : "approved-portfolio"),
-      license:
-        corpusId === "lab"
-          ? "CC-BY-4.0 (publication pending owner approval)"
-          : "Owner portfolio; approved-public-scope summaries; publication pending owner approval",
+      license: "Owner-authorized public display; copyright retained. No reuse license granted.",
       status: "draft",
       approval: null,
     }),
@@ -108,9 +105,19 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
       const text = record.canonicalProjectId === 'inventory'
         ? technologyEvidence.records.map(r => `${r.projectTitle}: ${r.generations.map(g => `${g.label || 'Confirmed stack'}: ${g.groups.map(group => `${group.label}: ${group.technologies.join(', ')}`).join('; ')}`).join('. ')}.${r.note ? ' ' + r.note : ''}`).join('\n\n')
         : `${record.projectTitle}. ${record.generations.map(g => `${g.label || 'Confirmed stack'}: ${g.groups.map(group => `${group.label}: ${group.technologies.join(', ')}`).join('; ')}`).join('. ')}.${record.note ? ' ' + record.note : ''}`;
-      const doc = { id: `technology-${record.canonicalProjectId}`, corpusId, version: technologyEvidence.contentVersion, title: record.projectTitle, canonicalUrl: record.canonicalPortfolioAnchor, text, contentHash: hash(text), reviewedAt: record.reviewedAt, reviewAfter: '2027-01-16T00:00:00Z', provenance: 'owner-confirmed-technology', license: 'Owner-authorized public technology facts; no private architecture or source code imported', status: 'approved', approval: null, upstreamHash: record.contentHash };
-      doc.approval = { scope: 'local-test', reviewer: 'Imported existing owner-confirmed PACE v1.2 public export; authorized for EFRD consumption', approvedAt: record.reviewedAt, contentHash: approvalHash(doc) };
-      documents.push(doc);
+      const doc = { id: `technology-${record.canonicalProjectId}`, corpusId, version: technologyEvidence.contentVersion, title: record.projectTitle, canonicalUrl: record.canonicalPortfolioAnchor, text, contentHash: hash(text), reviewedAt: null, reviewAfter: '2027-01-16T00:00:00Z', provenance: 'owner-confirmed-technology', license: 'Owner-authorized public technology facts; no private architecture or source code imported', status: 'draft', approval: null, upstreamHash: record.contentHash };
+      documents.push(apply(doc));
+    }
+  }
+  if (release) {
+    const review = JSON.parse(await readFile(new URL('../../content/publication-review.json', import.meta.url), 'utf8'));
+    for (const [path, digest] of Object.entries(review.supportingFiles)) {
+      if (hash(await readFile(new URL(`../../${path}`, import.meta.url))) !== digest) throw new Error(`Publication review invalidated: ${path}`);
+    }
+    const records = [...documents, ...answers], approved = review.corpora[corpusId];
+    if (records.length !== Object.keys(approved).length) throw new Error('Publication review record set changed');
+    for (const record of records) {
+      if (approved[record.id]?.contentHash !== approvalHash(record) || approved[record.id]?.version !== record.version) throw new Error(`Publication review invalidated: ${record.id}`);
     }
   }
   return validateCorpus({ corpusId, documents, answers, technologyEvidence, retirements }, { release });

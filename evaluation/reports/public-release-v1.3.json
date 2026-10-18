@@ -1,0 +1,316 @@
+{
+  "version": "pace-public-release-v1.3",
+  "preparedAt": "2026-10-18T18:48:18.899525+00:00",
+  "clientDate": "2026-10-19",
+  "clientTimezone": "Asia/Kuching",
+  "deploymentPerformed": false,
+  "pushPerformed": false,
+  "publicationChecksPassed": true,
+  "productionVerified": false,
+  "allQualityTargetsMet": false,
+  "recordCounts": {
+    "professionalSources": 18,
+    "professionalCurrentAnswers": 38,
+    "professionalRetiredAnswers": 2,
+    "implementationSources": 4,
+    "implementationAnswers": 20,
+    "fictionalSources": 20,
+    "fictionalAnswers": 20
+  },
+  "releaseVersions": {
+    "portfolio": "5172c80561642d42",
+    "lab": "cb8cf7a42d2969e4"
+  },
+  "nodeTests": {
+    "rag": {
+      "passed": 86,
+      "failed": 0,
+      "skipped": 0
+    },
+    "portfolio": {
+      "passed": 117,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "bundles": [
+    {
+      "kind": "portfolio-main",
+      "path": "../mohdvara.github.io/dist/assets/index-CWvMuE6d.js",
+      "rawBytes": 207632,
+      "gzipBytes": 64311,
+      "sha256": "f15162c37276cf74b5f62c1b823e0f740430464966af8c47f2a457e5a68146f2"
+    },
+    {
+      "kind": "portfolio-assistant",
+      "path": "../mohdvara.github.io/dist/assets/PaceAssistant-opNdjdz1.js",
+      "rawBytes": 74424,
+      "gzipBytes": 23627,
+      "sha256": "afa5a1f6d4e473f347ae9268ebee1033921fc277beee4b0c51e7796c9971a8a2"
+    },
+    {
+      "kind": "portfolio-main-css",
+      "path": "../mohdvara.github.io/dist/assets/index-j0MTs76M.css",
+      "rawBytes": 56436,
+      "gzipBytes": 11306,
+      "sha256": "4431aa4f43715d44ff0454c85f098d53728728210bc35ad43ca2893cc66438a7"
+    },
+    {
+      "kind": "portfolio-assistant-css",
+      "path": "../mohdvara.github.io/dist/assets/PaceAssistant-C6r_Zct7.css",
+      "rawBytes": 4124,
+      "gzipBytes": 1324,
+      "sha256": "1b909dffc3bf7ce73fc4d4cf0f08dfe25e1a92bb1ad3e281659260036ac6c188"
+    },
+    {
+      "kind": "lab-main",
+      "path": "dist/lab/assets/index-CMTtM1PG.js",
+      "rawBytes": 222261,
+      "gzipBytes": 70739,
+      "sha256": "fe015ab184e9407e1ed29ea59679efeaa22f4c62b2c41782256e5b63ca7b9340"
+    },
+    {
+      "kind": "embedding-worker",
+      "path": "output/embedding-worker/assets/embedding-worker-DnxKJqeO.js",
+      "rawBytes": 851258,
+      "gzipBytes": 216585,
+      "sha256": "a1163b2ca13f8a76f003000d424537b86648a7507949c14f223d10d9db92d23c"
+    },
+    {
+      "kind": "pinned-package",
+      "path": "../mohdvara.github.io/vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
+      "rawBytes": 24784996,
+      "sha256": "5b0373437449f8dd47785400ec55432caf5f9691a3c169f8e41c367b048277a5"
+    }
+  ],
+  "baselineMainBytes": 205843,
+  "mainBudgetBytes": 215000,
+  "browserQA": {
+    "portfolioChromium": {
+      "measuredAt": "2026-10-18T18:41:31.143Z",
+      "counts": {
+        "cases": 4,
+        "layouts": 8
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "portfolioWebKit": {
+      "measuredAt": "2026-10-18T18:43:02.141Z",
+      "counts": {
+        "cases": 4,
+        "layouts": 8
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "browserRegression": {
+      "measuredAt": "2026-10-18T18:44:11.621Z",
+      "counts": {
+        "results": 12
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "efrdChromium": {
+      "measuredAt": "2026-10-18T18:41:35.768Z",
+      "counts": {
+        "journeys": 7,
+        "layouts": 14
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "uxChromium": {
+      "measuredAt": "2026-10-18T18:42:05.369Z",
+      "counts": {
+        "tasks": 8,
+        "layouts": 42
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "uxWebKit": {
+      "measuredAt": "2026-10-18T18:43:05.925Z",
+      "counts": {
+        "tasks": 8,
+        "layouts": 42
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "technologyChromium": {
+      "measuredAt": "2026-10-18T18:42:38.078Z",
+      "counts": {
+        "tasks": 5
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    },
+    "technologyWebKit": {
+      "measuredAt": "2026-10-18T18:43:52.596Z",
+      "counts": {
+        "tasks": 5
+      },
+      "failed": [],
+      "inferenceRequests": [],
+      "errors": []
+    }
+  },
+  "retrieval": {
+    "lexical": {
+      "professional": {
+        "corpusVersion": "5172c80561642d42",
+        "positiveQuestions": 100,
+        "criticalQuestions": 60,
+        "compositeQuestions": 20,
+        "top1ApprovedAnswerRankingAccuracy": 0.35,
+        "top3CandidateRecall": 0.55,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0.16666666666666666,
+        "compositesCorrect": 20,
+        "compositeCoverage": 1,
+        "localRankAndAnswerP50Ms": 0.4959580000000017,
+        "localRankAndAnswerP95Ms": 0.9552500000000066,
+        "activeReviewedAnswers": 38
+      },
+      "implementation": {
+        "corpusVersion": "cb8cf7a42d2969e4",
+        "positiveQuestions": 40,
+        "criticalQuestions": 10,
+        "compositeQuestions": 0,
+        "top1ApprovedAnswerRankingAccuracy": 0.5,
+        "top3CandidateRecall": 0.75,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0,
+        "compositesCorrect": 0,
+        "compositeCoverage": null,
+        "localRankAndAnswerP50Ms": 0.4283330000000092,
+        "localRankAndAnswerP95Ms": 0.6237500000000011,
+        "activeReviewedAnswers": 20
+      }
+    },
+    "semantic": {
+      "professional": {
+        "corpusVersion": "5172c80561642d42",
+        "positiveQuestions": 100,
+        "criticalQuestions": 60,
+        "compositeQuestions": 20,
+        "top1ApprovedAnswerRankingAccuracy": 0.57,
+        "top3CandidateRecall": 0.79,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0.16666666666666666,
+        "compositesCorrect": 20,
+        "compositeCoverage": 1,
+        "localRankAndAnswerP50Ms": 0.38879200000064884,
+        "localRankAndAnswerP95Ms": 0.9993750000003274,
+        "activeReviewedAnswers": 38
+      },
+      "implementation": {
+        "corpusVersion": "cb8cf7a42d2969e4",
+        "positiveQuestions": 40,
+        "criticalQuestions": 10,
+        "compositeQuestions": 0,
+        "top1ApprovedAnswerRankingAccuracy": 0.575,
+        "top3CandidateRecall": 0.9,
+        "appropriateAbstentionRate": 1,
+        "incorrectAutomaticMatches": 0,
+        "invalidCitationReferences": 0,
+        "crossCorpusReferences": 0,
+        "directAnswerCoverageCommonIntents": 0,
+        "compositesCorrect": 0,
+        "compositeCoverage": null,
+        "localRankAndAnswerP50Ms": 0.8080410000002303,
+        "localRankAndAnswerP95Ms": 3.0070830000004207,
+        "activeReviewedAnswers": 20
+      }
+    }
+  },
+  "technology": {
+    "questions": 140,
+    "entityRecognitionAccuracy": 1,
+    "projectAssociationCorrectness": 1,
+    "structuredAnswerAccuracy": 1,
+    "errors": []
+  },
+  "dependencyAudit": {
+    "counts": {
+      "info": 0,
+      "low": 0,
+      "moderate": 4,
+      "high": 6,
+      "critical": 0,
+      "total": 10
+    },
+    "packages": {
+      "@huggingface/transformers": {
+        "severity": "high",
+        "isDirect": true
+      },
+      "global-agent": {
+        "severity": "moderate",
+        "isDirect": false
+      },
+      "miniflare": {
+        "severity": "high",
+        "isDirect": false
+      },
+      "onnxruntime-node": {
+        "severity": "moderate",
+        "isDirect": false
+      },
+      "roarr": {
+        "severity": "moderate",
+        "isDirect": false
+      },
+      "sharp": {
+        "severity": "high",
+        "isDirect": false
+      },
+      "sprintf-js": {
+        "severity": "moderate",
+        "isDirect": false
+      },
+      "undici": {
+        "severity": "high",
+        "isDirect": false
+      },
+      "wrangler": {
+        "severity": "high",
+        "isDirect": true
+      },
+      "ws": {
+        "severity": "high",
+        "isDirect": false
+      }
+    },
+    "scope": "Existing pinned RAG dependency tree, including local Node/native processing and Wrangler/Miniflare. This is not a clean dependency audit. Static portfolio package carries prebuilt browser assets; Node/native runtimes and Wrangler are not shipped in it."
+  },
+  "environment": {
+    "node": "v23.11.0",
+    "browsers": "Installed pinned Playwright Chromium and WebKit",
+    "limits": [
+      "Local previews only; no production deployment, live inference, billing validation or physical devices.",
+      "No actual screen-reader or moderated comprehension session.",
+      "Professional semantic Top-3 recall 79% remains below the 90% target.",
+      "Evaluation wording is agent-authored and previously inspected; no blind/unseen reliability guarantee.",
+      "Existing dependency audit findings remain; no major model/runtime migration performed."
+    ]
+  }
+}

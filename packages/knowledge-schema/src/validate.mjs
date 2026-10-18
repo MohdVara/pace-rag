@@ -101,7 +101,7 @@ export function validateCorpus(
         "Missing approval",
       );
       ensure(!record.approval.scope || ["publication", "local-test"].includes(record.approval.scope), "Invalid approval scope");
-      if (release) ensure(record.approval.scope !== "local-test", "Publication requires owner approval; local-test approval is insufficient");
+      if (release) ensure(record.approval.scope === "publication", "Publication requires publication-scoped owner approval; local-test or missing scope is insufficient");
       ensure(Date.parse(record.reviewAfter) > now, "Expired content");
     }
   }
@@ -113,6 +113,7 @@ export function validateCorpus(
     );
     ensure(safeUrl(doc.canonicalUrl, data.corpusId, true), "Unsafe source URL");
     ensure(doc.license, "Missing license");
+    if (release && doc.status !== "retired") ensure(!/pending|review required/i.test(doc.license), "Publication license review incomplete");
   }
   for (const answer of data.answers) {
     ensure(
