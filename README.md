@@ -2,6 +2,8 @@
 
 Browser-first knowledge retrieval shared by the portfolio assistant and an inspectable Engineering RAG Lab with implementation documentation and synthetic examples. Search does not require Cloudflare credentials. Live generation is disabled by default.
 
+Hosted demo: [PACE-RAG on Cloudflare Pages](https://pace-rag.pages.dev/pace-rag/). The owner requested this static demo deployment on 19 October 2026. Existing record-level test-review labels remain visible; this deployment does not certify the publication release gates. See [hosting](docs/HOSTING.md) for the deployment and custom-domain setup.
+
 PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit content provenance and conservative handling of unsupported claims. The current implementation combines the v1.1 retrieval foundation, v1.2 source-selection experience and v1.3 technology ontology. The npm workspace package version is independently tracked as `0.1.0`.
 
 ## What this repository contains
@@ -108,7 +110,7 @@ The GitHub Actions workflow validates content, runs Node tests and builds a lexi
 - Current records are **approved for testing only** under the owner’s request. UI and static pages label this scope explicitly; it is not publication approval.
 - `npm run release:check` rejects `local-test` approvals. Public publication still requires reviewed content, licensing and publication approvals.
 - The API bundle contains **only approved source documents**; currently its evidence sets are empty.
-- No resources have been provisioned, and no remote deployment or inference was performed.
+- The static demo is hosted on Cloudflare Pages. The optional API, AI inference and budget services have not been deployed as part of this hosting setup.
 
 Source, evidence and deployment notes: [implementation](docs/IMPLEMENTATION.md), [operations](docs/operations.md), [privacy](docs/privacy.md), [release](docs/release.md).
 
@@ -139,7 +141,7 @@ Build first, then `npm run package:portfolio`. The portfolio is currently detach
 
 Professional Experience supports deterministic technology entities, aliases, categories, ecosystem relationships, versioned facts and provider comparisons. Try “Which PHP frameworks have you used?”, “What JavaScript frontend technologies have you worked with?”, “Where have you used container orchestration?” or “Have you used Ruby?”. General definitions are separate from owner-confirmed project evidence. Node is a runtime, React a UI library, PDO database access; related technologies do not imply undocumented project usage.
 
-Run `npm run eval:technology` for the separate 140-query development evaluation and `npm run test:toer-browser` (or `TOER_BROWSER=webkit`) against the local static server. Results are finite regression observations, not blind reliability guarantees. [Ontology](docs/PACE-RAG-TECHNOLOGY-ONTOLOGY.md), [entity resolution](docs/PACE-RAG-ENTITY-RESOLUTION.md), [evaluation](docs/PACE-RAG-TECHNOLOGY-EVALUATION.md) and [QA](docs/PACE-RAG-TOER-QA.md) describe implemented behavior and remaining gates. Nothing is deployed, and no new project-content approval is created.
+Run `npm run eval:technology` for the separate 140-query development evaluation and `npm run test:toer-browser` (or `TOER_BROWSER=webkit`) against the local static server. Results are finite regression observations, not blind reliability guarantees. [Ontology](docs/PACE-RAG-TECHNOLOGY-ONTOLOGY.md), [entity resolution](docs/PACE-RAG-ENTITY-RESOLUTION.md), [evaluation](docs/PACE-RAG-TECHNOLOGY-EVALUATION.md) and [QA](docs/PACE-RAG-TOER-QA.md) describe implemented behavior and remaining gates. Static hosting does not create new record-level project-content approvals.
 
 ## Changing content and contributing
 
