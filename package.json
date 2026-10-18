@@ -1,0 +1,49 @@
+{
+  "name": "pace-rag",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "node scripts/indexing/build.mjs --preview && tsc --noEmit && vite build --config vite.worker.config.ts && node scripts/worker-assets.mjs && vite build && node scripts/static-pages.mjs && vite build --config vite.assistant.config.ts",
+    "typecheck": "tsc --noEmit",
+    "content:validate": "node scripts/indexing/build.mjs --validate",
+    "index:build": "vite build --config vite.worker.config.ts && node scripts/worker-assets.mjs && node scripts/indexing/build.mjs --preview --embed",
+    "index:verify": "node scripts/indexing/verify.mjs",
+    "release:check": "node scripts/indexing/build.mjs --validate --release",
+    "test": "node --experimental-sqlite --test tests/*.test.mjs",
+    "eval:retrieval": "node scripts/evaluate-efrd.mjs",
+    "package:portfolio": "node scripts/package-portfolio.mjs",
+    "api:dev": "wrangler dev --config apps/rag-api/wrangler.jsonc",
+    "api:check": "wrangler deploy --dry-run --outdir output/worker --config apps/rag-api/wrangler.jsonc",
+    "model:prepare": "node scripts/model-assets.mjs",
+    "test:provider": "node scripts/provider-smoke.mjs",
+    "test:browser": "node scripts/browser-qa.mjs",
+    "build:release": "npm run release:check && vite build --config vite.worker.config.ts && node scripts/worker-assets.mjs && node scripts/indexing/build.mjs --release --embed && tsc --noEmit && vite build && node scripts/static-pages.mjs && vite build --config vite.assistant.config.ts",
+    "perf:report": "node scripts/performance.mjs",
+    "check:portfolio-budget": "node scripts/check-portfolio-budget.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5180",
+    "package:static": "node scripts/package-static.mjs",
+    "preview:static": "node scripts/serve-static.mjs",
+    "eval:legacy": "node scripts/evaluate.mjs",
+    "lint": "node scripts/lint.mjs && tsc --noEmit --noUnusedLocals --noUnusedParameters",
+    "test:efrd-browser": "node scripts/efrd-browser-qa.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
+    "playwright": "1.56.1",
+    "typescript": "5.6.3",
+    "vite": "8.3.2",
+    "wrangler": "4.45.0"
+  }
+}

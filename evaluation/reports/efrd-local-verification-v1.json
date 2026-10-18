@@ -1,0 +1,308 @@
+{
+  "version": "efrd-local-verification-v1",
+  "measuredAt": "2026-10-18T16:44:29.825Z",
+  "scope": "Local standalone built artifacts; no production/provider or physical-device verification.",
+  "softwareVersion": "0.1.0+efrd-v1.1",
+  "bundle": {
+    "portfolioMain": {
+      "file": "/assets/index-Buvkjbia.js",
+      "rawBytes": 205843,
+      "limit": 215000,
+      "ragAddedBytes": 0,
+      "integrationInstalled": false
+    },
+    "standaloneLab": {
+      "file": "dist/lab/assets/index-CoN-VFrl.js",
+      "rawBytes": 192794,
+      "gzip9Bytes": 61881
+    },
+    "reusableAssistant": {
+      "rawBytes": 54898,
+      "gzip9Bytes": 16430
+    },
+    "worker": {
+      "path": "dist/lab/assets/embedding-worker-DnxKJqeO.js",
+      "rawBytes": 851258
+    }
+  },
+  "model": {
+    "spec": "Pinned Playwright Chromium for model execution; not a physical device",
+    "assets": [
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/config.json",
+        "bytes": 650
+      },
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/tokenizer.json",
+        "bytes": 711661
+      },
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/tokenizer_config.json",
+        "bytes": 366
+      },
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/special_tokens_map.json",
+        "bytes": 125
+      },
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/vocab.txt",
+        "bytes": 231508
+      },
+      {
+        "file": "models/minilm-q8-wasm-v1/751bff37182d3f1213fa05d7196b954e230abad9/Xenova/all-MiniLM-L6-v2/onnx/model_quantized.onnx",
+        "bytes": 22972370
+      },
+      {
+        "file": "runtime/minilm-q8-wasm-v1/1.22.0-dev.20250409-89f8206ba4/ort-wasm-simd-threaded.wasm",
+        "bytes": 11133407
+      },
+      {
+        "file": "runtime/minilm-q8-wasm-v1/1.22.0-dev.20250409-89f8206ba4/ort-wasm-simd-threaded.mjs",
+        "bytes": 20856
+      },
+      {
+        "file": "runtime/minilm-q8-wasm-v1/1.22.0-dev.20250409-89f8206ba4/ort-wasm-simd-threaded.jsep.wasm",
+        "bytes": 21596019
+      },
+      {
+        "file": "runtime/minilm-q8-wasm-v1/1.22.0-dev.20250409-89f8206ba4/ort-wasm-simd-threaded.jsep.mjs",
+        "bytes": 44484
+      }
+    ],
+    "transferSamples": [
+      {
+        "responseBodyBytes": 45325633,
+        "responseHeadersBytes": 1553,
+        "files": 7
+      },
+      {
+        "responseBodyBytes": 45325633,
+        "responseHeadersBytes": 1553,
+        "files": 7
+      },
+      {
+        "responseBodyBytes": 45325633,
+        "responseHeadersBytes": 1553,
+        "files": 7
+      }
+    ],
+    "transferScope": "Playwright Request.sizes() from a fresh local HTTP browser context; uncompressed local server, no mobile throttling or remote CDN claim."
+  },
+  "timing": {
+    "coldEmbedding": {
+      "n": 3,
+      "min": 655.6000000238419,
+      "p50": 664.7000000476837,
+      "p95": 680.8999999761581,
+      "max": 680.8999999761581
+    },
+    "warmEmbedding": {
+      "n": 9,
+      "min": 14.299999952316284,
+      "p50": 15.5,
+      "p95": 28.700000047683716,
+      "max": 28.700000047683716
+    },
+    "answerNextAnimationFrame": {
+      "n": 27,
+      "min": 12,
+      "p50": 30.699999928474426,
+      "p95": 682.2999999523163,
+      "max": 700.0999999046326
+    },
+    "cacheAnswerNextAnimationFrame": {
+      "n": 3,
+      "min": 50.10000002384186,
+      "p50": 50.700000047683716,
+      "p95": 52.39999997615814,
+      "max": 52.39999997615814
+    }
+  },
+  "memory": "Not measured",
+  "browserVerification": {
+    "chromium": {
+      "journeys": [
+        {
+          "name": "Answer-first portfolio: composites, exact cache, sources, abstention, zero eager model",
+          "passed": true
+        },
+        {
+          "name": "Implementation cache and real semantic trace separate answer sources from topical passages",
+          "passed": true
+        },
+        {
+          "name": "Actual worker request failure leaves keyword cache and no automatic retry",
+          "passed": true
+        },
+        {
+          "name": "Cancel initialization terminates worker and preserves visible keyword result",
+          "passed": true
+        },
+        {
+          "name": "Six clearly labelled isolated failure demonstrations",
+          "passed": true
+        },
+        {
+          "name": "Stale manifest and corrupted source bytes fail closed into static browser",
+          "passed": true
+        },
+        {
+          "name": "No-JavaScript sources and current-only public release artifacts",
+          "passed": true
+        }
+      ],
+      "layouts": 14,
+      "axe": [
+        {
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "inferenceRequests": 0,
+      "errors": [],
+      "consoleErrors": []
+    },
+    "webkit": {
+      "journeys": [
+        {
+          "name": "Answer-first portfolio: composites, exact cache, sources, abstention, zero eager model",
+          "passed": true
+        },
+        {
+          "name": "Implementation cache and real semantic trace separate answer sources from topical passages",
+          "passed": true
+        },
+        {
+          "name": "Actual worker request failure leaves keyword cache and no automatic retry",
+          "passed": true
+        },
+        {
+          "name": "Cancel initialization terminates worker and preserves visible keyword result",
+          "passed": true
+        },
+        {
+          "name": "Six clearly labelled isolated failure demonstrations",
+          "passed": true
+        },
+        {
+          "name": "Stale manifest and corrupted source bytes fail closed into static browser",
+          "passed": true
+        },
+        {
+          "name": "No-JavaScript sources and current-only public release artifacts",
+          "passed": true
+        }
+      ],
+      "layouts": 14,
+      "axe": [
+        {
+          "width": 320,
+          "theme": "dark",
+          "violations": [],
+          "incomplete": []
+        },
+        {
+          "width": 1440,
+          "theme": "light",
+          "violations": [],
+          "incomplete": []
+        }
+      ],
+      "inferenceRequests": 0,
+      "errors": [],
+      "consoleErrors": []
+    }
+  },
+  "semantic": {
+    "portfolio": {
+      "corpusVersion": "c7c3b24acc7a674c",
+      "positiveQuestions": 100,
+      "criticalQuestions": 60,
+      "compositeQuestions": 20,
+      "top1ApprovedAnswerRankingAccuracy": 0.57,
+      "top3CandidateRecall": 0.79,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0.16666666666666666,
+      "compositesCorrect": 20,
+      "compositeCoverage": 1,
+      "localRankAndAnswerP50Ms": 0.31550000000015643,
+      "localRankAndAnswerP95Ms": 0.5234580000001188,
+      "activeReviewedAnswers": 38
+    },
+    "lab": {
+      "corpusVersion": "e3f32e81448fdea7",
+      "positiveQuestions": 40,
+      "criticalQuestions": 10,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.55,
+      "top3CandidateRecall": 0.875,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.37937500000043656,
+      "localRankAndAnswerP95Ms": 0.8646250000001601,
+      "activeReviewedAnswers": 40
+    }
+  },
+  "lexical": {
+    "portfolio": {
+      "corpusVersion": "c7c3b24acc7a674c",
+      "positiveQuestions": 100,
+      "criticalQuestions": 60,
+      "compositeQuestions": 20,
+      "top1ApprovedAnswerRankingAccuracy": 0.35,
+      "top3CandidateRecall": 0.55,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0.16666666666666666,
+      "compositesCorrect": 20,
+      "compositeCoverage": 1,
+      "localRankAndAnswerP50Ms": 0.39645800000000264,
+      "localRankAndAnswerP95Ms": 0.693792000000002,
+      "activeReviewedAnswers": 38
+    },
+    "lab": {
+      "corpusVersion": "e3f32e81448fdea7",
+      "positiveQuestions": 40,
+      "criticalQuestions": 10,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.3,
+      "top3CandidateRecall": 0.55,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.7662920000000071,
+      "localRankAndAnswerP95Ms": 0.963916999999995,
+      "activeReviewedAnswers": 40
+    }
+  },
+  "provider": {
+    "actualCalls": 0,
+    "liveEnabled": false,
+    "modelAccountingValidated": false,
+    "cloudflareRuntimeVerified": false,
+    "billing": "Not measured; pure cache paths made no provider calls."
+  },
+  "releaseAccepted": false
+}

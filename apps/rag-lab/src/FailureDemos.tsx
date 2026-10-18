@@ -1,0 +1,8 @@
+import {useState} from 'react';
+import {loadCorpus} from '../../../packages/semantic-core/src/load';
+import {demonstrateFailure} from '../../../packages/semantic-core/src/failures.mjs';
+export default function FailureDemos(){
+  const [kind,setKind]=useState('model'),[busy,setBusy]=useState(false),[result,setResult]=useState<object>();
+  async function run(){setBusy(true);try{const corpus=await loadCorpus('/pace-rag/','portfolio',new AbortController().signal);setResult(await demonstrateFailure(kind,corpus));}catch{setResult({label:'Simulated failure scenario',error:'Local fixture assets unavailable; no remote inference was attempted.'});}finally{setBusy(false);}}
+  return <details className="lab-failures"><summary>Explore isolated failure demonstrations</summary><h2>Simulated failure scenario</h2><p>These fixtures cannot change real provider budgets or production controls. They do not verify a Cloudflare outage.</p><label htmlFor="failure-kind">Scenario</label><select id="failure-kind" value={kind} onChange={event=>setKind(event.target.value)}><option value="model">Embedding model unavailable</option><option value="quota">Workers AI quota exhausted</option><option value="provider">Generation provider unavailable</option><option value="wrong-match">Incorrect semantic match</option><option value="stale">Stale or revoked source</option><option value="cross-corpus">Cross-corpus injection</option></select><button type="button" disabled={busy} onClick={()=>void run()}>{busy?'Running isolated fixture…':'Run simulated scenario'}</button>{result&&<pre className="failure-result" aria-live="polite">{JSON.stringify(result,null,2)}</pre>}</details>;
+}

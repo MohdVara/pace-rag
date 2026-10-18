@@ -1,0 +1,179 @@
+.pace-assistant {
+  --pace-ink: var(--text, #e7ece9);
+  --pace-bg: var(--surface, #15231e);
+  --pace-line: var(--border, #4a5b50);
+  --pace-focus: #e9bc6b;
+  color: var(--pace-ink);
+  background: var(--pace-bg);
+  border: 1px solid var(--pace-line);
+  border-radius: 1rem;
+  padding: clamp(1rem, 3vw, 2rem);
+  font: inherit;
+  line-height: 1.65;
+  margin-block: 1rem;
+  overflow-wrap: anywhere;
+  color-scheme: dark light;
+}
+.pace-assistant * {
+  box-sizing: border-box;
+}
+.pace-assistant h2 {
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  margin: 0.3rem 0 1rem;
+}
+.pace-assistant h3 {
+  font-size: 1.12rem;
+  line-height: 1.4;
+  margin: 1.2rem 0 0.6rem;
+}
+.pace-assistant p {
+  max-width: 75ch;
+  margin: 0.7rem 0;
+}
+.pace-assistant a {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+.pace-assistant button,
+.pace-assistant textarea {
+  font: inherit;
+  color: inherit;
+}
+.pace-assistant button {
+  min-height: 44px;
+  border: 1px solid var(--pace-line);
+  border-radius: 0.5rem;
+  background: transparent;
+  padding: 0.6rem 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  white-space: normal;
+}
+.pace-assistant button:hover {
+  background: color-mix(in srgb, currentColor 9%, transparent);
+}
+.pace-assistant button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+.pace-assistant :focus-visible {
+  outline: 3px solid var(--pace-focus);
+  outline-offset: 4px;
+}
+.pace-assistant textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  min-height: 5rem;
+  background: color-mix(in srgb, var(--pace-bg) 90%, black);
+  border: 1px solid var(--pace-line);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin: 0.4rem 0;
+}
+.pace-assistant label {
+  font-weight: 650;
+}
+.pace-assistant textarea::placeholder {
+  color: color-mix(in srgb, var(--pace-ink) 75%, var(--pace-bg));
+  opacity: 1;
+}
+.pace-header {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pace-kicker {
+  font-size: 0.8em;
+  font-family: monospace;
+  letter-spacing: 0.04em;
+}
+.pace-preview {
+  border-inline-start: 3px solid #e9bc6b;
+  padding: 0.7rem 1rem;
+  background: color-mix(in srgb, #e9bc6b 9%, transparent);
+}
+.pace-status {
+  font-size: 0.9em;
+  min-height: 1.8em;
+}
+.pace-actions {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pace-actions span,
+.pace-assistant small {
+  font-size: 0.8em;
+}
+.pace-starters button,
+.pace-related {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.pace-related small {
+  display: block;
+}
+.pace-answer,
+.pace-passages article {
+  border-top: 1px solid var(--pace-line);
+  padding-block: 1rem;
+}
+.pace-sources {
+  padding-inline-start: 1.2rem;
+}
+.pace-generation,
+.pace-footer,
+.pace-diagnostics {
+  border-top: 1px solid var(--pace-line);
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+}
+.pace-footer p {
+  font-size: 0.85em;
+}
+.pace-footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-bottom: .75rem; }
+.pace-diagnostics dd {
+  margin: 0 0 0.6rem;
+}
+.pace-assistant .pace-small {
+  font-size: 0.85em;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .pace-assistant {
+    --pace-ink: var(--text, #20352b);
+    --pace-bg: var(--surface, #f5f6ee);
+    --pace-line: var(--border, #6b7c6e);
+    --pace-focus: #865f12;
+  }
+}
+:root[data-theme="light"] .pace-assistant {
+  --pace-ink: var(--text, #20352b);
+  --pace-bg: var(--surface, #f5f6ee);
+  --pace-line: var(--border, #6b7c6e);
+  --pace-focus: #865f12;
+}
+@media (forced-colors: active) {
+  .pace-assistant {
+    border: 1px solid CanvasText;
+  }
+  .pace-assistant :focus-visible {
+    outline-color: Highlight;
+  }
+}
+
+.pace-how, .pace-inspection, .pace-library, .pace-passages, .pace-followups { border-top: 1px solid var(--pace-line); margin-top: 1rem; padding-top: .75rem; }
+.pace-assistant summary { cursor: pointer; min-height: 44px; padding-block: .5rem; }
+.pace-assistant dd { margin-inline-start: 0; overflow-wrap: anywhere; }
+.pace-assistant dt { font-weight: 650; margin-top: .5rem; }
+.pace-sources small { display: block; }
+.pace-library button { display: block; width: 100%; text-align: start; margin-block: .35rem; }
+.pace-candidate-ranking { padding-inline-start: 1.4rem; }
+.pace-candidate-ranking li { padding-block: .6rem; border-bottom: 1px solid var(--pace-line); }
+.pace-supporting h4 { margin-block: .75rem .25rem; }

@@ -1,0 +1,98 @@
+{
+  "reportVersion": "efrd-evaluation-v1",
+  "measuredAt": "2026-10-18T16:43:06.673Z",
+  "softwareVersion": "0.1.0+efrd-v1.1",
+  "sourceDigest": "88d837e55fd2445c9cc29e199716da02129369cd29555fbe2574c54e7db273a0",
+  "mode": "semantic",
+  "dataset": {
+    "version": "efrd-heldout-v1",
+    "hash": "edc67d4276c83c050fed0233b896ed2de1fe6fa02b67e130a4abe72ff8055213",
+    "portfolioPositive": 100,
+    "labPositive": 40,
+    "composites": 20,
+    "critical": 70,
+    "calibrationQuestions": 2,
+    "calibrationUsedForAutomaticMatching": false,
+    "ownerReviewedLabels": false
+  },
+  "environment": {
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M1",
+    "browser": "Pinned Playwright Chromium for model execution; not a physical device"
+  },
+  "scorecards": {
+    "portfolio": {
+      "corpusVersion": "c7c3b24acc7a674c",
+      "positiveQuestions": 100,
+      "criticalQuestions": 60,
+      "compositeQuestions": 20,
+      "top1ApprovedAnswerRankingAccuracy": 0.57,
+      "top3CandidateRecall": 0.79,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0.16666666666666666,
+      "compositesCorrect": 20,
+      "compositeCoverage": 1,
+      "localRankAndAnswerP50Ms": 0.31550000000015643,
+      "localRankAndAnswerP95Ms": 0.5234580000001188,
+      "activeReviewedAnswers": 38
+    },
+    "lab": {
+      "corpusVersion": "e3f32e81448fdea7",
+      "positiveQuestions": 40,
+      "criticalQuestions": 10,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.55,
+      "top3CandidateRecall": 0.875,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.37937500000043656,
+      "localRankAndAnswerP95Ms": 0.8646250000001601,
+      "activeReviewedAnswers": 40
+    }
+  },
+  "liveProviderCalls": 0,
+  "cacheOnlyProviderCallsEvidence": "Evaluation calls pure local retrieval/composition functions; browser request observations recorded separately.",
+  "generationGrounding": {
+    "scenarios": 20,
+    "executedLive": false,
+    "status": "Live generation disabled; fixture-only server citation tests do not establish claim entailment."
+  },
+  "targets": {
+    "top3Recall": 0.9,
+    "criticalWrongAnswers": 0,
+    "citationErrors": 0,
+    "crossCorpusLeaks": 0
+  },
+  "targetResults": {
+    "portfolio": {
+      "top3Recall": false,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true
+    },
+    "lab": {
+      "top3Recall": false,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true
+    }
+  },
+  "automaticSemanticMatchingEnabled": false,
+  "releaseAccepted": false,
+  "limits": [
+    "Agent-authored held-out wording is distinct from indexed aliases but not independently reviewed.",
+    "No statistical guarantee or live-provider grounding claim follows from a finite dataset.",
+    "Incorrect automatic-match counts and ranking accuracy are distinct; most paraphrases deliberately require explicit answer selection.",
+    "Cloudflare runtime, billing, physical-device memory and screen-reader verification remain outside this local evaluation."
+  ]
+}

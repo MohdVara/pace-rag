@@ -1,0 +1,9 @@
+{
+ "name":"pace-rag-api", "main":"src/worker.mjs", "compatibility_date":"2026-10-18",
+ "workers_dev":false,
+ "vars":{"LIVE_ENABLED":"false","MODEL_ACCOUNTING_VALIDATED":"false","USAGE_RECONCILIATION_VALIDATED":"false","PORTFOLIO_ORIGINS":"http://127.0.0.1:5177","LAB_ORIGINS":"http://127.0.0.1:5180"},
+ "ai":{"binding":"AI","remote":false},
+ "durable_objects":{"bindings":[{"name":"BUDGET","class_name":"BudgetCoordinator"}]},
+ "migrations":[{"tag":"v1","new_sqlite_classes":["BudgetCoordinator"]}],
+ "observability":{"enabled":false}
+}

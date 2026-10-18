@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "pace-technology-v1.2",
+  "reviewedAt": "2026-10-18T15:47:43.951Z",
+  "publicOnly": true,
+  "scope": "Technology involvement only; not proof of sole responsibility, deployment topology, certification, scale or business outcomes.",
+  "records": [
+    {
+      "canonicalProjectId": "hostel",
+      "projectTitle": "Hostel Management System",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#system-hostel",
+      "generations": [
+        {
+          "groups": [
+            {
+              "label": "Backend",
+              "technologies": [
+                "Plain PHP",
+                "PHP Data Objects (PDO)"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "MySQL"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": true,
+      "note": "Historical personal/academic presentation project; unmaintained and not production-ready. The README notes possible bugs and omitted security precautions. These practices are not current recommendations.",
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        },
+        {
+          "type": "public-repository",
+          "url": "https://github.com/MohdVara/Hostel-Management-System/tree/master",
+          "commit": "4e5d12fa53809873a0eb33920bc6912a9d005a5e",
+          "inspectedAt": "2026-10-18T15:47:43.951Z",
+          "inspectedPaths": [
+            "README.md",
+            "classes/DB.php"
+          ],
+          "scope": "Historical README and PDO/MySQL driver references only; no deployment or security certification."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "21c5cef1750252277b53fb5fc1d53e2a696a2da69d7abaab3185c5f335988531"
+    },
+    {
+      "canonicalProjectId": "rental",
+      "selectedWorkId": "rental",
+      "projectTitle": "Rental Management System",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#case-rental",
+      "generations": [
+        {
+          "groups": [
+            {
+              "label": "Backend",
+              "technologies": [
+                "Symfony"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "MySQL"
+              ]
+            },
+            {
+              "label": "Web server",
+              "technologies": [
+                "Apache"
+              ]
+            },
+            {
+              "label": "Hosting",
+              "technologies": [
+                "Third-party cloud provider"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": false,
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "e231c839538d9bcbff66e2b77b7633f4fc6b323b7e435538a1bb3cae6720cee9"
+    },
+    {
+      "canonicalProjectId": "campus",
+      "selectedWorkId": "campus",
+      "projectTitle": "Education Platform Modernization",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#case-campus",
+      "generations": [
+        {
+          "label": "Legacy systems",
+          "legacy": true,
+          "groups": [
+            {
+              "label": "Application",
+              "technologies": [
+                "PHPMaker",
+                "PHP 5"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "MySQL 5.7"
+              ]
+            },
+            {
+              "label": "Web server",
+              "technologies": [
+                "Apache"
+              ]
+            },
+            {
+              "label": "Hosting",
+              "technologies": [
+                "On-premises",
+                "AWS EC2"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modern systems",
+          "groups": [
+            {
+              "label": "Application",
+              "technologies": [
+                "Laravel",
+                "Node.js",
+                "React"
+              ]
+            },
+            {
+              "label": "Data",
+              "technologies": [
+                "PostgreSQL",
+                "MySQL"
+              ]
+            },
+            {
+              "label": "Web servers",
+              "technologies": [
+                "Nginx",
+                "Apache"
+              ]
+            },
+            {
+              "label": "Hosting & orchestration",
+              "technologies": [
+                "On-premises",
+                "AWS ECS",
+                "AWS EC2",
+                "Kubernetes",
+                "Third-party cloud provider"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": false,
+      "note": "Technology inventory across distinct platform generations; not a single deployment or a claim that every legacy system was replaced.",
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "22ddabfc4550ee5b4eba44a9a27d24fdaee6a2c4603b303cddb9627ca6e87250"
+    },
+    {
+      "canonicalProjectId": "insurance",
+      "selectedWorkId": "insurance",
+      "projectTitle": "PolicyStreet — Insurance Comparison Platform",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#case-insurance",
+      "generations": [
+        {
+          "groups": [
+            {
+              "label": "Frontend",
+              "technologies": [
+                "React",
+                "Next.js"
+              ]
+            },
+            {
+              "label": "Backend",
+              "technologies": [
+                "Node.js"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "PostgreSQL"
+              ]
+            },
+            {
+              "label": "Engineering tools",
+              "technologies": [
+                "Docker",
+                "Playwright"
+              ]
+            },
+            {
+              "label": "Infrastructure",
+              "technologies": [
+                "Nginx",
+                "AWS EC2",
+                "AWS ECS"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": false,
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "163c69daf724f2e65c784e1425333f84781d7dcfd8809aea17f4862286caf5d7"
+    },
+    {
+      "canonicalProjectId": "wensymes",
+      "selectedWorkId": "wensymes",
+      "projectTitle": "WenSymes — Human Resources Management Platform",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#case-wensymes",
+      "generations": [
+        {
+          "groups": [
+            {
+              "label": "Application",
+              "technologies": [
+                "Laravel",
+                "PHP 8"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "MySQL"
+              ]
+            },
+            {
+              "label": "Web servers",
+              "technologies": [
+                "Apache",
+                "Nginx"
+              ]
+            },
+            {
+              "label": "Containers & orchestration",
+              "technologies": [
+                "Docker",
+                "Kubernetes"
+              ]
+            },
+            {
+              "label": "Cloud",
+              "technologies": [
+                "Google Cloud (GCP)"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": false,
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "7b08c3a72077c61bacc9aa5833b65a098919e62b93b2e43ce8f81d421ab0a52b"
+    },
+    {
+      "canonicalProjectId": "asset",
+      "projectTitle": "Asset Management System",
+      "canonicalPortfolioAnchor": "https://mohd.paramasvara.online/#system-asset",
+      "generations": [
+        {
+          "groups": [
+            {
+              "label": "Application",
+              "technologies": [
+                "Ruby on Rails"
+              ]
+            },
+            {
+              "label": "Database",
+              "technologies": [
+                "MySQL"
+              ]
+            },
+            {
+              "label": "Web server",
+              "technologies": [
+                "Nginx"
+              ]
+            },
+            {
+              "label": "Cloud",
+              "technologies": [
+                "Microsoft Azure"
+              ]
+            }
+          ]
+        }
+      ],
+      "legacy": false,
+      "provenance": [
+        {
+          "type": "owner-confirmed",
+          "confirmedOn": "2026-10-18",
+          "scope": "Owner-confirmed technology inventory, 18 October 2026; names, explicit versions and broad hosting categories only."
+        }
+      ],
+      "reviewedAt": "2026-10-18T15:47:43.951Z",
+      "contentVersion": "pace-technology-v1.2",
+      "contentHash": "c37fb60cdec10ae415b57665b53e7cc2e08e53488d916424c94c6bf52c40794d"
+    }
+  ],
+  "contentHash": "5640d20f34302f5cba7caf11fcc7e95b366dda42079d9f0d2c43a5ae2999e9f8"
+}

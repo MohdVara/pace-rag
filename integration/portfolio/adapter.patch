@@ -1,0 +1,85 @@
+diff --git a/.gitignore b/.gitignore
+index f30f1f0..2c938c4 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -36,3 +36,6 @@ output/playwright
+ 
+ # Local downloaded resume for owner review; not a published site asset
+ output/pdf/
++
++# Generated only for explicitly enabled PACE-RAG previews/releases.
++public/pace-rag/
+diff --git a/package-lock.json b/package-lock.json
+index 0ff6384..9ec288a 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -8,6 +8,7 @@
+       "name": "mohdvara-portfolio",
+       "version": "0.0.0",
+       "dependencies": {
++        "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
+         "phaser": "^3.90.0",
+         "posthog-js": "^1.438.7",
+         "react": "^18.3.1",
+@@ -261,6 +262,14 @@
+         "url": "https://github.com/sponsors/oxc-project"
+       }
+     },
++    "node_modules/@pace-rag/portfolio-assistant": {
++      "version": "0.1.0",
++      "resolved": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
++      "integrity": "sha512-6naGhGykaeIv/Y0uyANcQEUx23bdZS0hHFtgHTPW0IqOiXYSUs4ievT9XnzrxdxdlI8cCzgXHq0cUVekvLrpEA==",
++      "peerDependencies": {
++        "react": "^18.3.1"
++      }
++    },
+     "node_modules/@posthog/browser-common": {
+       "version": "0.9.4",
+       "resolved": "https://registry.npmjs.org/@posthog/browser-common/-/browser-common-0.9.4.tgz",
+diff --git a/package.json b/package.json
+index a5f0a10..c906ab4 100644
+--- a/package.json
++++ b/package.json
+@@ -5,7 +5,7 @@
+   "type": "module",
+   "scripts": {
+     "dev": "vite",
+-    "build": "node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
++    "build": "node scripts/pace-rag-assets.mjs && node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
+     "lint": "eslint .",
+     "preview": "vite preview",
+     "predeploy": "npm run build",
+@@ -14,9 +14,12 @@
+     "deploy:cloudflare": "npx wrangler@4 pages deploy",
+     "typecheck": "tsc -b",
+     "test": "node --test tests/*.test.mjs",
+-    "refresh:github": "node scripts/public-github.mjs"
++    "refresh:github": "node scripts/public-github.mjs",
++    "dev:rag": "VITE_PACE_RAG_PREVIEW=true node scripts/pace-rag-assets.mjs && VITE_PACE_RAG_PREVIEW=true vite",
++    "build:rag": "VITE_PACE_RAG_PREVIEW=true npm run build"
+   },
+   "dependencies": {
++    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-0.1.0.tgz",
+     "phaser": "^3.90.0",
+     "posthog-js": "^1.438.7",
+     "react": "^18.3.1",
+diff --git a/src/App.tsx b/src/App.tsx
+index 27496c0..ab109fe 100644
+--- a/src/App.tsx
++++ b/src/App.tsx
+@@ -16,6 +16,7 @@ import "./Readability.css";
+ import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
+ import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
+ import { SceneryControl } from "./AsciiForest/SceneryControl";
++import PaceAssistantLauncher from "./PaceAssistantLauncher";
+ 
+ function Arrow() {
+   return <span aria-hidden="true">↗</span>;
+@@ -514,6 +515,7 @@ function About() {
+             <br />
+             Computer Software Engineering · Multimedia College
+           </p>
++          {(import.meta.env.VITE_PACE_RAG_PREVIEW === 'true' || import.meta.env.VITE_PACE_RAG_ENABLED === 'true') && <PaceAssistantLauncher />}
+         </div>
+       </div>
+     </section>

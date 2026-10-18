@@ -1,0 +1,122 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #e7ece9;
+  background: #0c1713;
+  line-height: 1.6;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-underline-offset: 0.2em;
+}
+button {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid #697e6f;
+  padding: 0.7rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  min-height: 44px;
+}
+button[aria-pressed="true"] {
+  background: #e9bc6b;
+  color: #1a251e;
+  border-color: #e9bc6b;
+}
+:focus-visible {
+  outline: 3px solid #e9bc6b;
+  outline-offset: 4px;
+}
+main,
+.lab-nav,
+.lab-bottom {
+  width: min(100% - 2rem, 1040px);
+  margin: auto;
+}
+.lab-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #40594b;
+}
+.lab-nav a {
+  text-decoration: none;
+  font-weight: 700;
+}
+.lab-nav span,
+.eyebrow,
+.lab-bottom {
+  font: 0.8rem monospace;
+  color: #bbcabf;
+}
+.eyebrow {
+  margin-top: 4rem;
+  letter-spacing: 0.14em;
+}
+h1 {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.055em;
+  margin: 1.2rem 0;
+}
+h1 em {
+  color: #e9bc6b;
+  font-weight: 400;
+}
+.intro {
+  font-size: 1.1rem;
+  max-width: 65ch;
+}
+.corpus-tabs {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.lab-notes {
+  margin: 3rem 0;
+}
+.lab-notes > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.lab-notes h3 {
+  font-size: 1rem;
+}
+.lab-bottom {
+  padding: 2rem 0;
+}
+.skip {
+  position: absolute;
+  top: -100px;
+  background: #172c21;
+  padding: 1rem;
+}
+.skip:focus {
+  top: 0;
+}
+@media (max-width: 650px) {
+  .lab-notes > div {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .eyebrow {
+    margin-top: 2rem;
+  }
+}
+
+.lab-failures { border-top: 1px solid #66776c; margin-block: 2rem; padding-block: 1rem; }
+.lab-failures summary, .lab-failures button, .lab-failures select { min-height: 44px; }
+.lab-failures button, .lab-failures select { margin: .5rem; max-width: 100%; padding: .5rem; }
+.lab-failures pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.lab-failures label { display: block; }

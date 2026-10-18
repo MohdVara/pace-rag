@@ -1,0 +1,6 @@
+{
+  "version": "suggest-only-v1",
+  "calibrated": false,
+  "eligibleAnswerIds": [],
+  "reason": "No owner-reviewed held-out equivalence dataset has approved automatic semantic reuse. Exact approved questions and alternatives may return reviewed answers."
+}
