@@ -26,6 +26,31 @@ Hosted smoke checks verified the root page, knowledge/worker pointers and real 4
 
 ## Update the hosted demo
 
+### Native Git build setup
+
+To mirror the portfolio, create a **new Pages project with Git integration**,
+using `MohdVara/pace-rag`. Cloudflare cannot convert the original Direct Upload
+project in place. Use these settings:
+
+| Setting | Value |
+| --- | --- |
+| Production branch | `main` |
+| Framework preset | None |
+| Build command | `npm run build:cloudflare` |
+| Output directory | `output/static-site` |
+| Root directory | Repository root |
+| Node.js | 22, selected by `.nvmrc` |
+
+Cloudflare installs dependencies, then the build command prepares the pinned
+local model and Chromium, generates approved semantic indexes, runs lint and
+publication/ranking/index checks, and packages and verifies the static site.
+No GitHub Actions deployment or API token secret is required. Live generation
+remains disabled. Verify the new pages.dev deployment before moving the existing
+custom hostname from the original project and updating its external DNS CNAME.
+Keep the original deployment available until the replacement works.
+
+### Original Direct Upload procedure
+
 Run from the repository root after reviewing the desired source changes:
 
 ```sh

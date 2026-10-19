@@ -109,6 +109,7 @@ See [test questions](docs/TESTING.md) and [local/static deployment instructions]
 | `npm run package:static` | Package the built app for static hosting |
 | `npm run preview:static` | Serve the static package locally at port 5183 |
 | `npm run api:check` | Bundle the optional Worker in a deployment dry run |
+| `npm run build:cloudflare` | Prepare and verify the approved static site for native Cloudflare Git builds |
 | `npm run release:check` | Verify current publication hashes, pinned models and license notices |
 
 The GitHub Actions workflow validates content, runs Node tests and builds a lexical preview. It does not download models, invoke live AI or deploy the application. Browser suites require the appropriate built assets and a running preview; see [testing](docs/TESTING.md) and the linked QA reports for setup and recorded limits.
