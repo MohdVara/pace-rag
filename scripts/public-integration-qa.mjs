@@ -24,7 +24,7 @@ try{
    assert(!requests.some(u=>/\/models\/|\/runtime\/|embedding-worker-/.test(u)));assert.equal(p.workers().length,0);
    await p.locator('.pace-settings summary').click();await p.getByRole('checkbox',{name:/Use semantic search/}).uncheck();await search(p,'How many production requests did you handle at PolicyStreet?');assert.match(await p.locator('.pace-answer').innerText(),/Insufficient evidence/);assert.equal(await p.locator('.pace-supporting').count(),0);
    await search(p,'How does the fictional Atlas Gateway work?');assert.match(await p.locator('.pace-answer').innerText(),/Insufficient evidence/);assert(!requests.some(u=>/knowledge\/(lab|fictional|implementation)\//.test(u)));
-   assert(await p.getByRole('link',{name:/Explore the Engineering RAG Lab/}).getAttribute('href')==='https://pace-reg.paramasvara.online/pace-rag/');
+   assert(await p.getByRole('link',{name:/Explore the Engineering RAG Lab/}).getAttribute('href')==='https://pace-rag.paramasvara.online/pace-rag/');
    await p.getByRole('button',{name:'Close assistant',exact:true}).click();assert.equal(await p.locator('.pace-assistant').count(),0);assert.equal(await toggle(p).evaluate(e=>e===document.activeElement),true);assert.equal(p.workers().length,0);
    await toggle(p).focus();await p.keyboard.press('Enter');await p.locator('.pace-starters').waitFor();assert.equal(await p.locator('h1').count(),1);
   }finally{await c.close();}

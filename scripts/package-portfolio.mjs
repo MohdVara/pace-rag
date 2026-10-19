@@ -22,7 +22,7 @@ await mkdir(resolve(publicRoot,'assets'),{recursive:true});
 await cp(resolve('dist/lab',worker.path),resolve(publicRoot,worker.path));
 await cp('dist/lab/worker.json',resolve(publicRoot,'worker.json'));
 // Static source pages keep their local citations; their Lab navigation is external.
-async function linkLab(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,item.name);if(item.isDirectory())await linkLab(p);else if(p.endsWith('.html'))await writeFile(p,(await readFile(p,'utf8')).replaceAll('href="/pace-rag/"','href="https://pace-reg.paramasvara.online/pace-rag/"'));}}
+async function linkLab(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,item.name);if(item.isDirectory())await linkLab(p);else if(p.endsWith('.html'))await writeFile(p,(await readFile(p,'utf8')).replaceAll('href="/pace-rag/"','href="https://pace-rag.paramasvara.online/pace-rag/"'));}}
 await linkLab(publicRoot);
 const files=[];
 async function scan(dir){for(const item of await readdir(dir,{withFileTypes:true})){const p=resolve(dir,item.name);if(item.isDirectory())await scan(p);else{const bytes=await readFile(p);files.push({file:relative(publicRoot,p),sha256:hash(bytes),bytes:bytes.length});}}}

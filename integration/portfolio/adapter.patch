@@ -122,7 +122,7 @@
 +    <div id="pace-assistant-region" role="region" aria-label="Engineering experience assistant">
 +      <p className="experience-assistant-intro">Explore my professional experience through concise answers and supporting sources. Search runs on your device. Live AI is disabled.</p>
 +      {open && <AssistantRecovery><Suspense fallback={<p role="status">Loading the knowledge assistant…</p>}><Assistant onClose={close} /></Suspense></AssistantRecovery>}
-+      <p className="experience-assistant-links"><a href={library}>Browse professional sources</a><a href="https://pace-reg.paramasvara.online/pace-rag/">Explore the Engineering RAG Lab ↗</a></p>
++      <p className="experience-assistant-links"><a href={library}>Browse professional sources</a><a href="https://pace-rag.paramasvara.online/pace-rag/">Explore the Engineering RAG Lab ↗</a></p>
 +      <noscript><p>Interactive search needs JavaScript. The source library and Lab documentation remain readable.</p></noscript>
 +    </div>
 +  </details>;

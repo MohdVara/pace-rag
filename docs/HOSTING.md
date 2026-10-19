@@ -1,6 +1,6 @@
 # Cloudflare Pages hosting
 
-The owner requested deployment to `pace-reg.paramasvara.online` on 19 October 2026 (Asia/Kuching). The application and repository retain the name PACE-RAG.
+The owner corrected the public hostname to `pace-rag.paramasvara.online` on 19 October 2026 (Asia/Kuching). The application and repository retain the name PACE-RAG. The earlier `pace-reg` hostname belongs to the original Direct Upload deployment.
 
 - Original Direct Upload Pages project: `pace-rag`
 - Native Git-connected Pages project: `pace-rag-git`
@@ -10,7 +10,8 @@ The owner requested deployment to `pace-reg.paramasvara.online` on 19 October 20
 - Git-connected hosted app: https://pace-rag-git.pages.dev/pace-rag/
 - Original hosted app: https://pace-rag.pages.dev/pace-rag/
 - Initial deployment: https://aebe5080.pace-rag.pages.dev/pace-rag/
-- Custom hostname: https://pace-reg.paramasvara.online/
+- Current custom hostname: https://pace-rag.paramasvara.online/
+- Historical custom hostname: https://pace-reg.paramasvara.online/
 - Upload directory: `output/static-site`
 
 The root page redirects to `/pace-rag/`, preserving the app's asset and source paths. The initial upload contains 115 packaged files; the largest is the 22,972,370-byte quantized model. Both local semantic indexes passed integrity verification before upload.
@@ -22,6 +23,7 @@ The root page redirects to `/pace-rag/`, preserving the app's asset and source p
 | Type | Host | Target | TTL |
 | --- | --- | --- | --- |
 | CNAME | `pace-reg` | `pace-rag.pages.dev` | Automatic |
+| CNAME | `pace-rag` | `pace-rag-git.pages.dev` | Automatic |
 
 The custom hostname completed HTTPS activation on 19 October 2026. An HTTPS request to `/pace-rag/` returned HTTP 200 with the configured `nosniff`, `no-referrer` and `noindex` headers. Both Cloudflare and Google public resolvers returned the expected CNAME. The record is specific to this subdomain and did not require changing the domain's nameservers or existing portfolio record.
 
@@ -48,18 +50,22 @@ Cloudflare installs dependencies, then the build command prepares the pinned
 local model and Chromium, generates approved semantic indexes, runs lint and
 publication/ranking/index checks, and packages and verifies the static site.
 No GitHub Actions deployment or API token secret is required. Live generation
-remains disabled. Verify the new pages.dev deployment before moving the existing
-custom hostname from the original project and updating its external DNS CNAME.
-Keep the original deployment available until the replacement works.
+remains disabled. The corrected `pace-rag.paramasvara.online` hostname uses the
+new Git-connected project; the original deployment and its `pace-reg` hostname
+remain separately available.
 
 On 19 October 2026, Cloudflare successfully built commit `c9e6428` directly
 from GitHub and deployed v1.6.1. Hosted smoke checks loaded the approved
 professional corpus, returned the updated PolicyStreet answer with its source,
 and initialized local semantic search for a custom query. That query produced
 conservative related-question suggestions. These checks do not repeat the full
-browser suite or change the recorded retrieval limitations. The custom hostname
-requires a separate move from the original project and a Namecheap CNAME update
-to `pace-rag-git.pages.dev`.
+browser suite or change the recorded retrieval limitations. The owner added the
+corrected `pace-rag` CNAME at Namecheap, targeting `pace-rag-git.pages.dev`, and
+that hostname was registered with the Git-connected project's Custom domains.
+An HTTPS check on the corrected hostname returned HTTP 200 and the v1.6.1
+application bundle, with `nosniff`, `no-referrer` and `noindex` headers.
+Current application links use the corrected hostname; historical reports and
+release archives retain the URLs they originally tested.
 
 ### Original Direct Upload procedure
 

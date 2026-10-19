@@ -12,7 +12,7 @@ import "./style.css";
 class ServiceFailure extends Error { constructor(public serviceError:ServiceError){super(serviceError.message);} }
 const sourceLabels:Record<string,string>={"owner-confirmed":"Owner-confirmed", "synthetic-lab":"Synthetic example", "public-demonstrated":"Implementation documentation"};
 function Sources({sources,data}:{sources:AnswerSource[];data:LoadedCorpus}) {return <section className="pace-supporting"><h4>Sources &amp; evidence</h4><ul className="pace-sources">{sources.map(source=><li key={source.sourceId}><a href={source.url}>{source.title}</a><small>{natureLabels[sourceProvenance(data.documents.find(doc=>doc.id===source.sourceId)!).sourceNature!]||sourceLabels[source.evidenceStatus]} · {source.sourceType==='owner-confirmed-technology'?'Owner-confirmed technology · ':''}{source.approvalScope==='local-test'?'Test review':'Publication review'}</small></li>)}</ul></section>;}
-export default function Assistant({corpusId='portfolio',assetBase='/pace-rag/',labUrl='https://pace-reg.paramasvara.online/pace-rag/',onClose,lab=false,live,scopeId,libraryExternal=false,presentation='lab',starterQuestions,onPublicationReady}:AssistantProps){
+export default function Assistant({corpusId='portfolio',assetBase='/pace-rag/',labUrl='https://pace-rag.paramasvara.online/pace-rag/',onClose,lab=false,live,scopeId,libraryExternal=false,presentation='lab',starterQuestions,onPublicationReady}:AssistantProps){
   const scope=scopeId?SCOPES[scopeId]:undefined;
   const [data,setData]=useState<LoadedCorpus>();
   const [question,setQuestion]=useState(''); const [query,setQuery]=useState('');

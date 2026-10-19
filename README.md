@@ -12,7 +12,7 @@ This is the official meaning going forward, not a claim about the project's hist
 
 Browser-first knowledge retrieval shared by the portfolio assistant and an inspectable Engineering RAG Lab with implementation documentation and synthetic examples. Search does not require Cloudflare credentials. Live generation is disabled by default.
 
-Hosted demo: [PACE-RAG](https://pace-reg.paramasvara.online/), served by Cloudflare Pages. See [hosting](docs/HOSTING.md) for deployment and custom-domain setup. A hosted build may differ from local work; the [v1.6 activation review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) records the last checked local/hosted boundary.
+Hosted demo: [PACE-RAG](https://pace-rag.paramasvara.online/), served by Cloudflare Pages. See [hosting](docs/HOSTING.md) for deployment and custom-domain setup. A hosted build may differ from local work; the [v1.6 activation review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) records the last checked local/hosted boundary.
 
 PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit provenance and conservative handling of unsupported claims. The current local implementation and workspace package are **v1.6.1 / `1.6.1`**. Historical foundation, UX and ontology reports retain their recorded versions; see the [current review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) for regression measurements and pending independent evaluation.
 
