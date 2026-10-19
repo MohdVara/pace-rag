@@ -45,3 +45,5 @@ Restore the complete previous approved static package and matching assistant arc
 Historical v1.6 knowledge activation: the owner approved all latest staged professional records on 19 October 2026. The package is 1.6.0; the v1.5 ranker is unchanged. See [activation report](PACE-RAG-V1.6-ACTIVATION.md) for the exact corpus, package checks and recorded ranking regressions. No deployment is authorized by content approval.
 
 Current local candidate: **1.6.1**, with unchanged v1.6 approved content and a partial retrieval correction. Original-100 Top-1 and Preserved-50 Top-3 recovery targets remain unmet. See [paired investigation and release limitations](PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md). Run both `npm run ranking:diff` and `npm run ranking:diff -- --lexical` before release checks; changed content/ranking now invalidates the comparison guard. No deployment is authorized.
+
+Current hostname patch: **1.6.2** rebuilds static library navigation for `https://pace-rag.paramasvara.online/`. Approved knowledge, ranking rules and evaluation measurements are unchanged. See [hostname patch notes](PACE-RAG-V1.6.2-HOSTNAME.md).

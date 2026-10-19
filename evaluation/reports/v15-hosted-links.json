@@ -183,9 +183,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/",
       "title": "PACE-RAG · Engineering RAG Lab",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -193,9 +193,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget",
       "title": "API: budget admission · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -203,9 +203,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations",
       "title": "API: citation validation · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -213,9 +213,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate",
       "title": "API: generation request · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -223,9 +223,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy",
       "title": "API: privacy boundaries · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -233,9 +233,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview",
       "title": "Atlas architecture · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -243,9 +243,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr",
       "title": "ADR: immutable catalog versions · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -253,9 +253,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook",
       "title": "Runbook: stale source report · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -263,9 +263,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation",
       "title": "PACE-RAG: evaluation and verification limits · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -273,9 +273,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence",
       "title": "PACE-RAG: evidence and content review · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -283,9 +283,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources",
       "title": "PACE-RAG: local resources and guarded generation · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -293,9 +293,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval",
       "title": "PACE-RAG: retrieval and answer selection · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -303,9 +303,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr",
       "title": "ADR: bounded gateway · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -313,9 +313,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget",
       "title": "Incident: reservation recovery · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -323,9 +323,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison",
       "title": "Incident: unapproved document · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -333,9 +333,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout",
       "title": "Incident: generation timeout · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -343,9 +343,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version",
       "title": "Incident: mixed index versions · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -353,9 +353,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus",
       "title": "Migration: corpus separation · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -363,9 +363,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model",
       "title": "Migration: embedding model · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -373,9 +373,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release",
       "title": "Migration: static release · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -383,9 +383,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema",
       "title": "Migration: schema version · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -393,9 +393,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr",
       "title": "ADR: idempotent indexing · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -403,9 +403,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook",
       "title": "Runbook: stuck indexing job · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -413,9 +413,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook",
       "title": "Runbook: provider quota exhausted · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -423,9 +423,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook",
       "title": "Runbook: degraded semantic search · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -433,9 +433,9 @@
       "httpOk": true
     },
     {
-      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+      "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
       "status": 200,
-      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
+      "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
       "title": "Owner-confirmed technology inventory · PACE-RAG",
       "hasPortfolioLink": false,
       "hasLabLink": false,
@@ -455,5 +455,10 @@
     "portfolioTitle": "Mohd. Paramasvara | Principal Full-Stack Engineer",
     "caseStudyNotDeployed": true,
     "scope": "Current hosted UI, not local v1.5 release"
+  },
+  "urlNormalization": {
+    "normalizedAt": "2026-10-19",
+    "hostname": "pace-rag.paramasvara.online",
+    "note": "URL hostnames were normalized after the original measurement. Recorded response statuses and observations describe the pre-migration validation run and were not remeasured by this edit."
   }
 }

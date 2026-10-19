@@ -11,7 +11,6 @@ The owner corrected the public hostname to `pace-rag.paramasvara.online` on 19 O
 - Original hosted app: https://pace-rag.pages.dev/pace-rag/
 - Initial deployment: https://aebe5080.pace-rag.pages.dev/pace-rag/
 - Current custom hostname: https://pace-rag.paramasvara.online/
-- Historical custom hostname: https://pace-reg.paramasvara.online/
 - Upload directory: `output/static-site`
 
 The root page redirects to `/pace-rag/`, preserving the app's asset and source paths. The initial upload contains 115 packaged files; the largest is the 22,972,370-byte quantized model. Both local semantic indexes passed integrity verification before upload.
@@ -64,8 +63,10 @@ corrected `pace-rag` CNAME at Namecheap, targeting `pace-rag-git.pages.dev`, and
 that hostname was registered with the Git-connected project's Custom domains.
 An HTTPS check on the corrected hostname returned HTTP 200 and the v1.6.1
 application bundle, with `nosniff`, `no-referrer` and `noindex` headers.
-Current application links use the corrected hostname; historical reports and
-release archives retain the URLs they originally tested.
+Current application links and report URL fields use the corrected hostname.
+Historical reports explicitly label their pre-migration measurements. Original
+release archives remain available in Git history; the current vendor directory
+contains the corrected assistant package and a minimal frozen v1.5 ranking fixture.
 
 ### Original Direct Upload procedure
 

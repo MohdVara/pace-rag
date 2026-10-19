@@ -12,7 +12,7 @@ function Lab() {
   const scope=SCOPES[scopeId];
   return <>
     <a className="skip" href="#main">Skip to search</a>
-    <header className="lab-nav"><a href={portfolioUrl}>mpv. / engineering</a><span>PACE-RAG v1.6.1 · Engineering RAG Lab{publicationReady&&<> · <span>Public demo</span></>}</span></header>
+    <header className="lab-nav"><a href={portfolioUrl}>mpv. / engineering</a><span>PACE-RAG v1.6.2 · Engineering RAG Lab{publicationReady&&<> · <span>Public demo</span></>}</span></header>
     <main id="main">
       <p className="eyebrow">ENGINEERING RAG LAB</p>
       <h1>Knowledge first.<br/><em>Inference optional.</em><br/>Evidence always.</h1>

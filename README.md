@@ -14,7 +14,7 @@ Browser-first knowledge retrieval shared by the portfolio assistant and an inspe
 
 Hosted demo: [PACE-RAG](https://pace-rag.paramasvara.online/), served by Cloudflare Pages. See [hosting](docs/HOSTING.md) for deployment and custom-domain setup. A hosted build may differ from local work; the [v1.6 activation review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) records the last checked local/hosted boundary.
 
-PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit provenance and conservative handling of unsupported claims. The current local implementation and workspace package are **v1.6.1 / `1.6.1`**. Historical foundation, UX and ontology reports retain their recorded versions; see the [current review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) for regression measurements and pending independent evaluation.
+PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit provenance and conservative handling of unsupported claims. The current local implementation and workspace package are **v1.6.2 / `1.6.2`**. Historical foundation, UX and ontology reports retain their recorded versions; see the [current review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) for regression measurements and pending independent evaluation.
 
 ## What this repository contains
 
@@ -145,7 +145,7 @@ Current UX, source origins and acceptance evidence: [UX clarity](docs/PACE-RAG-U
 
 ## Portfolio integration
 
-Run `npm run build:release`, then `npm run package:portfolio`. The portfolio pins `@pace-rag/portfolio-assistant@1.6.0` as a local archive containing only Professional Experience assets. Its native expandable section lazy-loads upon interaction; cached/ontology answers need no model. Build-time asset checks reject preview, tampered or foreign-corpus packages. See [adapter instructions](integration/portfolio/README.md) and the [public release report](docs/PACE-RAG-V1.3-PUBLIC-RELEASE.md). `npm run check:portfolio-budget -- /path/to/portfolio/dist` enforces the 215,000-byte main JavaScript limit. No deployment is part of these commands.
+Run `npm run build:release`, then `npm run package:portfolio`. The portfolio pins `@pace-rag/portfolio-assistant@1.6.2` as a local archive containing only Professional Experience assets. Its native expandable section lazy-loads upon interaction; cached/ontology answers need no model. Build-time asset checks reject preview, tampered or foreign-corpus packages. See [adapter instructions](integration/portfolio/README.md) and the [public release report](docs/PACE-RAG-V1.3-PUBLIC-RELEASE.md). `npm run check:portfolio-budget -- /path/to/portfolio/dist` enforces the 215,000-byte main JavaScript limit. No deployment is part of these commands.
 
 
 ## Technology understanding (v1.3)

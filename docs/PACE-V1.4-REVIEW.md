@@ -1,5 +1,7 @@
 # PACE v1.4 retrieval precision and portfolio clarity
 
+> Hostnames in this historical review were normalized to the current public domain on 19 October 2026. Test results describe the original validation run, not a new check of the renamed host.
+
 Prepared 19 October 2026, Asia/Kuching. Both repositories contained uncommitted v1.3 changes before this task. They were retained. No commit, push, deployment, provider inference, resource provisioning or DNS change was performed. Existing owner publication approvals remain in force for their exact content; no approval record, Q&A body, ontology definition or project mapping was changed.
 
 ## Retrieval and evaluation
@@ -47,7 +49,7 @@ The Lab keeps three real source views, 3–4 relevant starters, collapsed review
 
 Root/component/archive are **1.4.0**; Lab and case study display v1.4. Existing publication-approved corpora remain professional `5172c80561642d42` and Lab `cb8cf7a42d2969e4`; the technology evidence version deliberately remains v1.2 because it identifies reviewed content, not app code.
 
-`src/paceLinks.ts` in the portfolio and `apps/rag-lab/src/links.ts` centralize environment-aware navigation. Development defaults use portfolio `http://localhost:5173/` and Lab `http://127.0.0.1:5180/pace-rag/`; optional `VITE_PORTFOLIO_URL` / `VITE_PACE_LAB_URL` customize development origins. Production compilation removes those defaults and uses canonical public URLs, retaining **https://pace-reg.paramasvara.online/pace-rag/**. Portfolio-to-case-study links remain same-origin routes. The assistant's Lab URL is a prop supplied by the portfolio configuration. Citation URLs remain reviewed canonical source identities.
+`src/paceLinks.ts` in the portfolio and `apps/rag-lab/src/links.ts` centralize environment-aware navigation. Development defaults use portfolio `http://localhost:5173/` and Lab `http://127.0.0.1:5180/pace-rag/`; optional `VITE_PORTFOLIO_URL` / `VITE_PACE_LAB_URL` customize development origins. Production compilation removes those defaults and uses canonical public URLs, retaining **https://pace-rag.paramasvara.online/pace-rag/**. Portfolio-to-case-study links remain same-origin routes. The assistant's Lab URL is a prop supplied by the portfolio configuration. Citation URLs remain reviewed canonical source identities.
 
 A broader navigation regression exposed WebKit native smooth scrolling racing fragment positioning after rapid reloads, including the No Two Mondays summary. Native fragment scrolling is now immediate (`scroll-behavior: auto`) to avoid this race on reload and keyboard activation. Keyboard focus, native disclosures, ordinary user scrolling and scenery animations are preserved. The JavaScript navigation hook remains unchanged.
 

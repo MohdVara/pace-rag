@@ -20,7 +20,7 @@ for(const [path,digest] of Object.entries({...freeze.files,...freeze.baselineFil
 const decode=bytes=>Float32Array.from({length:bytes.length/4},(_,i)=>bytes.readFloatLE(i*4));
 async function corpus(id,historical=false){
  const path=historical?'output/knowledge-v16-approved/baseline':`apps/rag-lab/public/knowledge/${id}`;
- const archived=process.env.PACE_V15_ARCHIVE||'../mohdvara.github.io/vendor/pace-rag-portfolio-assistant-1.5.0.tgz';
+ const archived=process.env.PACE_V15_ARCHIVE||'../mohdvara.github.io/vendor/pace-rag-ranking-baseline-1.5.0.tgz';
  const asset=async(file,entry)=>{try{return await readFile(file);}catch(error){if(!historical||error.code!=='ENOENT')throw error;return execFileSync('tar',['-xOf',archived,'package/public/knowledge/portfolio/'+entry]);}};
  const pointer=JSON.parse(await asset(`${path}/current.json`,'current.json')),folder=historical?path:`${path}/${pointer.corpusVersion}`;
  const manifest=JSON.parse(await asset(`${folder}/manifest.json`,`${pointer.corpusVersion}/manifest.json`));assert.deepEqual(manifest.embedding,EMBEDDING);

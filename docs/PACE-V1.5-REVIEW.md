@@ -1,5 +1,7 @@
 # PACE-RAG v1.5 retrieval precision and final UX
 
+> Hostnames in this historical review were normalized to the current public domain on 19 October 2026. Test results describe the original validation run, not a new check of the renamed host.
+
 19 October 2026, Asia/Kuching. Both working trees were audited before editing; existing uncommitted v1.3/v1.4 work, approved registries and design were preserved. No commit, push, deployment, DNS change, provisioning or hosted inference was performed. Existing owner-owned local servers remain running. Publication approval is unchanged for professional corpus `5172c80561642d42`, Lab corpus `cb8cf7a42d2969e4` and technology evidence `pace-technology-v1.2`.
 
 ## Ranking evidence and limits
@@ -30,7 +32,7 @@ The three source views, 3–4 starters, initially closed catalogue/settings/diag
 
 ## Local and currently hosted sites
 
-Development and production links are tested separately. Local portfolio → case study → Lab → local case study works. The running portfolio development server initially served a stale optimized assistant; a normal Vite config reload refreshed it without terminating the owner-owned process. Both engines then verified the v1.5 input helper and no eager model fetch in development as well as production-preview behavior. Local production artifacts use the existing `pace-reg.paramasvara.online` and portfolio canonical URLs with `/pace-rag/` paths. Production HTML, JS, JSON, CSS, XML and text assets are scanned for loopback URLs, including packaged knowledge pages. Static source routes and package links are verified. The case-study route has its own title, description, canonical, Open Graph title/description/URL and sitemap entry; the existing shared social image remains valid.
+Development and production links are tested separately. Local portfolio → case study → Lab → local case study works. The running portfolio development server initially served a stale optimized assistant; a normal Vite config reload refreshed it without terminating the owner-owned process. Both engines then verified the v1.5 input helper and no eager model fetch in development as well as production-preview behavior. Local production artifacts use the existing `pace-rag.paramasvara.online` and portfolio canonical URLs with `/pace-rag/` paths. Production HTML, JS, JSON, CSS, XML and text assets are scanned for loopback URLs, including packaged knowledge pages. Static source routes and package links are verified. The case-study route has its own title, description, canonical, Open Graph title/description/URL and sitemap entry; the existing shared social image remains valid.
 
 Read-only HTTPS checks of **42 currently hosted URLs** record 41 successful responses and the case-study route's **404**. Approved citation URLs/source pages and checked portfolio anchors resolve. A real read-only browser session observed the hosted Lab still rendering **PACE-RAG v1.3 · local review** and **Local test preview · publication not approved**; its portfolio return link navigated successfully. That older hosted build is distinct from the locally publication-approved v1.5 package. The hosted v1.5 case study and full new cross-site round trip cannot be claimed working until an explicitly approved deployment. No DNS or remote content was changed. Evidence is in `evaluation/reports/v15-hosted-links.json`.
 
