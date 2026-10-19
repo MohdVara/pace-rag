@@ -71,7 +71,7 @@ try {
       await page.getByRole('checkbox', { name: /Use semantic search/ }).uncheck();
       await search(page, 'browser embeddings fail');
       await search(page, 'What happens if browser embeddings fail?');
-      assert.match(await page.locator('.pace-answer').innerText(), /Reviewed cached answer/);
+      assert.match(await page.locator('.pace-answer').innerText(), /Direct reviewed answer/);
       assert.deepEqual(modelRequests, []);
       assert.equal(page.workers().length, 0);
       await page.locator('.pace-settings:not([open]) > summary').click().catch(()=>{});
@@ -133,7 +133,7 @@ try {
           .click();
         assert.match(
           await page.locator(".pace-answer").innerText(),
-          /Reviewed cached answer/,
+          /Direct reviewed answer/,
         );
         assert.match(await page.locator(".pace-answer").innerText(), /lexical/);
         await page.screenshot({

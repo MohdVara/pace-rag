@@ -1,0 +1,477 @@
+{
+  "measuredAt": "2026-10-19T03:59:06.657Z",
+  "deployed": false,
+  "source": "Local release builds; Node v23.11.0 on Apple M1. Not a Node 22 CI claim.",
+  "tests": {
+    "portfolio": {
+      "passed": 117,
+      "failed": 0,
+      "skipped": 0
+    },
+    "rag": {
+      "passed": 89,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "browser": {
+    "portfolioGames": {
+      "artifact": "../mohdvara.github.io/output/playwright/pace-v1.1/games/results.json",
+      "arrays": {
+        "previews": {
+          "count": 9,
+          "failed": 0
+        },
+        "defence": {
+          "count": 2,
+          "failed": 0
+        },
+        "recovery": {
+          "count": 2,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "limitations": {
+          "count": 3,
+          "failed": 0
+        }
+      }
+    },
+    "portfolioConsent": {
+      "artifact": "../mohdvara.github.io/output/playwright/pace-v1.1/consent-chromium/results.json",
+      "arrays": {
+        "layouts": {
+          "count": 4,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "sdkRequests": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    },
+    "portfolioNavigation": {
+      "artifact": "../mohdvara.github.io/output/playwright/pace-v1.1/navigation-chromium/results.json",
+      "arrays": {
+        "cases": {
+          "count": 12,
+          "failed": 0
+        },
+        "evidence": {
+          "count": 18,
+          "failed": 0
+        },
+        "ntm": {
+          "count": 2,
+          "failed": 0
+        },
+        "noJavaScript": {
+          "count": 5,
+          "failed": 0
+        },
+        "recovery": {
+          "count": 2,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    },
+    "portfolioTechnology": {
+      "artifact": "../mohdvara.github.io/output/playwright/pace-v1.2/technology-results.json",
+      "arrays": {
+        "layouts": {
+          "count": 28,
+          "failed": 0
+        },
+        "fragments": {
+          "count": 6,
+          "failed": 0
+        },
+        "screenshots": {
+          "count": 4,
+          "failed": 0
+        },
+        "axe": {
+          "count": 4,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "consoleErrors": {
+          "count": 0,
+          "failed": 0
+        },
+        "failedResources": {
+          "count": 0,
+          "failed": 0
+        },
+        "limitations": {
+          "count": 2,
+          "failed": 0
+        }
+      }
+    },
+    "caseStudy": {
+      "measuredAt": "2026-10-19T03:54:35.275Z",
+      "artifact": "../mohdvara.github.io/output/playwright/pace-v1.3/results.json",
+      "arrays": {
+        "layouts": {
+          "count": 16,
+          "failed": 0
+        },
+        "journeys": {
+          "count": 4,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "limits": {
+          "count": 2,
+          "failed": 0
+        }
+      }
+    },
+    "integrationChromium": {
+      "measuredAt": "2026-10-19T03:53:04.200Z",
+      "artifact": "output/playwright/public-integration/chromium/results.json",
+      "arrays": {
+        "cases": {
+          "count": 4,
+          "failed": 0
+        },
+        "layouts": {
+          "count": 8,
+          "failed": 0
+        },
+        "inferenceRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "limits": {
+          "count": 2,
+          "failed": 0
+        }
+      }
+    },
+    "integrationWebkit": {
+      "measuredAt": "2026-10-19T03:53:29.031Z",
+      "artifact": "output/playwright/public-integration/webkit/results.json",
+      "arrays": {
+        "cases": {
+          "count": 4,
+          "failed": 0
+        },
+        "layouts": {
+          "count": 8,
+          "failed": 0
+        },
+        "inferenceRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "limits": {
+          "count": 2,
+          "failed": 0
+        }
+      }
+    },
+    "labRegression": {
+      "measuredAt": "2026-10-19T03:53:03.722Z",
+      "artifact": "output/playwright/pace-rag/results.json",
+      "arrays": {
+        "results": {
+          "count": 11,
+          "failed": 0
+        },
+        "inferenceRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    },
+    "labRetrieval": {
+      "measuredAt": "2026-10-19T03:54:16.028Z",
+      "artifact": "output/playwright/efrd/chromium/results.json",
+      "arrays": {
+        "journeys": {
+          "count": 7,
+          "failed": 0
+        },
+        "layouts": {
+          "count": 14,
+          "failed": 0
+        },
+        "axe": {
+          "count": 2,
+          "failed": 0
+        },
+        "coldMs": {
+          "count": 3,
+          "failed": 0
+        },
+        "warmMs": {
+          "count": 9,
+          "failed": 0
+        },
+        "answerFrameMs": {
+          "count": 27,
+          "failed": 0
+        },
+        "cacheAnswerFrameMs": {
+          "count": 3,
+          "failed": 0
+        },
+        "transferSamples": {
+          "count": 3,
+          "failed": 0
+        },
+        "modelAssetRequests": {
+          "count": 3,
+          "failed": 0
+        },
+        "inferenceRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        },
+        "consoleErrors": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    },
+    "labTechnology": {
+      "measuredAt": "2026-10-19T03:54:32.097Z",
+      "artifact": "output/playwright/toer/chromium/results.json",
+      "arrays": {
+        "tasks": {
+          "count": 5,
+          "failed": 0
+        },
+        "modelRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "generationRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "errors": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    },
+    "labViews": {
+      "measuredAt": "2026-10-19T03:54:35.850Z",
+      "artifact": "output/playwright/ux-v1.2/chromium/results.json",
+      "arrays": {
+        "tasks": {
+          "count": 8,
+          "failed": 0
+        },
+        "layouts": {
+          "count": 42,
+          "failed": 0
+        },
+        "axe": {
+          "count": 6,
+          "failed": 0
+        },
+        "inferenceRequests": {
+          "count": 0,
+          "failed": 0
+        },
+        "pageErrors": {
+          "count": 0,
+          "failed": 0
+        },
+        "consoleErrors": {
+          "count": 0,
+          "failed": 0
+        },
+        "modelRequestsDuringDiscovery": {
+          "count": 0,
+          "failed": 0
+        }
+      }
+    }
+  },
+  "bundles": [
+    {
+      "label": "main",
+      "file": "index-CDoOKJk1.js",
+      "raw": 209684,
+      "gzip": 64759
+    },
+    {
+      "label": "assistant",
+      "file": "PaceAssistant-BCrNlsaa.js",
+      "raw": 75722,
+      "gzip": 24048
+    },
+    {
+      "label": "caseStudy",
+      "file": "PaceRagCaseStudy-BnQA3Ns0.js",
+      "raw": 6779,
+      "gzip": 2675
+    },
+    {
+      "label": "lab",
+      "file": "index-Dx56YDd_.js",
+      "raw": 223703,
+      "gzip": 71183
+    },
+    {
+      "label": "mainCss",
+      "file": "index-Cz9KcE0x.css",
+      "raw": 56725,
+      "gzip": 11371
+    }
+  ],
+  "lighthouse": {
+    "measuredAt": "2026-10-19T03:55:58.953Z",
+    "mode": "preview",
+    "scope": "Local emulated mobile, assistant unopened. Disabled versus opt-in preview build; not physical-device or field performance.",
+    "results": [
+      {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 1,
+        "lcpMs": 1885.1345,
+        "cls": 0,
+        "tbtMs": 0,
+        "warnings": []
+      },
+      {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 1,
+        "lcpMs": 1968.7734,
+        "cls": 0,
+        "tbtMs": 0,
+        "warnings": []
+      },
+      {
+        "performance": 0.99,
+        "accessibility": 1,
+        "bestPractices": 1,
+        "seo": 1,
+        "lcpMs": 2006.2979999999998,
+        "cls": 0,
+        "tbtMs": 0,
+        "warnings": []
+      }
+    ]
+  },
+  "audit": {
+    "before": {
+      "high": 6,
+      "moderate": 4,
+      "total": 10
+    },
+    "after": {
+      "info": 0,
+      "low": 0,
+      "moderate": 4,
+      "high": 2,
+      "critical": 0,
+      "total": 6
+    },
+    "remaining": {
+      "@huggingface/transformers": {
+        "severity": "high",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      },
+      "global-agent": {
+        "severity": "moderate",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      },
+      "onnxruntime-node": {
+        "severity": "moderate",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      },
+      "roarr": {
+        "severity": "moderate",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      },
+      "sharp": {
+        "severity": "high",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      },
+      "sprintf-js": {
+        "severity": "moderate",
+        "fixAvailable": {
+          "name": "@huggingface/transformers",
+          "version": "4.3.1",
+          "isSemVerMajor": true
+        }
+      }
+    }
+  },
+  "publication": {
+    "sourceAndLicensingChecks": true,
+    "staticPackageFiles": 120,
+    "htmlFiles": 55,
+    "internalLinks": 216,
+    "obsoleteLabels": 0,
+    "staleReleases": 0
+  },
+  "limitations": [
+    "Agent-authored retrieval labels await independent owner review.",
+    "Screen readers, physical devices and deployed provider/accounting remain unverified.",
+    "Six dependency findings remain; production acceptance is not established.",
+    "Historical reviewed answer/source bodies preserved; outdated RAG capability phrasing needs a separately hash-bound review."
+  ]
+}

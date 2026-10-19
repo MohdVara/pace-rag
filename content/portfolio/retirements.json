@@ -1,6 +1,9 @@
 {
-  "answerIds": ["portfolio-answer-insurance-stack", "portfolio-answer-wensymes-tools"],
-  "retrievalExcludedDocuments": ["insurance", "education", "wensymes", "rental"],
-  "reason": "Historical technology-availability qualifications are superseded by the owner-confirmed PACE v1.2 inventory. Original role/background records and approvals remain preserved; obsolete stack answers are retired and background chunks excluded from open retrieval.",
+  "answerIds": [
+    "portfolio-answer-insurance-stack",
+    "portfolio-answer-wensymes-tools"
+  ],
+  "retrievalExcludedDocuments": [],
+  "reason": "Owner-approved v1.6 narrative sources replace the historical unknown-stack qualifications. The two obsolete stack-availability answers remain retired. Historical v1 records and prior approvals are preserved in content/portfolio/history.",
   "supersededBy": "pace-technology-v1.2"
 }

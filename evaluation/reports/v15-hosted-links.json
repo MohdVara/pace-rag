@@ -1,0 +1,459 @@
+{
+  "measuredAt": "2026-10-19T04:49:42.095Z",
+  "scope": "Read-only HTTPS responses from currently hosted sites, separate from local v1.5 production builds. No deployment or DNS changes. Anchor check is response HTML only, not a remote browser session.",
+  "results": [
+    {
+      "url": "https://mohd.paramasvara.online/",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#about",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "about",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#ai-evidence",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "ai-evidence",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#case-campus",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "case-campus",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#case-hr",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "case-hr",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#case-insurance",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "case-insurance",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#case-rental",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "case-rental",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#case-wensymes",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "case-wensymes",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#contact",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "contact",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#system-asset",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "system-asset",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/#system-hostel",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/",
+      "anchor": "system-hostel",
+      "anchorPresentInResponseHtml": true,
+      "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "hasPortfolioLink": true,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/incident-zero/",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/incident-zero/",
+      "title": "Incident Zero — Interactive Engineering Story | Mohd. Paramasvara",
+      "hasPortfolioLink": true,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/no-two-mondays/",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/no-two-mondays/",
+      "title": "Engineering No Two Mondays: An Extensible Simulation with AI | Mohd. Paramasvara",
+      "hasPortfolioLink": true,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/pace-rag-case-study/",
+      "status": 404,
+      "finalUrl": "https://mohd.paramasvara.online/pace-rag-case-study/",
+      "title": "Page not found | Mohd. Paramasvara",
+      "hasPortfolioLink": true,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": false
+    },
+    {
+      "url": "https://mohd.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
+      "title": "Owner-confirmed technology inventory · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": true,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://mohd.paramasvara.online/work-with-me/",
+      "status": 200,
+      "finalUrl": "https://mohd.paramasvara.online/work-with-me/",
+      "title": "Work with Mohd. Paramasvara | Software Architecture &amp; Technical Leadership",
+      "hasPortfolioLink": true,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/",
+      "title": "PACE-RAG · Engineering RAG Lab",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget",
+      "title": "API: budget admission · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations",
+      "title": "API: citation validation · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate",
+      "title": "API: generation request · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy",
+      "title": "API: privacy boundaries · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview",
+      "title": "Atlas architecture · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr",
+      "title": "ADR: immutable catalog versions · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook",
+      "title": "Runbook: stale source report · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation",
+      "title": "PACE-RAG: evaluation and verification limits · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence",
+      "title": "PACE-RAG: evidence and content review · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources",
+      "title": "PACE-RAG: local resources and guarded generation · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval",
+      "title": "PACE-RAG: retrieval and answer selection · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr",
+      "title": "ADR: bounded gateway · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget",
+      "title": "Incident: reservation recovery · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison",
+      "title": "Incident: unapproved document · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout",
+      "title": "Incident: generation timeout · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version",
+      "title": "Incident: mixed index versions · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus",
+      "title": "Migration: corpus separation · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model",
+      "title": "Migration: embedding model · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release",
+      "title": "Migration: static release · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema",
+      "title": "Migration: schema version · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr",
+      "title": "ADR: idempotent indexing · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook",
+      "title": "Runbook: stuck indexing job · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook",
+      "title": "Runbook: provider quota exhausted · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook",
+      "title": "Runbook: degraded semantic search · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    },
+    {
+      "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+      "status": 200,
+      "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
+      "title": "Owner-confirmed technology inventory · PACE-RAG",
+      "hasPortfolioLink": false,
+      "hasLabLink": false,
+      "loopbackNavigationUrls": false,
+      "httpOk": true
+    }
+  ],
+  "limitations": [
+    "Non-200 or missing anchors are recorded, not bypassed by editing approved citations. Hosted versions can differ from the unreleased local v1.5 build. No provider, billing or deployed security verification was performed."
+  ],
+  "renderedUiObservation": {
+    "method": "Read-only Playwright CLI browser session; no search or generation submitted",
+    "measuredAt": "2026-10-19T04:55:54.571Z",
+    "labVersion": "PACE-RAG v1.3 · local review",
+    "publicationWording": "Local test preview · publication not approved. Live AI is disabled.",
+    "labPortfolioLinkNavigatedTo": "https://mohd.paramasvara.online/",
+    "portfolioTitle": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+    "caseStudyNotDeployed": true,
+    "scope": "Current hosted UI, not local v1.5 release"
+  }
+}

@@ -31,7 +31,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 7.040750000000003
+    "localMs": 10.746875000000003
   },
   {
     "id": "direct-2",
@@ -73,7 +73,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 2.2235410000000044
+    "localMs": 2.7811670000000035
   },
   {
     "id": "direct-3",
@@ -115,7 +115,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7866250000000008
+    "localMs": 1.8160000000000025
   },
   {
     "id": "direct-4",
@@ -149,7 +149,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.9998749999999959
+    "localMs": 3.6492920000000026
   },
   {
     "id": "direct-5",
@@ -191,7 +191,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.9791669999999968
+    "localMs": 1.4774170000000026
   },
   {
     "id": "direct-6",
@@ -233,7 +233,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7497499999999988
+    "localMs": 1.4796669999999992
   },
   {
     "id": "direct-7",
@@ -275,7 +275,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6667500000000004
+    "localMs": 1.6102920000000012
   },
   {
     "id": "direct-8",
@@ -317,7 +317,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.558208999999998
+    "localMs": 1.261291
   },
   {
     "id": "direct-9",
@@ -351,7 +351,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.8130000000000024
+    "localMs": 1.4889170000000007
   },
   {
     "id": "direct-10",
@@ -385,7 +385,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6198329999999999
+    "localMs": 1.2530829999999895
   },
   {
     "id": "direct-11",
@@ -419,7 +419,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6351250000000022
+    "localMs": 1.8334999999999866
   },
   {
     "id": "direct-12",
@@ -453,7 +453,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5021660000000026
+    "localMs": 1.4524170000000112
   },
   {
     "id": "direct-13",
@@ -487,7 +487,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7260410000000022
+    "localMs": 1.9577079999999967
   },
   {
     "id": "direct-14",
@@ -521,7 +521,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5472499999999982
+    "localMs": 1.6684999999999945
   },
   {
     "id": "direct-15",
@@ -555,7 +555,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5983329999999967
+    "localMs": 3.184207999999998
   },
   {
     "id": "direct-16",
@@ -627,7 +627,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7165409999999994
+    "localMs": 2.2617500000000064
   },
   {
     "id": "direct-17",
@@ -683,7 +683,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5676660000000027
+    "localMs": 1.1780839999999984
   },
   {
     "id": "direct-18",
@@ -741,7 +741,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5014169999999964
+    "localMs": 1.238624999999999
   },
   {
     "id": "direct-19",
@@ -789,7 +789,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4795000000000016
+    "localMs": 1.1632079999999974
   },
   {
     "id": "direct-20",
@@ -831,7 +831,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7713330000000056
+    "localMs": 1.333791000000005
   },
   {
     "id": "direct-21",
@@ -865,7 +865,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7445829999999987
+    "localMs": 3.052500000000009
   },
   {
     "id": "direct-22",
@@ -899,7 +899,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6777500000000032
+    "localMs": 1.5379170000000073
   },
   {
     "id": "direct-23",
@@ -939,7 +939,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.757832999999998
+    "localMs": 1.272915999999995
   },
   {
     "id": "direct-24",
@@ -981,7 +981,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5005840000000035
+    "localMs": 1.2882079999999974
   },
   {
     "id": "direct-25",
@@ -1015,7 +1015,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5863749999999968
+    "localMs": 1.21604099999999
   },
   {
     "id": "direct-26",
@@ -1049,7 +1049,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5254580000000004
+    "localMs": 2.295207999999988
   },
   {
     "id": "direct-27",
@@ -1109,7 +1109,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 1.368583000000001
+    "localMs": 1.2180410000000137
   },
   {
     "id": "direct-28",
@@ -1169,7 +1169,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5660000000000025
+    "localMs": 1.2568330000000003
   },
   {
     "id": "direct-29",
@@ -1199,7 +1199,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.580999999999996
+    "localMs": 1.8618330000000043
   },
   {
     "id": "direct-30",
@@ -1233,7 +1233,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.563915999999999
+    "localMs": 1.453833000000003
   },
   {
     "id": "direct-31",
@@ -1269,7 +1269,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6625840000000025
+    "localMs": 2.2372079999999954
   },
   {
     "id": "direct-32",
@@ -1299,7 +1299,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.49929199999999696
+    "localMs": 1.5433750000000117
   },
   {
     "id": "direct-33",
@@ -1329,7 +1329,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4767920000000032
+    "localMs": 1.3414159999999953
   },
   {
     "id": "direct-34",
@@ -1365,7 +1365,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5435000000000016
+    "localMs": 2.5504590000000036
   },
   {
     "id": "direct-35",
@@ -1395,7 +1395,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6097090000000023
+    "localMs": 2.2356670000000065
   },
   {
     "id": "direct-36",
@@ -1425,7 +1425,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.44129199999999713
+    "localMs": 1.1762920000000037
   },
   {
     "id": "direct-37",
@@ -1455,7 +1455,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4624170000000021
+    "localMs": 1.3067080000000004
   },
   {
     "id": "direct-38",
@@ -1485,7 +1485,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5302089999999993
+    "localMs": 1.2629579999999976
   },
   {
     "id": "direct-39",
@@ -1525,7 +1525,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7083749999999966
+    "localMs": 1.870166999999995
   },
   {
     "id": "direct-40",
@@ -1579,7 +1579,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5313340000000011
+    "localMs": 1.1910840000000036
   },
   {
     "id": "alias-1",
@@ -1621,7 +1621,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4479159999999993
+    "localMs": 1.6281249999999972
   },
   {
     "id": "alias-2",
@@ -1663,7 +1663,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6069170000000028
+    "localMs": 2.293875
   },
   {
     "id": "alias-3",
@@ -1705,7 +1705,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5576249999999945
+    "localMs": 1.325917000000004
   },
   {
     "id": "alias-4",
@@ -1747,7 +1747,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.43283300000000224
+    "localMs": 1.3931669999999912
   },
   {
     "id": "alias-5",
@@ -1789,7 +1789,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4335000000000022
+    "localMs": 1.7373329999999925
   },
   {
     "id": "alias-6",
@@ -1831,7 +1831,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.44137499999999363
+    "localMs": 1.1133330000000115
   },
   {
     "id": "alias-7",
@@ -1873,7 +1873,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5008750000000077
+    "localMs": 1.2422500000000127
   },
   {
     "id": "alias-8",
@@ -1907,7 +1907,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.3934590000000071
+    "localMs": 1.0439580000000035
   },
   {
     "id": "alias-9",
@@ -1941,7 +1941,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.44908399999999915
+    "localMs": 1.1940840000000037
   },
   {
     "id": "alias-10",
@@ -1975,7 +1975,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4048339999999939
+    "localMs": 1.0936669999999822
   },
   {
     "id": "alias-11",
@@ -2017,7 +2017,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.794792000000001
+    "localMs": 1.2205000000000155
   },
   {
     "id": "alias-12",
@@ -2059,7 +2059,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5837919999999883
+    "localMs": 1.0528329999999926
   },
   {
     "id": "alias-13",
@@ -2101,7 +2101,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.524957999999998
+    "localMs": 3.2484169999999892
   },
   {
     "id": "alias-14",
@@ -2143,7 +2143,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4454589999999996
+    "localMs": 1.7766249999999957
   },
   {
     "id": "alias-15",
@@ -2185,7 +2185,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.616334000000009
+    "localMs": 5.622000000000014
   },
   {
     "id": "alias-16",
@@ -2219,7 +2219,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4543330000000054
+    "localMs": 1.2404999999999973
   },
   {
     "id": "alias-17",
@@ -2253,7 +2253,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.481583999999998
+    "localMs": 1.7135829999999999
   },
   {
     "id": "alias-18",
@@ -2287,7 +2287,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4321660000000094
+    "localMs": 1.231332999999978
   },
   {
     "id": "alias-19",
@@ -2321,7 +2321,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5194580000000002
+    "localMs": 1.6329999999999814
   },
   {
     "id": "alias-20",
@@ -2355,7 +2355,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.40016699999999616
+    "localMs": 1.2313749999999857
   },
   {
     "id": "alias-21",
@@ -2389,7 +2389,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4328339999999997
+    "localMs": 1.3292500000000018
   },
   {
     "id": "alias-22",
@@ -2423,7 +2423,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4462919999999997
+    "localMs": 1.0672500000000014
   },
   {
     "id": "alias-23",
@@ -2457,7 +2457,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.489333000000002
+    "localMs": 2.3822920000000067
   },
   {
     "id": "alias-24",
@@ -2491,7 +2491,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4524159999999995
+    "localMs": 2.1967920000000163
   },
   {
     "id": "alias-25",
@@ -2525,7 +2525,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4468750000000057
+    "localMs": 1.6252920000000017
   },
   {
     "id": "alias-26",
@@ -2559,7 +2559,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4232500000000101
+    "localMs": 1.321249999999992
   },
   {
     "id": "alias-27",
@@ -2631,7 +2631,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5585419999999885
+    "localMs": 1.7542499999999848
   },
   {
     "id": "alias-28",
@@ -2691,7 +2691,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.47695800000001043
+    "localMs": 1.5357079999999996
   },
   {
     "id": "alias-29",
@@ -2739,7 +2739,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5217920000000049
+    "localMs": 2.5102500000000134
   },
   {
     "id": "alias-30",
@@ -2781,7 +2781,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4747500000000002
+    "localMs": 2.942625000000021
   },
   {
     "id": "category-1",
@@ -2831,7 +2831,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6989580000000046
+    "localMs": 2.3559999999999945
   },
   {
     "id": "category-2",
@@ -2881,7 +2881,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.47679100000000574
+    "localMs": 1.1505420000000015
   },
   {
     "id": "category-3",
@@ -2931,7 +2931,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4543330000000054
+    "localMs": 1.6422080000000108
   },
   {
     "id": "category-4",
@@ -2985,7 +2985,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4785409999999928
+    "localMs": 1.3996669999999938
   },
   {
     "id": "category-5",
@@ -3039,7 +3039,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6459580000000074
+    "localMs": 1.6259589999999946
   },
   {
     "id": "category-6",
@@ -3073,7 +3073,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4905830000000009
+    "localMs": 1.640874999999994
   },
   {
     "id": "category-7",
@@ -3121,7 +3121,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6974999999999909
+    "localMs": 1.4052090000000135
   },
   {
     "id": "category-8",
@@ -3169,7 +3169,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5051660000000027
+    "localMs": 1.2067910000000097
   },
   {
     "id": "category-9",
@@ -3217,7 +3217,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5691249999999997
+    "localMs": 1.9283340000000067
   },
   {
     "id": "category-10",
@@ -3261,7 +3261,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.48850000000000193
+    "localMs": 1.266791000000012
   },
   {
     "id": "category-11",
@@ -3343,7 +3343,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4787500000000051
+    "localMs": 1.9401249999999948
   },
   {
     "id": "category-12",
@@ -3425,7 +3425,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.49729100000000415
+    "localMs": 1.1695829999999887
   },
   {
     "id": "category-13",
@@ -3507,7 +3507,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5645830000000132
+    "localMs": 1.3874169999999992
   },
   {
     "id": "category-14",
@@ -3559,7 +3559,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.48004099999999994
+    "localMs": 1.3555829999999958
   },
   {
     "id": "category-15",
@@ -3611,7 +3611,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4431249999999949
+    "localMs": 1.3982500000000186
   },
   {
     "id": "category-16",
@@ -3675,7 +3675,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.41320900000000904
+    "localMs": 1.2412920000000156
   },
   {
     "id": "category-17",
@@ -3731,7 +3731,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5329590000000053
+    "localMs": 2.002082999999999
   },
   {
     "id": "category-18",
@@ -3791,7 +3791,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4589169999999996
+    "localMs": 1.1822080000000028
   },
   {
     "id": "category-19",
@@ -3851,7 +3851,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.45879200000000253
+    "localMs": 1.1863749999999982
   },
   {
     "id": "category-20",
@@ -3937,7 +3937,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5395419999999973
+    "localMs": 1.4725420000000042
   },
   {
     "id": "category-21",
@@ -4017,7 +4017,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7090830000000068
+    "localMs": 1.6780829999999867
   },
   {
     "id": "category-22",
@@ -4071,7 +4071,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4579159999999973
+    "localMs": 1.1491670000000056
   },
   {
     "id": "category-23",
@@ -4113,7 +4113,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.45179199999999753
+    "localMs": 1.2539580000000115
   },
   {
     "id": "category-24",
@@ -4147,7 +4147,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5595410000000101
+    "localMs": 1.234499999999997
   },
   {
     "id": "category-25",
@@ -4177,7 +4177,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7283749999999998
+    "localMs": 1.2202079999999853
   },
   {
     "id": "category-26",
@@ -4207,7 +4207,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4177500000000123
+    "localMs": 1.005833000000024
   },
   {
     "id": "category-27",
@@ -4305,7 +4305,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5499579999999895
+    "localMs": 1.167665999999997
   },
   {
     "id": "category-28",
@@ -4365,7 +4365,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4755000000000109
+    "localMs": 1.0902080000000183
   },
   {
     "id": "category-29",
@@ -4403,7 +4403,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5548329999999879
+    "localMs": 1.2276250000000175
   },
   {
     "id": "category-30",
@@ -4453,7 +4453,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.47691700000000026
+    "localMs": 1.1033339999999896
   },
   {
     "id": "cross-1",
@@ -4523,7 +4523,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5410839999999979
+    "localMs": 1.2573329999999885
   },
   {
     "id": "cross-2",
@@ -4593,7 +4593,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.446542000000008
+    "localMs": 1.1232499999999845
   },
   {
     "id": "cross-3",
@@ -4635,7 +4635,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7444580000000087
+    "localMs": 1.4239590000000248
   },
   {
     "id": "cross-4",
@@ -4677,7 +4677,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.48158300000000054
+    "localMs": 1.150624999999991
   },
   {
     "id": "cross-5",
@@ -4719,7 +4719,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4732920000000007
+    "localMs": 1.3845420000000104
   },
   {
     "id": "cross-6",
@@ -4761,7 +4761,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.48187499999998806
+    "localMs": 1.2581670000000145
   },
   {
     "id": "cross-7",
@@ -4823,7 +4823,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.609958000000006
+    "localMs": 1.386084000000011
   },
   {
     "id": "cross-8",
@@ -4881,7 +4881,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.47170900000000415
+    "localMs": 1.1513339999999914
   },
   {
     "id": "cross-9",
@@ -4969,7 +4969,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4819999999999993
+    "localMs": 1.1587500000000261
   },
   {
     "id": "cross-10",
@@ -5013,7 +5013,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4629580000000004
+    "localMs": 1.3188340000000096
   },
   {
     "id": "cross-11",
@@ -5057,7 +5057,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5444579999999917
+    "localMs": 1.0792500000000018
   },
   {
     "id": "cross-12",
@@ -5113,7 +5113,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4745419999999996
+    "localMs": 1.1239160000000084
   },
   {
     "id": "cross-13",
@@ -5155,7 +5155,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4497920000000022
+    "localMs": 1.0935829999999953
   },
   {
     "id": "cross-14",
@@ -5199,7 +5199,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4952090000000027
+    "localMs": 1.566790999999995
   },
   {
     "id": "cross-15",
@@ -5247,7 +5247,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6840839999999986
+    "localMs": 1.4697500000000048
   },
   {
     "id": "cross-16",
@@ -5305,7 +5305,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5352499999999907
+    "localMs": 1.8612909999999943
   },
   {
     "id": "cross-17",
@@ -5361,7 +5361,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5012080000000054
+    "localMs": 1.1376249999999857
   },
   {
     "id": "cross-18",
@@ -5437,7 +5437,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5079159999999945
+    "localMs": 2.0762909999999977
   },
   {
     "id": "cross-19",
@@ -5479,7 +5479,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7935000000000088
+    "localMs": 1.8948330000000055
   },
   {
     "id": "cross-20",
@@ -5521,7 +5521,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.589209000000011
+    "localMs": 1.6195830000000058
   },
   {
     "id": "negative-1",
@@ -5540,7 +5540,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.8853330000000028
+    "localMs": 1.6248339999999928
   },
   {
     "id": "negative-2",
@@ -5559,7 +5559,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5435840000000098
+    "localMs": 3.3057909999999993
   },
   {
     "id": "negative-3",
@@ -5582,7 +5582,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.7386669999999924
+    "localMs": 3.588249999999988
   },
   {
     "id": "negative-4",
@@ -5605,7 +5605,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4882920000000013
+    "localMs": 2.3447500000000048
   },
   {
     "id": "negative-5",
@@ -5628,7 +5628,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4460420000000056
+    "localMs": 1.4097079999999949
   },
   {
     "id": "negative-6",
@@ -5651,7 +5651,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.45787500000000136
+    "localMs": 1.5499160000000245
   },
   {
     "id": "negative-7",
@@ -5674,7 +5674,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.672458000000006
+    "localMs": 1.166041000000007
   },
   {
     "id": "negative-8",
@@ -5697,7 +5697,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5023340000000047
+    "localMs": 1.7105829999999855
   },
   {
     "id": "negative-9",
@@ -5720,7 +5720,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4488329999999934
+    "localMs": 1.2625830000000065
   },
   {
     "id": "negative-10",
@@ -5743,7 +5743,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4425420000000031
+    "localMs": 1.6659999999999968
   },
   {
     "id": "negative-11",
@@ -5768,7 +5768,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5352919999999983
+    "localMs": 1.2418330000000424
   },
   {
     "id": "negative-12",
@@ -5787,7 +5787,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 1.4723749999999995
+    "localMs": 2.5564170000000104
   },
   {
     "id": "negative-13",
@@ -5806,7 +5806,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 2.1262080000000054
+    "localMs": 2.9097909999999843
   },
   {
     "id": "negative-14",
@@ -5829,7 +5829,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5319590000000005
+    "localMs": 1.2495839999999703
   },
   {
     "id": "negative-15",
@@ -5852,7 +5852,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.44412499999999966
+    "localMs": 1.5720420000000104
   },
   {
     "id": "negative-16",
@@ -5875,7 +5875,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.6213750000000005
+    "localMs": 1.2402500000000032
   },
   {
     "id": "negative-17",
@@ -5898,7 +5898,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4585830000000044
+    "localMs": 1.3657079999999837
   },
   {
     "id": "negative-18",
@@ -5921,7 +5921,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.5022090000000077
+    "localMs": 1.2792079999999828
   },
   {
     "id": "negative-19",
@@ -5944,7 +5944,7 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.4845420000000047
+    "localMs": 1.5155409999999847
   },
   {
     "id": "negative-20",
@@ -5967,6 +5967,6 @@
     "answerCorrect": true,
     "citationValid": true,
     "unsupportedFacts": [],
-    "localMs": 0.711624999999998
+    "localMs": 1.5885000000000105
   }
 ]

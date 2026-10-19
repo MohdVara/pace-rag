@@ -182,3 +182,8 @@
 .pace-settings input { margin-top: .5rem; flex-shrink: 0; }
 .pace-fictional-note { font-size: .9em; }
 .pace-inspection h4 { margin-block: 1.2rem .4rem; }
+
+.pace-search-help { font-size: .9em; margin-block: .35rem .75rem; }
+.pace-answer[data-result-kind="reviewed-answer"] { border-inline-start: 4px solid var(--pace-line); padding-inline-start: .8rem; }
+.pace-answer[data-result-kind="technology-answer"] { border-inline-start: 5px double var(--pace-line); padding-inline-start: .8rem; }
+.pace-answer[data-result-kind="insufficient-evidence"] { border: 1px dashed var(--pace-line); padding: .8rem; }

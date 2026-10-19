@@ -2,10 +2,12 @@ import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promi
 import { resolve } from 'node:path';
 import { loadContent } from './indexing/content.mjs';
 const release = process.argv.includes('--release');
+if(release)await (await import('./ranking-review-check.mjs')).verifyRankingReview();
 for (const corpus of ['portfolio', 'lab']) {
   await loadContent(corpus, { release });
   const root = `dist/lab/knowledge/${corpus}`;
   const pointer = JSON.parse(await readFile(`${root}/current.json`, 'utf8'));
+  if(release&&pointer.corpusVersion!==JSON.parse(await readFile(`apps/rag-lab/public/knowledge/${corpus}/current.json`,'utf8')).corpusVersion)throw new Error('Static package uses a stale build corpus');
   const manifest = JSON.parse(await readFile(`${root}/${pointer.manifest}`, 'utf8'));
   if (release && manifest.preview) throw new Error('Build an approved release before packaging for publication');
   if (!manifest.semanticReady) throw new Error(`Build semantic indexes for ${corpus} before packaging`);

@@ -1,0 +1,505 @@
+{
+  "version": "professional-v16-draft-1",
+  "status": "draft",
+  "publicationApproval": "OWNER_REVIEW_REQUIRED",
+  "sourceAuthority": "Owner's PACE v1.6 commercial engineering brief and PACE-RAG v1.6 Professional Knowledge Refresh request, 19 October 2026. Verified for drafting; separate record-level publication approval required.",
+  "portfolioFile": "../mohdvara.github.io/src/content.ts",
+  "portfolioFileSha256": "2106c6cf988e6396d46247a5c5fe49f03df60b3a865f3922840dc3129b16a1c9",
+  "sourceSnapshots": [
+    {
+      "projectId": "insurance",
+      "sha256": "26b7775b2f762505376e740ba9797bc1e0254607955b1a51b6bcf93cb7d4ae1b"
+    },
+    {
+      "projectId": "wensymes",
+      "sha256": "0dc6f8025da875b295b8ce95765b779bf02d57865c5cc06fcc1645bf461f1237"
+    },
+    {
+      "projectId": "campus",
+      "sha256": "0ce4adbc90ef72008b46048fa1e8a4094e263fed8151de4499c5bfd9eefbcb0d"
+    },
+    {
+      "projectId": "rental",
+      "sha256": "fb68b3cb552e7498f8a89a9cbcd1bbb5df2b03ac1b48cf62de92af291ef58616"
+    }
+  ],
+  "unchangedRankingSha256": "95423a7169c73cff33e24902f48e6bcbd77e8109ff62eb3dc9c7aa8b1ab2422c",
+  "historicalSourceRecordCount": 22,
+  "changes": [
+    {
+      "id": "insurance",
+      "kind": "document",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "4b7d7dcccb4e4a99e70c608fff178e42e3bb5db856a0296d51a0cde2104b1ac7",
+      "sourceTextHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+      "changeKind": "source-refresh"
+    },
+    {
+      "id": "education",
+      "kind": "document",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "c0be6e938df917f02bf9b83975b35544ed0ff5527fef0da0ba4ce4b90ca4cdd3",
+      "sourceTextHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+      "changeKind": "source-refresh"
+    },
+    {
+      "id": "wensymes",
+      "kind": "document",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "b0950b4e4ac62d664d39b9089ceb4cf7da1bd73142ec3fce8f119c29b70de7cd",
+      "sourceTextHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+      "changeKind": "source-refresh"
+    },
+    {
+      "id": "rental",
+      "kind": "document",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "940fbb0518434cd46c89b1c0fbda5dc71d3f7d2f2dfb494042ec25a75ab62c51",
+      "sourceTextHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+      "changeKind": "source-refresh"
+    },
+    {
+      "id": "portfolio-answer-insurance-work",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "33ac4564769865220751b71ee1ff0f43d1b40ed914aeb078f6fd30533736f8bf",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-insurance-leadership",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "b9ab01c1eeec7fec6732949b8714091fb9b52215d52ae3e44fdefe89d039d046",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-insurance-stack",
+      "kind": "answer",
+      "version": "2",
+      "status": "retired",
+      "proposedApprovalHash": "762af2475c43a9ddacbb95a287e255a7bce959a75f29e57acb2092b5aa893b63",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-modernisation",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "8987328a6f35b0feb5b020df3746d77d987cff874858521a2e9c51e7188fbbaf",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-education-disclosure",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "474b04df77c5cc97660f95a059dbb31499458ed33af7369409d33204d4542170",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-wensymes-work",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "c9e959459db70a066b265aa15cf64270dd65b6076379914ce8b8568e912740b0",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-wensymes-tools",
+      "kind": "answer",
+      "version": "2",
+      "status": "retired",
+      "proposedApprovalHash": "322ff88cfe3699ea04287eee5603a8b72b8068c2e6ffd52d4564f860f21c17e2",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-wensymes-security",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "ff7d302951df933ca32d813c9dcce31997605db1adf6d031d9eaf4ed66a75a46",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-rental-domain",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "03a026c3070fe6901e78d89e15a87c34be474ba811be6caea5c478c84ba0a38c",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-rental-impact",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "76965ee3f52d5ed9b60fbffbb3d640e2d0f130d2340e35adee3ef80f85060b4e",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-hr-distinction",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "4722b46a9c11ad39e027d39d734ceac5217cd8857fc31ae54b5362e1dbcc94fc",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-insurance-products",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "0af311021f7b23c1cedc911066ab4eadb134aa841c14e6eabda46ec26ea408fc",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-insurance-workflows",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "afbc87e59d26057884a63671859155c7a91a507d6f1d43b867ff1b0672f33e28",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-rental-lifecycle",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "5e3f2cf383db02a70faef6d488ef3731e5636ab317296ffce8422e131def48cd",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-rental-scale",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "0f5cdb0b19f45edcb71c9adf313a56e5454de2575fada93e6920abffb2b15ec4",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-rental-reporting",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "f59111605a8d9eb0b3cfb706186b1ad94e95a56004140914266744d5a4cc830a",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "wording-and-citation"
+    },
+    {
+      "id": "portfolio-answer-wensymes-platforms",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "d48b4725387c0af2108546924cf19eaabc6200ca551c950d3f06d06dcf633599",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-public-boundaries",
+      "kind": "answer",
+      "version": "2",
+      "status": "draft",
+      "proposedApprovalHash": "fb5c2303bfe51e9c6f00d0297593f66ac7080817d3e642a337766ced6540cba1",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        },
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "citation-rebind-only"
+    },
+    {
+      "id": "portfolio-answer-insurance-validity",
+      "kind": "answer",
+      "version": "1",
+      "status": "draft",
+      "proposedApprovalHash": "ca767104658c294a7c9a18230e6022542e8d9ce0427a8b9c4fa03766c9038c8b",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "new"
+    },
+    {
+      "id": "portfolio-answer-insurance-architecture",
+      "kind": "answer",
+      "version": "1",
+      "status": "draft",
+      "proposedApprovalHash": "5e65666f381e51274551638d294c4bb660ace77d500b4eed295698b2ab918b32",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "changeKind": "new"
+    },
+    {
+      "id": "portfolio-answer-education-workflows",
+      "kind": "answer",
+      "version": "1",
+      "status": "draft",
+      "proposedApprovalHash": "174d64347f5fb911575872b24153712ecb512e0e6ec2db4cd0a6897edafd50c4",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "changeKind": "new"
+    },
+    {
+      "id": "portfolio-answer-rental-mobile",
+      "kind": "answer",
+      "version": "1",
+      "status": "draft",
+      "proposedApprovalHash": "95d7ca52f6d3480e35746978a1355cf5a94a8ce1b96078225d458890825536c2",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "changeKind": "new"
+    },
+    {
+      "id": "portfolio-answer-wensymes-rbac-boundary",
+      "kind": "answer",
+      "version": "1",
+      "status": "draft",
+      "proposedApprovalHash": "aa3912f25e797702b1f49e1fa65bfc807212215ba9caa27214a0f5433cc6008c",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "changeKind": "new"
+    }
+  ],
+  "approvalInstructions": "Proposed hashes are tooling-generated review targets, not approvals. Obtain owner publication approval for this exact proposal, all rebound citations and any retirement/exclusion changes. Only then update canonical records and approval/publication manifests through the existing review process. No runtime package is generated from this directory."
+}

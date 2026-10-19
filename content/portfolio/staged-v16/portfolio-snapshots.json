@@ -1,0 +1,142 @@
+[
+  {
+    "id": "insurance",
+    "company": "PolicyStreet",
+    "role": "Senior Full Stack Developer → Director, Engineering",
+    "period": "2019–2021",
+    "title": "PolicyStreet — Insurance Comparison Platform",
+    "summary": "Internal teams and partners needed consistent quoting and issuance across different insurers.",
+    "result": "Connected insurer quotations and policy issuance for internal teams and partners.",
+    "details": [
+      [
+        "Problem",
+        "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance."
+      ],
+      [
+        "Ownership",
+        "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director."
+      ],
+      [
+        "Key Engineering Decision",
+        "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."
+      ],
+      [
+        "Business rules",
+        "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."
+      ],
+      [
+        "Constraints & approach",
+        "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."
+      ],
+      [
+        "Delivered Capability",
+        "Supported fast quotation workflows with rate normalization and integrated issuance for internal teams and partners, while accommodating expiry and changes affecting quotations."
+      ]
+    ]
+  },
+  {
+    "id": "wensymes",
+    "company": "WenSymes",
+    "role": "Principal Full Stack Developer",
+    "period": "2025 onward",
+    "title": "WenSymes — Human Resources Management Platform",
+    "summary": "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.",
+    "result": "Contributed adaptable internal tools; professional collaboration continues on an occasional basis.",
+    "details": [
+      [
+        "Business problem",
+        "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs."
+      ],
+      [
+        "Role & ownership",
+        "Principal Full Stack Developer experience building internal administration tools and planning product-domain capabilities. The engagement continues as occasional professional collaboration."
+      ],
+      [
+        "Key Engineering Decision",
+        "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved."
+      ],
+      [
+        "Constraints & planning",
+        "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private."
+      ],
+      [
+        "Delivered Capability",
+        "Supported an adaptable approach to organizational roles and HR workflows without assuming that responsibilities would remain fixed."
+      ],
+      [
+        "Technical approach",
+        "Full-stack web development with Google Cloud and Microsoft 365."
+      ]
+    ]
+  },
+  {
+    "id": "campus",
+    "company": "Centre for Content Creation",
+    "role": "Principal Full Stack Engineer",
+    "period": "2023 onward",
+    "title": "Enterprise Education Systems — Modernization & Technical Consulting",
+    "summary": "Stakeholder-informed workflows across established and modernized education and administrative systems.",
+    "result": "Helped align operational workflows with user responsibilities while supporting continued platform use and modernisation.",
+    "details": [
+      [
+        "Business problem",
+        "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities."
+      ],
+      [
+        "My contribution",
+        "Led full-stack development and contributed technical direction as Principal Full Stack Engineer."
+      ],
+      [
+        "Key Engineering Decision",
+        "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems."
+      ],
+      [
+        "Verified workflow examples",
+        "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows."
+      ],
+      [
+        "Constraints & priorities",
+        "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private."
+      ],
+      [
+        "Delivered Capability",
+        "Helped shape structured workflows aligned with actual user and stakeholder responsibilities, while supporting continued operation and modernization of existing systems."
+      ]
+    ]
+  },
+  {
+    "id": "rental",
+    "company": "MegaInfinite",
+    "role": "Freelance Principal Full Stack Solution Developer",
+    "period": "2018–2020",
+    "title": "Rental operations, from contracts to financial clarity.",
+    "summary": "Web-based rental operations for staff working in the office and on the move.",
+    "result": "Made key rental-management functions accessible from compatible mobile and desktop browsers.",
+    "details": [
+      [
+        "Problem",
+        "Staff needed to manage contracts, renewals, cancellations and financial visibility across more than 20 rental properties, including operational work outside the office."
+      ],
+      [
+        "Ownership",
+        "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer."
+      ],
+      [
+        "Key Engineering Decision",
+        "Designed and developed a mobile-friendly, web-based rental management system to support operational work outside the office."
+      ],
+      [
+        "Domain design",
+        "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking."
+      ],
+      [
+        "Operating constraints",
+        "Access described here is internet-connected through compatible mobile or desktop browsers."
+      ],
+      [
+        "Delivered Capability",
+        "Enabled access to property, tenant and rental records; supported rental contract renewals and sending contract PDFs directly from mobile devices. Staff could review rental and financial reports remotely, including property-level income, expenses and profit/loss. Supported rental operations involving more than 20 properties."
+      ]
+    ]
+  }
+]

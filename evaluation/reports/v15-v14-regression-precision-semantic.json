@@ -1,0 +1,108 @@
+{
+  "reportVersion": "efrd-evaluation-v1",
+  "measuredAt": "2026-10-19T04:57:32.738Z",
+  "softwareVersion": "1.5.0+precision-v15",
+  "scope": "Previously inspected v1.4 questions; regression only, not fresh or independent. Implementation scorecard reuses the development set, not separate final verification.",
+  "sourceDigest": "a2303fb11a1b80dc476aeafdeafffa577e5295234f78b692ac04547bb0915cd7",
+  "mode": "semantic",
+  "dataset": {
+    "version": "v14-fresh-1",
+    "hash": "fe528941f3b509cd52512d17c718200837c68462b12ac886f590ecfb91948f18",
+    "ownerReviewedLabels": false,
+    "independentReviewVerified": false
+  },
+  "environment": {
+    "node": "v23.11.0",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M1",
+    "browser": "Pinned Playwright Chromium for model execution; not a physical device"
+  },
+  "scorecards": {
+    "professional": {
+      "corpusVersion": "5172c80561642d42",
+      "positiveQuestions": 40,
+      "criticalQuestions": 20,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.725,
+      "top3CandidateRecall": 1,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.6921669999999835,
+      "localRankAndAnswerP95Ms": 3.2378750000000025,
+      "activeReviewedAnswers": 38
+    },
+    "implementation": {
+      "corpusVersion": "cb8cf7a42d2969e4",
+      "positiveQuestions": 40,
+      "criticalQuestions": 10,
+      "compositeQuestions": 0,
+      "top1ApprovedAnswerRankingAccuracy": 0.8,
+      "top3CandidateRecall": 0.95,
+      "appropriateAbstentionRate": 1,
+      "incorrectAutomaticMatches": 0,
+      "invalidCitationReferences": 0,
+      "crossCorpusReferences": 0,
+      "directAnswerCoverageCommonIntents": 0,
+      "compositesCorrect": 0,
+      "compositeCoverage": null,
+      "localRankAndAnswerP50Ms": 0.6709169999999745,
+      "localRankAndAnswerP95Ms": 0.8493330000000014,
+      "activeReviewedAnswers": 20
+    }
+  },
+  "liveProviderCalls": 0,
+  "cacheOnlyProviderCallsEvidence": "Evaluation calls pure local retrieval/composition functions; browser request observations recorded separately.",
+  "generationGrounding": {
+    "scenarios": 20,
+    "executedLive": false,
+    "status": "Live generation disabled; fixture-only server citation tests do not establish claim entailment."
+  },
+  "targets": {
+    "top3Recall": 0.9,
+    "criticalWrongAnswers": 0,
+    "citationErrors": 0,
+    "crossCorpusLeaks": 0,
+    "top1Ranking": 0.8
+  },
+  "targetResults": {
+    "professional": {
+      "top3Recall": true,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true,
+      "top1Ranking": false
+    },
+    "implementation": {
+      "top3Recall": true,
+      "criticalWrongAnswers": true,
+      "citationIntegrity": true,
+      "corpusIsolation": true
+    }
+  },
+  "automaticSemanticMatchingEnabled": false,
+  "releaseAccepted": false,
+  "limits": [
+    "Agent-authored held-out wording is distinct from indexed aliases but not independently reviewed.",
+    "No statistical guarantee or live-provider grounding claim follows from a finite dataset.",
+    "Incorrect automatic-match counts and ranking accuracy are distinct; most paraphrases deliberately require explicit answer selection.",
+    "Cloudflare runtime, billing, physical-device memory and screen-reader verification remain outside this local evaluation."
+  ],
+  "ranking": "professional-cosine-body-BM25-intent-v15",
+  "rankingPolicy": {
+    "professionalSemanticWeight": 0.8,
+    "professionalAnswerBodyWeight": 0.2,
+    "canonicalIntentAdjustment": [
+      -0.1,
+      0.16
+    ],
+    "otherSources": "prior hybrid unchanged",
+    "lexicalFallback": "prior reviewed-question-and-answer BM25 unchanged",
+    "automaticAnswerPolicy": "exact reviewed wording only; no calibrated semantic reuse enabled"
+  }
+}

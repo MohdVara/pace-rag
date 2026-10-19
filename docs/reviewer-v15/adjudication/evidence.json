@@ -1,0 +1,807 @@
+{
+  "evidenceVersion": "pace-technology-v1.2",
+  "answers": [
+    {
+      "id": "portfolio-answer-background",
+      "question": "What is your engineering background?",
+      "answer": "My public portfolio describes full-stack engineering since 2013, combining hands-on implementation, architecture, technical leadership and teaching.",
+      "citations": [
+        {
+          "sourceId": "profile",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+          "title": "Professional profile",
+          "url": "https://mohd.paramasvara.online/#about"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-location",
+      "question": "Where are you based?",
+      "answer": "I am based in Sabah, Malaysia.",
+      "citations": [
+        {
+          "sourceId": "profile",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+          "title": "Professional profile",
+          "url": "https://mohd.paramasvara.online/#about"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-approach",
+      "question": "How do you approach engineering problems?",
+      "answer": "I consider domain rules, data and delivery together, connecting implementation decisions to the wider business system.",
+      "citations": [
+        {
+          "sourceId": "profile",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+          "title": "Professional profile",
+          "url": "https://mohd.paramasvara.online/#about"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-teaching",
+      "question": "Do you teach software development?",
+      "answer": "Yes. Teaching development and helping teams understand engineering decisions are part of my public professional profile.",
+      "citations": [
+        {
+          "sourceId": "profile",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+          "title": "Professional profile",
+          "url": "https://mohd.paramasvara.online/#about"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-insurance-work",
+      "question": "What did you work on at PolicyStreet?",
+      "answer": "I worked on rate fetching and normalization and integrated quotation and policy issuance for internal and partner workflows. The public case covers motor, medical, group medical and fire insurance.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-insurance-leadership",
+      "question": "What leadership experience does PolicyStreet show?",
+      "answer": "The public PolicyStreet case describes progression from Senior Full Stack Developer to Director, Engineering, including leading development and operations. It does not specify a team size.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-insurance-stack",
+      "question": "What technology stack did PolicyStreet use?",
+      "answer": "The public case does not establish a project-specific technology stack. I can point to its documented integration responsibilities without assigning unverified technologies.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-modernisation",
+      "question": "What modernisation experience is public?",
+      "answer": "The education-platform case describes full-stack development and technical direction focused on modernisation, maintainability and ongoing delivery. Detailed internal implementation remains private.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-education-disclosure",
+      "question": "Can you describe the education platform architecture?",
+      "answer": "Only the public high-level scope is available: platform modernisation, full-stack engineering and maintainability. Internal product identities, infrastructure and detailed workflows are intentionally omitted.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-wensymes-work",
+      "question": "What is your WenSymes work about?",
+      "answer": "The public WenSymes case describes principal full-stack development of internal HR and administration tools and planning for further domain capabilities.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-wensymes-tools",
+      "question": "Which technologies are named for WenSymes?",
+      "answer": "The public case names full-stack web development, Google Cloud and Microsoft 365. It does not establish a specific framework version or infrastructure specification.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-wensymes-security",
+      "question": "What security work is disclosed for WenSymes?",
+      "answer": "The public summary says planning considers data consistency, access control and uptime. It does not establish particular implemented controls or expose internal rules.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rental-domain",
+      "question": "What did the rental operations project cover?",
+      "answer": "The public rental case covers contracts, payments, renewals, cancellations and property-level financial reporting for more than 20 properties.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rental-impact",
+      "question": "Is there a measured revenue result for the rental project?",
+      "answer": "The public case supports the documented workflows and more-than-20-properties scope. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-hr-collaboration",
+      "question": "What collaborative HR development experience is public?",
+      "answer": "The earlier HR case describes collaborative work on configurable company structures, leave entitlements and attendance policies during the 2016–2017 Web Developer role.",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-hr-distinction",
+      "question": "Are the older HR project and WenSymes the same engagement?",
+      "answer": "They are described as distinct engagements. The earlier collaborative HR work is attributed to Centre for Content Creation in 2016–2017; WenSymes is a later principal full-stack engagement.",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-ntm-overview",
+      "question": "What is No Two Mondays?",
+      "answer": "No Two Mondays is an independent engineering case study in human-directed AI-assisted development, with documented architecture, persistence and verification decisions.",
+      "citations": [
+        {
+          "sourceId": "ntm",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+          "title": "No Two Mondays independent engineering",
+          "url": "https://mohd.paramasvara.online/no-two-mondays/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-ntm-architecture",
+      "question": "What architecture does No Two Mondays demonstrate?",
+      "answer": "Its documented design separates TypeScript simulation, React subscription and Phaser presentation, with save compatibility and replay verification.",
+      "citations": [
+        {
+          "sourceId": "ntm",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+          "title": "No Two Mondays independent engineering",
+          "url": "https://mohd.paramasvara.online/no-two-mondays/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-ntm-rag",
+      "question": "Is No Two Mondays evidence of production RAG?",
+      "answer": "No. It illustrates AI-assisted engineering. The public evidence does not establish it as an enterprise production RAG deployment.",
+      "citations": [
+        {
+          "sourceId": "ntm",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+          "title": "No Two Mondays independent engineering",
+          "url": "https://mohd.paramasvara.online/no-two-mondays/"
+        },
+        {
+          "sourceId": "rag",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "25761541755c821e8da4bb75f53c1ed05fa4551c1dc56cc5a12dfcd5381c2161",
+          "title": "RAG capabilities and evidence boundaries",
+          "url": "https://mohd.paramasvara.online/#ai-evidence"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-incident-overview",
+      "question": "What is Incident Zero?",
+      "answer": "Incident Zero is a fictional engineering story using synthetic incident data. It offers an optional recruiter preview and an arcade prototype.",
+      "citations": [
+        {
+          "sourceId": "incident",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+          "title": "Incident Zero engineering experience",
+          "url": "https://mohd.paramasvara.online/incident-zero/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-incident-preview",
+      "question": "Can I inspect Incident Zero without playing?",
+      "answer": "Yes. Its recruiter preview exposes engineering decisions without completing the game and is labelled as an auto-selected demonstration.",
+      "citations": [
+        {
+          "sourceId": "incident",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+          "title": "Incident Zero engineering experience",
+          "url": "https://mohd.paramasvara.online/incident-zero/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rag-evidence",
+      "question": "What public evidence supports your RAG capabilities?",
+      "answer": "The portfolio identifies RAG and vector databases as résumé-listed capabilities and distinguishes work in progress from demonstrated public or enterprise production deployment. It does not use No Two Mondays as proof of production RAG.",
+      "citations": [
+        {
+          "sourceId": "rag",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "25761541755c821e8da4bb75f53c1ed05fa4551c1dc56cc5a12dfcd5381c2161",
+          "title": "RAG capabilities and evidence boundaries",
+          "url": "https://mohd.paramasvara.online/#ai-evidence"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rag-scale",
+      "question": "Have you deployed RAG at enterprise production scale?",
+      "answer": "The approved public portfolio does not establish an enterprise production RAG deployment. I cannot substantiate that claim from this evidence.",
+      "citations": [
+        {
+          "sourceId": "rag",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "25761541755c821e8da4bb75f53c1ed05fa4551c1dc56cc5a12dfcd5381c2161",
+          "title": "RAG capabilities and evidence boundaries",
+          "url": "https://mohd.paramasvara.online/#ai-evidence"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-engagement-types",
+      "question": "What engineering discussions are relevant?",
+      "answer": "The Work With Me page invites discussions about architecture, modernisation, integration engineering, technical leadership and defined knowledge-tool workflows.",
+      "citations": [
+        {
+          "sourceId": "engagement",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+          "title": "Professional discussions",
+          "url": "https://mohd.paramasvara.online/work-with-me/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-availability",
+      "question": "Are you immediately available for a new engagement?",
+      "answer": "The public portfolio invites professional discussions but does not establish immediate availability. Please use the contact or booking links to discuss timing.",
+      "citations": [
+        {
+          "sourceId": "engagement",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+          "title": "Professional discussions",
+          "url": "https://mohd.paramasvara.online/work-with-me/"
+        },
+        {
+          "sourceId": "resume",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+          "title": "Résumé and contact",
+          "url": "https://mohd.paramasvara.online/#contact"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-resume-links",
+      "question": "Where can I find your résumé?",
+      "answer": "Use the portfolio’s two-page résumé and full CV links. This assistant does not publish a separate downloadable PDF.",
+      "citations": [
+        {
+          "sourceId": "resume",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+          "title": "Résumé and contact",
+          "url": "https://mohd.paramasvara.online/#contact"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-contact",
+      "question": "How can I contact you?",
+      "answer": "Email mohd@paramasvara.online or use the professional discussion booking link from the portfolio Contact section.",
+      "citations": [
+        {
+          "sourceId": "resume",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+          "title": "Résumé and contact",
+          "url": "https://mohd.paramasvara.online/#contact"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-independent-work",
+      "question": "Which independent projects can I inspect?",
+      "answer": "The public portfolio includes No Two Mondays and Incident Zero. Their case studies and interactive experiences describe independent engineering work; Incident Zero data is synthetic.",
+      "citations": [
+        {
+          "sourceId": "ntm",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+          "title": "No Two Mondays independent engineering",
+          "url": "https://mohd.paramasvara.online/no-two-mondays/"
+        },
+        {
+          "sourceId": "incident",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+          "title": "Incident Zero engineering experience",
+          "url": "https://mohd.paramasvara.online/incident-zero/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-insurance-products",
+      "question": "Which insurance products did your integration work cover?",
+      "answer": "The public PolicyStreet case covers motor, medical, group medical and fire insurance, connecting quotation and policy issuance with rate fetching and normalization.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-insurance-workflows",
+      "question": "Did the insurance integrations support partners as well as internal users?",
+      "answer": "Yes. The public case describes quotation and policy issuance integrations for both internal and partner workflows. It does not establish partner counts or commercial results.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rental-lifecycle",
+      "question": "What rental lifecycle rules did you model?",
+      "answer": "The rental operations project covered contracts, payments, renewals and cancellations, alongside property-level financial reporting.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rental-scale",
+      "question": "How many properties did the rental project cover?",
+      "answer": "The public rental case describes support for more than 20 properties. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-rental-reporting",
+      "question": "What reporting did the rental operations project support?",
+      "answer": "The documented scope includes property-level financial reporting, connected to contracts, payments and the rental lifecycle.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-wensymes-platforms",
+      "question": "Which cloud and productivity platforms are named for WenSymes?",
+      "answer": "The public WenSymes case names Google Cloud and Microsoft 365 alongside full-stack web development. It does not specify framework versions or individual implemented security controls.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-hr-config",
+      "question": "What could be configured in the earlier collaborative HR system?",
+      "answer": "Its public scope includes corporate structures, leave entitlements, attendance policies and workflows for multiple companies. This is the earlier Centre for Content Creation project, distinct from WenSymes.",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-ntm-verification",
+      "question": "What verification concerns does No Two Mondays demonstrate?",
+      "answer": "The independent case study documents save compatibility and replay verification alongside its separated simulation, React subscription and Phaser presentation layers. Historical campaign evidence is dated.",
+      "citations": [
+        {
+          "sourceId": "ntm",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+          "title": "No Two Mondays independent engineering",
+          "url": "https://mohd.paramasvara.online/no-two-mondays/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-incident-authenticity",
+      "question": "Does Incident Zero describe a real employer outage?",
+      "answer": "No. Incident Zero is a fictional interactive engineering story with synthetic incident data. Its scenarios should not be presented as historical employer incidents.",
+      "citations": [
+        {
+          "sourceId": "incident",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+          "title": "Incident Zero engineering experience",
+          "url": "https://mohd.paramasvara.online/incident-zero/"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-architecture-discussion",
+      "question": "Can we discuss architecture and system modernisation?",
+      "answer": "Yes. The Work With Me page invites professional discussions about architecture, modernisation, integration engineering and technical leadership. Please use the public contact or booking links to discuss a specific need and timing.",
+      "citations": [
+        {
+          "sourceId": "engagement",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+          "title": "Professional discussions",
+          "url": "https://mohd.paramasvara.online/work-with-me/"
+        },
+        {
+          "sourceId": "resume",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+          "title": "Résumé and contact",
+          "url": "https://mohd.paramasvara.online/#contact"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-cv-options",
+      "question": "What is the difference between your résumé and full CV links?",
+      "answer": "The portfolio provides a two-page résumé for a concise overview and a separate full CV. Both are linked publicly; this application does not provide an additional downloadable PDF.",
+      "citations": [
+        {
+          "sourceId": "resume",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+          "title": "Résumé and contact",
+          "url": "https://mohd.paramasvara.online/#contact"
+        }
+      ]
+    },
+    {
+      "id": "portfolio-answer-public-boundaries",
+      "question": "Can you share private architecture details or unreported business metrics?",
+      "answer": "The public cases deliberately omit certain internal identities, implementation details and quantified outcomes. This assistant stays within the documented public scope and cannot substantiate private details or unreported metrics.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        },
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "profile",
+      "title": "Professional profile",
+      "url": "https://mohd.paramasvara.online/#about",
+      "version": "1",
+      "contentHash": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+      "text": "Mohd. Paramasvara is a full-stack software engineer based in Sabah, Malaysia. His work connects software architecture, hands-on implementation and business requirements. He has worked in full-stack engineering since 2013 and also teaches development."
+    },
+    {
+      "id": "insurance",
+      "title": "PolicyStreet integration engineering",
+      "url": "https://mohd.paramasvara.online/#case-insurance",
+      "version": "1",
+      "contentHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+      "text": "At PolicyStreet, Mohd worked as Senior Full Stack Developer and later Director, Engineering during 2019–2021. He built backend and frontend rate fetching and normalization, integrating quotation and policy issuance across motor, medical, group medical and fire insurance for internal and partner workflows. The public case does not establish insurer counts, revenue impact, team size or a project-specific technology stack."
+    },
+    {
+      "id": "education",
+      "title": "Education platform modernisation",
+      "url": "https://mohd.paramasvara.online/#case-campus",
+      "version": "1",
+      "contentHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+      "text": "The education-platform case describes full-stack development and technical direction as Principal Full Stack Engineer at Centre for Content Creation. The public scope covers platform modernisation, maintainability and ongoing delivery. Internal product identities, detailed workflows, infrastructure specifications and quantified outcomes are intentionally omitted."
+    },
+    {
+      "id": "wensymes",
+      "title": "WenSymes full-stack work",
+      "url": "https://mohd.paramasvara.online/#case-wensymes",
+      "version": "1",
+      "contentHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+      "text": "The WenSymes engagement describes Principal Full Stack Developer work on internal HR and administration tools using full-stack web development, Google Cloud and Microsoft 365. Planning considers data consistency, access control and uptime. The public case does not disclose payroll modules, framework versions, implemented security controls or quantified results."
+    },
+    {
+      "id": "rental",
+      "title": "Rental operations domain modelling",
+      "url": "https://mohd.paramasvara.online/#case-rental",
+      "version": "1",
+      "contentHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+      "text": "The rental operations project supported contracts, payments, renewals, cancellations and property-level financial reporting for more than 20 properties. These are publicly documented domain responsibilities. The public case does not establish a project-specific technology stack or a measured revenue improvement."
+    },
+    {
+      "id": "hr",
+      "title": "Collaborative HR engineering",
+      "url": "https://mohd.paramasvara.online/#case-hr",
+      "version": "1",
+      "contentHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+      "text": "During the 2016–2017 Web Developer role at Centre for Content Creation, Mohd collaborated on a configurable HR system for multiple companies. Its public scope includes corporate structures, leave entitlements, attendance policies and workflows. This earlier collaborative project is distinct from the later WenSymes engagement."
+    },
+    {
+      "id": "ntm",
+      "title": "No Two Mondays independent engineering",
+      "url": "https://mohd.paramasvara.online/no-two-mondays/",
+      "version": "1",
+      "contentHash": "2023a9ce9a140e43a4c0ea90472be6cc967b8710284d607aa381f5f42d47b506",
+      "text": "No Two Mondays is an independent engineering case study in human-directed AI-assisted development. The documented architecture separates TypeScript simulation, React subscription and Phaser presentation, with save compatibility and replay verification. Historical campaign evidence is explicitly dated. It demonstrates AI-assisted engineering and does not establish enterprise production RAG deployment."
+    },
+    {
+      "id": "incident",
+      "title": "Incident Zero engineering experience",
+      "url": "https://mohd.paramasvara.online/incident-zero/",
+      "version": "1",
+      "contentHash": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+      "text": "Incident Zero is a fictional interactive engineering story with synthetic incident data. A recruiter preview allows readers to inspect engineering decisions without completing a game. The preview is labelled as an auto-selected demonstration. System Defence is an optional arcade prototype; neither experience is a historical employer incident."
+    },
+    {
+      "id": "rag",
+      "title": "RAG capabilities and evidence boundaries",
+      "url": "https://mohd.paramasvara.online/#ai-evidence",
+      "version": "1",
+      "contentHash": "25761541755c821e8da4bb75f53c1ed05fa4551c1dc56cc5a12dfcd5381c2161",
+      "text": "RAG and vector databases are résumé-listed capabilities. The reviewed public evidence distinguishes capabilities and work in progress from a reproducible public RAG artifact or demonstrated enterprise production deployment. No Two Mondays illustrates AI-assisted engineering. It must not be cited as proof of production RAG."
+    },
+    {
+      "id": "engagement",
+      "title": "Professional discussions",
+      "url": "https://mohd.paramasvara.online/work-with-me/",
+      "version": "1",
+      "contentHash": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+      "text": "The Work With Me page invites discussion of architecture, system modernisation, integration engineering, technical leadership and defined knowledge-tool workflows. It does not promise immediate availability, a fixed engagement package or a particular employment arrangement. Contact and booking links are public."
+    },
+    {
+      "id": "resume",
+      "title": "Résumé and contact",
+      "url": "https://mohd.paramasvara.online/#contact",
+      "version": "1",
+      "contentHash": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+      "text": "The portfolio links the two-page résumé at https://rxresu.me/mwara95/2-page-resume and the full CV at https://rxresu.me/mwara95/curriculum-vitae. Contact is mohd@paramasvara.online. Professional discussions can be booked at https://cal.com/mohd-paramasvara/discovery. No downloadable PDF is currently published by this integration."
+    },
+    {
+      "id": "technology-inventory",
+      "title": "Owner-confirmed technology inventory",
+      "url": "/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+      "version": "pace-technology-v1.2",
+      "contentHash": "7d33971af8af5f17d873c08b6510563e21da00e931eeb00e0ebcb664653d44d7",
+      "text": "Hostel Management System: Confirmed stack: Backend: Plain PHP, PHP Data Objects (PDO); Database: MySQL. Historical personal/academic presentation project; unmaintained and not production-ready. The README notes possible bugs and omitted security precautions. These practices are not current recommendations.\n\nRental Management System: Confirmed stack: Backend: Symfony; Database: MySQL; Web server: Apache; Hosting: Third-party cloud provider.\n\nEducation Platform Modernization: Legacy systems: Application: PHPMaker, PHP 5; Database: MySQL 5.7; Web server: Apache; Hosting: On-premises, AWS EC2. Modern systems: Application: Laravel, Node.js, React; Data: PostgreSQL, MySQL; Web servers: Nginx, Apache; Hosting & orchestration: On-premises, AWS ECS, AWS EC2, Kubernetes, Third-party cloud provider. Technology inventory across distinct platform generations; not a single deployment or a claim that every legacy system was replaced.\n\nPolicyStreet — Insurance Comparison Platform: Confirmed stack: Frontend: React, Next.js; Backend: Node.js; Database: PostgreSQL; Engineering tools: Docker, Playwright; Infrastructure: Nginx, AWS EC2, AWS ECS.\n\nWenSymes — Human Resources Management Platform: Confirmed stack: Application: Laravel, PHP 8; Database: MySQL; Web servers: Apache, Nginx; Containers & orchestration: Docker, Kubernetes; Cloud: Google Cloud (GCP).\n\nAsset Management System: Confirmed stack: Application: Ruby on Rails; Database: MySQL; Web server: Nginx; Cloud: Microsoft Azure."
+    },
+    {
+      "id": "technology-hostel",
+      "title": "Hostel Management System",
+      "url": "https://mohd.paramasvara.online/#system-hostel",
+      "version": "pace-technology-v1.2",
+      "contentHash": "042b89010e0947fbb2fed97fab41a9393e62502f2fbb1c7304b56b42982701df",
+      "text": "Hostel Management System. Confirmed stack: Backend: Plain PHP, PHP Data Objects (PDO); Database: MySQL. Historical personal/academic presentation project; unmaintained and not production-ready. The README notes possible bugs and omitted security precautions. These practices are not current recommendations."
+    },
+    {
+      "id": "technology-rental",
+      "title": "Rental Management System",
+      "url": "https://mohd.paramasvara.online/#case-rental",
+      "version": "pace-technology-v1.2",
+      "contentHash": "04630adfa61af44b8107e80e074d85dde541595bddab156cad8d7b18520e1c4e",
+      "text": "Rental Management System. Confirmed stack: Backend: Symfony; Database: MySQL; Web server: Apache; Hosting: Third-party cloud provider."
+    },
+    {
+      "id": "technology-campus",
+      "title": "Education Platform Modernization",
+      "url": "https://mohd.paramasvara.online/#case-campus",
+      "version": "pace-technology-v1.2",
+      "contentHash": "6e038bcfb26f19b7e5a9cbc973da9528890cfea8db266bccba331d6b49895213",
+      "text": "Education Platform Modernization. Legacy systems: Application: PHPMaker, PHP 5; Database: MySQL 5.7; Web server: Apache; Hosting: On-premises, AWS EC2. Modern systems: Application: Laravel, Node.js, React; Data: PostgreSQL, MySQL; Web servers: Nginx, Apache; Hosting & orchestration: On-premises, AWS ECS, AWS EC2, Kubernetes, Third-party cloud provider. Technology inventory across distinct platform generations; not a single deployment or a claim that every legacy system was replaced."
+    },
+    {
+      "id": "technology-insurance",
+      "title": "PolicyStreet — Insurance Comparison Platform",
+      "url": "https://mohd.paramasvara.online/#case-insurance",
+      "version": "pace-technology-v1.2",
+      "contentHash": "fc71da86b0b779891796d942a7dbd09f6e15603209eecc46b776b09ea65c1e47",
+      "text": "PolicyStreet — Insurance Comparison Platform. Confirmed stack: Frontend: React, Next.js; Backend: Node.js; Database: PostgreSQL; Engineering tools: Docker, Playwright; Infrastructure: Nginx, AWS EC2, AWS ECS."
+    },
+    {
+      "id": "technology-wensymes",
+      "title": "WenSymes — Human Resources Management Platform",
+      "url": "https://mohd.paramasvara.online/#case-wensymes",
+      "version": "pace-technology-v1.2",
+      "contentHash": "4398367ac25d6d74b439de9cb33ac2ca780285260a63fa642e1f10449c394a3e",
+      "text": "WenSymes — Human Resources Management Platform. Confirmed stack: Application: Laravel, PHP 8; Database: MySQL; Web servers: Apache, Nginx; Containers & orchestration: Docker, Kubernetes; Cloud: Google Cloud (GCP)."
+    },
+    {
+      "id": "technology-asset",
+      "title": "Asset Management System",
+      "url": "https://mohd.paramasvara.online/#system-asset",
+      "version": "pace-technology-v1.2",
+      "contentHash": "5aca84fad29bcdfd0fc38ebfa90e74ea77e697de6754ea9ecf260e9a64f2ef79",
+      "text": "Asset Management System. Confirmed stack: Application: Ruby on Rails; Database: MySQL; Web server: Nginx; Cloud: Microsoft Azure."
+    }
+  ]
+}

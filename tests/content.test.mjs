@@ -16,7 +16,7 @@ import { fixture, unitVector } from "./helpers.mjs";
 test("current portfolio and Lab content have independent publication approvals", async () => {
   const p = await loadContent("portfolio"),
     l = await loadContent("lab");
-  assert.equal(p.answers.length, 40);
+  assert.equal(p.answers.length, 45);
   assert.equal(l.answers.length, 40);
   assert.equal(l.documents.length, 24);
   assert.ok(

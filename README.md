@@ -1,10 +1,20 @@
-# PACE-RAG — Evidence-First Knowledge Retrieval
+# PACE-RAG
+
+**PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.**
+
+- **P — Portfolio:** the professional evidence the assistant helps visitors explore.
+- **A — Assistant:** an interface for finding reviewed information and relevant sources.
+- **C — Cited:** direct answers retain validated supporting citations.
+- **E — Evidence:** approved records bound what the system can substantiate.
+- **RAG — Retrieval-Augmented Generation:** the architectural approach and direction, with retrieved evidence constraining any future generative path.
+
+This is the official meaning going forward, not a claim about the project's historical naming origin. The current implementation primarily uses reviewed cached answers, deterministic technology composition and local retrieval. Live generative inference is currently disabled: the name does not mean that every query invokes a generative model. This evidence-first design favors traceable sources, reviewed reuse and conservative abstention.
 
 Browser-first knowledge retrieval shared by the portfolio assistant and an inspectable Engineering RAG Lab with implementation documentation and synthetic examples. Search does not require Cloudflare credentials. Live generation is disabled by default.
 
-Hosted demo: [PACE-RAG](https://pace-reg.paramasvara.online/), served by Cloudflare Pages. The owner requested this static demo deployment on 19 October 2026. The hosted site still reflects its earlier deployment. The newly approved v1.3 release and portfolio integration are prepared locally; they have not been deployed. See [hosting](docs/HOSTING.md) for the deployment and custom-domain setup.
+Hosted demo: [PACE-RAG](https://pace-reg.paramasvara.online/), served by Cloudflare Pages. See [hosting](docs/HOSTING.md) for deployment and custom-domain setup. A hosted build may differ from local work; the [v1.6 activation review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) records the last checked local/hosted boundary.
 
-PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit content provenance and conservative handling of unsupported claims. The current implementation combines the v1.1 retrieval foundation, v1.2 source-selection experience and v1.3 technology ontology. The npm workspace package version is independently tracked as `1.3.0`.
+PACE-RAG demonstrates how a small, curated knowledge base can answer questions with traceable sources, explicit provenance and conservative handling of unsupported claims. The current local implementation and workspace package are **v1.6.1 / `1.6.1`**. Historical foundation, UX and ontology reports retain their recorded versions; see the [current review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) for regression measurements and pending independent evaluation.
 
 ## What this repository contains
 
@@ -105,7 +115,7 @@ The GitHub Actions workflow validates content, runs Node tests and builds a lexi
 
 ## Status and review boundary
 
-- 38 current portfolio cached Q&A entries; two obsolete stack-availability answers explicitly retired while their original records/approvals remain preserved. Seven owner-confirmed technology sources are imported from the PACE v1.2 public export.
+- 43 current portfolio cached Q&A entries; two obsolete stack-availability answers explicitly retired while their original records/approvals remain preserved. Seven owner-confirmed technology sources are imported from the PACE v1.2 public export.
 - 20 synthetic Lab documents / 20 synthetic Q&A plus four actual-implementation source documents / 20 implementation Q&A, approved by the owner for public publication on 19 October 2026.
 - Current records have **version/hash-bound publication approval** under the owner’s explicit request. Future content changes require renewed review.
 - `npm run release:check` rejects `local-test`, missing scopes, changed reviewed files and pending license terms. Publication permission does not certify production capabilities.
@@ -134,7 +144,7 @@ Current UX, source origins and acceptance evidence: [UX clarity](docs/PACE-RAG-U
 
 ## Portfolio integration
 
-Run `npm run build:release`, then `npm run package:portfolio`. The portfolio pins `@pace-rag/portfolio-assistant@1.3.0` as a local archive containing only Professional Experience assets. Its native expandable section lazy-loads upon interaction; cached/ontology answers need no model. Build-time asset checks reject preview, tampered or foreign-corpus packages. See [adapter instructions](integration/portfolio/README.md) and the [public release report](docs/PACE-RAG-V1.3-PUBLIC-RELEASE.md). `npm run check:portfolio-budget -- /path/to/portfolio/dist` enforces the 215,000-byte main JavaScript limit. No deployment is part of these commands.
+Run `npm run build:release`, then `npm run package:portfolio`. The portfolio pins `@pace-rag/portfolio-assistant@1.6.0` as a local archive containing only Professional Experience assets. Its native expandable section lazy-loads upon interaction; cached/ontology answers need no model. Build-time asset checks reject preview, tampered or foreign-corpus packages. See [adapter instructions](integration/portfolio/README.md) and the [public release report](docs/PACE-RAG-V1.3-PUBLIC-RELEASE.md). `npm run check:portfolio-budget -- /path/to/portfolio/dist` enforces the 215,000-byte main JavaScript limit. No deployment is part of these commands.
 
 
 ## Technology understanding (v1.3)
@@ -153,4 +163,4 @@ Start with [implementation](docs/IMPLEMENTATION.md) for the architecture, [prove
 
 No repository-wide open-source license has been granted in this checkout. Source availability does not itself grant reuse rights. Current source content is authorized for public display with copyright retained and no new reuse license. Third-party model/runtime licenses are checked separately; see [release requirements](docs/release.md). Pushing source to a private GitHub repository does not deploy the application or change its content approval scope.
 
-Current separated-view evaluation records Top-3 recall of 79% for Professional Experience (100 paraphrases) and 90% for implementation evidence (40). The portfolio target remains unmet; the 140-query deterministic technology results are a separate development measurement.
+Historical separated-view evaluation recorded Top-3 recall of 79% for Professional Experience (100 paraphrases) and 90% for implementation evidence (40). Those are not current v1.6 measurements. See the [v1.6 activation review](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) for current regression results and the pending independently prepared holdout. Deterministic technology results are a separate development measurement.

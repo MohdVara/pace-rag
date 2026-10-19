@@ -1,0 +1,1235 @@
+{
+  "hostedLinks": {
+    "measuredAt": "2026-10-19T04:49:42.095Z",
+    "scope": "Read-only HTTPS responses from currently hosted sites, separate from local v1.5 production builds. No deployment or DNS changes. Anchor check is response HTML only, not a remote browser session.",
+    "results": [
+      {
+        "url": "https://mohd.paramasvara.online/",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#about",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "about",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#ai-evidence",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "ai-evidence",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#case-campus",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "case-campus",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#case-hr",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "case-hr",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#case-insurance",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "case-insurance",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#case-rental",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "case-rental",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#case-wensymes",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "case-wensymes",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#contact",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "contact",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#system-asset",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "system-asset",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/#system-hostel",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/",
+        "anchor": "system-hostel",
+        "anchorPresentInResponseHtml": true,
+        "title": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+        "hasPortfolioLink": true,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/incident-zero/",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/incident-zero/",
+        "title": "Incident Zero — Interactive Engineering Story | Mohd. Paramasvara",
+        "hasPortfolioLink": true,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/no-two-mondays/",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/no-two-mondays/",
+        "title": "Engineering No Two Mondays: An Extensible Simulation with AI | Mohd. Paramasvara",
+        "hasPortfolioLink": true,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/pace-rag-case-study/",
+        "status": 404,
+        "finalUrl": "https://mohd.paramasvara.online/pace-rag-case-study/",
+        "title": "Page not found | Mohd. Paramasvara",
+        "hasPortfolioLink": true,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": false
+      },
+      {
+        "url": "https://mohd.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
+        "title": "Owner-confirmed technology inventory · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": true,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://mohd.paramasvara.online/work-with-me/",
+        "status": 200,
+        "finalUrl": "https://mohd.paramasvara.online/work-with-me/",
+        "title": "Work with Mohd. Paramasvara | Software Architecture &amp; Technical Leadership",
+        "hasPortfolioLink": true,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/",
+        "title": "PACE-RAG · Engineering RAG Lab",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-budget",
+        "title": "API: budget admission · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-citations",
+        "title": "API: citation validation · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-generate",
+        "title": "API: generation request · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/api-privacy",
+        "title": "API: privacy boundaries · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/atlas-overview",
+        "title": "Atlas architecture · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-adr",
+        "title": "ADR: immutable catalog versions · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/catalog-runbook",
+        "title": "Runbook: stale source report · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evaluation",
+        "title": "PACE-RAG: evaluation and verification limits · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-evidence",
+        "title": "PACE-RAG: evidence and content review · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-resources",
+        "title": "PACE-RAG: local resources and guarded generation · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/efrd-retrieval",
+        "title": "PACE-RAG: retrieval and answer selection · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/gateway-adr",
+        "title": "ADR: bounded gateway · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-budget",
+        "title": "Incident: reservation recovery · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-poison",
+        "title": "Incident: unapproved document · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-timeout",
+        "title": "Incident: generation timeout · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/incident-version",
+        "title": "Incident: mixed index versions · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-corpus",
+        "title": "Migration: corpus separation · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-model",
+        "title": "Migration: embedding model · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-release",
+        "title": "Migration: static release · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/migration-schema",
+        "title": "Migration: schema version · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-adr",
+        "title": "ADR: idempotent indexing · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/queue-runbook",
+        "title": "Runbook: stuck indexing job · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/quota-runbook",
+        "title": "Runbook: provider quota exhausted · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/lab/sources/search-runbook",
+        "title": "Runbook: degraded semantic search · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      },
+      {
+        "url": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory.html",
+        "status": 200,
+        "finalUrl": "https://pace-reg.paramasvara.online/pace-rag/knowledge/portfolio/sources/technology-inventory",
+        "title": "Owner-confirmed technology inventory · PACE-RAG",
+        "hasPortfolioLink": false,
+        "hasLabLink": false,
+        "loopbackNavigationUrls": false,
+        "httpOk": true
+      }
+    ],
+    "limitations": [
+      "Non-200 or missing anchors are recorded, not bypassed by editing approved citations. Hosted versions can differ from the unreleased local v1.5 build. No provider, billing or deployed security verification was performed."
+    ],
+    "renderedUiObservation": {
+      "method": "Read-only Playwright CLI browser session; no search or generation submitted",
+      "measuredAt": "2026-10-19T04:55:54.571Z",
+      "labVersion": "PACE-RAG v1.3 · local review",
+      "publicationWording": "Local test preview · publication not approved. Live AI is disabled.",
+      "labPortfolioLinkNavigatedTo": "https://mohd.paramasvara.online/",
+      "portfolioTitle": "Mohd. Paramasvara | Principal Full-Stack Engineer",
+      "caseStudyNotDeployed": true,
+      "scope": "Current hosted UI, not local v1.5 release"
+    }
+  },
+  "staticValidation": {
+    "measuredAt": "2026-10-19T05:02:29.018Z",
+    "scope": "Local production artifacts; hosted responses are reported separately",
+    "roots": {
+      "dist/lab": {
+        "textAssetsScanned": 126,
+        "loopbackUrls": 0
+      },
+      "../mohdvara.github.io/dist": {
+        "textAssetsScanned": 74,
+        "loopbackUrls": 0
+      }
+    },
+    "metadata": {
+      "description": "Independent PACE-RAG engineering: browser embeddings, hybrid retrieval, reviewed answers, citation provenance and measured limitations. Live AI disabled.",
+      "og:title": "PACE-RAG — Browser Retrieval Engineering | Mohd. Paramasvara",
+      "og:description": "Independent PACE-RAG engineering: browser embeddings, hybrid retrieval, reviewed answers, citation provenance and measured limitations. Live AI disabled.",
+      "og:url": "https://mohd.paramasvara.online/pace-rag-case-study/",
+      "og:image": "https://mohd.paramasvara.online/og-image.png",
+      "canonical": "https://mohd.paramasvara.online/pace-rag-case-study/",
+      "sitemapEntry": true
+    },
+    "workedExample": {
+      "registryDerived": true,
+      "packageMatches": true,
+      "sourceCount": 3,
+      "workersAiInferenceCalls": 0
+    }
+  },
+  "reviewPacket": {
+    "version": "pace-review-packet-v15",
+    "questionCount": 60,
+    "questionsSha256": "720bb469ab4403a051e268561605a5f2ee0429cc26531d0cbea7901afc500c48",
+    "preparation": "Agent-prepared randomized regression review; not a fresh independently prepared holdout",
+    "independentReviewOccurred": false,
+    "realUserTestingOccurred": false,
+    "sourceApprovalModified": false
+  },
+  "reviewFindings": {
+    "status": "Not performed",
+    "labelReviews": 0,
+    "agreements": 0,
+    "disagreements": [],
+    "usabilityAttempts": 0,
+    "usabilityPassed": 0,
+    "usabilityBlocked": 0,
+    "usabilitySuccessRate": null,
+    "declaredHumanIndependentSessions": 0,
+    "independentReviewVerified": false,
+    "realUserTestingVerified": false,
+    "limits": [
+      "Blank rows are unperformed, never passes. Self-reported reviewer type is not identity verification. Automated/agent runs must use reviewer_type: agent. No reviewed labels or generated text are promoted into the approved cache."
+    ]
+  },
+  "version": "PACE-v1.5",
+  "measuredAt": "2026-10-19T05:03:31.301Z",
+  "scope": "Local builds and emulated browsers. No deployment, production provider dispatch, actual screen-reader or physical-device verification.",
+  "ranking": "Professional: 80% question cosine + 20% body BM25 + bounded canonical-intent adjustment. Refined intent exclusions/vocabulary; other views and lexical fallback retain v1.4 behavior.",
+  "tests": {
+    "rag": {
+      "tests": 96,
+      "passed": 96,
+      "failed": 0
+    },
+    "portfolio": {
+      "tests": 117,
+      "passed": 117,
+      "failed": 0
+    }
+  },
+  "evaluations": {
+    "development": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 100,
+          "criticalQuestions": 60,
+          "compositeQuestions": 20,
+          "top1ApprovedAnswerRankingAccuracy": 0.78,
+          "top3CandidateRecall": 0.98,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0.16666666666666666,
+          "compositesCorrect": 20,
+          "compositeCoverage": 1,
+          "localRankAndAnswerP50Ms": 0.6273329999999646,
+          "localRankAndAnswerP95Ms": 1.024249999999995,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.5804579999999078,
+          "localRankAndAnswerP95Ms": 0.8465419999999995,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 100,
+          "criticalQuestions": 60,
+          "compositeQuestions": 20,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.98,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0.16666666666666666,
+          "compositesCorrect": 20,
+          "compositeCoverage": 1,
+          "localRankAndAnswerP50Ms": 0.6364580000000046,
+          "localRankAndAnswerP95Ms": 1.0539160000000152,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.5525410000000193,
+          "localRankAndAnswerP95Ms": 0.7917499999999791,
+          "activeReviewedAnswers": 20
+        }
+      }
+    },
+    "verification": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 50,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.72,
+          "top3CandidateRecall": 0.96,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6775420000000167,
+          "localRankAndAnswerP95Ms": 1.2197500000000332,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6641250000000127,
+          "localRankAndAnswerP95Ms": 0.847582999999986,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 50,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.72,
+          "top3CandidateRecall": 0.96,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.7002909999999929,
+          "localRankAndAnswerP95Ms": 1.1847920000000158,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6771249999999895,
+          "localRankAndAnswerP95Ms": 0.8095420000000217,
+          "activeReviewedAnswers": 20
+        }
+      }
+    },
+    "v14-regression": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 40,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.725,
+          "top3CandidateRecall": 1,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6918329999999742,
+          "localRankAndAnswerP95Ms": 2.3980000000000246,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6709169999999745,
+          "localRankAndAnswerP95Ms": 0.8472909999999843,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 40,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.725,
+          "top3CandidateRecall": 1,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6921669999999835,
+          "localRankAndAnswerP95Ms": 3.2378750000000025,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6709169999999745,
+          "localRankAndAnswerP95Ms": 0.8493330000000014,
+          "activeReviewedAnswers": 20
+        }
+      }
+    }
+  },
+  "technology": {
+    "questions": 140,
+    "entityRecognitionAccuracy": 1,
+    "projectAssociationCorrectness": 1,
+    "structuredAnswerAccuracy": 1,
+    "errors": []
+  },
+  "freshLexical": {
+    "corpusVersion": "5172c80561642d42",
+    "positiveQuestions": 40,
+    "criticalQuestions": 20,
+    "compositeQuestions": 0,
+    "top1ApprovedAnswerRankingAccuracy": 0.625,
+    "top3CandidateRecall": 0.8,
+    "appropriateAbstentionRate": 1,
+    "incorrectAutomaticMatches": 0,
+    "invalidCitationReferences": 0,
+    "crossCorpusReferences": 0,
+    "directAnswerCoverageCommonIntents": 0,
+    "compositesCorrect": 0,
+    "compositeCoverage": null,
+    "localRankAndAnswerP50Ms": 0.756416999999999,
+    "localRankAndAnswerP95Ms": 1.2502090000000052,
+    "activeReviewedAnswers": 38
+  },
+  "browser": {
+    "chromium": {
+      "labRetrieval": {
+        "measuredAt": "2026-10-19T04:53:17.568Z",
+        "cases": 7,
+        "layouts": 14,
+        "axe": [
+          {
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "labSources": {
+        "measuredAt": "2026-10-19T05:02:36.205Z",
+        "cases": 8,
+        "layouts": 42,
+        "axe": [
+          {
+            "scope": "Professional Experience",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Professional Experience",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "technology": {
+        "measuredAt": "2026-10-19T04:55:02.186Z",
+        "cases": 5,
+        "layouts": 0,
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "portfolioAssistant": {
+        "measuredAt": "2026-10-19T04:54:08.271Z",
+        "cases": 4,
+        "layouts": 8,
+        "errors": [],
+        "inferenceRequests": []
+      }
+    },
+    "webkit": {
+      "labRetrieval": {
+        "measuredAt": "2026-10-19T04:53:21.422Z",
+        "cases": 7,
+        "layouts": 14,
+        "axe": [
+          {
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "labSources": {
+        "measuredAt": "2026-10-19T05:02:39.393Z",
+        "cases": 8,
+        "layouts": 42,
+        "axe": [
+          {
+            "scope": "Professional Experience",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Professional Experience",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "technology": {
+        "measuredAt": "2026-10-19T04:55:05.391Z",
+        "cases": 5,
+        "layouts": 0,
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "portfolioAssistant": {
+        "measuredAt": "2026-10-19T04:54:06.509Z",
+        "cases": 4,
+        "layouts": 8,
+        "errors": [],
+        "inferenceRequests": []
+      }
+    }
+  },
+  "caseStudy": {
+    "measuredAt": "2026-10-19T04:58:42.614Z",
+    "layouts": [
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      }
+    ],
+    "journeys": [
+      {
+        "engine": "chromium",
+        "lazyRoute": true,
+        "visibleStacks": true,
+        "employment": true
+      },
+      {
+        "engine": "chromium",
+        "noJavaScriptCaseStudy": true,
+        "engagementLink": true
+      },
+      {
+        "engine": "webkit",
+        "lazyRoute": true,
+        "visibleStacks": true,
+        "employment": true
+      },
+      {
+        "engine": "webkit",
+        "noJavaScriptCaseStudy": true,
+        "engagementLink": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Local emulated browsers, not physical-device or screen-reader certification.",
+      "No deployed site changed."
+    ]
+  },
+  "links": {
+    "measuredAt": "2026-10-19T05:02:37.331Z",
+    "cases": [
+      {
+        "engine": "chromium",
+        "localRoundTrip": true
+      },
+      {
+        "engine": "chromium",
+        "productionCanonicalLinks": true
+      },
+      {
+        "engine": "chromium",
+        "resultTypesAndSuggestions": true,
+        "zeroModelOrInferenceForCacheOntologyAndLexical": true
+      },
+      {
+        "engine": "chromium",
+        "fictionalOriginWithinTwoActionsIncludingSelection": true
+      },
+      {
+        "engine": "webkit",
+        "localRoundTrip": true
+      },
+      {
+        "engine": "webkit",
+        "productionCanonicalLinks": true
+      },
+      {
+        "engine": "webkit",
+        "resultTypesAndSuggestions": true,
+        "zeroModelOrInferenceForCacheOntologyAndLexical": true
+      },
+      {
+        "engine": "webkit",
+        "fictionalOriginWithinTwoActionsIncludingSelection": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Local/browser emulation, not actual screen reader or physical devices.",
+      "No hosted site changed; live inference remains disabled."
+    ]
+  },
+  "artifacts": {
+    "portfolioMain": {
+      "path": "../mohdvara.github.io/dist/assets/index-DkSq8diG.js",
+      "rawBytes": 209844,
+      "gzip9Bytes": 64656
+    },
+    "lazyAssistant": {
+      "path": "../mohdvara.github.io/dist/assets/PaceAssistant-Azg36EKi.js",
+      "rawBytes": 78345,
+      "gzip9Bytes": 24945
+    },
+    "lazyCaseStudy": {
+      "path": "../mohdvara.github.io/dist/assets/PaceRagCaseStudy-DrTmYLRJ.js",
+      "rawBytes": 14645,
+      "gzip9Bytes": 4872
+    },
+    "labMain": {
+      "path": "dist/lab/assets/index-CJYu3kYQ.js",
+      "rawBytes": 226506,
+      "gzip9Bytes": 72064
+    },
+    "worker": {
+      "rawBytes": 851258,
+      "lazy": true
+    }
+  },
+  "baselinePortfolioMainRawBytes": 209844,
+  "baselinePortfolioMainSource": "Validated v1.4 artifact recorded before v1.5 edits",
+  "portfolioMainLimit": 215000,
+  "portfolioMainHeadroom": 5156,
+  "publicationContentApproved": true,
+  "productionAcceptance": false,
+  "liveAiEnabled": false,
+  "cloudflareVerified": false,
+  "providerBilling": "Not measured; no actual provider calls authorized.",
+  "screenReader": "Native roles/keyboard and axe checked; actual screen-reader session not performed.",
+  "physicalDevices": "Not tested",
+  "limits": [
+    "Independent ≥80% Top-1 / ≥90% Top-3 target remains unverified. Known regression labels are provisional and agent-authored.",
+    "All three measured sets were previously inspected. Independent holdout authoring and real-user review are pending.",
+    "Existing dependency/security limitations remain; this task did not migrate the pinned model/runtime.",
+    "No changes deployed to hosted sites or DNS."
+  ]
+}

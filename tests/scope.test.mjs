@@ -15,7 +15,7 @@ test('three source views have explicit, disjoint document and answer membership'
   assert(view.documents.every(d=>inScope(d,id)));assert(view.chunks.every(c=>view.documents.some(d=>d.id===c.documentId)));
   for(const record of view.answers){const result=retrieve({question:record.canonicalQuestion,corpus:view});const answer=resolveAnswer({question:record.canonicalQuestion,corpus:view,retrieval:result});assert.equal(answer.answerId,record.id);assert.equal(answer.origin,'approved-cache');validateAnswerResult(answer,view);assert(answer.sources.every(s=>view.documents.some(d=>d.id===s.sourceId)));assert(answer.relatedQuestions.every(q=>view.answers.some(a=>a.canonicalQuestion===q)));}
  }
- const professional=scopeCorpus(await content('portfolio'),'professional');assert.equal(professional.documents.length,18);assert.equal(professional.answers.filter(a=>a.status==='approved').length,38);assert(professional.documents.every(d=>inScope(d,'professional')));
+ const professional=scopeCorpus(await content('portfolio'),'professional');assert.equal(professional.documents.length,18);assert.equal(professional.answers.filter(a=>a.status==='approved').length,43);assert(professional.documents.every(d=>inScope(d,'professional')));
 });
 test('view vectors retain exact original row identity including alternatives and chunks',async()=>{
  const data=await content();const rows=data.answers.flatMap(a=>[a.id,...a.alternatives.map(()=>a.id)]);

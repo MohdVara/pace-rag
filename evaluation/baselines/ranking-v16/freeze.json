@@ -1,0 +1,24 @@
+{
+  "purpose": "Pre-change v1.6.1 audit: frozen evaluation inputs, scoring rules, approved content and ranker originals",
+  "files": {
+    "evaluation/efrd-heldout.mjs": "25a3ee160d06ea70966b02ea20a9d252230463047b3a651d1422956b6f1bd434",
+    "evaluation/verification-v13.mjs": "83d1e8611f9ac49c7417b1caa125abcdfd76d2f57917c2c7d13a775f75d94316",
+    "evaluation/verification-v14.mjs": "bb1c1daf9d6a8f4a8e20408c8c2013a2799fe4bb42c7aeea65957c8df2474f88",
+    "evaluation/knowledge-v16-cases.mjs": "fa4a592455e2ba6e22c02bfd66196a9708d028a415e9313782bde5baa9904277",
+    "scripts/evaluate-approved-v16.mjs": "b5b33e8f79742fe3cb58917aaf941c322f0279157e02b8d3456447664e278b76",
+    "packages/semantic-core/src/retrieval.mjs": "f30fb27a892b7803f4307645805c284220ab1532756aae55d53d732eeb706f28",
+    "packages/semantic-core/src/hybrid.mjs": "f7c2121366a1e5a6bc3bd9539269cf49a4b2be98fb60074be1122445689e3e1a",
+    "content/portfolio/reviewed-v16.json": "fe6f49d56e33e8725c06c40d3fa327664ba0154050de46b47d81481a4c2a467b",
+    "content/portfolio/approvals.json": "c13e776f4346e9eb2ee0521216e41a09652450421eeb89795dccac1e06c72c98",
+    "content/portfolio/v16-owner-approval.json": "100991ac1508a8bdcba93290f97a3b414025d32911a52ca397eb8938bc7ad0db",
+    "content/publication-review.json": "deb3e2ea80b8be2e469c9450c1a8c5e233d3844af1a6eb9addb5972ba00ce84f",
+    "content/portfolio/technology-evidence.json": "b6221063d3debaaba756f3f032c0ab1e0ea06311909fe3fdf770331ca7e78f76"
+  },
+  "baselineFiles": {
+    "evaluation/baselines/ranking-v16/retrieval.mjs": "7ad3579a3f55b141b01994d53395cb00c6b4086a8e5f7372793684bf76f197b3",
+    "evaluation/baselines/ranking-v16/hybrid.mjs": "a7cb72a7d3cdb91e02e5903d81f0a4e89d8b38d4fe55aac6c344c19c95b207bc",
+    "content/portfolio/history/v15-corpus.json": "017aa0c130dfbbbb60e32bfc4b7ab56bd882fa6cbf2b5af39348878c37d5fe57",
+    "evaluation/reports/knowledge-v16-approved-semantic.json": "6f5dc6d1e297cab0bc88225d6c1dd1f04876c8ca52c41c5d32dc07caa4500475",
+    "evaluation/reports/knowledge-v16-approved-lexical.json": "68c0f52a7196bdd228261ad21fc5fcf87ce99a6f643cc81815b8a04363f48819"
+  }
+}

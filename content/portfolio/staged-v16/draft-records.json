@@ -1,0 +1,891 @@
+{
+  "documents": [
+    {
+      "id": "insurance",
+      "corpusId": "portfolio",
+      "version": "2",
+      "title": "PolicyStreet integration engineering",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-insurance",
+      "text": "At PolicyStreet, Mohd worked as Senior Full Stack Developer and later Director, Engineering during 2019–2021. He built backend and frontend rate fetching and normalization, integrating quotation and policy issuance across motor, medical, group medical and fire insurance for internal and partner workflows. He designed an event-driven quotation architecture using Node.js and introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers. Quotations expire after seven days. Customer-information changes affecting quotation terms require quotation revision; caching and pre-warming do not override validity requirements. No cache product, broker, cache TTL implementation, automatic invalidation, exact latency or measured financial/conversion benefit is established.",
+      "contentHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Publication permission pending owner review; copyright retained. No new reuse license.",
+      "status": "draft",
+      "approval": null
+    },
+    {
+      "id": "education",
+      "corpusId": "portfolio",
+      "version": "2",
+      "title": "Education platform modernisation",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-campus",
+      "text": "The education-platform case describes full-stack development and technical direction as Principal Full Stack Engineer at Centre for Content Creation. Mohd engaged stakeholders to understand operational processes, identify requirements and design suitable workflows across established and modernized education and administrative systems. High-level examples include online class activity tracking and HRMS document-expiration tracking. Workflows were shaped around actual stakeholder responsibilities while supporting continued operation, maintainability and modernization of existing systems. Internal product identities and detailed implementation remain private. The public evidence does not establish notification mechanisms, attendance implementation, efficiency metrics or replacement of every legacy process. These education-sector HRMS examples are not attributed to WenSymes or the earlier collaborative HR engagement.",
+      "contentHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Publication permission pending owner review; copyright retained. No new reuse license.",
+      "status": "draft",
+      "approval": null
+    },
+    {
+      "id": "wensymes",
+      "corpusId": "portfolio",
+      "version": "2",
+      "title": "WenSymes full-stack work",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-wensymes",
+      "text": "The WenSymes engagement describes Principal Full Stack Developer work on internal HR and administration tools using full-stack web development, Google Cloud and Microsoft 365. Professional collaboration began in March 2025 and continues occasionally; this is not a claim of uninterrupted permanent employment. The design prioritized flexibility for evolving employee roles and responsibilities as organizational headcount and operational needs changed. Clear responsibilities and appropriate access to HR information are engineering considerations. Planning considered data consistency, access control and uptime. The evidence supports an adaptable design priority, not proof of a fully configurable RBAC engine, particular permission mechanism, confidential HR rule or quantified result. This engagement is distinct from the earlier collaborative Centre for Content Creation HR work in 2016–2017 and from education-platform HRMS document-expiration workflows.",
+      "contentHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Publication permission pending owner review; copyright retained. No new reuse license.",
+      "status": "draft",
+      "approval": null
+    },
+    {
+      "id": "rental",
+      "corpusId": "portfolio",
+      "version": "2",
+      "title": "Rental operations domain modelling",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-rental",
+      "text": "The MegaInfinite rental operations project was designed and implemented by Mohd as a freelance Principal Full Stack Solution Developer during 2018–2020. The mobile-friendly, web-based system supported connected property, tenant and contract records, payments, renewals, cancellations and property-level income, expenses and profit/loss reporting across more than 20 properties. Realtors could access rental records, support contract renewals, send contract PDFs directly from their phones and review rental and financial reports remotely. This describes internet-connected access through compatible mobile and desktop browsers. No native app, offline functionality, digital signature, automated delivery mechanism, user count, productivity metric or measured revenue improvement is established.",
+      "contentHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Publication permission pending owner review; copyright retained. No new reuse license.",
+      "status": "draft",
+      "approval": null
+    }
+  ],
+  "answers": [
+    {
+      "id": "portfolio-answer-insurance-work",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What did you work on at PolicyStreet?",
+      "alternatives": [
+        {
+          "id": "portfolio-insurance-work-alt-0",
+          "text": "Describe your insurance integration experience.",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "I built rate fetching and normalization and integrated quotation and policy issuance for internal and partner workflows across motor, medical, group medical and fire insurance. I also designed an event-driven quotation architecture using Node.js, with caching and pre-warmed data to support fast quotation workflows. Cached quotations remain subject to seven-day expiry and revision when changes affect their terms; no exact latency or measured gain is established.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-work",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-leadership",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What leadership experience does PolicyStreet show?",
+      "alternatives": [],
+      "answerText": "The public PolicyStreet case describes progression from Senior Full Stack Developer to Director, Engineering, including leading development and operations. It does not specify a team size.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-leadership",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-stack",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What technology stack did PolicyStreet use?",
+      "alternatives": [],
+      "answerText": "The public case does not establish a project-specific technology stack. I can point to its documented integration responsibilities without assigning unverified technologies.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "retired",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-stack",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-modernisation",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What modernisation experience is public?",
+      "alternatives": [
+        {
+          "id": "portfolio-modernisation-alt-0",
+          "text": "Tell me about legacy platform modernisation.",
+          "approvedAt": null
+        },
+        {
+          "id": "portfolio-answer-modernisation-v16-alt-0",
+          "text": "How did stakeholders influence education platform modernization?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "I engaged stakeholders to understand operational processes and requirements, then helped design suitable workflows across established and modernized education and administrative systems. Examples include online class activity tracking and HRMS document-expiration tracking. The work supported actual stakeholder responsibilities, continued operation, maintainability and modernization; it does not establish that every legacy process was replaced.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "modernisation",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-education-disclosure",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Can you describe the education platform architecture?",
+      "alternatives": [],
+      "answerText": "The public scope includes platform modernization, full-stack engineering, maintainability and stakeholder-informed workflow design. High-level examples are online class activity tracking and HRMS document-expiration tracking. Internal product identities, detailed architecture and implementation remain private; the evidence does not establish notification or attendance mechanisms.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "education-disclosure",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-wensymes-work",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What is your WenSymes work about?",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-wensymes-work-v16-alt-0",
+          "text": "How did WenSymes accommodate changing organizational roles?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "As Principal Full Stack Developer, I worked on internal HR and administration tools and prioritized flexibility for changing employee roles and responsibilities as organizational headcount evolved. This describes an adaptable design approach, not proof of a fully configurable permission engine. Professional collaboration began in March 2025 and continues occasionally.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-work",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-wensymes-tools",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Which technologies are named for WenSymes?",
+      "alternatives": [],
+      "answerText": "The public case names full-stack web development, Google Cloud and Microsoft 365. It does not establish a specific framework version or infrastructure specification.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "retired",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-tools",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-wensymes-security",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What security work is disclosed for WenSymes?",
+      "alternatives": [],
+      "answerText": "WenSymes planning considered data consistency, access control and uptime. Organizational flexibility needs clear responsibilities and appropriate access to HR information. These are engineering considerations; the approved scope does not establish a fully configurable RBAC engine, specific permission implementations or confidential HR rules.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-security",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-domain",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What did the rental operations project cover?",
+      "alternatives": [],
+      "answerText": "The MegaInfinite system connected property, tenant and contract records with payments, renewals, cancellations and property-level financial reporting across more than 20 properties. Its mobile-friendly web interface supported internet-connected rental operations outside the office through compatible mobile and desktop browsers.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-domain",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-impact",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Is there a measured revenue result for the rental project?",
+      "alternatives": [],
+      "answerText": "The public case supports the documented workflows and more-than-20-properties scope. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-impact",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-hr-distinction",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Are the older HR project and WenSymes the same engagement?",
+      "alternatives": [],
+      "answerText": "They are described as distinct engagements. The earlier collaborative HR work is attributed to Centre for Content Creation in 2016–2017; WenSymes is a later principal full-stack engagement.",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "hr-distinction",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-products",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Which insurance products did your integration work cover?",
+      "alternatives": [
+        {
+          "id": "portfolio-insurance-products-alt-0",
+          "text": "What insurance lines have you integrated?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "The public PolicyStreet case covers motor, medical, group medical and fire insurance, connecting quotation and policy issuance with rate fetching and normalization.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-products",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-workflows",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Did the insurance integrations support partners as well as internal users?",
+      "alternatives": [],
+      "answerText": "Yes. The public case describes quotation and policy issuance integrations for both internal and partner workflows. It does not establish partner counts or commercial results.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-workflows",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-lifecycle",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What rental lifecycle rules did you model?",
+      "alternatives": [
+        {
+          "id": "portfolio-rental-lifecycle-alt-0",
+          "text": "How did your rental project handle the contract lifecycle?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "The rental operations project covered contracts, payments, renewals and cancellations, alongside property-level financial reporting.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-lifecycle",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-scale",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "How many properties did the rental project cover?",
+      "alternatives": [],
+      "answerText": "The public rental case describes support for more than 20 properties. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-scale",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-reporting",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "What reporting did the rental operations project support?",
+      "alternatives": [],
+      "answerText": "The rental project supported remote review of rental and financial reports, including property-level income, expenses and profit/loss alongside contracts, payments and the rental lifecycle. Access was through compatible internet-connected browsers; no productivity or revenue improvement is established.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-reporting",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-wensymes-platforms",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Which cloud and productivity platforms are named for WenSymes?",
+      "alternatives": [],
+      "answerText": "The public WenSymes case names Google Cloud and Microsoft 365 alongside full-stack web development. It does not specify framework versions or individual implemented security controls.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-platforms",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-public-boundaries",
+      "corpusId": "portfolio",
+      "version": "2",
+      "canonicalQuestion": "Can you share private architecture details or unreported business metrics?",
+      "alternatives": [],
+      "answerText": "The public cases deliberately omit certain internal identities, implementation details and quantified outcomes. This assistant stays within the documented public scope and cannot substantiate private details or unreported metrics.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        },
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "public-boundaries",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-validity",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "How did quotation caching and validity work at PolicyStreet?",
+      "answerText": "Quotation caching and pre-warmed data were introduced to reduce repeated processing and support fast quotations, including potential renewals for existing customers. Quotations expire after seven days; customer changes affecting quotation terms require revision. Caching and pre-warming do not override these rules. The public evidence does not establish cache TTL implementation or an automatic invalidation mechanism.",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-insurance-validity-alt-0",
+          "text": "What quotation expiry and revision rules applied at PolicyStreet?",
+          "approvedAt": null
+        },
+        {
+          "id": "portfolio-answer-insurance-validity-alt-1",
+          "text": "Did cached quotes remain subject to the seven-day validity rule?",
+          "approvedAt": null
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-validity",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-insurance-architecture",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What event-driven architecture decisions did you make?",
+      "answerText": "At PolicyStreet, I designed an event-driven quotation architecture using Node.js for workflows across multiple insurance providers. Caching and pre-warmed data were intended to reduce repeated processing and support faster quotations. This public evidence does not identify an event broker, cache product, exact latency or measured financial benefit.",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-insurance-architecture-alt-0",
+          "text": "What event-driven quotation architecture did you design at PolicyStreet?",
+          "approvedAt": null
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "1ff812b2c62b662f76165cc230d98105cccb4807eedd664ef0227037a854eb18",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-architecture",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-education-workflows",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What education and HR workflows did you work on?",
+      "answerText": "In education-platform modernization, stakeholder-informed examples include online class activity tracking and HRMS document-expiration tracking across established and modernized systems. These education-sector examples are distinct from WenSymes and the earlier collaborative HR system. The evidence does not establish automated expiration notifications, attendance mechanisms or complete legacy replacement.",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-education-workflows-alt-0",
+          "text": "Which operational workflow examples are public for education modernization?",
+          "approvedAt": null
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "64ba0e0e5e3d8e17303c08d4fe21c6bc42c05050093a6b1575d8c5341fe65fc9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "education-workflows",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-rental-mobile",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What could MegaInfinite realtors do from their phones?",
+      "answerText": "Realtors could access property, tenant and rental records, support contract renewals, send contract PDFs directly from their phones and review rental and financial reports remotely. The mobile-friendly web-based system supported more than 20 properties through compatible internet-connected mobile and desktop browsers. This does not establish a native app, offline support, digital signatures or a particular delivery mechanism.",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-rental-mobile-alt-0",
+          "text": "Could realtors send contracts and inspect financial reports remotely?",
+          "approvedAt": null
+        },
+        {
+          "id": "portfolio-answer-rental-mobile-alt-1",
+          "text": "Which rental operations were accessible through mobile browsers?",
+          "approvedAt": null
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "68aae9f1e20279cfc9ea67d5d231b80cf5cefc70b5e2a3fd4ff961232956abda",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-mobile",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    },
+    {
+      "id": "portfolio-answer-wensymes-rbac-boundary",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Did WenSymes implement a fully configurable RBAC engine?",
+      "answerText": "The public WenSymes evidence establishes flexibility for evolving employee roles and responsibilities as a design priority, with clear responsibilities and appropriate access to HR information as considerations. It does not establish that a fully configurable RBAC engine or any particular permission mechanism was implemented. I cannot substantiate those implementation details from this evidence.",
+      "alternatives": [
+        {
+          "id": "portfolio-answer-wensymes-rbac-boundary-alt-0",
+          "text": "Does the WenSymes evidence confirm a configurable RBAC implementation?",
+          "approvedAt": null
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "2",
+          "sourceHash": "dc082df2b8940bbdf9bef021b56c3bd8202b1c750bfc140ba174bb709ba231e7",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": null,
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "draft",
+      "approval": null,
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-rbac-boundary",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  ],
+  "retirementsProposal": {
+    "preserveRetiredAnswerIds": [
+      "portfolio-answer-insurance-stack",
+      "portfolio-answer-wensymes-tools"
+    ],
+    "removeFromRetrievalExcludedDocuments": [
+      "insurance",
+      "education",
+      "wensymes",
+      "rental"
+    ],
+    "reason": "Only after publication approval: refreshed v2 source snapshots remove obsolete unknown-stack wording; current technology inventory remains separate. Historical v1 snapshots and approvals remain preserved. No retired stack answer is reactivated."
+  }
+}

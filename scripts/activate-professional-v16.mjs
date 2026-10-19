@@ -1,0 +1,32 @@
+// Applies the explicit owner approval recorded below; not an auto-approval command.
+import{readFile,writeFile}from'node:fs/promises';
+import{draftProfessionalV16}from'./stage-professional-v16.mjs';
+import{approvalHash,hash,loadContent}from'./indexing/content.mjs';
+const receiptPath='content/portfolio/v16-owner-approval.json';
+const receipt=JSON.parse(await readFile(receiptPath,'utf8'));
+const existingReview=JSON.parse(await readFile('content/publication-review.json','utf8'));
+if(existingReview.version==='pace-publication-v1.6')throw Error('v1.6 approval is already activated; refusing to rewrite its audit history');
+if(receipt.ownerStatement!=='I approve all the latest unapprovad records.'||receipt.scope!=='publication'||receipt.reviewManifestSha256!==hash(await readFile('content/portfolio/staged-v16/review-manifest.json')))throw Error('Approval receipt does not cover the exact reviewed packet');
+const manifest=JSON.parse(await readFile('content/portfolio/staged-v16/review-manifest.json'));
+const{corpus}=await draftProfessionalV16();
+const selected=manifest.changes.map(change=>{
+ const r=[...corpus.documents,...corpus.answers].find(r=>r.id===change.id);if(approvalHash(r)!==change.proposedApprovalHash)throw Error('Reviewed draft changed: '+r.id);
+ const record=structuredClone(r);record.status='draft';record.approval=null;record.reviewedAt=null;
+ if(!record.canonicalQuestion)record.license='Owner-authorized public display; copyright retained. No reuse license granted.';
+ return record;
+});
+const content={documents:selected.filter(r=>!r.canonicalQuestion),answers:selected.filter(r=>r.canonicalQuestion)};
+await writeFile('content/portfolio/reviewed-v16.json',JSON.stringify(content,null,2)+'\n');
+const approvals=JSON.parse(await readFile('content/portfolio/approvals.json'));
+for(const r of selected)approvals[r.id]={contentHash:approvalHash(r),version:r.version,scope:'publication',reviewer:'Mohd. Paramasvara (owner)',approvedAt:receipt.approvedAt,authorization:'Owner explicitly approved all latest unapproved v1.6 staged professional records, including the reviewed sources, Q&A, citation rebindings, source publication terms and exclusion changes. '+receipt.ownerStatement+' No deployment authorized.',reviewReceipt:receiptPath};
+await writeFile('content/portfolio/approvals.json',JSON.stringify(approvals,null,2)+'\n');
+const retirements=JSON.parse(await readFile('content/portfolio/retirements.json'));
+retirements.retrievalExcludedDocuments=[];retirements.reason='Owner-approved v1.6 narrative sources replace the historical unknown-stack qualifications. The two obsolete stack-availability answers remain retired. Historical v1 records and prior approvals are preserved in content/portfolio/history.';
+await writeFile('content/portfolio/retirements.json',JSON.stringify(retirements,null,2)+'\n');
+const publication=JSON.parse(await readFile('content/publication-review.json'));
+publication.version='pace-publication-v1.6';publication.priorReview='content/portfolio/history/v15-publication-review.json';publication.authorization+=' Owner separately approved the latest staged v1.6 professional records; see '+receiptPath+'. Existing Lab and technology approvals remain unchanged.';
+const data=await loadContent('portfolio');
+publication.corpora.portfolio=Object.fromEntries([...data.documents,...data.answers].map(r=>[r.id,{version:r.version,contentHash:approvalHash(r)}]));
+for(const path of ['content/portfolio/records.mjs','content/portfolio/retirements.json','content/portfolio/reviewed-v16.json',receiptPath])publication.supportingFiles[path]=hash(await readFile(path));
+await writeFile('content/publication-review.json',JSON.stringify(publication,null,2)+'\n');
+await loadContent('portfolio',{release:true});await loadContent('lab',{release:true});console.log('Owner-approved v1.6 records activated; retired answers preserved; no deployment.');

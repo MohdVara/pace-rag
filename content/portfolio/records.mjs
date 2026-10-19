@@ -278,3 +278,6 @@ export const answers = [
   ["cv-options", "What is the difference between your résumé and full CV links?", "The portfolio provides a two-page résumé for a concise overview and a separate full CV. Both are linked publicly; this application does not provide an additional downloadable PDF.", ["resume"], []],
   ["public-boundaries", "Can you share private architecture details or unreported business metrics?", "The public cases deliberately omit certain internal identities, implementation details and quantified outcomes. This assistant stays within the documented public scope and cannot substantiate private details or unreported metrics.", ["education", "insurance", "wensymes"], []],
 ];
+
+// Owner-approved v1.6 revisions retain the original tuples as historical records.
+export const reviewedRecordsFile = "reviewed-v16.json";

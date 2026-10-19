@@ -250,6 +250,9 @@ export interface RankedCandidate {
   score: number;
   semanticScore: number | null;
   lexicalScore: number;
+  answerLexicalScore?: number;
+  intentAdjustment?: number;
+  rankingVersion?: string;
   selected: boolean;
   reason: string;
 }

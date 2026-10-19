@@ -1,0 +1,16 @@
+{
+  "status": "Not performed",
+  "labelReviews": 0,
+  "agreements": 0,
+  "disagreements": [],
+  "usabilityAttempts": 0,
+  "usabilityPassed": 0,
+  "usabilityBlocked": 0,
+  "usabilitySuccessRate": null,
+  "declaredHumanIndependentSessions": 0,
+  "independentReviewVerified": false,
+  "realUserTestingVerified": false,
+  "limits": [
+    "Blank rows are unperformed, never passes. Self-reported reviewer type is not identity verification. Automated/agent runs must use reviewer_type: agent. No reviewed labels or generated text are promoted into the approved cache."
+  ]
+}

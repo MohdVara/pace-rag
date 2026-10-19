@@ -6,6 +6,7 @@ export interface AssistantProps {
   starterQuestions?: readonly string[];
   onPublicationReady?: (ready: boolean) => void;
   corpusId?: "portfolio" | "lab";
+  labUrl?: string;
   assetBase?: string;
   onClose?: () => void;
   lab?: boolean;

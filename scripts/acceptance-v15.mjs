@@ -1,0 +1,36 @@
+import{readFile,writeFile,stat}from'node:fs/promises';import{gzipSync}from'node:zlib';import{execFileSync}from'node:child_process';
+const read=async p=>JSON.parse(await readFile(p,'utf8'));
+const tests=async p=>{const t=await readFile(p,'utf8');const n={tests:Number(t.match(/ℹ tests (\d+)/)?.[1]),passed:Number(t.match(/ℹ pass (\d+)/)?.[1]),failed:Number(t.match(/ℹ fail (\d+)/)?.[1])};if(!n.tests||n.failed||n.tests!==n.passed)throw Error('Tests not passing');return n;};
+const browser={};for(const engine of ['chromium','webkit']){browser[engine]={};for(const[name,path,list]of[['labRetrieval',`output/playwright/v15-efrd/${engine}/results.json`,'journeys'],['labSources',`output/playwright/v15-ux/${engine}/results.json`,'tasks'],['technology',`output/playwright/v15-toer/${engine}/results.json`,'tasks'],['portfolioAssistant',`output/playwright/v15-integration/${engine}/results.json`,'cases']]){const r=await read(path);if(r[list].length!==({labRetrieval:7,labSources:8,technology:5,portfolioAssistant:4}[name])||r[list].some(c=>!c.passed)||(r.errors||r.pageErrors||[]).length||(r.inferenceRequests||r.generationRequests||[]).length||r.axe?.some(a=>a.violations.length))throw Error(`Browser failure: ${path}`);browser[engine][name]={measuredAt:r.measuredAt,cases:r[list].length,layouts:r.layouts?.length||0,axe:r.axe,errors:r.errors||r.pageErrors||[],inferenceRequests:r.inferenceRequests||r.generationRequests||[]};}}
+const caseStudy=await read('../mohdvara.github.io/output/playwright/pace-v1.5/results.json');const links=await read('output/playwright/v15-links/results.json');
+if(caseStudy.layouts.length!==16||caseStudy.errors.length||links.cases.length!==8||links.errors.length)throw Error('Case-study or link verification incomplete');
+const bundle=async(path)=>{const b=await readFile(path);return{path,rawBytes:b.length,gzip9Bytes:gzipSync(b,{level:9}).length};};
+const html=await readFile('../mohdvara.github.io/dist/index.html','utf8'),main=html.match(/src="(\/assets\/index-[^"]+\.js)"/)[1];
+const {readdir}=await import('node:fs/promises');const files=await readdir('../mohdvara.github.io/dist/assets');
+const artifacts={portfolioMain:await bundle('../mohdvara.github.io/dist'+main),lazyAssistant:await bundle('../mohdvara.github.io/dist/assets/'+files.find(p=>/^PaceAssistant-.*\.js$/.test(p))),lazyCaseStudy:await bundle('../mohdvara.github.io/dist/assets/'+files.find(p=>/^PaceRagCaseStudy-.*\.js$/.test(p)))};
+const labHtml=await readFile('dist/lab/index.html','utf8');artifacts.labMain=await bundle(labHtml.match(/src="([^"]+\.js)"/)[1].replace('/pace-rag/','dist/lab/'));artifacts.worker={rawBytes:(await stat('dist/lab/assets/embedding-worker-DnxKJqeO.js')).size,lazy:true};
+if(artifacts.portfolioMain.rawBytes>215000)throw Error('Main JS limit exceeded');
+const evaluations={};for(const dataset of ['development','verification','v14-regression'])evaluations[dataset]={prior:(await read(`evaluation/reports/v15-${dataset}-prior-semantic.json`)).scorecards,after:(await read(`evaluation/reports/v15-${dataset}-precision-semantic.json`)).scorecards};
+const hostedLinks=await read('evaluation/reports/v15-hosted-links.json'),staticValidation=await read('evaluation/reports/v15-static-validation.json'),reviewPacket=await read('docs/reviewer-v15/manifest.json'),reviewFindings=await read('docs/reviewer-v15/findings.json');
+const missed={scope:'All remaining professional Top-1 misses under unchanged provisional labels; no independent adjudication has occurred.',datasets:{}};
+for(const dataset of ['development','verification','v14-regression']){
+ const before=await read(`evaluation/reports/v15-${dataset}-prior-semantic-cases.json`),after=await read(`evaluation/reports/v15-${dataset}-precision-semantic-cases.json`);
+ const old=new Map(before.map(r=>[r.id,r])),hit=r=>r.relevantAnswerIds?.includes(r.candidates[0]?.answerId),rows=after.filter(r=>r.corpusId==='professional'&&r.relevantAnswerIds);
+ missed.datasets[dataset]={missed:rows.filter(r=>!hit(r)),improved:rows.filter(r=>hit(r)&&!hit(old.get(r.id))).map(r=>r.id),regressed:rows.filter(r=>!hit(r)&&hit(old.get(r.id))).map(r=>r.id)};
+}
+await writeFile('evaluation/reports/v15-missed-queries.json',JSON.stringify(missed,null,2)+'\n');
+const report={hostedLinks,staticValidation,reviewPacket,reviewFindings,version:'PACE-v1.5',measuredAt:new Date().toISOString(),scope:'Local builds and emulated browsers. No deployment, production provider dispatch, actual screen-reader or physical-device verification.',ranking:'Professional: 80% question cosine + 20% body BM25 + bounded canonical-intent adjustment. Refined intent exclusions/vocabulary; other views and lexical fallback retain v1.4 behavior.',tests:{rag:await tests('output/v15-tests.txt'),portfolio:await tests('../mohdvara.github.io/output/v15-tests.txt')},evaluations,technology:(await read('evaluation/reports/toer-understanding-v1.json')).total,freshLexical:(await read('evaluation/reports/v15-v14-regression-precision-lexical.json')).scorecards.professional,browser,caseStudy,links,artifacts,baselinePortfolioMainRawBytes:209844,baselinePortfolioMainSource:'Validated v1.4 artifact recorded before v1.5 edits',portfolioMainLimit:215000,portfolioMainHeadroom:215000-artifacts.portfolioMain.rawBytes,publicationContentApproved:true,productionAcceptance:false,liveAiEnabled:false,cloudflareVerified:false,providerBilling:'Not measured; no actual provider calls authorized.',screenReader:'Native roles/keyboard and axe checked; actual screen-reader session not performed.',physicalDevices:'Not tested',limits:['Independent ≥80% Top-1 / ≥90% Top-3 target remains unverified. Known regression labels are provisional and agent-authored.','All three measured sets were previously inspected. Independent holdout authoring and real-user review are pending.','Existing dependency/security limitations remain; this task did not migrate the pinned model/runtime.','No changes deployed to hosted sites or DNS.']};
+await writeFile('evaluation/reports/v15-acceptance.json',JSON.stringify(report,null,2)+'\n');
+const changed={scope:'Files changed since the v1.5 audit; all other incoming v1.3/v1.4 working-tree changes were preserved.',repositories:{}};
+const blocks=s=>Object.fromEntries(s.split(/(?=^diff --git )/m).filter(Boolean).map(t=>[t.match(/^diff --git a\/(.*?) b\//)?.[1],t]));
+for(const repo of ['pace-rag','mohdvara.github.io']){
+ const cwd=`../${repo}`,audit=`output/v15-audit/${repo}`;
+ const before=blocks(await readFile(`${audit}/incoming.diff`,'utf8')),after=blocks(execFileSync('git',['diff','--binary'],{cwd,encoding:'utf8'}));
+ const original=JSON.parse(await readFile(`${audit}/untracked-hashes.json`,'utf8'));
+ const files=Object.keys(after).filter(f=>before[f]!==after[f]);
+ const {createHash}=await import('node:crypto');
+ for(const f of execFileSync('git',['ls-files','--others','--exclude-standard'],{cwd,encoding:'utf8'}).trim().split('\n').filter(Boolean)){const hash=createHash('sha256').update(await readFile(`${cwd}/${f}`)).digest('hex');if(original[f]!==hash)files.push(f);}
+ changed.repositories[repo]=[...new Set(files)].sort();
+}
+await writeFile('docs/PACE-V1.5-FILES.json',JSON.stringify(changed,null,2)+'\n');
+console.log(JSON.stringify({tests:report.tests,artifacts,headroom:report.portfolioMainHeadroom,caseStudyLayouts:caseStudy.layouts.length,links:links.cases.length},null,2));

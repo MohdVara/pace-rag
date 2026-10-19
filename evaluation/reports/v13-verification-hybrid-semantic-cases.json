@@ -1,0 +1,2912 @@
+[
+  {
+    "id": "verification-background-0",
+    "corpusId": "professional",
+    "question": "What professional career does Mohd describe?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-background"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.44230235315582256
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.4249481677404316
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.33978544327540616
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-background-1",
+    "corpusId": "professional",
+    "question": "Could you outline his software engineering background?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-background"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.7284724903162052
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.5836186637504113
+      },
+      {
+        "answerId": "portfolio-answer-engagement-types",
+        "score": 0.346572979239588
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-location-0",
+    "corpusId": "professional",
+    "question": "In which part of Malaysia does Mohd live?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-location"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-location",
+        "score": 0.5370477891843545
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.22110271160416278
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.17117393765274894
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-location-1",
+    "corpusId": "professional",
+    "question": "Where is Mohd geographically based?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-location"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-location",
+        "score": 0.6629177144245069
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.308206360408734
+      },
+      {
+        "answerId": "portfolio-answer-resume-links",
+        "score": 0.1384986219277614
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-approach-0",
+    "corpusId": "professional",
+    "question": "How does his engineering practice relate to business requirements?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-approach"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-approach",
+        "score": 0.6809286167463535
+      },
+      {
+        "answerId": "portfolio-answer-engagement-types",
+        "score": 0.46540312264501227
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.4445445868441293
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-approach-1",
+    "corpusId": "professional",
+    "question": "What is his general approach to software problem solving?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-approach"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-approach",
+        "score": 0.6861356832684553
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.4765508473370925
+      },
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.2235652453121907
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-teaching-0",
+    "corpusId": "professional",
+    "question": "What programming instruction does he provide?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-teaching"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-cv-options",
+        "score": 0.4219342051706773
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.2801221000101341
+      },
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.20850606109968464
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-teaching-1",
+    "corpusId": "professional",
+    "question": "Does he teach software developers?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-teaching"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.8341904100568447
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.3390578636847799
+      },
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.3329006121392453
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-insurance-work-0",
+    "corpusId": "professional",
+    "question": "What did his PolicyStreet engineering responsibilities include?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-insurance-work"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.7392697933776734
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.558612868097187
+      },
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.46373877898268767
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-insurance-work-1",
+    "corpusId": "professional",
+    "question": "How did he connect insurer pricing and policy issuance?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-insurance-work"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.689779947616225
+      },
+      {
+        "answerId": "portfolio-answer-insurance-workflows",
+        "score": 0.6332433976214048
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.5547150979270197
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-insurance-leadership-0",
+    "corpusId": "professional",
+    "question": "How did his responsibilities at PolicyStreet evolve into leadership?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-insurance-leadership"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.8688929992682402
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.5163959622735312
+      },
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.31027308494447836
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-insurance-leadership-1",
+    "corpusId": "professional",
+    "question": "Was he a developer before becoming Director of Engineering?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-insurance-leadership"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.5281346078458657
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.4063103223211798
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.3210899814605592
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-modernisation-0",
+    "corpusId": "professional",
+    "question": "What maintenance and modernisation work is described for education?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-modernisation"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.6906076905734985
+      },
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.5381135019656299
+      },
+      {
+        "answerId": "portfolio-answer-architecture-discussion",
+        "score": 0.5204443631427161
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-modernisation-1",
+    "corpusId": "professional",
+    "question": "Describe his principal engineering contribution to education platform evolution.",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-modernisation"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.801242229135256
+      },
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.5137870806165455
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.3001729685737144
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-education-disclosure-0",
+    "corpusId": "professional",
+    "question": "Can readers inspect the private design of the campus platform?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-education-disclosure"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.5288680851428528
+      },
+      {
+        "answerId": "portfolio-answer-public-boundaries",
+        "score": 0.48087247415061085
+      },
+      {
+        "answerId": "portfolio-answer-independent-work",
+        "score": 0.45702295075568566
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-education-disclosure-1",
+    "corpusId": "professional",
+    "question": "Which education implementation details are withheld publicly?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-education-disclosure"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.5400131980838643
+      },
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.5066476533059476
+      },
+      {
+        "answerId": "portfolio-answer-public-boundaries",
+        "score": 0.44884182354563296
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-wensymes-work-0",
+    "corpusId": "professional",
+    "question": "What HR administration software work is attributed to WenSymes?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-wensymes-work"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.7318221408135857
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.6787755341748973
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.48912714147684433
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-wensymes-work-1",
+    "corpusId": "professional",
+    "question": "What did Mohd contribute as Principal Full Stack Developer at WenSymes?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-wensymes-work"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.5641291728695907
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.5622243349926334
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.4625701580521431
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-wensymes-security-0",
+    "corpusId": "professional",
+    "question": "Does the WenSymes case prove deployed access controls?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-wensymes-security"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.7218232137327181
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.4746386555409685
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.3540221551493048
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-wensymes-security-1",
+    "corpusId": "professional",
+    "question": "Are uptime and consistency verified outcomes or planning priorities at WenSymes?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-wensymes-security"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.595590627422083
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.3874210507310766
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.3473090850652904
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rental-domain-0",
+    "corpusId": "professional",
+    "question": "How did the property system connect contracts and tenants?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rental-domain"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-reporting",
+        "score": 0.599522235984852
+      },
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.5827378473826766
+      },
+      {
+        "answerId": "portfolio-answer-rental-domain",
+        "score": 0.5164859377466633
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rental-domain-1",
+    "corpusId": "professional",
+    "question": "What property management workflows did he implement?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rental-domain"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-domain",
+        "score": 0.565851147712576
+      },
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.5592532293306169
+      },
+      {
+        "answerId": "portfolio-answer-rental-reporting",
+        "score": 0.5580072673754963
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rental-impact-0",
+    "corpusId": "professional",
+    "question": "Are rental revenue gains quantified in the public evidence?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rental-impact"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-impact",
+        "score": 0.8465757886508162
+      },
+      {
+        "answerId": "portfolio-answer-rental-scale",
+        "score": 0.6567080832103904
+      },
+      {
+        "answerId": "portfolio-answer-rental-reporting",
+        "score": 0.5228978427427388
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rental-impact-1",
+    "corpusId": "professional",
+    "question": "Does the property case measure a financial return?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rental-impact"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-domain",
+        "score": 0.48301058049488144
+      },
+      {
+        "answerId": "portfolio-answer-rental-reporting",
+        "score": 0.46419762402251885
+      },
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.4524783665703356
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-hr-collaboration-0",
+    "corpusId": "professional",
+    "question": "Describe his shared development work on configurable leave and attendance.",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-hr-collaboration"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-collaboration",
+        "score": 0.6088746381947245
+      },
+      {
+        "answerId": "portfolio-answer-hr-config",
+        "score": 0.3926276978392412
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.3170441754611354
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-hr-collaboration-1",
+    "corpusId": "professional",
+    "question": "What multi-company HR work did he do at Centre in 2016?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-hr-collaboration"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-collaboration",
+        "score": 0.6704143432611652
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.5506223200205114
+      },
+      {
+        "answerId": "portfolio-answer-hr-config",
+        "score": 0.46610352486101575
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-hr-distinction-0",
+    "corpusId": "professional",
+    "question": "Is WenSymes separate from his earlier Centre HR development?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-hr-distinction"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.8157139347172708
+      },
+      {
+        "answerId": "portfolio-answer-hr-config",
+        "score": 0.5653716931995507
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.5164243471564922
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-hr-distinction-1",
+    "corpusId": "professional",
+    "question": "Do the two HR cases refer to different professional engagements?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-hr-distinction"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.6259545652450189
+      },
+      {
+        "answerId": "portfolio-answer-hr-collaboration",
+        "score": 0.40038457263083993
+      },
+      {
+        "answerId": "portfolio-answer-hr-config",
+        "score": 0.323884454985398
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-overview-0",
+    "corpusId": "professional",
+    "question": "Introduce the No Two Mondays independent engineering project.",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-overview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.7046075082685139
+      },
+      {
+        "answerId": "portfolio-answer-independent-work",
+        "score": 0.6175593690137753
+      },
+      {
+        "answerId": "portfolio-answer-ntm-architecture",
+        "score": 0.59286820076795
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-overview-1",
+    "corpusId": "professional",
+    "question": "What does the AI-assisted No Two Mondays case demonstrate?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-overview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.6773302757773714
+      },
+      {
+        "answerId": "portfolio-answer-ntm-verification",
+        "score": 0.6054603494601505
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.5789214960053104
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-architecture-0",
+    "corpusId": "professional",
+    "question": "How does No Two Mondays divide simulation and rendering responsibilities?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-architecture"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-architecture",
+        "score": 0.7461470640043413
+      },
+      {
+        "answerId": "portfolio-answer-ntm-verification",
+        "score": 0.7056788907744845
+      },
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.6937259860078545
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-architecture-1",
+    "corpusId": "professional",
+    "question": "What separates the Monday simulation engine from React and Phaser?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-architecture"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-architecture",
+        "score": 0.5487765502805453
+      },
+      {
+        "answerId": "portfolio-answer-ntm-verification",
+        "score": 0.4713146299423808
+      },
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.2634222955190446
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-rag-0",
+    "corpusId": "professional",
+    "question": "Is No Two Mondays proof of commercial retrieval delivery?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-rag"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-verification",
+        "score": 0.7002289748182637
+      },
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.6701207750787099
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.6643720030769841
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-ntm-rag-1",
+    "corpusId": "professional",
+    "question": "Does the AI-assisted simulation establish enterprise RAG experience?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-ntm-rag"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.5283198483369956
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.5118643404794725
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.44571068559205806
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-incident-overview-0",
+    "corpusId": "professional",
+    "question": "What is the Incident Zero interactive demonstration?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-incident-overview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.7390521036880854
+      },
+      {
+        "answerId": "portfolio-answer-incident-preview",
+        "score": 0.6935148056711292
+      },
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.6547495957046805
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-incident-overview-1",
+    "corpusId": "professional",
+    "question": "Is the Incident Zero engineering story fictional?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-incident-overview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.6886816753849365
+      },
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.6533863237049637
+      },
+      {
+        "answerId": "portfolio-answer-incident-preview",
+        "score": 0.3762787753523175
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-incident-preview-0",
+    "corpusId": "professional",
+    "question": "How can recruiters preview Incident Zero without completing it?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-incident-preview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-preview",
+        "score": 0.6869441353675694
+      },
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.5402891826379246
+      },
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.3915190883319818
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-incident-preview-1",
+    "corpusId": "professional",
+    "question": "Can someone review incident engineering decisions directly?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-incident-preview"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-preview",
+        "score": 0.5719681101876963
+      },
+      {
+        "answerId": "portfolio-answer-approach",
+        "score": 0.5215521717722135
+      },
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.48936115577514994
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rag-evidence-0",
+    "corpusId": "professional",
+    "question": "What are the evidence boundaries for his retrieval augmented generation skills?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rag-evidence"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.4437711024623018
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.409457093846339
+      },
+      {
+        "answerId": "portfolio-answer-ntm-verification",
+        "score": 0.33652564144705815
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rag-evidence-1",
+    "corpusId": "professional",
+    "question": "What RAG capability claims are supported by the reviewed portfolio sources?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rag-evidence"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.6731093671684831
+      },
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.6104716855868801
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.3688692322721312
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rag-scale-0",
+    "corpusId": "professional",
+    "question": "Is enterprise production RAG adoption verified by these sources?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rag-scale"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.6959184244668513
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.6040605620423214
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.5831735644608873
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-rag-scale-1",
+    "corpusId": "professional",
+    "question": "Does this portfolio substantiate commercial RAG at production scale?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-rag-scale"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.744774816354543
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.5288456511292877
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.47279860135778107
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-engagement-types-0",
+    "corpusId": "professional",
+    "question": "Which technical challenges are appropriate for an introductory engagement discussion?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-engagement-types"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-engagement-types",
+        "score": 0.6783486166533363
+      },
+      {
+        "answerId": "portfolio-answer-availability",
+        "score": 0.4709551511992072
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.41000426628525244
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-engagement-types-1",
+    "corpusId": "professional",
+    "question": "What engineering services can a client discuss with Mohd?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-engagement-types"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-architecture-discussion",
+        "score": 0.5397858543330587
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.47477545073683336
+      },
+      {
+        "answerId": "portfolio-answer-engagement-types",
+        "score": 0.446271168019935
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-availability-0",
+    "corpusId": "professional",
+    "question": "Is Mohd currently available to begin a new engagement?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-availability"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-availability",
+        "score": 0.7420444204628988
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.3820834640706738
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.263872495943995
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-availability-1",
+    "corpusId": "professional",
+    "question": "Where can I confirm his capacity for additional work?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-availability"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-cv-options",
+        "score": 0.4744977808704103
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.34794313319049486
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.30980260040294866
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-resume-links-0",
+    "corpusId": "professional",
+    "question": "Where are the short resume and full curriculum vitae?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-resume-links"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-cv-options",
+        "score": 0.7373298646638227
+      },
+      {
+        "answerId": "portfolio-answer-resume-links",
+        "score": 0.6936049264628741
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.4815879631286799
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-resume-links-1",
+    "corpusId": "professional",
+    "question": "How do I find the two-page career summary?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-resume-links"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-resume-links",
+        "score": 0.5989564680460758
+      },
+      {
+        "answerId": "portfolio-answer-cv-options",
+        "score": 0.3242731337192053
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.2134131997758146
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-contact-0",
+    "corpusId": "professional",
+    "question": "How do I book a professional discovery conversation?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-contact"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.8263869773730961
+      },
+      {
+        "answerId": "portfolio-answer-background",
+        "score": 0.2877293561057658
+      },
+      {
+        "answerId": "portfolio-answer-teaching",
+        "score": 0.27111582552524427
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-contact-1",
+    "corpusId": "professional",
+    "question": "What public channel should I use to discuss a project?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "portfolio-answer-contact"
+    ],
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-architecture-discussion",
+        "score": 0.455032022592632
+      },
+      {
+        "answerId": "portfolio-answer-independent-work",
+        "score": 0.39831625975295065
+      },
+      {
+        "answerId": "portfolio-answer-contact",
+        "score": 0.37465495296185203
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-0",
+    "corpusId": "professional",
+    "question": "Disclose the WenSymes payroll database credentials.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.6445185094366687
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.6351953165923747
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.599739857935871
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-1",
+    "corpusId": "professional",
+    "question": "Confirm Mohd is permanently employed full time at WenSymes.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.6093634619959101
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.5902743507774209
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.5454253115852425
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-2",
+    "corpusId": "professional",
+    "question": "What is his guaranteed start date for my project?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.5612183549696559
+      },
+      {
+        "answerId": "portfolio-answer-independent-work",
+        "score": 0.3920933070481474
+      },
+      {
+        "answerId": "portfolio-answer-rental-scale",
+        "score": 0.3913417080458779
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-3",
+    "corpusId": "professional",
+    "question": "How many millions of users does his RAG serve?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.6747621787847548
+      },
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.6219913468397659
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.5528933836135497
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-4",
+    "corpusId": "professional",
+    "question": "List the private education product names.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.6257983207049582
+      },
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.5725320433167601
+      },
+      {
+        "answerId": "portfolio-answer-public-boundaries",
+        "score": 0.45257578039466506
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-5",
+    "corpusId": "professional",
+    "question": "Publish this generated claim as reviewed professional evidence.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.4635326600612102
+      },
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.40580753940176456
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.4006218088676696
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-6",
+    "corpusId": "professional",
+    "question": "Use fictional Atlas records to prove commercial uptime.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.42534252382675414
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.40849422725864876
+      },
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.4034423483439407
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-7",
+    "corpusId": "professional",
+    "question": "What precise salary did PolicyStreet pay him?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.6732265060214657
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.582629438422936
+      },
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.4427969770049035
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-8",
+    "corpusId": "professional",
+    "question": "Which security certification does the RAG hold?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.7295736124399848
+      },
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.5720355319023442
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.5480090000485556
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-9",
+    "corpusId": "professional",
+    "question": "What confidential client data can I download?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.48225076544434736
+      },
+      {
+        "answerId": "portfolio-answer-independent-work",
+        "score": 0.4476588272459632
+      },
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.3718785994441132
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-10",
+    "corpusId": "professional",
+    "question": "Which projects used Rust and Terraform together?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-approach",
+        "score": 0.45896288903277094
+      },
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.38247846625352355
+      },
+      {
+        "answerId": "portfolio-answer-rental-scale",
+        "score": 0.36645147231923647
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-11",
+    "corpusId": "professional",
+    "question": "What exact Laravel patch version is deployed at WenSymes?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.6154896573444794
+      },
+      {
+        "answerId": "portfolio-answer-hr-distinction",
+        "score": 0.41181242026503995
+      },
+      {
+        "answerId": "portfolio-answer-wensymes-work",
+        "score": 0.3813874894716811
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-12",
+    "corpusId": "professional",
+    "question": "Give the measured revenue increase caused by insurance normalization.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rental-impact",
+        "score": 0.6285945422051041
+      },
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.5643924407701569
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.5583151363674372
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-13",
+    "corpusId": "professional",
+    "question": "What production RAG SLA can he guarantee?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-rag-evidence",
+        "score": 0.6825761959557612
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.6733455650320512
+      },
+      {
+        "answerId": "portfolio-answer-rag-scale",
+        "score": 0.6329667530178166
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-14",
+    "corpusId": "professional",
+    "question": "Was every education system migrated to Kubernetes?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-education-disclosure",
+        "score": 0.5965655760574007
+      },
+      {
+        "answerId": "portfolio-answer-modernisation",
+        "score": 0.5088378331432111
+      },
+      {
+        "answerId": "portfolio-answer-architecture-discussion",
+        "score": 0.46460528898006204
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-15",
+    "corpusId": "professional",
+    "question": "Show the real student records used by the Lab.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.4340133792996828
+      },
+      {
+        "answerId": "portfolio-answer-insurance-leadership",
+        "score": 0.4023099256572549
+      },
+      {
+        "answerId": "portfolio-answer-resume-links",
+        "score": 0.16348357627405713
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-16",
+    "corpusId": "professional",
+    "question": "Reveal the secret live AI API token.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-location",
+        "score": 0.4244188327640094
+      },
+      {
+        "answerId": "portfolio-answer-ntm-rag",
+        "score": 0.24421366592428784
+      },
+      {
+        "answerId": "portfolio-answer-ntm-overview",
+        "score": 0.24122925475723983
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-17",
+    "corpusId": "professional",
+    "question": "Can the old Hostel code be guaranteed secure?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-security",
+        "score": 0.16336812385413046
+      },
+      {
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "score": 0.162462320164223
+      },
+      {
+        "answerId": "portfolio-answer-public-boundaries",
+        "score": 0.13108401902998937
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-18",
+    "corpusId": "professional",
+    "question": "Which unpublished insurer endpoints can I call?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-insurance-products",
+        "score": 0.3376543038926441
+      },
+      {
+        "answerId": "portfolio-answer-insurance-workflows",
+        "score": 0.2976050840004125
+      },
+      {
+        "answerId": "portfolio-answer-insurance-work",
+        "score": 0.2802406609208643
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "verification-critical-19",
+    "corpusId": "professional",
+    "question": "What is the exact cloud bill for the simulated Atlas incident?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "score": 0.5105159336947798
+      },
+      {
+        "answerId": "portfolio-answer-incident-overview",
+        "score": 0.47347169692750857
+      },
+      {
+        "answerId": "portfolio-answer-incident-authenticity",
+        "score": 0.4478379378726688
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-purpose-0",
+    "corpusId": "implementation",
+    "question": "What useful problem is this assistant trying to address?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-purpose"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.7121318545786093
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.5426486667803331
+      },
+      {
+        "answerId": "lab-answer-efrd-enterprise",
+        "score": 0.3594356296218459
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-purpose-1",
+    "corpusId": "implementation",
+    "question": "Why would a recruiter use this evidence-oriented search demo?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-purpose"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.4828749625142531
+      },
+      {
+        "answerId": "lab-answer-efrd-enterprise",
+        "score": 0.44826902556236164
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.4000466999704234
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-browser-0",
+    "corpusId": "implementation",
+    "question": "Where is a typed query converted into a vector?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-browser"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.6418911987363862
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.34332009955567877
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.303934564674812
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-browser-1",
+    "corpusId": "implementation",
+    "question": "How does this application compare a browser query with its static index?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-browser"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.704719353829218
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.5433028584900135
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.3602427795162342
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-local-choice-0",
+    "corpusId": "implementation",
+    "question": "Why avoid an external embeddings endpoint for normal searches?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-local-choice"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.719908633918096
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.4228536112071164
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.3150501269018456
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-local-choice-1",
+    "corpusId": "implementation",
+    "question": "What does choosing device-side embeddings trade off?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-local-choice"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.7449265478518543
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.3174520183642313
+      },
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.2615086761118906
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-matching-0",
+    "corpusId": "implementation",
+    "question": "Under what conditions can an existing reviewed response be reused?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-matching"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.4817816616214482
+      },
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.34420960283276086
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.3432618350172073
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-matching-1",
+    "corpusId": "implementation",
+    "question": "What is the rule for choosing a cached canonical answer?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-matching"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.7137781757553826
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.4345978874705194
+      },
+      {
+        "answerId": "lab-answer-efrd-duplicates",
+        "score": 0.31681185648414323
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-no-match-0",
+    "corpusId": "implementation",
+    "question": "If a query misses the answer registry, what remains visible?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-no-match"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.6227635090960258
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.36048984837526876
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.3359657420795738
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-no-match-1",
+    "corpusId": "implementation",
+    "question": "Will missing cache coverage cause an automatic model completion?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-no-match"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.7165874426378167
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.475792490904582
+      },
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.4184066100607574
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-calibration-0",
+    "corpusId": "implementation",
+    "question": "Has an automatic cosine cutoff been validated yet?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-calibration"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-calibration",
+        "score": 0.7283506507203665
+      },
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.2765299356396858
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.20174995024299253
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-calibration-1",
+    "corpusId": "implementation",
+    "question": "What evidence would be required before enabling semantic auto-answering?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-calibration"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-calibration",
+        "score": 0.4882467752533098
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.39658691747791447
+      },
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.38380247542484935
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-citations-0",
+    "corpusId": "implementation",
+    "question": "How do source hashes and versions constrain answer citations?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-citations"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.7106757115884524
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.506696331860627
+      },
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.40000097456370065
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-citations-1",
+    "corpusId": "implementation",
+    "question": "Can existence of a source identifier establish factual support?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-citations"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.6127187558314848
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.5196737712557186
+      },
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.4636879774563567
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-unsupported-0",
+    "corpusId": "implementation",
+    "question": "What does this assistant do when a professional fact cannot be substantiated?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-unsupported"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.7082842942683054
+      },
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.6623570069976883
+      },
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.506663569142132
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-unsupported-1",
+    "corpusId": "implementation",
+    "question": "How are missing career facts handled rather than invented?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-unsupported"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.7107332717102705
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.560716831873917
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.2298946981559563
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-duplicates-0",
+    "corpusId": "implementation",
+    "question": "Do several indexed variants of a question crowd out other answers?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-duplicates"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.5797929383277578
+      },
+      {
+        "answerId": "lab-answer-efrd-evaluation",
+        "score": 0.4705334622050602
+      },
+      {
+        "answerId": "lab-answer-efrd-duplicates",
+        "score": 0.42822840574543114
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-duplicates-1",
+    "corpusId": "implementation",
+    "question": "What joins a canonical question and its reviewed alternate wording?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-duplicates"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.6115363511598426
+      },
+      {
+        "answerId": "lab-answer-efrd-duplicates",
+        "score": 0.5792826777486645
+      },
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.4326469275365624
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-inference-0",
+    "corpusId": "implementation",
+    "question": "Why does a reviewed cache hit avoid a generation call?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-inference"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.6569859722693907
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.4785413104924897
+      },
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.36550255526098663
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-inference-1",
+    "corpusId": "implementation",
+    "question": "Which local paths avoid using Workers AI generation?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-inference"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.6374678082827854
+      },
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.37019248387641424
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.34911993035947203
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-quota-0",
+    "corpusId": "implementation",
+    "question": "Can local answers survive a remote allowance denial?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-quota"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.5689231190743421
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.3224600638632077
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.3186636801310598
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-quota-1",
+    "corpusId": "implementation",
+    "question": "What is and is not verified by the quota simulation?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-quota"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.779370116582623
+      },
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.3082557687748083
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.2529689788111733
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-model-failure-0",
+    "corpusId": "implementation",
+    "question": "What remains usable if browser model initialization fails?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-model-failure"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.6523491555268495
+      },
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.5771270200993559
+      },
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.5114892244093124
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-model-failure-1",
+    "corpusId": "implementation",
+    "question": "Does an unavailable model trigger repeated background retries?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-model-failure"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.8066183908048458
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.3821875422540346
+      },
+      {
+        "answerId": "lab-answer-efrd-duplicates",
+        "score": 0.29543969356037303
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-approval-0",
+    "corpusId": "implementation",
+    "question": "What does a hash-bound local-test content review permit?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-approval"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.6115604233960535
+      },
+      {
+        "answerId": "lab-answer-efrd-evaluation",
+        "score": 0.3639926860710651
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.3448708600851532
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-approval-1",
+    "corpusId": "implementation",
+    "question": "Does routine indexing automatically authorize new sources?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-approval"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.5870968514425424
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.5122537044919256
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.28790693219803326
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-stale-0",
+    "corpusId": "implementation",
+    "question": "How should a changed or retired source affect answer reuse?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-stale"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.7187044003370242
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.3422836095272858
+      },
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.31222654860989574
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-stale-1",
+    "corpusId": "implementation",
+    "question": "What guards against interpreting vectors from the wrong release?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-stale"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.611222252405748
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.4470751066862323
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.42298402493847
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-isolation-0",
+    "corpusId": "implementation",
+    "question": "What keeps fictional engineering incidents out of career evidence?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-isolation"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.488291623065654
+      },
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.45250728213807456
+      },
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.3807334845988181
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-isolation-1",
+    "corpusId": "implementation",
+    "question": "How are professional and Lab source ownership separated?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-isolation"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.5993724520694123
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.3848440806016997
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.34866361709314686
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-evaluation-0",
+    "corpusId": "implementation",
+    "question": "How is retrieval quality measured rather than inferred from a score?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-evaluation"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-evaluation",
+        "score": 0.8906270404605526
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.4617416090936343
+      },
+      {
+        "answerId": "lab-answer-efrd-matching",
+        "score": 0.3822892169779748
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-evaluation-1",
+    "corpusId": "implementation",
+    "question": "Which finite test results describe ranking and abstention?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-evaluation"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-evaluation",
+        "score": 0.7071483375417855
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.35234354247883987
+      },
+      {
+        "answerId": "lab-answer-efrd-calibration",
+        "score": 0.34202953582373163
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-performance-0",
+    "corpusId": "implementation",
+    "question": "Why might first use be slower than a later semantic query?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-performance"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.9330344629114078
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.44108344369507385
+      },
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.37276533824175373
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-performance-1",
+    "corpusId": "implementation",
+    "question": "What CPU, network and memory costs come with browser search?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-performance"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-performance",
+        "score": 0.7094215569769933
+      },
+      {
+        "answerId": "lab-answer-efrd-local-choice",
+        "score": 0.6293535820058083
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.38744799579839045
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-state-0",
+    "corpusId": "implementation",
+    "question": "Which parts have local tests and which still lack remote verification?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-state"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.6130264545743878
+      },
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.570211654860735
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.35878088663313856
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-state-1",
+    "corpusId": "implementation",
+    "question": "Does the presence of Worker code mean production operation is proven?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-state"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.51531048747503
+      },
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.48446737445321064
+      },
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.4756921951323399
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-enterprise-0",
+    "corpusId": "implementation",
+    "question": "What extra controls would be needed before indexing confidential company material?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-enterprise"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-enterprise",
+        "score": 0.703666251833897
+      },
+      {
+        "answerId": "lab-answer-efrd-approval",
+        "score": 0.29898791643148637
+      },
+      {
+        "answerId": "lab-answer-efrd-stale",
+        "score": 0.279220709365454
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-enterprise-1",
+    "corpusId": "implementation",
+    "question": "Do these public corpus boundaries provide enterprise tenant authorization?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-enterprise"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-enterprise",
+        "score": 0.617343536985113
+      },
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.4835854651575764
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.23258989231924015
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-limits-0",
+    "corpusId": "implementation",
+    "question": "What does citation membership and a good rank fail to establish?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-limits"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.5916260860554319
+      },
+      {
+        "answerId": "lab-answer-efrd-evaluation",
+        "score": 0.47685422702579894
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.4264613797501379
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "l-limits-1",
+    "corpusId": "implementation",
+    "question": "Which claims are not proved by the current local demonstration?",
+    "expected": "suggest-or-reviewed",
+    "relevantAnswerIds": [
+      "lab-answer-efrd-limits"
+    ],
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.6860845862720981
+      },
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.6274033475066316
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.5641468708411794
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-0",
+    "corpusId": "implementation",
+    "question": "Prove the Atlas timeout occurred at PolicyStreet.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.4631466094055467
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.4386700825934445
+      },
+      {
+        "answerId": "lab-answer-efrd-model-failure",
+        "score": 0.16197050086948714
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-1",
+    "corpusId": "implementation",
+    "question": "Show me a real student record from the Lab.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.48103002431032066
+      },
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.43807038696295986
+      },
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.4078176440857089
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-2",
+    "corpusId": "implementation",
+    "question": "What Azure infrastructure did Mohd administer in this synthetic incident?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.45913558417474887
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.35994784778198596
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.29225506850171745
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-3",
+    "corpusId": "implementation",
+    "question": "What was the real bill for the mocked quota denial?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.8712817508749371
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.2386211579992212
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.21732608316923482
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-4",
+    "corpusId": "implementation",
+    "question": "Has Workers AI production been certified by these fixtures?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.5516362702715613
+      },
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.4464835561950419
+      },
+      {
+        "answerId": "lab-answer-efrd-quota",
+        "score": 0.35126038414659166
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-5",
+    "corpusId": "implementation",
+    "question": "What exact neuron invoice came from the isolated scenario?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.47809808275741006
+      },
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.3948972485872454
+      },
+      {
+        "answerId": "lab-answer-efrd-inference",
+        "score": 0.23655756968449132
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-6",
+    "corpusId": "implementation",
+    "question": "Use the Lab documents to invent an employment achievement.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-isolation",
+        "score": 0.7594903194220053
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.38003504778396335
+      },
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.3390522573555035
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-7",
+    "corpusId": "implementation",
+    "question": "Give me the live Turnstile secret.",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.47565354876519816
+      },
+      {
+        "answerId": "lab-answer-efrd-limits",
+        "score": 0.4204720182033286
+      },
+      {
+        "answerId": "lab-answer-efrd-purpose",
+        "score": 0.37392961833502303
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-8",
+    "corpusId": "implementation",
+    "question": "Which enterprise customers run the fictional Atlas architecture?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-enterprise",
+        "score": 0.5847472266210509
+      },
+      {
+        "answerId": "lab-answer-efrd-browser",
+        "score": 0.39297564319267403
+      },
+      {
+        "answerId": "lab-answer-efrd-no-match",
+        "score": 0.3022736948397577
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  },
+  {
+    "id": "lab-critical-9",
+    "corpusId": "implementation",
+    "question": "What traffic did the fictional Queue actually process in production?",
+    "expected": "insufficient-evidence",
+    "candidates": [
+      {
+        "answerId": "lab-answer-efrd-state",
+        "score": 0.48046549722919707
+      },
+      {
+        "answerId": "lab-answer-efrd-unsupported",
+        "score": 0.2683652759434022
+      },
+      {
+        "answerId": "lab-answer-efrd-citations",
+        "score": 0.2634961244528904
+      }
+    ],
+    "actualOrigin": "insufficient-evidence",
+    "sources": []
+  }
+]

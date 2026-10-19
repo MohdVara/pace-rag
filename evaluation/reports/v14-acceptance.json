@@ -1,0 +1,1086 @@
+{
+  "version": "PACE-v1.4",
+  "measuredAt": "2026-10-19T04:35:58.473Z",
+  "scope": "Local builds and emulated browsers. No deployment, production provider dispatch, actual screen-reader or physical-device verification.",
+  "ranking": "Professional: 80% question cosine + 20% body BM25 + bounded canonical-intent adjustment. Other views and lexical fallback retain incoming hybrid.",
+  "tests": {
+    "rag": {
+      "tests": 91,
+      "passed": 91,
+      "failed": 0
+    },
+    "portfolio": {
+      "tests": 117,
+      "passed": 117,
+      "failed": 0
+    }
+  },
+  "evaluations": {
+    "development": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 100,
+          "criticalQuestions": 60,
+          "compositeQuestions": 20,
+          "top1ApprovedAnswerRankingAccuracy": 0.67,
+          "top3CandidateRecall": 0.92,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0.16666666666666666,
+          "compositesCorrect": 20,
+          "compositeCoverage": 1,
+          "localRankAndAnswerP50Ms": 0.6629169999999931,
+          "localRankAndAnswerP95Ms": 1.340582999999981,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.5820830000000115,
+          "localRankAndAnswerP95Ms": 0.7690000000000055,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 100,
+          "criticalQuestions": 60,
+          "compositeQuestions": 20,
+          "top1ApprovedAnswerRankingAccuracy": 0.78,
+          "top3CandidateRecall": 0.98,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0.16666666666666666,
+          "compositesCorrect": 20,
+          "compositeCoverage": 1,
+          "localRankAndAnswerP50Ms": 0.6320420000000126,
+          "localRankAndAnswerP95Ms": 1.1662089999999807,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6207499999999868,
+          "localRankAndAnswerP95Ms": 0.871167000000014,
+          "activeReviewedAnswers": 20
+        }
+      }
+    },
+    "verification": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 50,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.66,
+          "top3CandidateRecall": 0.94,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6684999999999945,
+          "localRankAndAnswerP95Ms": 1.188083000000006,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.7097919999999931,
+          "localRankAndAnswerP95Ms": 0.88737500000002,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 50,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.72,
+          "top3CandidateRecall": 0.96,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6999159999999733,
+          "localRankAndAnswerP95Ms": 1.2344999999999686,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6812909999999874,
+          "localRankAndAnswerP95Ms": 0.8262080000000083,
+          "activeReviewedAnswers": 20
+        }
+      }
+    },
+    "fresh": {
+      "prior": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 40,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.65,
+          "top3CandidateRecall": 0.9,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6617499999999836,
+          "localRankAndAnswerP95Ms": 1.337916000000007,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6818329999999833,
+          "localRankAndAnswerP95Ms": 0.9576250000000073,
+          "activeReviewedAnswers": 20
+        }
+      },
+      "after": {
+        "professional": {
+          "corpusVersion": "5172c80561642d42",
+          "positiveQuestions": 40,
+          "criticalQuestions": 20,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.725,
+          "top3CandidateRecall": 1,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.7158330000000319,
+          "localRankAndAnswerP95Ms": 1.480084000000005,
+          "activeReviewedAnswers": 38
+        },
+        "implementation": {
+          "corpusVersion": "cb8cf7a42d2969e4",
+          "positiveQuestions": 40,
+          "criticalQuestions": 10,
+          "compositeQuestions": 0,
+          "top1ApprovedAnswerRankingAccuracy": 0.8,
+          "top3CandidateRecall": 0.95,
+          "appropriateAbstentionRate": 1,
+          "incorrectAutomaticMatches": 0,
+          "invalidCitationReferences": 0,
+          "crossCorpusReferences": 0,
+          "directAnswerCoverageCommonIntents": 0,
+          "compositesCorrect": 0,
+          "compositeCoverage": null,
+          "localRankAndAnswerP50Ms": 0.6812079999999696,
+          "localRankAndAnswerP95Ms": 0.9167500000000359,
+          "activeReviewedAnswers": 20
+        }
+      }
+    }
+  },
+  "technology": {
+    "questions": 140,
+    "entityRecognitionAccuracy": 1,
+    "projectAssociationCorrectness": 1,
+    "structuredAnswerAccuracy": 1,
+    "errors": []
+  },
+  "freshLexical": {
+    "corpusVersion": "5172c80561642d42",
+    "positiveQuestions": 40,
+    "criticalQuestions": 20,
+    "compositeQuestions": 0,
+    "top1ApprovedAnswerRankingAccuracy": 0.625,
+    "top3CandidateRecall": 0.8,
+    "appropriateAbstentionRate": 1,
+    "incorrectAutomaticMatches": 0,
+    "invalidCitationReferences": 0,
+    "crossCorpusReferences": 0,
+    "directAnswerCoverageCommonIntents": 0,
+    "compositesCorrect": 0,
+    "compositeCoverage": null,
+    "localRankAndAnswerP50Ms": 0.7986670000000089,
+    "localRankAndAnswerP95Ms": 1.2441669999999974,
+    "activeReviewedAnswers": 38
+  },
+  "browser": {
+    "chromium": {
+      "labRetrieval": {
+        "measuredAt": "2026-10-19T04:24:53.104Z",
+        "cases": 7,
+        "layouts": 14,
+        "axe": [
+          {
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "labSources": {
+        "measuredAt": "2026-10-19T04:21:41.720Z",
+        "cases": 8,
+        "layouts": 42,
+        "axe": [
+          {
+            "scope": "Professional Experience",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Professional Experience",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "technology": {
+        "measuredAt": "2026-10-19T04:17:24.418Z",
+        "cases": 5,
+        "layouts": 0,
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "portfolioAssistant": {
+        "measuredAt": "2026-10-19T04:17:29.091Z",
+        "cases": 4,
+        "layouts": 8,
+        "errors": [],
+        "inferenceRequests": []
+      }
+    },
+    "webkit": {
+      "labRetrieval": {
+        "measuredAt": "2026-10-19T04:25:11.930Z",
+        "cases": 7,
+        "layouts": 14,
+        "axe": [
+          {
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "labSources": {
+        "measuredAt": "2026-10-19T04:20:31.299Z",
+        "cases": 8,
+        "layouts": 42,
+        "axe": [
+          {
+            "scope": "Professional Experience",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Professional Experience",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "How PACE-RAG Works",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 320,
+            "theme": "dark",
+            "violations": [],
+            "incomplete": []
+          },
+          {
+            "scope": "Fictional Test Documents",
+            "width": 1440,
+            "theme": "light",
+            "violations": [],
+            "incomplete": []
+          }
+        ],
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "technology": {
+        "measuredAt": "2026-10-19T04:17:31.232Z",
+        "cases": 5,
+        "layouts": 0,
+        "errors": [],
+        "inferenceRequests": []
+      },
+      "portfolioAssistant": {
+        "measuredAt": "2026-10-19T04:17:47.546Z",
+        "cases": 4,
+        "layouts": 8,
+        "errors": [],
+        "inferenceRequests": []
+      }
+    }
+  },
+  "caseStudy": {
+    "measuredAt": "2026-10-19T04:17:43.909Z",
+    "layouts": [
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "light",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "chromium",
+        "theme": "dark",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "light",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 320,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 390,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 768,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      },
+      {
+        "engine": "webkit",
+        "theme": "dark",
+        "width": 1440,
+        "text": "largest",
+        "reducedMotion": true,
+        "axeViolations": 0,
+        "overflow": false
+      }
+    ],
+    "journeys": [
+      {
+        "engine": "chromium",
+        "lazyRoute": true,
+        "visibleStacks": true,
+        "employment": true
+      },
+      {
+        "engine": "chromium",
+        "noJavaScriptCaseStudy": true,
+        "engagementLink": true
+      },
+      {
+        "engine": "webkit",
+        "lazyRoute": true,
+        "visibleStacks": true,
+        "employment": true
+      },
+      {
+        "engine": "webkit",
+        "noJavaScriptCaseStudy": true,
+        "engagementLink": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Local emulated browsers, not physical-device or screen-reader certification.",
+      "No deployed site changed."
+    ]
+  },
+  "navigation": {
+    "chromium": {
+      "complete": true,
+      "engine": "chromium",
+      "cases": [
+        {
+          "width": 375,
+          "project": "insurance",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "wensymes",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "campus",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "rental",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "meetings",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "hr",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "insurance",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "wensymes",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "campus",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "rental",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "meetings",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "hr",
+          "directAndReload": true
+        }
+      ],
+      "evidence": [
+        {
+          "width": 375,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-rental",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-wensymes",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/no-two-mondays/#ntm-process",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/pace-rag-case-study/",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-rental",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-wensymes",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/no-two-mondays/#ntm-process",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/pace-rag-case-study/",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        }
+      ],
+      "ntm": [
+        {
+          "width": 375,
+          "contents": 10,
+          "imageLinks": 11,
+          "overflow": false,
+          "largestText": true
+        },
+        {
+          "width": 1440,
+          "contents": 10,
+          "imageLinks": 11,
+          "overflow": false,
+          "largestText": true
+        }
+      ],
+      "noJavaScript": [
+        "/",
+        "/work-with-me/",
+        "/no-two-mondays/",
+        "/incident-zero/",
+        "/incident-zero/defence/"
+      ],
+      "recovery": [
+        "work-with-me",
+        "no-two-mondays"
+      ],
+      "errors": []
+    },
+    "webkit": {
+      "complete": true,
+      "engine": "webkit",
+      "cases": [
+        {
+          "width": 375,
+          "project": "insurance",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "wensymes",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "campus",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "rental",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "meetings",
+          "directAndReload": true
+        },
+        {
+          "width": 375,
+          "project": "hr",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "insurance",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "wensymes",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "campus",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "rental",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "meetings",
+          "directAndReload": true
+        },
+        {
+          "width": 1440,
+          "project": "hr",
+          "directAndReload": true
+        }
+      ],
+      "evidence": [
+        {
+          "width": 375,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-rental",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-wensymes",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/no-two-mondays/#ntm-process",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/pace-rag-case-study/",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 375,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-rental",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-wensymes",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/no-two-mondays/#ntm-process",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/pace-rag-case-study/",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-campus",
+          "opened": true
+        },
+        {
+          "width": 1440,
+          "href": "/#case-insurance",
+          "opened": true
+        }
+      ],
+      "ntm": [
+        {
+          "width": 375,
+          "contents": 10,
+          "imageLinks": 11,
+          "overflow": false,
+          "largestText": true
+        },
+        {
+          "width": 1440,
+          "contents": 10,
+          "imageLinks": 11,
+          "overflow": false,
+          "largestText": true
+        }
+      ],
+      "noJavaScript": [
+        "/",
+        "/work-with-me/",
+        "/no-two-mondays/",
+        "/incident-zero/",
+        "/incident-zero/defence/"
+      ],
+      "recovery": [
+        "work-with-me",
+        "no-two-mondays"
+      ],
+      "errors": []
+    }
+  },
+  "links": {
+    "measuredAt": "2026-10-19T04:35:21.874Z",
+    "cases": [
+      {
+        "engine": "chromium",
+        "localRoundTrip": true
+      },
+      {
+        "engine": "chromium",
+        "productionCanonicalLinks": true
+      },
+      {
+        "engine": "chromium",
+        "fictionalOriginWithinTwoNavigationActions": true
+      },
+      {
+        "engine": "webkit",
+        "localRoundTrip": true
+      },
+      {
+        "engine": "webkit",
+        "productionCanonicalLinks": true
+      },
+      {
+        "engine": "webkit",
+        "fictionalOriginWithinTwoNavigationActions": true
+      }
+    ],
+    "errors": [],
+    "limits": [
+      "Local/browser emulation, not actual screen reader or physical devices.",
+      "No hosted site changed; live inference remains disabled."
+    ]
+  },
+  "artifacts": {
+    "portfolioMain": {
+      "path": "../mohdvara.github.io/dist/assets/index-D5h_Cb8A.js",
+      "rawBytes": 209844,
+      "gzip9Bytes": 64658
+    },
+    "lazyAssistant": {
+      "path": "../mohdvara.github.io/dist/assets/PaceAssistant-CTkS_uq5.js",
+      "rawBytes": 77692,
+      "gzip9Bytes": 24733
+    },
+    "lazyCaseStudy": {
+      "path": "../mohdvara.github.io/dist/assets/PaceRagCaseStudy-COVQN3kl.js",
+      "rawBytes": 9774,
+      "gzip9Bytes": 3461
+    },
+    "labMain": {
+      "path": "dist/lab/assets/index-BSdcHwmv.js",
+      "rawBytes": 225685,
+      "gzip9Bytes": 71817
+    },
+    "worker": {
+      "rawBytes": 851258,
+      "lazy": true
+    }
+  },
+  "baselinePortfolioMainRawBytes": 209684,
+  "baselinePortfolioMainSource": "Recorded incoming v1.3 review, not a fresh rebuild of the original working tree",
+  "portfolioMainLimit": 215000,
+  "portfolioMainHeadroom": 5156,
+  "publicationContentApproved": true,
+  "productionAcceptance": false,
+  "liveAiEnabled": false,
+  "cloudflareVerified": false,
+  "providerBilling": "Not measured; no actual provider calls authorized.",
+  "screenReader": "Native roles/keyboard and axe checked; actual screen-reader session not performed.",
+  "physicalDevices": "Not tested",
+  "limits": [
+    "Fresh Top-1 72.5% misses suggested 80% target. Labels are agent-authored, not independently human-evaluated.",
+    "Frozen new questions were evaluated after development trials; all sets are now inspected.",
+    "Existing dependency/security limitations remain; this task did not migrate the pinned model/runtime.",
+    "No changes deployed to hosted sites or DNS."
+  ]
+}

@@ -1,0 +1,888 @@
+[
+  {
+    "kind": "document",
+    "before": {
+      "id": "insurance",
+      "corpusId": "portfolio",
+      "version": "1",
+      "title": "PolicyStreet integration engineering",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-insurance",
+      "text": "At PolicyStreet, Mohd worked as Senior Full Stack Developer and later Director, Engineering during 2019–2021. He built backend and frontend rate fetching and normalization, integrating quotation and policy issuance across motor, medical, group medical and fire insurance for internal and partner workflows. The public case does not establish insurer counts, revenue impact, team size or a project-specific technology stack.",
+      "contentHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Owner-authorized public display; copyright retained. No reuse license granted.",
+      "status": "approved",
+      "approval": {
+        "contentHash": "ed57676fd4c6604b8ad4db6ed92c1cb5b8461b958640f71e6dee2772490c560f",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      }
+    }
+  },
+  {
+    "kind": "document",
+    "before": {
+      "id": "education",
+      "corpusId": "portfolio",
+      "version": "1",
+      "title": "Education platform modernisation",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-campus",
+      "text": "The education-platform case describes full-stack development and technical direction as Principal Full Stack Engineer at Centre for Content Creation. The public scope covers platform modernisation, maintainability and ongoing delivery. Internal product identities, detailed workflows, infrastructure specifications and quantified outcomes are intentionally omitted.",
+      "contentHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Owner-authorized public display; copyright retained. No reuse license granted.",
+      "status": "approved",
+      "approval": {
+        "contentHash": "0e1b16c6682b8f8ac95b44f8225a7ccf01621a7f8badf74f1a76e0b8cdbeb049",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      }
+    }
+  },
+  {
+    "kind": "document",
+    "before": {
+      "id": "wensymes",
+      "corpusId": "portfolio",
+      "version": "1",
+      "title": "WenSymes full-stack work",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-wensymes",
+      "text": "The WenSymes engagement describes Principal Full Stack Developer work on internal HR and administration tools using full-stack web development, Google Cloud and Microsoft 365. Planning considers data consistency, access control and uptime. The public case does not disclose payroll modules, framework versions, implemented security controls or quantified results.",
+      "contentHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Owner-authorized public display; copyright retained. No reuse license granted.",
+      "status": "approved",
+      "approval": {
+        "contentHash": "dd9fa09125f6a1cd0444b06eacf10c598a78e27b0c42bc6516c9d24fad255785",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      }
+    }
+  },
+  {
+    "kind": "document",
+    "before": {
+      "id": "rental",
+      "corpusId": "portfolio",
+      "version": "1",
+      "title": "Rental operations domain modelling",
+      "canonicalUrl": "https://mohd.paramasvara.online/#case-rental",
+      "text": "The rental operations project supported contracts, payments, renewals, cancellations and property-level financial reporting for more than 20 properties. These are publicly documented domain responsibilities. The public case does not establish a project-specific technology stack or a measured revenue improvement.",
+      "contentHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "provenance": "approved-portfolio",
+      "license": "Owner-authorized public display; copyright retained. No reuse license granted.",
+      "status": "approved",
+      "approval": {
+        "contentHash": "414f9a99bcbd21f54c5f36d73b19e31ea43ec17aea96cc25fd935cc30ebcb53a",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-insurance-work",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What did you work on at PolicyStreet?",
+      "alternatives": [
+        {
+          "id": "portfolio-insurance-work-alt-0",
+          "text": "Describe your insurance integration experience.",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "I worked on rate fetching and normalization and integrated quotation and policy issuance for internal and partner workflows. The public case covers motor, medical, group medical and fire insurance.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "57db45dac977c232ff282c945dfdb17318943d5c2ebd4ba5e8f8ce096df48aec",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-work",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-insurance-leadership",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What leadership experience does PolicyStreet show?",
+      "alternatives": [],
+      "answerText": "The public PolicyStreet case describes progression from Senior Full Stack Developer to Director, Engineering, including leading development and operations. It does not specify a team size.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "be053c067b5650314eaab86d5e1f41d4916902834f789b6887a76570b42d0e67",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-leadership",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-insurance-stack",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What technology stack did PolicyStreet use?",
+      "alternatives": [],
+      "answerText": "The public case does not establish a project-specific technology stack. I can point to its documented integration responsibilities without assigning unverified technologies.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "retired",
+      "approval": {
+        "contentHash": "06e4cfaa737aa7fbe712e37305ff77c26c2e117d08689848d1fe512da487bbad",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-stack",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-modernisation",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What modernisation experience is public?",
+      "alternatives": [
+        {
+          "id": "portfolio-modernisation-alt-0",
+          "text": "Tell me about legacy platform modernisation.",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "The education-platform case describes full-stack development and technical direction focused on modernisation, maintainability and ongoing delivery. Detailed internal implementation remains private.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "1d822002192e8d4f8092ac82be7cb3656a0109a8fad4c0bb8a5ba5cfe6764029",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "modernisation",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-education-disclosure",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Can you describe the education platform architecture?",
+      "alternatives": [],
+      "answerText": "Only the public high-level scope is available: platform modernisation, full-stack engineering and maintainability. Internal product identities, infrastructure and detailed workflows are intentionally omitted.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "b24bb2763945c9e8868c347df8ae6f4a485db53ae6928c0526bcbb89edfb81cf",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "education-disclosure",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-wensymes-work",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What is your WenSymes work about?",
+      "alternatives": [],
+      "answerText": "The public WenSymes case describes principal full-stack development of internal HR and administration tools and planning for further domain capabilities.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "df88855a034a1e42487137b1c63f6b83ee9844b27f5c74890e42ed8d8c52966b",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-work",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-wensymes-tools",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Which technologies are named for WenSymes?",
+      "alternatives": [],
+      "answerText": "The public case names full-stack web development, Google Cloud and Microsoft 365. It does not establish a specific framework version or infrastructure specification.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "retired",
+      "approval": {
+        "contentHash": "83fc6785438c0c2072411b4cddd547bea43416d6b42f831fb0e9ea681c13dbf7",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-tools",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-wensymes-security",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What security work is disclosed for WenSymes?",
+      "alternatives": [],
+      "answerText": "The public summary says planning considers data consistency, access control and uptime. It does not establish particular implemented controls or expose internal rules.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "46c7a6313abff98406933fbcee05c9623b7aba75f9934d14b6d9e4ac361f46aa",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-security",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-rental-domain",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What did the rental operations project cover?",
+      "alternatives": [],
+      "answerText": "The public rental case covers contracts, payments, renewals, cancellations and property-level financial reporting for more than 20 properties.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "38a82b63c3b0cf9e9bb3ff9583246f44cc7c4bbaa7b9179857e821716365aa74",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-domain",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-rental-impact",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Is there a measured revenue result for the rental project?",
+      "alternatives": [],
+      "answerText": "The public case supports the documented workflows and more-than-20-properties scope. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "ddbb08b983eef0db32998a8d509637ebf2b3df6c1ec9cb6f7658006c8c2f384d",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-impact",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-hr-distinction",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Are the older HR project and WenSymes the same engagement?",
+      "alternatives": [],
+      "answerText": "They are described as distinct engagements. The earlier collaborative HR work is attributed to Centre for Content Creation in 2016–2017; WenSymes is a later principal full-stack engagement.",
+      "citations": [
+        {
+          "sourceId": "hr",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "2aeb562eb05d608dd680cf13ae0576b2bccfc3e999eb2a189e0d1328067a7cf1",
+          "title": "Collaborative HR engineering",
+          "url": "https://mohd.paramasvara.online/#case-hr"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "71544022ba5934a76df2cf4b909795a3a51ac2d5f967dce822f037a8c5913f36",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "hr-distinction",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-insurance-products",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Which insurance products did your integration work cover?",
+      "alternatives": [
+        {
+          "id": "portfolio-insurance-products-alt-0",
+          "text": "What insurance lines have you integrated?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "The public PolicyStreet case covers motor, medical, group medical and fire insurance, connecting quotation and policy issuance with rate fetching and normalization.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "67fa224906ef647afe5aed12cb83edb59af6fce5fbfd3a730b800e9ffa1087a6",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-products",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-insurance-workflows",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Did the insurance integrations support partners as well as internal users?",
+      "alternatives": [],
+      "answerText": "Yes. The public case describes quotation and policy issuance integrations for both internal and partner workflows. It does not establish partner counts or commercial results.",
+      "citations": [
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "148c3bc88bd4c8f0e94e5fe84476babc076a875fadcffc07007f105cc23eeaa9",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "insurance-workflows",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-rental-lifecycle",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What rental lifecycle rules did you model?",
+      "alternatives": [
+        {
+          "id": "portfolio-rental-lifecycle-alt-0",
+          "text": "How did your rental project handle the contract lifecycle?",
+          "approvedAt": null
+        }
+      ],
+      "answerText": "The rental operations project covered contracts, payments, renewals and cancellations, alongside property-level financial reporting.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "1a117acf5f85ed979205224b7f6f82a71a2b6b7302da500000750d50b8260fd6",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-lifecycle",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-rental-scale",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "How many properties did the rental project cover?",
+      "alternatives": [],
+      "answerText": "The public rental case describes support for more than 20 properties. It does not establish a measured revenue improvement.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "4b4d0038083b54b5a23aba04f07d2a6860165669a70187925dc36b57241a1d80",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-scale",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-rental-reporting",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "What reporting did the rental operations project support?",
+      "alternatives": [],
+      "answerText": "The documented scope includes property-level financial reporting, connected to contracts, payments and the rental lifecycle.",
+      "citations": [
+        {
+          "sourceId": "rental",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "c0a976004e8b97ab3be8f8c4c41073281317e3245a6f28d5c38f1d6a0684934a",
+          "title": "Rental operations domain modelling",
+          "url": "https://mohd.paramasvara.online/#case-rental"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "c197b9081f12be8def254e714007abdc72dcc15ef841fabd4c60652ea64d0948",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "rental-reporting",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-wensymes-platforms",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Which cloud and productivity platforms are named for WenSymes?",
+      "alternatives": [],
+      "answerText": "The public WenSymes case names Google Cloud and Microsoft 365 alongside full-stack web development. It does not specify framework versions or individual implemented security controls.",
+      "citations": [
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "861ef9fb27c2a2c0357bf446ccfcc38396ae08d45419ed132f7826d9a91a558b",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "wensymes-platforms",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  },
+  {
+    "kind": "answer",
+    "before": {
+      "id": "portfolio-answer-public-boundaries",
+      "corpusId": "portfolio",
+      "version": "1",
+      "canonicalQuestion": "Can you share private architecture details or unreported business metrics?",
+      "alternatives": [],
+      "answerText": "The public cases deliberately omit certain internal identities, implementation details and quantified outcomes. This assistant stays within the documented public scope and cannot substantiate private details or unreported metrics.",
+      "citations": [
+        {
+          "sourceId": "education",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "f3d9ba94781225ce084a1c6517dd358b872a3abb29ad7c487d25967fb34aa4c9",
+          "title": "Education platform modernisation",
+          "url": "https://mohd.paramasvara.online/#case-campus"
+        },
+        {
+          "sourceId": "insurance",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "ea27db40604f1aec249d5586946e6dec79b6232c1bee2e26fbae37c2c3a6490a",
+          "title": "PolicyStreet integration engineering",
+          "url": "https://mohd.paramasvara.online/#case-insurance"
+        },
+        {
+          "sourceId": "wensymes",
+          "corpusId": "portfolio",
+          "documentVersion": "1",
+          "sourceHash": "6f3252b7d9ecfce462f323260d42914534b4fcb2f25e988c5c19de1511bed782",
+          "title": "WenSymes full-stack work",
+          "url": "https://mohd.paramasvara.online/#case-wensymes"
+        }
+      ],
+      "embeddingSpecId": "minilm-q8-wasm-v1",
+      "reviewedAt": "2026-10-18T18:09:21.857Z",
+      "reviewAfter": "2027-01-16T00:00:00Z",
+      "status": "approved",
+      "approval": {
+        "contentHash": "f9ba97f66255cad63584b2253744e648e888301ecfa7d5fa7d5f54e8e6d3c338",
+        "version": "1",
+        "scope": "publication",
+        "reviewer": "Mohd. Paramasvara (owner)",
+        "approvedAt": "2026-10-18T18:09:21.857Z",
+        "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized."
+      },
+      "matchPolicy": {
+        "mode": "suggest-only",
+        "intent": "public-boundaries",
+        "protectedFacets": [
+          "professional-claim"
+        ],
+        "policyVersion": "suggest-only-v1"
+      }
+    }
+  }
+]

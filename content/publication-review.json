@@ -1,8 +1,8 @@
 {
-  "version": "pace-publication-v1.3",
+  "version": "pace-publication-v1.6",
   "approvedAt": "2026-10-18T18:09:21.857Z",
   "reviewer": "Mohd. Paramasvara (owner)",
-  "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized.",
+  "authorization": "Owner explicitly approved the current professional Q&A, technology mappings, implementation documentation, synthetic test documents and supporting evidence for public publication in the PACE-RAG v1.3 Public Release & Portfolio Integration request on 19 October 2026. Current reviewed content only; future changes require fresh approval. No deployment or production verification authorized. Owner separately approved the latest staged v1.6 professional records; see content/portfolio/v16-owner-approval.json. Existing Lab and technology approvals remain unchanged.",
   "licensing": "Public display authorized; no new open-source or CC-BY reuse grant. Owner copyright retained; third-party model/runtime terms remain separate.",
   "corpora": {
     "portfolio": {
@@ -11,20 +11,20 @@
         "contentHash": "451aa87942946c53be675a062aebb4293177071c17847fba06ee73cda0113e10"
       },
       "insurance": {
-        "version": "1",
-        "contentHash": "ed57676fd4c6604b8ad4db6ed92c1cb5b8461b958640f71e6dee2772490c560f"
+        "version": "2",
+        "contentHash": "0a05f03c1a0f8f5747b6ad4bcbce61d274d4137015235d64229da4dc5d5a3cd0"
       },
       "education": {
-        "version": "1",
-        "contentHash": "0e1b16c6682b8f8ac95b44f8225a7ccf01621a7f8badf74f1a76e0b8cdbeb049"
+        "version": "2",
+        "contentHash": "07ab3ef546bd1b75726a348f61c37a6fecd9f489c909e44df83b48c7cd705812"
       },
       "wensymes": {
-        "version": "1",
-        "contentHash": "dd9fa09125f6a1cd0444b06eacf10c598a78e27b0c42bc6516c9d24fad255785"
+        "version": "2",
+        "contentHash": "dcf056ddc0d6553382c4e1e468553f4a31e9029644919f3f7a912bc5d9dfc446"
       },
       "rental": {
-        "version": "1",
-        "contentHash": "414f9a99bcbd21f54c5f36d73b19e31ea43ec17aea96cc25fd935cc30ebcb53a"
+        "version": "2",
+        "contentHash": "3eeca0bd3c31142dad5168819cf45fc16c17d974ffbac5d9da9a7735747b4bc8"
       },
       "hr": {
         "version": "1",
@@ -95,52 +95,52 @@
         "contentHash": "e1a4e28d9db7131d92b2d728841ecb3141c2ebbd107872435ca321138f5d4f92"
       },
       "portfolio-answer-insurance-work": {
-        "version": "1",
-        "contentHash": "57db45dac977c232ff282c945dfdb17318943d5c2ebd4ba5e8f8ce096df48aec"
+        "version": "2",
+        "contentHash": "33ac4564769865220751b71ee1ff0f43d1b40ed914aeb078f6fd30533736f8bf"
       },
       "portfolio-answer-insurance-leadership": {
-        "version": "1",
-        "contentHash": "be053c067b5650314eaab86d5e1f41d4916902834f789b6887a76570b42d0e67"
+        "version": "2",
+        "contentHash": "b9ab01c1eeec7fec6732949b8714091fb9b52215d52ae3e44fdefe89d039d046"
       },
       "portfolio-answer-insurance-stack": {
-        "version": "1",
-        "contentHash": "06e4cfaa737aa7fbe712e37305ff77c26c2e117d08689848d1fe512da487bbad"
+        "version": "2",
+        "contentHash": "762af2475c43a9ddacbb95a287e255a7bce959a75f29e57acb2092b5aa893b63"
       },
       "portfolio-answer-modernisation": {
-        "version": "1",
-        "contentHash": "1d822002192e8d4f8092ac82be7cb3656a0109a8fad4c0bb8a5ba5cfe6764029"
+        "version": "2",
+        "contentHash": "8987328a6f35b0feb5b020df3746d77d987cff874858521a2e9c51e7188fbbaf"
       },
       "portfolio-answer-education-disclosure": {
-        "version": "1",
-        "contentHash": "b24bb2763945c9e8868c347df8ae6f4a485db53ae6928c0526bcbb89edfb81cf"
+        "version": "2",
+        "contentHash": "474b04df77c5cc97660f95a059dbb31499458ed33af7369409d33204d4542170"
       },
       "portfolio-answer-wensymes-work": {
-        "version": "1",
-        "contentHash": "df88855a034a1e42487137b1c63f6b83ee9844b27f5c74890e42ed8d8c52966b"
+        "version": "2",
+        "contentHash": "c9e959459db70a066b265aa15cf64270dd65b6076379914ce8b8568e912740b0"
       },
       "portfolio-answer-wensymes-tools": {
-        "version": "1",
-        "contentHash": "83fc6785438c0c2072411b4cddd547bea43416d6b42f831fb0e9ea681c13dbf7"
+        "version": "2",
+        "contentHash": "322ff88cfe3699ea04287eee5603a8b72b8068c2e6ffd52d4564f860f21c17e2"
       },
       "portfolio-answer-wensymes-security": {
-        "version": "1",
-        "contentHash": "46c7a6313abff98406933fbcee05c9623b7aba75f9934d14b6d9e4ac361f46aa"
+        "version": "2",
+        "contentHash": "ff7d302951df933ca32d813c9dcce31997605db1adf6d031d9eaf4ed66a75a46"
       },
       "portfolio-answer-rental-domain": {
-        "version": "1",
-        "contentHash": "38a82b63c3b0cf9e9bb3ff9583246f44cc7c4bbaa7b9179857e821716365aa74"
+        "version": "2",
+        "contentHash": "03a026c3070fe6901e78d89e15a87c34be474ba811be6caea5c478c84ba0a38c"
       },
       "portfolio-answer-rental-impact": {
-        "version": "1",
-        "contentHash": "ddbb08b983eef0db32998a8d509637ebf2b3df6c1ec9cb6f7658006c8c2f384d"
+        "version": "2",
+        "contentHash": "76965ee3f52d5ed9b60fbffbb3d640e2d0f130d2340e35adee3ef80f85060b4e"
       },
       "portfolio-answer-hr-collaboration": {
         "version": "1",
         "contentHash": "a0e8f6ebaa125b54c4b3043dbc1154274bd0eb63da62caba32ebf35b167912b4"
       },
       "portfolio-answer-hr-distinction": {
-        "version": "1",
-        "contentHash": "71544022ba5934a76df2cf4b909795a3a51ac2d5f967dce822f037a8c5913f36"
+        "version": "2",
+        "contentHash": "4722b46a9c11ad39e027d39d734ceac5217cd8857fc31ae54b5362e1dbcc94fc"
       },
       "portfolio-answer-ntm-overview": {
         "version": "1",
@@ -191,28 +191,28 @@
         "contentHash": "eeb73c220a15055b2d2f1b98d947fbe74ed5070642181023c66dbfa95ac32de8"
       },
       "portfolio-answer-insurance-products": {
-        "version": "1",
-        "contentHash": "67fa224906ef647afe5aed12cb83edb59af6fce5fbfd3a730b800e9ffa1087a6"
+        "version": "2",
+        "contentHash": "0af311021f7b23c1cedc911066ab4eadb134aa841c14e6eabda46ec26ea408fc"
       },
       "portfolio-answer-insurance-workflows": {
-        "version": "1",
-        "contentHash": "148c3bc88bd4c8f0e94e5fe84476babc076a875fadcffc07007f105cc23eeaa9"
+        "version": "2",
+        "contentHash": "afbc87e59d26057884a63671859155c7a91a507d6f1d43b867ff1b0672f33e28"
       },
       "portfolio-answer-rental-lifecycle": {
-        "version": "1",
-        "contentHash": "1a117acf5f85ed979205224b7f6f82a71a2b6b7302da500000750d50b8260fd6"
+        "version": "2",
+        "contentHash": "5e3f2cf383db02a70faef6d488ef3731e5636ab317296ffce8422e131def48cd"
       },
       "portfolio-answer-rental-scale": {
-        "version": "1",
-        "contentHash": "4b4d0038083b54b5a23aba04f07d2a6860165669a70187925dc36b57241a1d80"
+        "version": "2",
+        "contentHash": "0f5cdb0b19f45edcb71c9adf313a56e5454de2575fada93e6920abffb2b15ec4"
       },
       "portfolio-answer-rental-reporting": {
-        "version": "1",
-        "contentHash": "c197b9081f12be8def254e714007abdc72dcc15ef841fabd4c60652ea64d0948"
+        "version": "2",
+        "contentHash": "f59111605a8d9eb0b3cfb706186b1ad94e95a56004140914266744d5a4cc830a"
       },
       "portfolio-answer-wensymes-platforms": {
-        "version": "1",
-        "contentHash": "861ef9fb27c2a2c0357bf446ccfcc38396ae08d45419ed132f7826d9a91a558b"
+        "version": "2",
+        "contentHash": "d48b4725387c0af2108546924cf19eaabc6200ca551c950d3f06d06dcf633599"
       },
       "portfolio-answer-hr-config": {
         "version": "1",
@@ -235,8 +235,28 @@
         "contentHash": "afb309f0fe3e64c07fe4dd46d481488e582c8c684c1f199c1020616fbdf40715"
       },
       "portfolio-answer-public-boundaries": {
+        "version": "2",
+        "contentHash": "fb5c2303bfe51e9c6f00d0297593f66ac7080817d3e642a337766ced6540cba1"
+      },
+      "portfolio-answer-insurance-validity": {
         "version": "1",
-        "contentHash": "f9ba97f66255cad63584b2253744e648e888301ecfa7d5fa7d5f54e8e6d3c338"
+        "contentHash": "ca767104658c294a7c9a18230e6022542e8d9ce0427a8b9c4fa03766c9038c8b"
+      },
+      "portfolio-answer-insurance-architecture": {
+        "version": "1",
+        "contentHash": "5e65666f381e51274551638d294c4bb660ace77d500b4eed295698b2ab918b32"
+      },
+      "portfolio-answer-education-workflows": {
+        "version": "1",
+        "contentHash": "174d64347f5fb911575872b24153712ecb512e0e6ec2db4cd0a6897edafd50c4"
+      },
+      "portfolio-answer-rental-mobile": {
+        "version": "1",
+        "contentHash": "95d7ca52f6d3480e35746978a1355cf5a94a8ce1b96078225d458890825536c2"
+      },
+      "portfolio-answer-wensymes-rbac-boundary": {
+        "version": "1",
+        "contentHash": "aa3912f25e797702b1f49e1fa65bfc807212215ba9caa27214a0f5433cc6008c"
       }
     },
     "lab": {
@@ -499,11 +519,14 @@
     }
   },
   "supportingFiles": {
-    "content/portfolio/records.mjs": "58588ac342f24bf458064720513a3b98d71c63df7a8c94aa8d638e4c1c3aaccf",
+    "content/portfolio/records.mjs": "c3ec1481b0b407572e0cbc8f5ddc2c189514a4deecbac8508d8fc7df4e4a4e65",
     "content/portfolio/technology-evidence.json": "b6221063d3debaaba756f3f032c0ab1e0ea06311909fe3fdf770331ca7e78f76",
-    "content/portfolio/retirements.json": "4efb8999ab9644dabea264c847a43d659d5b5a662cd6d734c211c8608dd2a4d2",
+    "content/portfolio/retirements.json": "62bbc40cd0e3d5404e075e082ead055346c4d662e88ba1f593c3522ace760835",
     "content/lab/records.mjs": "fa64f718811ecd5ecffafa9cc9168464379227e7c8e4fd4bf597e8f727ef952c",
     "content/lab/engineering.mjs": "26fa4c876c3ea3a0ebdcd2d1c948c7caad4476b51c9619e578ef26b77f15997a",
-    "packages/semantic-core/src/technology/ontology.mjs": "3a0f55151e7ea76991f85923cd9e46ec4f6659a9c2dfb3cdbd4d74533804d606"
-  }
+    "packages/semantic-core/src/technology/ontology.mjs": "3a0f55151e7ea76991f85923cd9e46ec4f6659a9c2dfb3cdbd4d74533804d606",
+    "content/portfolio/reviewed-v16.json": "fe6f49d56e33e8725c06c40d3fa327664ba0154050de46b47d81481a4c2a467b",
+    "content/portfolio/v16-owner-approval.json": "100991ac1508a8bdcba93290f97a3b414025d32911a52ca397eb8938bc7ad0db"
+  },
+  "priorReview": "content/portfolio/history/v15-publication-review.json"
 }

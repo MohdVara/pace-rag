@@ -1,0 +1,29 @@
+{
+  "measuredAt": "2026-10-19T05:02:29.018Z",
+  "scope": "Local production artifacts; hosted responses are reported separately",
+  "roots": {
+    "dist/lab": {
+      "textAssetsScanned": 126,
+      "loopbackUrls": 0
+    },
+    "../mohdvara.github.io/dist": {
+      "textAssetsScanned": 74,
+      "loopbackUrls": 0
+    }
+  },
+  "metadata": {
+    "description": "Independent PACE-RAG engineering: browser embeddings, hybrid retrieval, reviewed answers, citation provenance and measured limitations. Live AI disabled.",
+    "og:title": "PACE-RAG — Browser Retrieval Engineering | Mohd. Paramasvara",
+    "og:description": "Independent PACE-RAG engineering: browser embeddings, hybrid retrieval, reviewed answers, citation provenance and measured limitations. Live AI disabled.",
+    "og:url": "https://mohd.paramasvara.online/pace-rag-case-study/",
+    "og:image": "https://mohd.paramasvara.online/og-image.png",
+    "canonical": "https://mohd.paramasvara.online/pace-rag-case-study/",
+    "sitemapEntry": true
+  },
+  "workedExample": {
+    "registryDerived": true,
+    "packageMatches": true,
+    "sourceCount": 3,
+    "workersAiInferenceCalls": 0
+  }
+}

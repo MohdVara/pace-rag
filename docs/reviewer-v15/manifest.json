@@ -1,0 +1,9 @@
+{
+  "version": "pace-review-packet-v15",
+  "questionCount": 60,
+  "questionsSha256": "720bb469ab4403a051e268561605a5f2ee0429cc26531d0cbea7901afc500c48",
+  "preparation": "Agent-prepared randomized regression review; not a fresh independently prepared holdout",
+  "independentReviewOccurred": false,
+  "realUserTestingOccurred": false,
+  "sourceApprovalModified": false
+}

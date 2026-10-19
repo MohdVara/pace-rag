@@ -31,7 +31,7 @@ Run browser QA on the exact packaged Lab and portfolio build, then verify the 21
 
 ## Portfolio package
 
-The portfolio installs the pinned local v1.3.0 archive with its matching professional-only assets. Its asset copier validates every checksum, the release/version/pointer, publication scope and corpus boundary before replacing managed generated files. The static professional library works without JavaScript. `VITE_PACE_RAG_ENABLED=false` removes the integration and generated assets for rollback. No automatic deployment job was added.
+The original v1.3 release installed the pinned local v1.3.1 archive with its matching professional-only assets. Its asset copier validates every checksum, the release/version/pointer, publication scope and corpus boundary before replacing managed generated files. The static professional library works without JavaScript. `VITE_PACE_RAG_ENABLED=false` removes the integration and generated assets for rollback. No automatic deployment job was added.
 
 ## Security and remaining gates
 
@@ -40,3 +40,8 @@ Live AI, provider accounting and the guarded Worker remain disabled. Publication
 ## Rollback
 
 Restore the complete previous approved static package and matching assistant archive; never mix vectors or manifests between releases. Disable the portfolio integration with `VITE_PACE_RAG_ENABLED=false` if needed. Keep all live switches false. This preparation does not provision Vectorize, D1, R2, Durable Objects or paid services, and it does not alter existing portfolio routes or ASCII scenery.
+
+
+Historical v1.6 knowledge activation: the owner approved all latest staged professional records on 19 October 2026. The package is 1.6.0; the v1.5 ranker is unchanged. See [activation report](PACE-RAG-V1.6-ACTIVATION.md) for the exact corpus, package checks and recorded ranking regressions. No deployment is authorized by content approval.
+
+Current local candidate: **1.6.1**, with unchanged v1.6 approved content and a partial retrieval correction. Original-100 Top-1 and Preserved-50 Top-3 recovery targets remain unmet. See [paired investigation and release limitations](PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md). Run both `npm run ranking:diff` and `npm run ranking:diff -- --lexical` before release checks; changed content/ranking now invalidates the comparison guard. No deployment is authorized.

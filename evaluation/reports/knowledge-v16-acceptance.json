@@ -1,0 +1,402 @@
+{
+  "measuredAt": "2026-10-19T07:42:36.894Z",
+  "scope": "Draft review only; current approved production build verified separately. No deployment or publication.",
+  "ownerApproval": "PENDING",
+  "draftSources": 4,
+  "revisedAnswers": 7,
+  "newAnswers": 5,
+  "citationOnlyRebindings": 11,
+  "retiredAnswersNotReactivated": 2,
+  "approvedProfessionalAnswers": 38,
+  "approvedCorpusVersion": "5172c80561642d42",
+  "labCorpusVersion": "cb8cf7a42d2969e4",
+  "rankingUnchanged": true,
+  "liveAiEnabled": false,
+  "portfolioPackageRefreshed": false,
+  "tests": {
+    "ragPassed": 99,
+    "ragFailed": 0
+  },
+  "semantic": {
+    "development": {
+      "datasetSha256": "de46e98cf409c931436847ee6c38d2a9f42d497639adb1b59c09a2423e5e522a",
+      "before": {
+        "positiveQuestions": 100,
+        "top1": 0.8,
+        "top3": 0.98,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      },
+      "hypothetical": {
+        "positiveQuestions": 100,
+        "top1": 0.72,
+        "top3": 0.99,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      }
+    },
+    "verification50": {
+      "datasetSha256": "658742a93486538b256d9efa62c0a3f1cb60fdd592afb8ea28b10f0a8dc3d7f9",
+      "before": {
+        "positiveQuestions": 50,
+        "top1": 0.72,
+        "top3": 0.96,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 50,
+        "top1": 0.72,
+        "top3": 0.94,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "verification40": {
+      "datasetSha256": "5e4c87e738376d83e910a15beb19570894661ef8ab957e4d2f2b930e4fa27aea",
+      "before": {
+        "positiveQuestions": 40,
+        "top1": 0.725,
+        "top3": 1,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 40,
+        "top1": 0.75,
+        "top3": 0.95,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "feature": {
+      "datasetSha256": "1f27fb3cefd73f0baeb019fbb62cc893ffe3cc72ce00e5d52b9c1573785eca1a",
+      "before": {
+        "positiveQuestions": 24,
+        "top1": 0.25,
+        "top3": 0.5416666666666666,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 24,
+        "top1": 0.8333333333333334,
+        "top3": 0.9583333333333334,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "candidateExact": {
+      "datasetSha256": "c3d2b29a044f6eabd401ea65a8906cc50ede88c595371cddef51cbd26bb9bc9a",
+      "before": {
+        "positiveQuestions": 8,
+        "top1": 0.125,
+        "top3": 0.25,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 8,
+        "top1": 1,
+        "top3": 1,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 8,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    }
+  },
+  "lexical": {
+    "development": {
+      "datasetSha256": "de46e98cf409c931436847ee6c38d2a9f42d497639adb1b59c09a2423e5e522a",
+      "before": {
+        "positiveQuestions": 100,
+        "top1": 0.58,
+        "top3": 0.83,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      },
+      "hypothetical": {
+        "positiveQuestions": 100,
+        "top1": 0.55,
+        "top3": 0.82,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      }
+    },
+    "verification50": {
+      "datasetSha256": "658742a93486538b256d9efa62c0a3f1cb60fdd592afb8ea28b10f0a8dc3d7f9",
+      "before": {
+        "positiveQuestions": 50,
+        "top1": 0.62,
+        "top3": 0.78,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 50,
+        "top1": 0.64,
+        "top3": 0.8,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "verification40": {
+      "datasetSha256": "5e4c87e738376d83e910a15beb19570894661ef8ab957e4d2f2b930e4fa27aea",
+      "before": {
+        "positiveQuestions": 40,
+        "top1": 0.625,
+        "top3": 0.8,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 40,
+        "top1": 0.575,
+        "top3": 0.825,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "feature": {
+      "datasetSha256": "1f27fb3cefd73f0baeb019fbb62cc893ffe3cc72ce00e5d52b9c1573785eca1a",
+      "before": {
+        "positiveQuestions": 24,
+        "top1": 0.20833333333333334,
+        "top3": 0.4583333333333333,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 24,
+        "top1": 0.7916666666666666,
+        "top3": 1,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "candidateExact": {
+      "datasetSha256": "c3d2b29a044f6eabd401ea65a8906cc50ede88c595371cddef51cbd26bb9bc9a",
+      "before": {
+        "positiveQuestions": 8,
+        "top1": 0.125,
+        "top3": 0.25,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 8,
+        "top1": 1,
+        "top3": 1,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 8,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    }
+  },
+  "implementation": {
+    "positiveQuestions": 40,
+    "top1": 0.8,
+    "top3": 0.95,
+    "criticalQuestions": 10,
+    "criticalAbstained": 10,
+    "abstentionRate": 1,
+    "incorrectAutomaticAnswers": 0,
+    "citationFailures": 0,
+    "crossCorpusReferences": 0,
+    "directAnswers": 0,
+    "compositeCount": 0,
+    "compositeCorrect": 0
+  },
+  "artifacts": {
+    "portfolioMain": {
+      "path": "../mohdvara.github.io/dist/assets/index-BwxRfyl4.js",
+      "rawBytes": 209907,
+      "gzip9Bytes": 64679,
+      "sha256": "baf671fe84ddab1cd4529f719c60dd1960d02dbd3179fb6de89203fd5fe21d46"
+    },
+    "pinnedArchive": {
+      "path": "../mohdvara.github.io/vendor/pace-rag-portfolio-assistant-1.5.0.tgz",
+      "rawBytes": 24786188,
+      "sha256": "0240d6cc680936d1bc06d12fccc3c3cb018dc0509e8f29ee6ea48b6a5ee91db5"
+    },
+    "lazyAssistant": {
+      "path": "../mohdvara.github.io/dist/assets/PaceAssistant-fiokVDIy.js",
+      "rawBytes": 78345,
+      "gzip9Bytes": 24944
+    },
+    "lazyCaseStudy": {
+      "path": "../mohdvara.github.io/dist/assets/PaceRagCaseStudy-D_iObBFn.js",
+      "rawBytes": 14996,
+      "gzip9Bytes": 5009
+    }
+  },
+  "mainLimit": 215000,
+  "mainHeadroom": 5093,
+  "filesChanged": {
+    "pace-rag": [
+      "content/portfolio/staged-v16/REVIEW.md",
+      "content/portfolio/staged-v16/draft-records.json",
+      "content/portfolio/staged-v16/historical-records.json",
+      "content/portfolio/staged-v16/portfolio-snapshots.json",
+      "content/portfolio/staged-v16/proposal.json",
+      "content/portfolio/staged-v16/review-manifest.json",
+      "docs/PACE-RAG-V1.6-KNOWLEDGE-REVIEW.md",
+      "evaluation/knowledge-v16-cases.mjs",
+      "evaluation/reports/knowledge-v16-acceptance.json",
+      "evaluation/reports/knowledge-v16-lexical-cases.json",
+      "evaluation/reports/knowledge-v16-lexical.json",
+      "evaluation/reports/knowledge-v16-semantic-cases.json",
+      "evaluation/reports/knowledge-v16-semantic.json",
+      "scripts/evaluate-knowledge-v16.mjs",
+      "scripts/knowledge-v16-fixture.mjs",
+      "scripts/stage-professional-v16.mjs",
+      "scripts/verify-knowledge-v16.mjs",
+      "tests/knowledge-v16.test.mjs"
+    ],
+    "mohdvara.github.io": []
+  },
+  "limitations": [
+    "Simulated eligibility is not record-level approval or publication.",
+    "Existing semantic Top-1/Top-3 regressions remain and are reported without relabeling/tuning.",
+    "No new browser, physical-device or screen-reader testing; no UI changed.",
+    "No Cloudflare runtime/provider billing/live generation verification."
+  ]
+}

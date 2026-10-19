@@ -20,6 +20,20 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
       "utf8",
     ),
   );
+  // Versioned owner-reviewed records supersede historical tuples while retaining
+  // per-record approval and publication-digest enforcement.
+  let revisions={documents:[],answers:[]};
+  if(input.reviewedRecordsFile){
+    if(!/^[a-z0-9-]+\.json$/.test(input.reviewedRecordsFile))throw new Error('Invalid reviewed-record path');
+    revisions=JSON.parse(await readFile(new URL(`../../content/${corpusId}/${input.reviewedRecordsFile}`,import.meta.url),'utf8'));
+  }
+  const replacement=(kind,record)=>{
+    const matches=revisions[kind].filter(r=>r.id===record.id);
+    if(matches.length>1)throw new Error('Duplicate reviewed record');
+    const selected=matches[0]||record;
+    if(selected.corpusId!==corpusId||selected.approval!==null||selected.status!=='draft')throw new Error('Reviewed source records must enter as unapproved drafts');
+    return structuredClone(selected);
+  };
   const apply = (record) => {
     const entry = applyApprovals && approvals[record.id];
     if (entry) {
@@ -32,7 +46,7 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
     return record;
   };
   const documents = input.documents.map(([id, title, canonicalUrl, text]) =>
-    apply({
+    apply(replacement("documents",{
       id,
       corpusId,
       version: "1",
@@ -46,11 +60,11 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
       license: "Owner-authorized public display; copyright retained. No reuse license granted.",
       status: "draft",
       approval: null,
-    }),
+    })),
   );
   const answers = input.answers.map(
     ([id, canonicalQuestion, answerText, sourceIds, alternatives]) =>
-      apply({
+      apply(replacement("answers",{
         id: `${corpusId}-answer-${id}`,
         corpusId,
         version: "1",
@@ -85,8 +99,10 @@ export async function loadContent(corpusId, { release = false, applyApprovals = 
             corpusId === "portfolio" ? ["professional-claim"] : [],
           policyVersion: "suggest-only-v1",
         },
-      }),
+      })),
   );
+  for(const record of revisions.documents)if(!documents.some(d=>d.id===record.id))throw new Error("Reviewed source has no historical record");
+  for(const record of revisions.answers)if(!answers.some(a=>a.id===record.id))answers.push(apply(replacement("answers",record)));
   let technologyEvidence, retirements;
   if (corpusId === "portfolio") {
     technologyEvidence = validateTechnology(JSON.parse(await readFile(new URL('../../content/portfolio/technology-evidence.json', import.meta.url), 'utf8')));

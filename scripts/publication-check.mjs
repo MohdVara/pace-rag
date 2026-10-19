@@ -14,3 +14,4 @@ const attribution=await readFile(`${root}attribution.txt`, 'utf8');
 if (!apache.includes('Apache License') || !apache.includes('Version 2.0') || !mit.includes('Permission is hereby granted') || !attribution.includes('Xenova/all-MiniLM-L6-v2')) throw new Error('Third-party license notices missing or incomplete');
 if (hash(apache) !== hash(await readFile('node_modules/@huggingface/transformers/LICENSE'))) throw new Error('Transformers license differs from installed package');
 console.log('Pinned model/runtime integrity and Apache/MIT attribution checks passed. No inference or deployment performed.');
+await (await import('./ranking-review-check.mjs')).verifyRankingReview();

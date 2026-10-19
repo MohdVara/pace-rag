@@ -1,0 +1,189 @@
+{
+  "version": "professional-knowledge-v16-draft-evaluation",
+  "measuredAt": "2026-10-19T07:39:56.627Z",
+  "mode": "lexical",
+  "scope": "Current approved release versus hypothetical draft eligibility in a local test fixture. NOT owner approval, a publication release, independent evaluation, live provider verification or evidence of production behavior.",
+  "softwareVersion": "1.5.0",
+  "rankingSha256": "95423a7169c73cff33e24902f48e6bcbd77e8109ff62eb3dc9c7aa8b1ab2422c",
+  "publicationApproved": false,
+  "approvedCorpusVersion": "5172c80561642d42",
+  "simulationCorpusVersion": "87c76524f8c353df",
+  "liveProviderCalls": 0,
+  "sets": {
+    "development": {
+      "datasetSha256": "de46e98cf409c931436847ee6c38d2a9f42d497639adb1b59c09a2423e5e522a",
+      "before": {
+        "positiveQuestions": 100,
+        "top1": 0.58,
+        "top3": 0.83,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      },
+      "hypothetical": {
+        "positiveQuestions": 100,
+        "top1": 0.55,
+        "top3": 0.82,
+        "criticalQuestions": 60,
+        "criticalAbstained": 60,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 20,
+        "compositeCount": 20,
+        "compositeCorrect": 20
+      }
+    },
+    "verification50": {
+      "datasetSha256": "658742a93486538b256d9efa62c0a3f1cb60fdd592afb8ea28b10f0a8dc3d7f9",
+      "before": {
+        "positiveQuestions": 50,
+        "top1": 0.62,
+        "top3": 0.78,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 50,
+        "top1": 0.64,
+        "top3": 0.8,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "verification40": {
+      "datasetSha256": "5e4c87e738376d83e910a15beb19570894661ef8ab957e4d2f2b930e4fa27aea",
+      "before": {
+        "positiveQuestions": 40,
+        "top1": 0.625,
+        "top3": 0.8,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 40,
+        "top1": 0.575,
+        "top3": 0.825,
+        "criticalQuestions": 20,
+        "criticalAbstained": 20,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "feature": {
+      "datasetSha256": "1f27fb3cefd73f0baeb019fbb62cc893ffe3cc72ce00e5d52b9c1573785eca1a",
+      "before": {
+        "positiveQuestions": 24,
+        "top1": 0.20833333333333334,
+        "top3": 0.4583333333333333,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 24,
+        "top1": 0.7916666666666666,
+        "top3": 1,
+        "criticalQuestions": 24,
+        "criticalAbstained": 24,
+        "abstentionRate": 1,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    },
+    "candidateExact": {
+      "datasetSha256": "c3d2b29a044f6eabd401ea65a8906cc50ede88c595371cddef51cbd26bb9bc9a",
+      "before": {
+        "positiveQuestions": 8,
+        "top1": 0.125,
+        "top3": 0.25,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 0,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      },
+      "hypothetical": {
+        "positiveQuestions": 8,
+        "top1": 1,
+        "top3": 1,
+        "criticalQuestions": 0,
+        "criticalAbstained": 0,
+        "abstentionRate": null,
+        "incorrectAutomaticAnswers": 0,
+        "citationFailures": 0,
+        "crossCorpusReferences": 0,
+        "directAnswers": 8,
+        "compositeCount": 0,
+        "compositeCorrect": 0
+      }
+    }
+  },
+  "implementationRegression": {
+    "positiveQuestions": 40,
+    "top1": 0.725,
+    "top3": 0.9,
+    "criticalQuestions": 10,
+    "criticalAbstained": 10,
+    "abstentionRate": 1,
+    "incorrectAutomaticAnswers": 0,
+    "citationFailures": 0,
+    "crossCorpusReferences": 0,
+    "directAnswers": 0,
+    "compositeCount": 0,
+    "compositeCorrect": 0
+  },
+  "limits": [
+    "All query/expected labels are agent-authored and provisional. Existing suites are preserved without relabeling.",
+    "Candidate exact questions are indexed wording and measure cache behavior, never holdout ranking.",
+    "Draft status is retained on disk; synthetic local-test eligibility exists only in the explicit simulation fixture.",
+    "No published index, runtime pointer, corpus approval or pinned package was changed."
+  ]
+}
