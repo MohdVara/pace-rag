@@ -2,10 +2,13 @@
 
 The owner requested deployment to `pace-reg.paramasvara.online` on 19 October 2026 (Asia/Kuching). The application and repository retain the name PACE-RAG.
 
-- Pages project: `pace-rag`
+- Original Direct Upload Pages project: `pace-rag`
+- Native Git-connected Pages project: `pace-rag-git`
 - Production branch: `main`
-- Deployment method: Wrangler Direct Upload; GitHub pushes do not automatically deploy.
-- Hosted app: https://pace-rag.pages.dev/pace-rag/
+- Current build setup: native Cloudflare Git integration for `MohdVara/pace-rag`; pushes to `main` build and deploy through Cloudflare.
+- Original deployment method: Wrangler Direct Upload; pushes do not update the original `pace-rag` project.
+- Git-connected hosted app: https://pace-rag-git.pages.dev/pace-rag/
+- Original hosted app: https://pace-rag.pages.dev/pace-rag/
 - Initial deployment: https://aebe5080.pace-rag.pages.dev/pace-rag/
 - Custom hostname: https://pace-reg.paramasvara.online/
 - Upload directory: `output/static-site`
@@ -28,9 +31,9 @@ Hosted smoke checks verified the root page, knowledge/worker pointers and real 4
 
 ### Native Git build setup
 
-To mirror the portfolio, create a **new Pages project with Git integration**,
-using `MohdVara/pace-rag`. Cloudflare cannot convert the original Direct Upload
-project in place. Use these settings:
+The `pace-rag-git` Pages project mirrors the portfolio's native Git integration,
+using `MohdVara/pace-rag`. It was created separately because Cloudflare cannot
+convert the original Direct Upload project in place. Its settings are:
 
 | Setting | Value |
 | --- | --- |
@@ -48,6 +51,15 @@ No GitHub Actions deployment or API token secret is required. Live generation
 remains disabled. Verify the new pages.dev deployment before moving the existing
 custom hostname from the original project and updating its external DNS CNAME.
 Keep the original deployment available until the replacement works.
+
+On 19 October 2026, Cloudflare successfully built commit `c9e6428` directly
+from GitHub and deployed v1.6.1. Hosted smoke checks loaded the approved
+professional corpus, returned the updated PolicyStreet answer with its source,
+and initialized local semantic search for a custom query. That query produced
+conservative related-question suggestions. These checks do not repeat the full
+browser suite or change the recorded retrieval limitations. The custom hostname
+requires a separate move from the original project and a Namecheap CNAME update
+to `pace-rag-git.pages.dev`.
 
 ### Original Direct Upload procedure
 
