@@ -5,14 +5,37 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pace-rag
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          path: pace-rag
+      - name: Check out the canonical portfolio evidence used by tests
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: MohdVara/mohdvara.github.io
+          ref: f94f927b4f7cde7c41997afe9deb2c06b2fb2d48
+          path: mohdvara.github.io
+          sparse-checkout: public/evidence
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: '22'
           cache: npm
+          cache-dependency-path: pace-rag/package-lock.json
       - run: npm ci --ignore-scripts
       - run: npm run content:validate
+      - name: Prepare lexical fixtures for tests
+        run: node scripts/indexing/build.mjs --preview
       - run: npm test
-      - run: npm run build
+      - name: Check types and bundle application code
+        run: |
+          npm run typecheck
+          npx --no-install vite build --config vite.worker.config.ts
+          node scripts/worker-assets.mjs
+          npx --no-install vite build
+          npx --no-install vite build --config vite.assistant.config.ts
+      # Approved static pages require the semantic release and ranking guards;
+      # Cloudflare's native Git build runs build:cloudflare for that artifact.
       # No model downloads, real AI calls, publishing or deployment in routine CI.
