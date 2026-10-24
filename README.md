@@ -18,6 +18,8 @@ PACE-RAG demonstrates how a small, curated knowledge base can answer questions w
 
 ## What this repository contains
 
+Start with the [portfolio case study](https://mohd.paramasvara.online/en/pace-rag-case-study/) for the source-bound answer example and architectural decisions. To inspect the implementation, follow [retrieval and provenance boundaries](docs/IMPLEMENTATION.md), [current recorded evaluation](docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md) and the local commands below. Supported cached answers and technology composition are distinct from semantic suggestions and abstention; the optional generation gateway remains experimental and unverified in production.
+
 - **Three searchable sources:** Professional Experience, How PACE-RAG Works, and Fictional Test Documents. Each has its own starters and browsable source library.
 - **Local retrieval:** browser-based semantic search using a pinned embedding model, with keyword search available without the model.
 - **Evidence-backed answers:** publication-approved cached answers, bounded technology summaries, source citations, and explicit abstention when a direct answer is unsupported.
